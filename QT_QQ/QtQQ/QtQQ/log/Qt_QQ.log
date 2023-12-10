@@ -1,0 +1,243 @@
+2023-12-10 16:14:12.289 [3308][DEBUG] TitleBar::loadStyleSheet ������ʽ���ļ� Title ʧ��
+2023-12-10 16:14:12.290 [3308][DEBUG] BasicWindow::loadStyleSheet ������ʽ���ļ� UserLogin ʧ��
+2023-12-10 16:17:40.427 [21636][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:17:40.428 [21636][DEBUG] BasicWindow::loadStyleSheet 打开样式表文件 UserLogin 失败
+2023-12-10 16:19:35.163 [18228][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:19:35.164 [18228][DEBUG] BasicWindow::loadStyleSheet 打开样式表文件 UserLogin 失败
+2023-12-10 16:21:09.042 [22996][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:21:09.043 [22996][DEBUG] BasicWindow::loadStyleSheet 打开样式表文件 UserLogin 失败
+2023-12-10 16:21:58.398 [21108][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:21:58.399 [21108][DEBUG] BasicWindow::loadStyleSheet 打开样式表文件 UserLogin 失败
+2023-12-10 16:23:00.671 [17852][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:23:00.672 [17852][DEBUG] BasicWindow::loadStyleSheet 打开样式表文件 UserLogin 失败
+2023-12-10 16:24:23.125 [23660][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:24:23.125 [23660][DEBUG] BasicWindow::loadStyleSheet 打开样式表文件 UserLogin 失败
+2023-12-10 16:24:25.036 [23660][DEBUG] 用户主动关闭登录窗口
+2023-12-10 16:31:26.637 [11612][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:31:30.950 [11612][DEBUG] 用户主动关闭登录窗口
+2023-12-10 16:32:13.008 [18180][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:32:13.067 [18180][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:32:15.366 [18180][DEBUG] 用户主动关闭登录窗口
+2023-12-10 16:33:04.538 [19824][DEBUG] 
+
+2023-12-10 16:33:04.538 [19824][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:33:04.574 [19824][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:33:06.476 [19824][DEBUG] 用户主动关闭登录窗口
+2023-12-10 16:35:25.293 [19472][DEBUG] 
+
+2023-12-10 16:35:25.294 [19472][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:35:25.331 [19472][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:35:29.175 [19472][DEBUG] 用户主动关闭登录窗口
+2023-12-10 16:42:33.868 [11024][DEBUG] 
+
+2023-12-10 16:42:33.868 [11024][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:42:33.910 [11024][DEBUG] TitleBar::loadStyleSheet 打开样式表文件 Title 失败
+2023-12-10 16:42:36.262 [11024][DEBUG] 用户主动关闭登录窗口
+2023-12-10 16:46:00.455 [26440][DEBUG] 
+
+2023-12-10 16:46:00.455 [26440][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:46:10.849 [14864][DEBUG] 
+
+2023-12-10 16:46:10.849 [14864][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:49:06.984 [25248][DEBUG] 
+
+2023-12-10 16:49:06.984 [25248][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:49:19.258 [25248][DEBUG] 用户主动关闭登录窗口
+2023-12-10 16:55:20.100 [1936][DEBUG] 
+
+2023-12-10 16:55:20.101 [1936][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:55:23.095 [1936][DEBUG] 用户主动关闭登录窗口
+2023-12-10 16:57:10.163 [22284][DEBUG] 
+
+2023-12-10 16:57:10.164 [22284][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:57:10.270 [22284][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 16:57:12.648 [22284][DEBUG] 用户主动关闭登录窗口
+2023-12-10 16:59:18.932 [396][DEBUG] 
+
+2023-12-10 16:59:18.933 [396][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 16:59:19.058 [396][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:05:49.888 [12928][DEBUG] 
+
+2023-12-10 17:05:49.889 [12928][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:05:49.990 [12928][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:05:52.946 [12928][DEBUG] 用户主动关闭登录窗口
+2023-12-10 17:06:29.645 [23632][DEBUG] 
+
+2023-12-10 17:06:29.646 [23632][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:06:29.749 [23632][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:07:32.762 [8476][DEBUG] 
+
+2023-12-10 17:07:32.763 [8476][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:07:32.920 [8476][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(21, 0, 199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21, 0, 199, 100);								 background-color:rgba(21, 0, 199, 50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-10 17:07:32.921 [8476][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:15:36.488 [20580][DEBUG] 
+
+2023-12-10 17:15:36.488 [20580][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:15:36.546 [20580][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(21, 0, 199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21, 0, 199, 100);								 background-color:rgba(21, 0, 199, 50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-10 17:15:36.546 [20580][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:15:38.304 [20580][DEBUG] 用户主动关闭登录窗口
+2023-12-10 17:18:10.634 [21216][DEBUG] 
+
+2023-12-10 17:18:10.634 [21216][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:18:32.965 [22832][DEBUG] 
+
+2023-12-10 17:18:32.966 [22832][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:18:36.766 [22832][DEBUG] 用户主动关闭登录窗口

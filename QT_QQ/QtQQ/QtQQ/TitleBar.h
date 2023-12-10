@@ -4,6 +4,10 @@
 #include <QLabel>
 #include <QPushButton>
 
+#include "MyLogger.h"
+
+#pragma execution_character_set("utf-8") // qt支持显示中文
+
 enum ButtonType{
 	MIN_BUTTON = 0,			// 最小化及关闭按钮
 	MIX_MAX_BUTTON = 1,		// 最小化、最大化及关闭按钮
@@ -21,9 +25,9 @@ public:
 	~TitleBar();
 
 	// 设置标题栏图标
-	void setrTitleIcon(QString &filePath);
+	void setrTitleIcon(const QString &filePath);
 	// 设置标题栏内容
-	void setTitleContent(QString &titleContent);
+	void setTitleContent(const QString &titleContent);
 	// 设置标题栏长度
 	void setTitleWidth(int width);
 	// 设置标题栏按钮类型

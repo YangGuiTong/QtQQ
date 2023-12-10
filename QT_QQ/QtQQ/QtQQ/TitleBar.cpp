@@ -50,6 +50,7 @@ void TitleBar::initControl() {
 	QHBoxLayout *mylayout = new QHBoxLayout(this);
 	mylayout->addWidget(m_pIcon);
 	mylayout->addWidget(m_pTitleContent);
+	mylayout->addWidget(m_pButtonMin);
 	mylayout->addWidget(m_pButtonRestore);
 	mylayout->addWidget(m_pButtonMax);
 	mylayout->addWidget(m_ButtonClose);
@@ -68,19 +69,19 @@ void TitleBar::initConnections() {
 	connect(m_pButtonMin, SIGNAL(clicked()), this, SLOT(onButtonMinClicked()));
 	connect(m_pButtonRestore, SIGNAL(clicked()), this, SLOT(onButtonRestoreClicked()));
 	connect(m_pButtonMax, SIGNAL(clicked()), this, SLOT(onButtonMaxClicked()));
-	connect(m_ButtonClose, SIGNAL(cliecked()), this, SLOT(onButtonCloseClicked()));
+	connect(m_ButtonClose, SIGNAL(clicked()), this, SLOT(onButtonCloseClicked()));
 }
 
 
 // 设置标题栏图标
-void TitleBar::setrTitleIcon(QString &filePath) {
+void TitleBar::setrTitleIcon(const QString &filePath) {
 	QPixmap titleIcon(filePath);
 	m_pIcon->setFixedSize(titleIcon.size());
 	m_pIcon->setPixmap(titleIcon);
 }
 
 // 设置标题栏内容
-void TitleBar::setTitleContent(QString &titleContent) {
+void TitleBar::setTitleContent(const QString &titleContent) {
 	m_pTitleContent->setText(titleContent);
 	m_titleContent = titleContent;
 }
@@ -112,6 +113,7 @@ void TitleBar::setButtonType(ButtonType buttontype) {
 			/*m_pButtonMax->setVisible(false);
 			m_pButtonRestore->setVisible(true);*/
 		}
+		break;
 		case QNLY_CLOSE_BUTTON:
 		{
 			m_pButtonRestore->setVisible(false);
@@ -208,7 +210,8 @@ void TitleBar::mouseReleaseEvent(QMouseEvent *event) {
 
 // 加载样式表
 void TitleBar::loadStyleSheet(const QString &sheetName) {
-	QFile file(":/Resources/Qss" + sheetName + ".css");
+	QString filePath = QString(":/Resources/QSS/%1.css").arg(sheetName);
+	QFile file(filePath);
 	file.open(QFile::ReadOnly);
 	if (file.isOpen()) {
 		QString styleSheet = this->styleSheet();
@@ -216,7 +219,11 @@ void TitleBar::loadStyleSheet(const QString &sheetName) {
 
 		setStyleSheet(styleSheet);
 
+		LOG_DEBUG(QString("TitleBar::loadStyleSheet 加载样式文件 %1 成功").arg(filePath).toStdString());
+
 		file.close();
+	} else {
+		LOG_DEBUG(QString("TitleBar::loadStyleSheet 打开样式文件 %1 失败").arg(filePath).toStdString());
 	}
 }
 
@@ -238,5 +245,5 @@ void TitleBar::onButtonMaxClicked() {
 }
 
 void TitleBar::onButtonCloseClicked() {
-	emit signalButtonMinClicked();
+	emit signalButtonCloseClicked();
 }

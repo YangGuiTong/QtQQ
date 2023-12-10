@@ -3,6 +3,8 @@
 #include <QtWidgets/QWidget>
 #include "ui_CCMainWindow.h"
 
+#include "MyLogger.h"
+
 class CCMainWindow : public QWidget
 {
     Q_OBJECT

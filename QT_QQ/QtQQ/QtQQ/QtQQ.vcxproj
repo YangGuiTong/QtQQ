@@ -54,9 +54,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <IncludePath>E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
   </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <AdditionalDependencies>log4cpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\lib\x64;E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>PCL_NO_PRECOMPILE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
     <ClCompile>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
@@ -82,15 +93,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BasicWindow.cpp" />
+    <ClCompile Include="CommonUtils.cpp" />
+    <ClCompile Include="MyLogger.cpp" />
+    <ClCompile Include="NotifyManager.cpp" />
     <ClCompile Include="TitleBar.cpp" />
+    <ClCompile Include="UserLogin.cpp" />
     <QtRcc Include="CCMainWindow.qrc" />
     <QtUic Include="CCMainWindow.ui" />
     <QtMoc Include="CCMainWindow.h" />
     <ClCompile Include="CCMainWindow.cpp" />
     <ClCompile Include="main.cpp" />
+    <QtUic Include="UserLogin.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TitleBar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="BasicWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonUtils.h" />
+    <ClInclude Include="MyLogger.h" />
+    <QtMoc Include="UserLogin.h" />
+    <QtMoc Include="NotifyManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

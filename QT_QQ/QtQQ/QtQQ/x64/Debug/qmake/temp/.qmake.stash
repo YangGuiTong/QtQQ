@@ -1,4 +1,5 @@
 QMAKE_CXX.INCDIRS = \
+    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\QtQQ\\include \
     D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\include \
     D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\include \
     D:\\VS2017\\VC\\Auxiliary\\VS\\include \
@@ -11,6 +12,7 @@ QMAKE_CXX.INCDIRS = \
     "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um" \
     "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um"
 QMAKE_CXX.LIBDIRS = \
+    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\x64\\Debug\\lib\\x64 \
     D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x64 \
     D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\lib\\x64 \
     D:\\VS2017\\VC\\Auxiliary\\VS\\lib\\x64 \
