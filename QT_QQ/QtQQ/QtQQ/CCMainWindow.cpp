@@ -53,16 +53,16 @@ void CCMainWindow::setLevePixmap(int level) {
 	levelPixmap.fill(Qt::transparent);
 
 	QPainter painter(&levelPixmap);
-	painter.drawPixmap(0, 4, QPixmap(":/Resources/MainWindow/lv.png"));
+	painter.drawPixmap(0, 4, QPixmap(QStringLiteral(":/Resources/MainWindow/lv.png")));
 
 	int unitNum = level % 10;	// 个位数
 	int tenNum = level / 10;	// 十位数
 
 	// 十位,截取图片中的部分进行绘制,图片 左上角和右下角区域
-	painter.drawPixmap(10, 4, QPixmap(":/Resources/MainWindow/levelvalue.png"), tenNum * 6, 0, 6, 7);
+	painter.drawPixmap(10, 4, QPixmap(QStringLiteral(":/Resources/MainWindow/levelvalue.png")), tenNum * 6, 0, 6, 7);
 
 	// 个位
-	painter.drawPixmap(16, 4, QPixmap(":/Resources/MainWindow/levelvalue.png"), unitNum * 6, 0, 6, 7);
+	painter.drawPixmap(16, 4, QPixmap(QStringLiteral(":/Resources/MainWindow/levelvalue.png")), unitNum * 6, 0, 6, 7);
 
 	ui.levelBtn->setIcon(levelPixmap);
 	ui.levelBtn->setIconSize(ui.levelBtn->size());
