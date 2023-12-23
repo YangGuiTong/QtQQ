@@ -241,3 +241,1786 @@ QWidget[titleskin=true]								 {background-color:rgb(21, 0, 199);								 borde
 
 2023-12-10 17:18:32.966 [22832][DEBUG] ------------------------------------------------------------------------------------------------------
 2023-12-10 17:18:36.766 [22832][DEBUG] 用户主动关闭登录窗口
+2023-12-10 17:27:14.108 [27640][DEBUG] 
+
+2023-12-10 17:27:14.108 [27640][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:27:14.161 [27640][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-10 17:27:14.167 [27640][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:27:17.149 [27640][DEBUG] 用户主动关闭登录窗口
+2023-12-10 17:30:43.334 [20544][DEBUG] 
+
+2023-12-10 17:30:43.334 [20544][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:30:43.401 [20544][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-10 17:30:43.407 [20544][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:30:50.374 [20544][DEBUG] 用户主动关闭登录窗口
+2023-12-10 17:34:31.389 [12416][DEBUG] 
+
+2023-12-10 17:34:31.389 [12416][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:34:31.441 [12416][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-10 17:34:31.448 [12416][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:34:33.427 [12416][DEBUG] 用户主动关闭登录窗口
+2023-12-10 17:35:30.239 [22760][DEBUG] 
+
+2023-12-10 17:35:30.239 [22760][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:35:30.290 [22760][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-10 17:35:30.299 [22760][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:35:33.573 [22760][DEBUG] 用户主动关闭登录窗口
+2023-12-10 17:36:06.282 [10028][DEBUG] 
+
+2023-12-10 17:36:06.282 [10028][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:36:06.378 [10028][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-10 17:36:06.385 [10028][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:36:08.710 [10028][DEBUG] 用户主动关闭登录窗口
+2023-12-10 17:37:42.875 [27148][DEBUG] 
+
+2023-12-10 17:37:42.875 [27148][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:37:42.924 [27148][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-10 17:37:42.933 [27148][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:43:03.686 [7524][DEBUG] 
+
+2023-12-10 17:43:03.686 [7524][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:43:03.740 [7524][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-10 17:43:03.750 [7524][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-10 17:44:52.589 [20852][DEBUG] 
+
+2023-12-10 17:44:52.589 [20852][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-10 17:44:52.638 [20852][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-10 17:44:52.648 [20852][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 10:55:42.186 [25236][DEBUG] 
+
+2023-12-23 10:55:42.186 [25236][DEBUG] ------------------------------------------------------------------------------------------------------
+2023-12-23 10:55:42.656 [25236][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 10:55:42.661 [25236][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:18:31.020 [22360][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:18:31.020 [22360][DEBUG] ��ȡtradeprintinfo.ini�ļ��洢������ɫΪ��rgb(21,0,199);
+2023-12-23 11:18:31.069 [22360][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:18:31.075 [22360][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:18:31.575 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:31.588 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:32.105 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:32.634 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:33.170 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:33.704 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:34.238 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:34.761 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:34.840 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:35.107 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:35.294 [22360][DEBUG] 初始化背景色
+2023-12-23 11:18:35.823 [22360][DEBUG] 初始化背景色
+2023-12-23 11:19:24.408 [18744][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:19:24.409 [18744][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:19:24.462 [18744][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:19:24.471 [18744][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:19:24.955 [18744][DEBUG] 初始化背景色
+2023-12-23 11:19:24.965 [18744][DEBUG] 初始化背景色
+2023-12-23 11:19:25.485 [18744][DEBUG] 初始化背景色
+2023-12-23 11:19:26.011 [18744][DEBUG] 初始化背景色
+2023-12-23 11:19:26.349 [18744][DEBUG] 初始化背景色
+2023-12-23 11:26:12.174 [30864][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:26:12.174 [30864][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:26:12.257 [30864][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:26:12.257 [30864][DEBUG] R = 21
+2023-12-23 11:26:12.257 [30864][DEBUG] G = 0
+2023-12-23 11:26:12.257 [30864][DEBUG] B = 199
+2023-12-23 11:26:12.264 [30864][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:26:12.773 [30864][DEBUG] 初始化背景色
+2023-12-23 11:26:12.784 [30864][DEBUG] 初始化背景色
+2023-12-23 11:26:13.054 [30864][DEBUG] 初始化背景色
+2023-12-23 11:26:13.227 [30864][DEBUG] 初始化背景色
+2023-12-23 11:26:13.270 [30864][DEBUG] 初始化背景色
+2023-12-23 11:26:13.303 [30864][DEBUG] 初始化背景色
+2023-12-23 11:26:13.312 [30864][DEBUG] 初始化背景色
+2023-12-23 11:27:28.478 [17956][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:27:28.479 [17956][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:27:28.526 [17956][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:27:28.527 [17956][DEBUG] R = 21
+2023-12-23 11:27:28.527 [17956][DEBUG] G = 0
+2023-12-23 11:27:28.527 [17956][DEBUG] B = 199
+2023-12-23 11:27:28.533 [17956][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:27:29.089 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:29.100 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:29.408 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:29.618 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:29.852 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:29.895 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:30.032 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:30.152 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:30.196 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:30.454 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:30.922 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:30.962 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:30.978 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:31.307 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:31.648 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:31.844 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:32.056 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:33.594 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:34.110 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:34.119 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:34.190 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:34.280 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:34.306 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:34.330 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:34.354 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:34.662 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:35.179 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:35.711 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:36.241 [17956][DEBUG] 初始化背景色
+2023-12-23 11:27:36.778 [17956][DEBUG] 初始化背景色
+2023-12-23 11:29:21.529 [26372][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:29:21.530 [26372][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:29:21.605 [26372][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:29:21.606 [26372][DEBUG] R = 21
+2023-12-23 11:29:21.606 [26372][DEBUG] G = 0
+2023-12-23 11:29:21.606 [26372][DEBUG] B = 199
+2023-12-23 11:29:21.612 [26372][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:30:38.946 [21180][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:30:38.947 [21180][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:30:38.995 [21180][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:30:38.995 [21180][DEBUG] R = 21
+2023-12-23 11:30:38.995 [21180][DEBUG] G = 0
+2023-12-23 11:30:38.995 [21180][DEBUG] B = 199
+2023-12-23 11:30:39.001 [21180][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:30:39.467 [21180][DEBUG] 初始化背景色
+2023-12-23 11:30:39.477 [21180][DEBUG] 初始化背景色
+2023-12-23 11:30:40.095 [21180][DEBUG] 初始化背景色
+2023-12-23 11:30:40.097 [21180][DEBUG] 初始化背景色
+2023-12-23 11:30:40.098 [21180][DEBUG] 初始化背景色
+2023-12-23 11:30:40.121 [21180][DEBUG] 初始化背景色
+2023-12-23 11:30:40.144 [21180][DEBUG] 初始化背景色
+2023-12-23 11:30:40.298 [21180][DEBUG] 初始化背景色
+2023-12-23 11:30:40.532 [21180][DEBUG] 初始化背景色
+2023-12-23 11:34:29.682 [28040][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:34:29.682 [28040][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:34:29.732 [28040][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:34:29.733 [28040][DEBUG] R = 21
+2023-12-23 11:34:29.733 [28040][DEBUG] G = 0
+2023-12-23 11:34:29.733 [28040][DEBUG] B = 199
+2023-12-23 11:34:29.741 [28040][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:34:30.226 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.237 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.272 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.584 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.622 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.623 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.644 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.656 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.771 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.824 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.827 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.856 [28040][DEBUG] 初始化背景色
+2023-12-23 11:34:30.871 [28040][DEBUG] 初始化背景色
+2023-12-23 11:39:42.482 [21600][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:39:42.483 [21600][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:39:42.543 [21600][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:39:42.544 [21600][DEBUG] R = 21
+2023-12-23 11:39:42.544 [21600][DEBUG] G = 0
+2023-12-23 11:39:42.544 [21600][DEBUG] B = 199
+2023-12-23 11:39:42.552 [21600][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:39:42.560 [21600][DEBUG] CommonUtils::loadStyleSheet 加载样式文件 UserLogin.css 成功
+2023-12-23 11:40:55.684 [12132][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:40:55.685 [12132][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:40:55.756 [12132][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:40:55.756 [12132][DEBUG] R = 21
+2023-12-23 11:40:55.757 [12132][DEBUG] G = 0
+2023-12-23 11:40:55.757 [12132][DEBUG] B = 199
+2023-12-23 11:40:55.762 [12132][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:40:55.769 [12132][DEBUG] CommonUtils::loadStyleSheet 加载样式文件 UserLogin.css 成功
+2023-12-23 11:41:38.933 [28992][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:41:38.933 [28992][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:41:38.982 [28992][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:41:38.983 [28992][DEBUG] R = 21
+2023-12-23 11:41:38.983 [28992][DEBUG] G = 0
+2023-12-23 11:41:38.983 [28992][DEBUG] B = 199
+2023-12-23 11:41:38.989 [28992][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:46:46.848 [2696][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:46:46.849 [2696][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:46:46.932 [2696][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:46:46.933 [2696][DEBUG] R = 21
+2023-12-23 11:46:46.933 [2696][DEBUG] G = 0
+2023-12-23 11:46:46.933 [2696][DEBUG] B = 199
+2023-12-23 11:46:46.941 [2696][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:48:35.510 [28876][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:48:35.511 [28876][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:48:35.561 [28876][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:48:35.562 [28876][DEBUG] R = 21
+2023-12-23 11:48:35.562 [28876][DEBUG] G = 0
+2023-12-23 11:48:35.562 [28876][DEBUG] B = 199
+2023-12-23 11:48:35.569 [28876][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:48:52.724 [27600][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:48:52.725 [27600][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:48:52.847 [27600][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:48:52.847 [27600][DEBUG] R = 21
+2023-12-23 11:48:52.847 [27600][DEBUG] G = 0
+2023-12-23 11:48:52.847 [27600][DEBUG] B = 199
+2023-12-23 11:48:52.862 [27600][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:52:22.817 [33380][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:52:22.822 [33380][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:52:22.822 [33380][DEBUG] BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2023-12-23 11:52:22.822 [33380][DEBUG] 颜色切换
+2023-12-23 11:52:23.265 [33380][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:52:23.265 [33380][DEBUG] R = 21
+2023-12-23 11:52:23.265 [33380][DEBUG] G = 0
+2023-12-23 11:52:23.265 [33380][DEBUG] B = 199
+2023-12-23 11:52:23.271 [33380][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:52:29.569 [33380][DEBUG] 用户主动关闭登录窗口
+2023-12-23 11:57:10.644 [30600][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 11:57:10.644 [30600][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 11:57:10.697 [30600][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 11:57:10.697 [30600][DEBUG] R = 21
+2023-12-23 11:57:10.697 [30600][DEBUG] G = 0
+2023-12-23 11:57:10.697 [30600][DEBUG] B = 199
+2023-12-23 11:57:10.705 [30600][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 11:57:14.230 [30600][DEBUG] 用户主动关闭登录窗口
+2023-12-23 12:05:44.307 [25624][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 12:05:44.308 [25624][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 12:05:44.355 [25624][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 12:05:44.355 [25624][DEBUG] R = 21
+2023-12-23 12:05:44.355 [25624][DEBUG] G = 0
+2023-12-23 12:05:44.355 [25624][DEBUG] B = 199
+2023-12-23 12:05:44.362 [25624][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 12:05:50.145 [25624][DEBUG] 用户主动关闭登录窗口
+2023-12-23 12:06:41.251 [15244][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 12:06:41.252 [15244][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 12:06:41.334 [15244][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 12:06:41.335 [15244][DEBUG] R = 21
+2023-12-23 12:06:41.335 [15244][DEBUG] G = 0
+2023-12-23 12:06:41.335 [15244][DEBUG] B = 199
+2023-12-23 12:06:41.343 [15244][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 12:08:28.723 [23500][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 12:08:28.724 [23500][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 12:08:28.807 [23500][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 12:08:28.808 [23500][DEBUG] R = 21
+2023-12-23 12:08:28.808 [23500][DEBUG] G = 0
+2023-12-23 12:08:28.808 [23500][DEBUG] B = 199
+2023-12-23 12:08:28.816 [23500][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 12:08:34.716 [23500][DEBUG] 用户主动关闭登录窗口
+2023-12-23 12:11:35.667 [28244][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 12:11:35.668 [28244][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 12:11:35.750 [28244][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 12:11:35.751 [28244][DEBUG] R = 21
+2023-12-23 12:11:35.751 [28244][DEBUG] G = 0
+2023-12-23 12:11:35.751 [28244][DEBUG] B = 199
+2023-12-23 12:11:35.758 [28244][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 12:11:38.173 [28244][DEBUG] 用户主动关闭登录窗口
+2023-12-23 12:11:47.491 [14020][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 12:11:47.492 [14020][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 12:11:47.539 [14020][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 12:11:47.539 [14020][DEBUG] R = 21
+2023-12-23 12:11:47.540 [14020][DEBUG] G = 0
+2023-12-23 12:11:47.540 [14020][DEBUG] B = 199
+2023-12-23 12:11:47.546 [14020][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 12:19:22.212 [18100][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 12:19:22.212 [18100][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 12:19:22.267 [18100][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 12:19:22.268 [18100][DEBUG] R = 21
+2023-12-23 12:19:22.268 [18100][DEBUG] G = 0
+2023-12-23 12:19:22.268 [18100][DEBUG] B = 199
+2023-12-23 12:19:22.276 [18100][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 12:19:27.704 [18100][DEBUG] 用户主动关闭登录窗口
+2023-12-23 13:38:40.172 [27760][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 13:38:40.177 [27760][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 13:38:40.582 [27760][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 13:38:40.583 [27760][DEBUG] R = 21
+2023-12-23 13:38:40.583 [27760][DEBUG] G = 0
+2023-12-23 13:38:40.583 [27760][DEBUG] B = 199
+2023-12-23 13:38:40.588 [27760][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 13:38:40.589 [27760][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 13:41:21.002 [21044][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 13:41:21.003 [21044][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 13:41:21.055 [21044][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 13:41:21.056 [21044][DEBUG] R = 21
+2023-12-23 13:41:21.056 [21044][DEBUG] G = 0
+2023-12-23 13:41:21.056 [21044][DEBUG] B = 199
+2023-12-23 13:41:21.063 [21044][DEBUG] QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 13:41:21.063 [21044][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 13:56:06.790 [31000][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 13:56:06.791 [31000][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 13:56:06.868 [31000][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 13:56:06.869 [31000][DEBUG] R = 21
+2023-12-23 13:56:06.869 [31000][DEBUG] G = 0
+2023-12-23 13:56:06.869 [31000][DEBUG] B = 199
+2023-12-23 13:56:06.875 [31000][DEBUG] QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 13:56:06.875 [31000][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 13:56:09.657 [31000][DEBUG] 用户主动关闭登录窗口
+2023-12-23 13:56:51.684 [29524][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 13:56:51.685 [29524][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 13:56:51.705 [29524][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 13:56:51.737 [29524][DEBUG] R = 21
+2023-12-23 13:56:51.737 [29524][DEBUG] G = 0
+2023-12-23 13:56:51.737 [29524][DEBUG] B = 199
+2023-12-23 13:56:51.741 [29524][DEBUG] QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 13:56:51.741 [29524][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 13:56:59.109 [29524][DEBUG] 用户主动关闭登录窗口
+2023-12-23 13:57:35.064 [26852][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 13:57:35.065 [26852][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 13:57:35.085 [26852][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 13:57:35.142 [26852][DEBUG] R = 21
+2023-12-23 13:57:35.142 [26852][DEBUG] G = 0
+2023-12-23 13:57:35.142 [26852][DEBUG] B = 199
+2023-12-23 13:57:35.145 [26852][DEBUG] QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 13:57:35.145 [26852][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 13:57:39.081 [26852][DEBUG] 用户主动关闭登录窗口
+2023-12-23 14:00:42.369 [25224][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:00:42.371 [25224][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:00:42.394 [25224][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:00:42.425 [25224][DEBUG] R = 21
+2023-12-23 14:00:42.425 [25224][DEBUG] G = 0
+2023-12-23 14:00:42.425 [25224][DEBUG] B = 199
+2023-12-23 14:00:42.428 [25224][DEBUG] QWidget[titleWidget=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:00:42.429 [25224][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:00:49.632 [25224][DEBUG] 用户主动关闭登录窗口
+2023-12-23 14:01:23.328 [25932][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:01:23.329 [25932][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:01:23.391 [25932][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:01:23.392 [25932][DEBUG] R = 21
+2023-12-23 14:01:23.392 [25932][DEBUG] G = 0
+2023-12-23 14:01:23.392 [25932][DEBUG] B = 199
+2023-12-23 14:01:23.396 [25932][DEBUG] QWidget[titleWidget=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:01:23.396 [25932][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:01:36.281 [25932][DEBUG] 用户主动关闭登录窗口
+2023-12-23 14:01:52.698 [24424][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:01:52.699 [24424][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:01:52.747 [24424][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:01:52.748 [24424][DEBUG] R = 21
+2023-12-23 14:01:52.748 [24424][DEBUG] G = 0
+2023-12-23 14:01:52.748 [24424][DEBUG] B = 199
+2023-12-23 14:01:52.753 [24424][DEBUG] QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:01:52.753 [24424][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:01:54.641 [24424][DEBUG] 用户主动关闭登录窗口
+2023-12-23 14:04:20.585 [28040][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:04:20.586 [28040][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:04:20.676 [28040][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:04:20.677 [28040][DEBUG] R = 21
+2023-12-23 14:04:20.677 [28040][DEBUG] G = 0
+2023-12-23 14:04:20.677 [28040][DEBUG] B = 199
+2023-12-23 14:04:20.681 [28040][DEBUG] QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 bodyWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:04:20.681 [28040][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:06:52.545 [32972][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:06:52.546 [32972][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:06:52.600 [32972][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:06:52.601 [32972][DEBUG] R = 21
+2023-12-23 14:06:52.601 [32972][DEBUG] G = 0
+2023-12-23 14:06:52.601 [32972][DEBUG] B = 199
+2023-12-23 14:06:52.606 [32972][DEBUG] QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:06:52.606 [32972][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:06:56.959 [32972][DEBUG] 用户主动关闭登录窗口
+2023-12-23 14:07:26.065 [33512][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:07:26.066 [33512][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:07:26.132 [33512][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:07:26.133 [33512][DEBUG] R = 21
+2023-12-23 14:07:26.133 [33512][DEBUG] G = 0
+2023-12-23 14:07:26.133 [33512][DEBUG] B = 199
+2023-12-23 14:07:26.137 [33512][DEBUG] QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:07:26.137 [33512][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:07:40.051 [18560][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:07:40.051 [18560][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:07:40.098 [18560][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:07:40.099 [18560][DEBUG] R = 21
+2023-12-23 14:07:40.099 [18560][DEBUG] G = 0
+2023-12-23 14:07:40.099 [18560][DEBUG] B = 199
+2023-12-23 14:07:40.104 [18560][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:07:40.104 [18560][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:08:33.389 [16984][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:08:33.390 [16984][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:08:33.520 [16984][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:08:33.521 [16984][DEBUG] R = 21
+2023-12-23 14:08:33.521 [16984][DEBUG] G = 0
+2023-12-23 14:08:33.521 [16984][DEBUG] B = 199
+2023-12-23 14:08:33.527 [16984][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:08:33.527 [16984][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:10:13.029 [28728][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:10:13.030 [28728][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:10:13.092 [28728][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:10:13.092 [28728][DEBUG] R = 21
+2023-12-23 14:10:13.092 [28728][DEBUG] G = 0
+2023-12-23 14:10:13.092 [28728][DEBUG] B = 199
+2023-12-23 14:10:13.098 [28728][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:10:13.098 [28728][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:10:19.350 [28728][DEBUG] 用户主动关闭登录窗口
+2023-12-23 14:11:48.384 [9736][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:11:48.385 [9736][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:11:48.438 [9736][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:11:48.438 [9736][DEBUG] R = 21
+2023-12-23 14:11:48.439 [9736][DEBUG] G = 0
+2023-12-23 14:11:48.439 [9736][DEBUG] B = 199
+2023-12-23 14:11:48.448 [9736][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=1]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=1]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:11:48.448 [9736][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:13:31.910 [13236][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:13:31.911 [13236][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:13:32.053 [13236][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:13:32.053 [13236][DEBUG] R = 21
+2023-12-23 14:13:32.054 [13236][DEBUG] G = 0
+2023-12-23 14:13:32.054 [13236][DEBUG] B = 199
+2023-12-23 14:13:32.060 [13236][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=1]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:13:32.061 [13236][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:13:33.957 [13236][DEBUG] 用户主动关闭登录窗口
+2023-12-23 14:13:56.232 [33144][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:13:56.232 [33144][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:13:56.279 [33144][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:13:56.279 [33144][DEBUG] R = 21
+2023-12-23 14:13:56.279 [33144][DEBUG] G = 0
+2023-12-23 14:13:56.279 [33144][DEBUG] B = 199
+2023-12-23 14:13:56.285 [33144][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=1]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:13:56.285 [33144][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:14:01.928 [33144][DEBUG] 用户主动关闭登录窗口
+2023-12-23 14:14:13.237 [28812][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:14:13.238 [28812][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:14:13.290 [28812][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:14:13.290 [28812][DEBUG] R = 21
+2023-12-23 14:14:13.290 [28812][DEBUG] G = 0
+2023-12-23 14:14:13.290 [28812][DEBUG] B = 199
+2023-12-23 14:14:13.296 [28812][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:14:13.297 [28812][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:14:17.731 [28812][DEBUG] 用户主动关闭登录窗口
+2023-12-23 14:29:04.530 [19900][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:29:04.531 [19900][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2023-12-23 14:29:04.657 [19900][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:29:04.658 [19900][DEBUG] R = 21
+2023-12-23 14:29:04.658 [19900][DEBUG] G = 0
+2023-12-23 14:29:04.658 [19900][DEBUG] B = 199
+2023-12-23 14:29:04.664 [19900][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(21,0,199);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(21,0,199,100);								 background-color:rgba(21,0,199,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:29:04.664 [19900][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:30:52.208 [17648][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 14:30:52.210 [17648][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 14:30:52.375 [17648][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 14:30:52.375 [17648][DEBUG] R = 40
+2023-12-23 14:30:52.375 [17648][DEBUG] G = 0
+2023-12-23 14:30:52.375 [17648][DEBUG] B = 221
+2023-12-23 14:30:52.391 [17648][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(40,0,221);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(40,0,221,100);								 background-color:rgba(40,0,221,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 14:30:52.391 [17648][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 14:30:59.727 [17648][DEBUG] 用户主动关闭登录窗口
+2023-12-23 15:35:46.916 [33740][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 15:35:46.917 [33740][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 15:35:46.980 [33740][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 15:35:46.980 [33740][DEBUG] R = 40
+2023-12-23 15:35:46.980 [33740][DEBUG] G = 0
+2023-12-23 15:35:46.980 [33740][DEBUG] B = 221
+2023-12-23 15:35:46.989 [33740][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(40,0,221);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(40,0,221,100);								 background-color:rgba(40,0,221,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 15:35:46.989 [33740][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 15:48:30.699 [32052][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 15:48:30.702 [32052][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 15:48:30.839 [32052][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 15:48:30.840 [32052][DEBUG] R = 40
+2023-12-23 15:48:30.840 [32052][DEBUG] G = 0
+2023-12-23 15:48:30.841 [32052][DEBUG] B = 221
+2023-12-23 15:48:30.850 [32052][DEBUG] * {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#UserLogin
+{
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+}
+
+QLabel#TitleContent{
+	font-size:12px;
+	color:#ffffff;
+}
+
+QPushButton#loginBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#loginBtn:hover, QPushButton#loginBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QPushButton#forgetWordbtn, QPushButton#registBtn{
+	background:transparent;
+	font-size: 12px;
+	color: rgb(0,148, 206);
+	border:none;
+}
+
+QPushButton#forgetWordbtn:hover, QPushButton#registBtn:hover{
+	color: rgb(0,164, 222);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::indicator:enabled, QCheckBox::indicator:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::indicator:enabled:unchecked:hover {
+    image: url(:Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::indicator:enabled:checked { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::indicator:enabled:checked:hover { 
+    border-image: url(:Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QLineEdit#editUserAccount, QLineEdit#editPassword{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QLineEdit#editUserAccount:hover, QLineEdit#editPassword:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+QWidget[titleskin=true]								 {background-color:rgb(40,0,221);								 border-top-left-radius:4px;								 border-top-right-radius:4px;}								 QWidget[bottomskin=true]								 {border-top:1px solid rgba(40,0,221,100);								 background-color:rgba(40,0,221,50);								 border-bottom-left-radius:4px;								 border-bottom-right-radius:4px;}
+2023-12-23 15:48:30.851 [32052][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 15:52:05.947 [32052][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 15:52:05.949 [32052][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 15:52:06.042 [32052][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 15:52:06.044 [32052][DEBUG] R = 40
+2023-12-23 15:52:06.044 [32052][DEBUG] G = 0
+2023-12-23 15:52:06.044 [32052][DEBUG] B = 221
+2023-12-23 15:52:06.058 [32052][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:09:48.899 [32680][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:09:48.901 [32680][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:09:49.016 [32680][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:09:49.017 [32680][DEBUG] R = 40
+2023-12-23 16:09:49.017 [32680][DEBUG] G = 0
+2023-12-23 16:09:49.018 [32680][DEBUG] B = 221
+2023-12-23 16:09:49.031 [32680][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:09:52.409 [32680][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:09:52.425 [32680][DEBUG] BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/CCMainWondow.css 失败
+2023-12-23 16:11:02.825 [24928][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:11:02.826 [24928][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:11:02.911 [24928][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:11:02.912 [24928][DEBUG] R = 40
+2023-12-23 16:11:02.912 [24928][DEBUG] G = 0
+2023-12-23 16:11:02.912 [24928][DEBUG] B = 221
+2023-12-23 16:11:02.924 [24928][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:11:04.589 [24928][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:11:04.604 [24928][DEBUG] R = 40
+2023-12-23 16:11:04.604 [24928][DEBUG] G = 0
+2023-12-23 16:11:04.604 [24928][DEBUG] B = 221
+2023-12-23 16:11:04.633 [24928][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 16:11:59.161 [27312][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:11:59.163 [27312][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:11:59.247 [27312][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:11:59.248 [27312][DEBUG] R = 40
+2023-12-23 16:11:59.248 [27312][DEBUG] G = 0
+2023-12-23 16:11:59.248 [27312][DEBUG] B = 221
+2023-12-23 16:11:59.258 [27312][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:12:37.600 [31592][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:12:37.601 [31592][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:12:37.704 [31592][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:12:37.705 [31592][DEBUG] R = 40
+2023-12-23 16:12:37.705 [31592][DEBUG] G = 0
+2023-12-23 16:12:37.705 [31592][DEBUG] B = 221
+2023-12-23 16:12:37.715 [31592][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:12:39.388 [31592][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:12:39.411 [31592][DEBUG] R = 40
+2023-12-23 16:12:39.411 [31592][DEBUG] G = 0
+2023-12-23 16:12:39.411 [31592][DEBUG] B = 221
+2023-12-23 16:12:39.446 [31592][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 16:13:58.038 [26812][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:13:58.039 [26812][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:13:58.140 [26812][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:13:58.141 [26812][DEBUG] R = 40
+2023-12-23 16:13:58.141 [26812][DEBUG] G = 0
+2023-12-23 16:13:58.141 [26812][DEBUG] B = 221
+2023-12-23 16:13:58.153 [26812][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:14:01.308 [26812][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:14:01.320 [26812][DEBUG] R = 40
+2023-12-23 16:14:01.321 [26812][DEBUG] G = 0
+2023-12-23 16:14:01.321 [26812][DEBUG] B = 221
+2023-12-23 16:14:01.349 [26812][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 16:14:48.078 [28536][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:14:48.080 [28536][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:14:48.186 [28536][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:14:48.187 [28536][DEBUG] R = 40
+2023-12-23 16:14:48.187 [28536][DEBUG] G = 0
+2023-12-23 16:14:48.187 [28536][DEBUG] B = 221
+2023-12-23 16:14:48.202 [28536][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:14:50.000 [28536][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:14:50.020 [28536][DEBUG] R = 40
+2023-12-23 16:14:50.020 [28536][DEBUG] G = 0
+2023-12-23 16:14:50.020 [28536][DEBUG] B = 221
+2023-12-23 16:14:50.073 [28536][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 16:15:28.984 [31320][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:15:28.986 [31320][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:15:29.097 [31320][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:15:29.098 [31320][DEBUG] R = 40
+2023-12-23 16:15:29.098 [31320][DEBUG] G = 0
+2023-12-23 16:15:29.098 [31320][DEBUG] B = 221
+2023-12-23 16:15:29.107 [31320][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:15:30.673 [31320][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:15:30.688 [31320][DEBUG] R = 40
+2023-12-23 16:15:30.688 [31320][DEBUG] G = 0
+2023-12-23 16:15:30.688 [31320][DEBUG] B = 221
+2023-12-23 16:15:30.722 [31320][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 16:17:38.485 [23984][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:17:38.486 [23984][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:17:38.534 [23984][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:17:38.534 [23984][DEBUG] R = 40
+2023-12-23 16:17:38.534 [23984][DEBUG] G = 0
+2023-12-23 16:17:38.535 [23984][DEBUG] B = 221
+2023-12-23 16:17:38.543 [23984][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:19:25.678 [13380][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:19:25.679 [13380][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:19:25.769 [13380][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:19:25.769 [13380][DEBUG] R = 40
+2023-12-23 16:19:25.769 [13380][DEBUG] G = 0
+2023-12-23 16:19:25.769 [13380][DEBUG] B = 221
+2023-12-23 16:19:25.787 [13380][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:19:27.282 [13380][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:19:27.290 [13380][DEBUG] R = 40
+2023-12-23 16:19:27.290 [13380][DEBUG] G = 0
+2023-12-23 16:19:27.290 [13380][DEBUG] B = 221
+2023-12-23 16:19:27.309 [13380][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 16:20:41.055 [33308][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:20:41.056 [33308][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:20:41.110 [33308][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:20:41.111 [33308][DEBUG] R = 40
+2023-12-23 16:20:41.111 [33308][DEBUG] G = 0
+2023-12-23 16:20:41.111 [33308][DEBUG] B = 221
+2023-12-23 16:20:41.119 [33308][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:20:45.242 [33308][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:20:45.249 [33308][DEBUG] R = 40
+2023-12-23 16:20:45.249 [33308][DEBUG] G = 0
+2023-12-23 16:20:45.249 [33308][DEBUG] B = 221
+2023-12-23 16:20:45.265 [33308][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 16:39:47.354 [25576][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 16:39:47.356 [25576][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:39:47.451 [25576][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 16:39:47.452 [25576][DEBUG] R = 40
+2023-12-23 16:39:47.452 [25576][DEBUG] G = 0
+2023-12-23 16:39:47.452 [25576][DEBUG] B = 221
+2023-12-23 16:39:47.460 [25576][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 16:39:48.986 [25576][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 16:39:48.994 [25576][DEBUG] R = 40
+2023-12-23 16:39:48.994 [25576][DEBUG] G = 0
+2023-12-23 16:39:48.994 [25576][DEBUG] B = 221
+2023-12-23 16:39:49.009 [25576][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:22:08.877 [8268][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:22:08.878 [8268][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:22:08.927 [8268][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:22:08.928 [8268][DEBUG] R = 40
+2023-12-23 17:22:08.928 [8268][DEBUG] G = 0
+2023-12-23 17:22:08.928 [8268][DEBUG] B = 221
+2023-12-23 17:22:08.933 [8268][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 17:22:10.357 [8268][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:22:10.364 [8268][DEBUG] R = 40
+2023-12-23 17:22:10.365 [8268][DEBUG] G = 0
+2023-12-23 17:22:10.365 [8268][DEBUG] B = 221
+2023-12-23 17:22:10.383 [8268][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:22:35.894 [17360][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:22:35.894 [17360][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:22:35.979 [17360][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:22:35.979 [17360][DEBUG] R = 40
+2023-12-23 17:22:35.979 [17360][DEBUG] G = 0
+2023-12-23 17:22:35.980 [17360][DEBUG] B = 221
+2023-12-23 17:22:35.986 [17360][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 17:22:37.384 [17360][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:22:37.391 [17360][DEBUG] R = 40
+2023-12-23 17:22:37.391 [17360][DEBUG] G = 0
+2023-12-23 17:22:37.391 [17360][DEBUG] B = 221
+2023-12-23 17:22:37.406 [17360][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:23:18.421 [28332][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:23:18.422 [28332][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:23:18.471 [28332][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:23:18.471 [28332][DEBUG] R = 40
+2023-12-23 17:23:18.471 [28332][DEBUG] G = 0
+2023-12-23 17:23:18.472 [28332][DEBUG] B = 221
+2023-12-23 17:23:18.477 [28332][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 17:23:19.669 [28332][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:23:19.676 [28332][DEBUG] R = 40
+2023-12-23 17:23:19.676 [28332][DEBUG] G = 0
+2023-12-23 17:23:19.676 [28332][DEBUG] B = 221
+2023-12-23 17:23:19.693 [28332][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:27:17.675 [29608][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:27:17.676 [29608][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:27:17.824 [29608][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:27:17.825 [29608][DEBUG] R = 40
+2023-12-23 17:27:17.825 [29608][DEBUG] G = 0
+2023-12-23 17:27:17.825 [29608][DEBUG] B = 221
+2023-12-23 17:27:17.842 [29608][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 17:27:19.153 [29608][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:27:19.160 [29608][DEBUG] R = 40
+2023-12-23 17:27:19.160 [29608][DEBUG] G = 0
+2023-12-23 17:27:19.160 [29608][DEBUG] B = 221
+2023-12-23 17:27:19.175 [29608][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:27:46.293 [2036][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:27:46.294 [2036][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:27:46.344 [2036][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:27:46.345 [2036][DEBUG] R = 40
+2023-12-23 17:27:46.345 [2036][DEBUG] G = 0
+2023-12-23 17:27:46.345 [2036][DEBUG] B = 221
+2023-12-23 17:27:46.352 [2036][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 17:27:47.809 [2036][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:27:47.816 [2036][DEBUG] R = 40
+2023-12-23 17:27:47.816 [2036][DEBUG] G = 0
+2023-12-23 17:27:47.816 [2036][DEBUG] B = 221
+2023-12-23 17:27:47.831 [2036][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:28:18.210 [33436][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:28:18.211 [33436][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:28:18.283 [33436][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:28:18.284 [33436][DEBUG] R = 40
+2023-12-23 17:28:18.284 [33436][DEBUG] G = 0
+2023-12-23 17:28:18.284 [33436][DEBUG] B = 221
+2023-12-23 17:28:18.290 [33436][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 17:28:19.386 [33436][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:28:19.395 [33436][DEBUG] R = 40
+2023-12-23 17:28:19.395 [33436][DEBUG] G = 0
+2023-12-23 17:28:19.395 [33436][DEBUG] B = 221
+2023-12-23 17:28:19.413 [33436][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:29:09.503 [13220][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:29:09.504 [13220][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:29:09.553 [13220][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:29:09.554 [13220][DEBUG] R = 40
+2023-12-23 17:29:09.554 [13220][DEBUG] G = 0
+2023-12-23 17:29:09.554 [13220][DEBUG] B = 221
+2023-12-23 17:29:09.559 [13220][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 17:29:10.755 [13220][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:29:10.761 [13220][DEBUG] R = 40
+2023-12-23 17:29:10.761 [13220][DEBUG] G = 0
+2023-12-23 17:29:10.762 [13220][DEBUG] B = 221
+2023-12-23 17:29:10.778 [13220][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:29:36.930 [21016][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:29:36.931 [21016][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:29:36.981 [21016][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:29:36.981 [21016][DEBUG] R = 40
+2023-12-23 17:29:36.981 [21016][DEBUG] G = 0
+2023-12-23 17:29:36.982 [21016][DEBUG] B = 221
+2023-12-23 17:29:36.989 [21016][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 17:29:38.207 [21016][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:29:38.214 [21016][DEBUG] R = 40
+2023-12-23 17:29:38.214 [21016][DEBUG] G = 0
+2023-12-23 17:29:38.214 [21016][DEBUG] B = 221
+2023-12-23 17:29:38.229 [21016][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:32:48.822 [15824][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:32:48.823 [15824][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:32:48.876 [15824][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:32:48.877 [15824][DEBUG] R = 40
+2023-12-23 17:32:48.877 [15824][DEBUG] G = 0
+2023-12-23 17:32:48.877 [15824][DEBUG] B = 221
+2023-12-23 17:32:48.883 [15824][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2023-12-23 17:32:50.131 [15824][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:32:50.139 [15824][DEBUG] 主窗体初始化
+2023-12-23 17:32:50.140 [15824][DEBUG] R = 40
+2023-12-23 17:32:50.140 [15824][DEBUG] G = 0
+2023-12-23 17:32:50.140 [15824][DEBUG] B = 221
+2023-12-23 17:32:50.156 [15824][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2023-12-23 17:32:50.162 [15824][DEBUG] 设置等级为：17
+2023-12-23 17:33:46.058 [22644][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2023-12-23 17:33:46.059 [22644][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2023-12-23 17:33:46.146 [22644][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2023-12-23 17:33:46.152 [22644][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功

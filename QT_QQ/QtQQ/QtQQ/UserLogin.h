@@ -8,7 +8,7 @@ class UserLogin : public BasicWindow
 	Q_OBJECT
 
 public:
-	UserLogin(BasicWindow *parent = nullptr);
+	UserLogin(QWidget *parent = nullptr);
 	~UserLogin();
 
 private slots:
@@ -18,5 +18,5 @@ private:
 	void initControl();
 
 private:
-	Ui::UserLoginClass ui;
+	Ui::UserLogin ui;
 };

@@ -24,9 +24,10 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_UserLoginClass
+class Ui_UserLogin
 {
 public:
+    QVBoxLayout *verticalLayout_2;
     QWidget *titleWidget;
     QWidget *bodyWidget;
     QVBoxLayout *verticalLayout;
@@ -41,7 +42,7 @@ public:
     QHBoxLayout *horizontalLayout_3;
     QSpacerItem *horizontalSpacer_5;
     QCheckBox *checkBox;
-    QPushButton *forgetWordBtn;
+    QPushButton *forgetWordbtn;
     QPushButton *registBtn;
     QSpacerItem *horizontalSpacer_6;
     QHBoxLayout *horizontalLayout_4;
@@ -49,21 +50,25 @@ public:
     QPushButton *loginBtn;
     QSpacerItem *horizontalSpacer_8;
 
-    void setupUi(QWidget *UserLoginClass)
+    void setupUi(QWidget *UserLogin)
     {
-        if (UserLoginClass->objectName().isEmpty())
-            UserLoginClass->setObjectName(QStringLiteral("UserLoginClass"));
-        UserLoginClass->resize(434, 316);
+        if (UserLogin->objectName().isEmpty())
+            UserLogin->setObjectName(QStringLiteral("UserLogin"));
+        UserLogin->resize(434, 316);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(UserLoginClass->sizePolicy().hasHeightForWidth());
-        UserLoginClass->setSizePolicy(sizePolicy);
-        UserLoginClass->setMinimumSize(QSize(434, 316));
-        UserLoginClass->setMaximumSize(QSize(434, 316));
-        titleWidget = new QWidget(UserLoginClass);
+        sizePolicy.setHeightForWidth(UserLogin->sizePolicy().hasHeightForWidth());
+        UserLogin->setSizePolicy(sizePolicy);
+        UserLogin->setMinimumSize(QSize(434, 316));
+        UserLogin->setMaximumSize(QSize(434, 316));
+        UserLogin->setStyleSheet(QStringLiteral(""));
+        verticalLayout_2 = new QVBoxLayout(UserLogin);
+        verticalLayout_2->setSpacing(0);
+        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
+        titleWidget = new QWidget(UserLogin);
         titleWidget->setObjectName(QStringLiteral("titleWidget"));
-        titleWidget->setGeometry(QRect(0, 0, 434, 104));
         QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -71,17 +76,19 @@ public:
         titleWidget->setSizePolicy(sizePolicy1);
         titleWidget->setMinimumSize(QSize(0, 104));
         titleWidget->setMaximumSize(QSize(16777215, 104));
-        titleWidget->setProperty("titleskin", QVariant(false));
-        bodyWidget = new QWidget(UserLoginClass);
+        titleWidget->setProperty("titleskin", QVariant(true));
+
+        verticalLayout_2->addWidget(titleWidget);
+
+        bodyWidget = new QWidget(UserLogin);
         bodyWidget->setObjectName(QStringLiteral("bodyWidget"));
-        bodyWidget->setGeometry(QRect(0, 104, 480, 200));
         QSizePolicy sizePolicy2(QSizePolicy::Preferred, QSizePolicy::Expanding);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
         sizePolicy2.setHeightForWidth(bodyWidget->sizePolicy().hasHeightForWidth());
         bodyWidget->setSizePolicy(sizePolicy2);
         bodyWidget->setMinimumSize(QSize(0, 200));
-        bodyWidget->setProperty("bottomskin", QVariant(false));
+        bodyWidget->setProperty("bottomskin", QVariant(true));
         verticalLayout = new QVBoxLayout(bodyWidget);
         verticalLayout->setSpacing(0);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
@@ -145,14 +152,14 @@ public:
 
         horizontalLayout_3->addWidget(checkBox);
 
-        forgetWordBtn = new QPushButton(bodyWidget);
-        forgetWordBtn->setObjectName(QStringLiteral("forgetWordBtn"));
-        sizePolicy.setHeightForWidth(forgetWordBtn->sizePolicy().hasHeightForWidth());
-        forgetWordBtn->setSizePolicy(sizePolicy);
-        forgetWordBtn->setMinimumSize(QSize(0, 28));
-        forgetWordBtn->setMaximumSize(QSize(16777215, 28));
+        forgetWordbtn = new QPushButton(bodyWidget);
+        forgetWordbtn->setObjectName(QStringLiteral("forgetWordbtn"));
+        sizePolicy.setHeightForWidth(forgetWordbtn->sizePolicy().hasHeightForWidth());
+        forgetWordbtn->setSizePolicy(sizePolicy);
+        forgetWordbtn->setMinimumSize(QSize(0, 28));
+        forgetWordbtn->setMaximumSize(QSize(16777215, 28));
 
-        horizontalLayout_3->addWidget(forgetWordBtn);
+        horizontalLayout_3->addWidget(forgetWordbtn);
 
         registBtn = new QPushButton(bodyWidget);
         registBtn->setObjectName(QStringLiteral("registBtn"));
@@ -193,26 +200,29 @@ public:
         verticalLayout->addLayout(horizontalLayout_4);
 
 
-        retranslateUi(UserLoginClass);
+        verticalLayout_2->addWidget(bodyWidget);
 
-        QMetaObject::connectSlotsByName(UserLoginClass);
+
+        retranslateUi(UserLogin);
+
+        QMetaObject::connectSlotsByName(UserLogin);
     } // setupUi
 
-    void retranslateUi(QWidget *UserLoginClass)
+    void retranslateUi(QWidget *UserLogin)
     {
-        UserLoginClass->setWindowTitle(QApplication::translate("UserLoginClass", "Form", Q_NULLPTR));
-        editUserAccount->setPlaceholderText(QApplication::translate("UserLoginClass", "\350\257\267\350\276\223\345\205\245\350\264\246\345\217\267", Q_NULLPTR));
-        editPassword->setPlaceholderText(QApplication::translate("UserLoginClass", "\350\257\267\350\276\223\345\205\245\345\257\206\347\240\201", Q_NULLPTR));
-        checkBox->setText(QApplication::translate("UserLoginClass", "\350\256\260\344\275\217\345\257\206\347\240\201", Q_NULLPTR));
-        forgetWordBtn->setText(QApplication::translate("UserLoginClass", "\345\277\230\350\256\260\345\257\206\347\240\201", Q_NULLPTR));
-        registBtn->setText(QApplication::translate("UserLoginClass", "\346\263\250\345\206\214", Q_NULLPTR));
-        loginBtn->setText(QApplication::translate("UserLoginClass", "\347\231\273\345\275\225", Q_NULLPTR));
+        UserLogin->setWindowTitle(QApplication::translate("UserLogin", "Form", Q_NULLPTR));
+        editUserAccount->setPlaceholderText(QApplication::translate("UserLogin", "\350\257\267\350\276\223\345\205\245\350\264\246\345\217\267", Q_NULLPTR));
+        editPassword->setPlaceholderText(QApplication::translate("UserLogin", "\350\257\267\350\276\223\345\205\245\345\257\206\347\240\201", Q_NULLPTR));
+        checkBox->setText(QApplication::translate("UserLogin", "\350\256\260\344\275\217\345\257\206\347\240\201", Q_NULLPTR));
+        forgetWordbtn->setText(QApplication::translate("UserLogin", "\345\277\230\350\256\260\345\257\206\347\240\201", Q_NULLPTR));
+        registBtn->setText(QApplication::translate("UserLogin", "\346\263\250\345\206\214", Q_NULLPTR));
+        loginBtn->setText(QApplication::translate("UserLogin", "\347\231\273\345\275\225", Q_NULLPTR));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class UserLoginClass: public Ui_UserLoginClass {};
+    class UserLogin: public Ui_UserLogin {};
 } // namespace Ui
 
 QT_END_NAMESPACE

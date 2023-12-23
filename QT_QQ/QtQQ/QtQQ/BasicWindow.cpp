@@ -11,7 +11,7 @@
 
 BasicWindow::BasicWindow(QWidget *parent) : QDialog(parent) {
 
-	m_colorBackGround = CommonUtils::getDefaultSkinColor();
+	m_colorBackGround = CommonUtils::getDefaultSkinColor();		// 读取配置文件中的颜色
 
 	setWindowFlags(Qt::FramelessWindowHint);		// 无边框
 	setAttribute(Qt::WA_TranslucentBackground);		// 透明
@@ -35,7 +35,7 @@ void BasicWindow::setTitleBarTitle(const QString &title, const QString &icon) {
 	m_pTitleBar->setTitleContent(title);
 }
 
-void BasicWindow::initTiitleBar(ButtonType buttontype) {
+void BasicWindow::initTitleBar(ButtonType buttontype) {
 	m_pTitleBar = new TitleBar(this);
 
 	m_pTitleBar->setButtonType(buttontype);
@@ -64,12 +64,12 @@ void BasicWindow::loadStyleSheet(const QString &sheetName) {
 		QString b = QString::number(m_colorBackGround.blue());
 
 		qsstyleSheet += QString("QWidget[titleskin=true]\
-								 {background-color:rgb(%1, %2, %3);\
+								 {background-color:rgb(%1,%2,%3);\
 								 border-top-left-radius:4px;\
 								 border-top-right-radius:4px;}\
 								 QWidget[bottomskin=true]\
-								 {border-top:1px solid rgba(%1, %2, %3, 100);\
-								 background-color:rgba(%1, %2, %3, 50);\
+								 {border-top:1px solid rgba(%1,%2,%3,100);\
+								 background-color:rgba(%1,%2,%3,50);\
 								 border-bottom-left-radius:4px;\
 								 border-bottom-right-radius:4px;}")
 								.arg(r).arg(g).arg(b);
@@ -89,6 +89,7 @@ void BasicWindow::loadStyleSheet(const QString &sheetName) {
 
 // 初始化背景颜色
 void BasicWindow::initBackGroundColor() {
+	//LOG_DEBUG("初始化背景色");
 	QStyleOption opt;
 	opt.init(this);
 
@@ -107,7 +108,7 @@ QPixmap BasicWindow::getRoundImage(const QPixmap &src, QPixmap &mask, QSize mask
 	if (maskSize == QSize(0, 0)) {
 		maskSize = mask.size();
 	} else {
-		mask.scaled(maskSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+		mask = mask.scaled(maskSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
 	}
 
 	// 保存转换后的图像
@@ -119,7 +120,7 @@ QPixmap BasicWindow::getRoundImage(const QPixmap &src, QPixmap &mask, QSize mask
 	painter.setCompositionMode(QPainter::CompositionMode_SourceOver);
 	painter.drawPixmap(0, 0, mask);
 	painter.setCompositionMode(QPainter::CompositionMode_SourceIn);
-	painter.drawPixmap(0, 0, src.scaled(Qt::KeepAspectRatio, Qt::SmoothTransformation));
+	painter.drawPixmap(0, 0, src.scaled(maskSize, Qt::KeepAspectRatio, Qt::SmoothTransformation));
 	painter.end();
 
 	return QPixmap::fromImage(resultImage);
@@ -148,7 +149,8 @@ void BasicWindow::onShowQuit(bool) {
 
 // 鼠标移动
 void BasicWindow::mouseMoveEvent(QMouseEvent *e) {
-	if (m_mousePressed && (e->button() && Qt::LeftButton)) {
+	if (m_mousePressed && (e->buttons() == Qt::LeftButton)) {
+		// e->globalPos() 事件发生时全局坐标，相对于屏幕左上角(0, 0)
 		move(e->globalPos() - m_mousePoint);
 		e->accept();
 	}
@@ -157,9 +159,10 @@ void BasicWindow::mouseMoveEvent(QMouseEvent *e) {
 // 鼠标按下
 void BasicWindow::mousePressEvent(QMouseEvent *e) {
 	if (e->button() == Qt::LeftButton) {
+		// pos() 事件发生时相对于窗口左上角的偏移(0, 0)
 		m_mousePressed = true;
 		m_mousePoint = e->globalPos() - pos();
-		accept();
+		e->accept();
 	}
 }
 

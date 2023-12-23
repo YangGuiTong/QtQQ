@@ -69,58 +69,6 @@ QPushButton#rightSpliterBtn:pressed {
    border-width:0px;
 }
 
-QPushButton#boldBtn {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_bold_normal.png); 
-   border-width:0px;
-}
-QPushButton#boldBtn:hover {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_bold_highlight.png); 
-   border-width:0px;
-}
-QPushButton#boldBtn:pressed {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_bold_push.png); 
-   border-width:0px;
-}
-
-QPushButton#italBtn {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_italic_normal.png); 
-   border-width:0px;
-}
-QPushButton#italBtn:hover {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_italic_highlight.png); 
-   border-width:0px;
-}
-QPushButton#italBtn:pressed {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_italic_push.png); 
-   border-width:0px;
-}
-
-QPushButton#underBtn {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_underline_normal.png); 
-   border-width:0px;
-}
-QPushButton#underBtn:hover {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_underline_highlight.png); 
-   border-width:0px;
-}
-QPushButton#underBtn:pressed {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_underline_push.png); 
-   border-width:0px;
-}
-
-QPushButton#colorBtn {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_color_normal.png); 
-   border-width:0px;
-}
-QPushButton#colorBtn:hover {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_color_highlight.png); 
-   border-width:0px;
-}
-QPushButton#colorBtn:pressed {
-   border-image: url(:Resources/MainWindow/aio_quickbar_sysfont_color_push.png); 
-   border-width:0px;
-}
-
 QToolButton#closeBtn {
    background-color: rgb(141, 210, 235);
    color:#ffffff;
@@ -163,22 +111,6 @@ QToolButton#sendBtn::menu-arrow {
     image: url(:Resources/MainWindow/aio_setting_white_normal.png);
 }
 
-QPushButton#fontBtn {
-   border-image: url(:Resources/MainWindow/aio_quickbar_font.png); 
-}
-QPushButton#fontBtn:hover {
-   background-image:url(:Resources/MainWindow/aio_quickbar_font_hover.png);
-   background-position:center;
-   border-image:url(:Resources/MainWindow/2014_btn_hover.gft.png);
-   border-width:2px;
-}
-QPushButton#fontBtn:pressed, QPushButton#fontBtn:checked {
-   background-image:url(:Resources/MainWindow/aio_quickbar_font_hover.png);
-   background-position:center;
-   border-image:url(:Resources/MainWindow/2014_btn_down.gft.png);
-   border-width:2px;
-}
-
 QPushButton#faceBtn {
    border-image: url(:Resources/MainWindow/aio_quickbar_face.png); 
 }
@@ -195,65 +127,17 @@ QPushButton#faceBtn:pressed, QPushButton#faceBtn:checked {
    border-width:2px;
 }
 
-QPushButton#richfacebtn {
-   border-image: url(:Resources/MainWindow/aio_quickbar_richface.png); 
+QPushButton#fileopenBtn {
+   border-image: url(:Resources/MainWindow/fileopen.png); 
 }
-QPushButton#richfacebtn:hover {
-   background-image:url(:Resources/MainWindow/aio_quickbar_richface_hover.png);
+QPushButton#fileopenBtn:hover {
+   background-image:url(:Resources/MainWindow/fileopen_hover.png);
    background-position:center;
    border-image:url(:Resources/MainWindow/2014_btn_hover.gft.png);
    border-width:2px;
 }
-QPushButton#richfacebtn:pressed {
-   background-image:url(:Resources/MainWindow/aio_quickbar_richface_hover.png);
-   background-position:center;
-   border-image:url(:Resources/MainWindow/2014_btn_down.gft.png);
-   border-width:2px;
-}
-
-QPushButton#cutBtn {
-   border-image: url(:Resources/MainWindow/aio_quickbar_cut.png); 
-}
-QPushButton#cutBtn:hover {
-   background-image:url(:Resources/MainWindow/aio_quickbar_cut_hover.png);
-   background-position:center;
-   border-image:url(:Resources/MainWindow/2014_btn_hover.gft.png);
-   border-width:2px;
-}
-QPushButton#cutBtn:pressed, QPushButton#cutBtn:checked {
-   background-image:url(:Resources/MainWindow/aio_quickbar_cut_hover.png);
-   background-position:center;
-   border-image:url(:Resources/MainWindow/2014_btn_down.gft.png);
-   border-width:2px;
-}
-
-QPushButton#inputbtn {
-   border-image: url(:Resources/MainWindow/aio_quickbar_inputassist.png); 
-}
-QPushButton#inputbtn:hover {
-   background-image:url(:Resources/MainWindow/aio_quickbar_inputassist_hover.png);
-   background-position:center;
-   border-image:url(:Resources/MainWindow/2014_btn_hover.gft.png);
-   border-width:2px;
-}
-QPushButton#inputbtn:pressed {
-   background-image:url(:Resources/MainWindow/aio_quickbar_inputassist_hover.png);
-   background-position:center;
-   border-image:url(:Resources/MainWindow/2014_btn_down.gft.png);
-   border-width:2px;
-}
-
-QPushButton#registerBtn {
-   border-image: url(:Resources/MainWindow/aio_quickbar_register.png); 
-}
-QPushButton#registerBtn:hover {
-   background-image:url(:Resources/MainWindow/aio_quickbar_register_hover.png);
-   background-position:center;
-   border-image:url(:Resources/MainWindow/2014_btn_hover.gft.png);
-   border-width:2px;
-}
-QPushButton#registerBtn:pressed {
-   background-image:url(:Resources/MainWindow/aio_quickbar_register_hover.png);
+QPushButton#fileopenBtn:pressed, QPushButton#fileopenBtn:checked {
+   background-image:url(:Resources/MainWindow/fileopen_press.png);
    background-position:center;
    border-image:url(:Resources/MainWindow/2014_btn_down.gft.png);
    border-width:2px;

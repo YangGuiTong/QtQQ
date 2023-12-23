@@ -108,12 +108,6 @@ void TitleBar::setButtonType(ButtonType buttontype) {
 			//m_pButtonMax->setVisible(true);
 		}
 		break;
-		case MIX_RESTORE_BUTTON:
-		{
-			/*m_pButtonMax->setVisible(false);
-			m_pButtonRestore->setVisible(true);*/
-		}
-		break;
 		case QNLY_CLOSE_BUTTON:
 		{
 			m_pButtonRestore->setVisible(false);
@@ -147,17 +141,20 @@ void TitleBar::getRestoreInfo(QPoint &point, QSize &size) {
 
 // 绘制标题栏
 void TitleBar::paintEvent(QPaintEvent *event) {
-	// 设置背景色
+	// 设置背景颜色
 	QPainter painter(this);
 	QPainterPath pathBack;
-	pathBack.setFillRule(Qt::WindingFill);	// 设置填充规则
-	pathBack.addRoundedRect(QRect(0, 0, width(), height()), 3, 3);	// 添加圆角矩阵到绘图路径
+	pathBack.setFillRule(Qt::WindingFill);	// 设置填充规制
+	pathBack.addRoundedRect(QRect(0, 0, width(), height()), 3, 3);	// 添加圆角矩形到绘图路径
 	painter.setRenderHint(QPainter::SmoothPixmapTransform, true);
 
-	// 当窗口最大化或还原后，窗口长度改变，标题栏相应做出改变；
+	// 当窗口最大化或还原后，窗口长度改变，标题栏相应做出改变
+	// parentWidget() 返回父部件
 	if (width() != parentWidget()->width()) {
 		setFixedWidth(parentWidget()->width());
 	}
+
+	QWidget::paintEvent(event);
 }
 
 

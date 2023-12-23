@@ -11,8 +11,7 @@
 enum ButtonType{
 	MIN_BUTTON = 0,			// 最小化及关闭按钮
 	MIX_MAX_BUTTON = 1,		// 最小化、最大化及关闭按钮
-	MIX_RESTORE_BUTTON = 2,		// 最小化、最大化还原按钮及关闭按钮
-	QNLY_CLOSE_BUTTON = 3,	// 只有关闭按钮
+	QNLY_CLOSE_BUTTON = 2,	// 只有关闭按钮
 	
 	COUNT					// 默认值
 };

@@ -30,7 +30,7 @@ protected:
 	void mouseReleaseEvent(QMouseEvent *event);			// 鼠标松开事件
 
 protected:
-	void initTiitleBar(ButtonType buttonType = MIN_BUTTON);
+	void initTitleBar(ButtonType buttonType = MIN_BUTTON);
 	void setTitleBarTitle(const QString &title, const QString &icon = "");
 
 public slots:
