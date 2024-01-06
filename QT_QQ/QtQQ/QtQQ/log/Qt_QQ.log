@@ -2024,3 +2024,193 @@ QWidget[titleskin=true]								 {background-color:rgb(40,0,221);								 border-
 2023-12-23 17:33:46.059 [22644][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
 2023-12-23 17:33:46.146 [22644][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
 2023-12-23 17:33:46.152 [22644][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-01 18:33:45.301 [21856][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-01 18:33:45.306 [21856][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-01 18:33:45.795 [21856][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-01 18:33:45.801 [21856][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-01 18:33:54.512 [21856][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-01 18:33:54.536 [21856][DEBUG] 主窗体初始化
+2024-01-01 18:33:54.551 [21856][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-01 18:33:54.558 [21856][DEBUG] 设置等级为：17
+2024-01-06 16:31:31.912 [16152][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 16:31:31.917 [16152][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 16:31:32.349 [16152][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 16:31:32.355 [16152][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 16:31:33.977 [16152][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 16:31:34.002 [16152][DEBUG] 主窗体初始化
+2024-01-06 16:31:34.017 [16152][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 16:31:34.023 [16152][DEBUG] 设置等级为：17
+2024-01-06 16:31:34.025 [16152][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 16:47:19.073 [17144][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 16:47:19.074 [17144][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 16:47:19.144 [17144][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 16:47:19.150 [17144][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 16:47:20.809 [17144][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 16:47:20.815 [17144][DEBUG] 主窗体初始化
+2024-01-06 16:47:20.832 [17144][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 16:47:20.838 [17144][DEBUG] 设置等级为：17
+2024-01-06 16:47:20.838 [17144][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 16:47:20.858 [17144][DEBUG] 设置状态路径：:/Resource/MainWindow/StatusSuccessded.png
+2024-01-06 16:47:45.157 [4604][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 16:47:45.157 [4604][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 16:47:45.209 [4604][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 16:47:45.218 [4604][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 16:47:46.655 [4604][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 16:47:46.662 [4604][DEBUG] 主窗体初始化
+2024-01-06 16:47:46.678 [4604][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 16:47:46.683 [4604][DEBUG] 设置等级为：17
+2024-01-06 16:47:46.684 [4604][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 16:47:46.704 [4604][DEBUG] 设置状态路径：:/Resources/MainWindow/StatusSuccessded.png
+2024-01-06 16:48:55.106 [15492][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 16:48:55.106 [15492][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 16:48:55.155 [15492][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 16:48:55.162 [15492][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 16:48:56.721 [15492][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 16:48:56.730 [15492][DEBUG] 主窗体初始化
+2024-01-06 16:48:56.748 [15492][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 16:48:56.759 [15492][DEBUG] 设置等级为：17
+2024-01-06 16:48:56.760 [15492][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 16:48:56.780 [15492][DEBUG] 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-06 17:04:35.856 [7044][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 17:04:35.857 [7044][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:04:35.920 [7044][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 17:04:35.926 [7044][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 17:04:37.777 [7044][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:04:37.784 [7044][DEBUG] 主窗体初始化
+2024-01-06 17:04:37.799 [7044][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 17:04:37.804 [7044][DEBUG] 设置等级为：17
+2024-01-06 17:04:37.805 [7044][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 17:04:37.825 [7044][DEBUG] 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-06 17:04:37.825 [7044][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-06 17:04:37.826 [7044][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-06 17:04:37.826 [7044][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-06 17:04:37.827 [7044][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-06 17:04:37.828 [7044][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-06 17:04:37.828 [7044][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-06 17:07:50.707 [13540][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 17:07:50.708 [13540][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:07:50.757 [13540][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 17:07:50.763 [13540][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 17:07:52.532 [13540][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:07:52.540 [13540][DEBUG] 主窗体初始化
+2024-01-06 17:07:52.556 [13540][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 17:07:52.561 [13540][DEBUG] 设置等级为：17
+2024-01-06 17:07:52.562 [13540][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 17:07:52.583 [13540][DEBUG] 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-06 17:07:52.583 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-06 17:07:52.584 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-06 17:07:52.584 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-06 17:07:52.585 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-06 17:07:52.586 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-06 17:07:52.586 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-06 17:07:52.587 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-06 17:07:52.588 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-06 17:07:52.589 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-06 17:07:52.590 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-06 17:07:52.590 [13540][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-06 17:08:46.830 [9880][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 17:08:46.831 [9880][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:08:46.889 [9880][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 17:08:46.897 [9880][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 17:08:48.518 [9880][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:08:48.526 [9880][DEBUG] 主窗体初始化
+2024-01-06 17:08:48.540 [9880][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 17:08:48.547 [9880][DEBUG] 设置等级为：17
+2024-01-06 17:08:48.547 [9880][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 17:08:48.568 [9880][DEBUG] 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-06 17:08:48.568 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-06 17:08:48.569 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-06 17:08:48.569 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-06 17:08:48.570 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-06 17:08:48.570 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-06 17:08:48.571 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-06 17:08:48.571 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-06 17:08:48.572 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-06 17:08:48.573 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-06 17:08:48.573 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-06 17:08:48.574 [9880][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-06 17:09:13.810 [9152][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 17:09:13.810 [9152][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:09:13.863 [9152][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 17:09:13.869 [9152][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 17:09:15.226 [9152][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:09:15.233 [9152][DEBUG] 主窗体初始化
+2024-01-06 17:09:15.249 [9152][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 17:09:15.254 [9152][DEBUG] 设置等级为：17
+2024-01-06 17:09:15.255 [9152][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 17:09:15.275 [9152][DEBUG] 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-06 17:09:15.276 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-06 17:09:15.277 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-06 17:09:15.278 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-06 17:09:15.279 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-06 17:09:15.279 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-06 17:09:15.280 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-06 17:09:15.280 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-06 17:09:15.281 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-06 17:09:15.281 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-06 17:09:15.282 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-06 17:09:15.282 [9152][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-06 17:09:39.537 [14856][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 17:09:39.537 [14856][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:09:39.616 [14856][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 17:09:39.637 [14856][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 17:09:40.803 [14856][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:09:40.810 [14856][DEBUG] 主窗体初始化
+2024-01-06 17:09:40.826 [14856][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 17:09:40.832 [14856][DEBUG] 设置等级为：17
+2024-01-06 17:09:40.833 [14856][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 17:09:40.853 [14856][DEBUG] 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-06 17:09:40.853 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-06 17:09:40.854 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-06 17:09:40.854 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-06 17:09:40.855 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-06 17:09:40.855 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-06 17:09:40.855 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-06 17:09:40.856 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-06 17:09:40.856 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-06 17:09:40.857 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-06 17:09:40.857 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-06 17:09:40.858 [14856][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-06 17:10:05.777 [1648][DEBUG] 
+
+------------------------------------------------------------------------------------------------------
+2024-01-06 17:10:05.778 [1648][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:10:05.838 [1648][DEBUG] TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-06 17:10:05.845 [1648][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-06 17:10:07.240 [1648][DEBUG] 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-06 17:10:07.248 [1648][DEBUG] 主窗体初始化
+2024-01-06 17:10:07.263 [1648][DEBUG] BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-06 17:10:07.269 [1648][DEBUG] 设置等级为：17
+2024-01-06 17:10:07.270 [1648][DEBUG] 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-06 17:10:07.292 [1648][DEBUG] 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-06 17:10:07.293 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-06 17:10:07.293 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-06 17:10:07.294 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-06 17:10:07.294 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-06 17:10:07.295 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-06 17:10:07.295 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-06 17:10:07.296 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-06 17:10:07.296 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-06 17:10:07.297 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-06 17:10:07.297 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-06 17:10:07.298 [1648][DEBUG] CCMainWindow::addOtherAppExtension(:Resources/MainWindow/app/app_9.png, app_9)

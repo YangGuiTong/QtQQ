@@ -39,6 +39,27 @@ void CCMainWindow::initControl() {
 	ui.treeWidget->setStyle(new CustomProxyStayle());
 
 	setLevePixmap(17);
+	setHeadPixmap(":/Resources/MainWindow/girl.png");
+	setStatusMenuIcon(":/Resources/MainWindow/StatusSucceeded.png");
+
+	QHBoxLayout *appUpLayout = new QHBoxLayout;
+	appUpLayout->setContentsMargins(0, 0, 0, 0);
+	appUpLayout->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_7.png", "app_7"));
+	appUpLayout->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_2.png", "app_2"));
+	appUpLayout->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_3.png", "app_3"));
+	appUpLayout->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_4.png", "app_4"));
+	appUpLayout->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_5.png", "app_5"));
+	appUpLayout->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_6.png", "app_6"));
+	appUpLayout->addWidget(addOtherAppExtension(":Resources/MainWindow/app/skin.png", "app_skin"));	
+	appUpLayout->addStretch();
+	//appUpLayout->setSpacing(2);
+	ui.appWidget->setLayout(appUpLayout);
+
+	ui.bottomLayout_up->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_10.png", "app_10"));
+	ui.bottomLayout_up->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_8.png", "app_8"));
+	ui.bottomLayout_up->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_11.png", "app_11"));
+	ui.bottomLayout_up->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_9.png", "app_9"));
+	ui.bottomLayout_up->addStretch();
 
 }
 
@@ -70,4 +91,52 @@ void CCMainWindow::setLevePixmap(int level) {
 
 void CCMainWindow::setHeadPixmap(const QString & headPath) {
 	LOG_DEBUG(QString("设置头像路径：%1").arg(headPath).toStdString());
+
+	QPixmap pix;
+	pix.load(":Resources/MainWindow/head_mask.png");
+	ui.headLabel->setPixmap(getRoundImage(QPixmap(headPath), pix, ui.headLabel->size()));
+
+
+}
+
+void CCMainWindow::setStatusMenuIcon(const QString & statusPath) { 
+	LOG_DEBUG(QString("设置状态路径：%1").arg(statusPath).toStdString());
+
+	QPixmap statusBtnPixmap(ui.statusBtn->size());		// 定义图片，并设置大小
+	statusBtnPixmap.fill(Qt::transparent);				// 图片填充为透明
+
+	QPainter painter(&statusBtnPixmap);					// 定义画家类，使用图片作为父类，即后面操作都是在图片上进行的
+	painter.drawPixmap(4, 4, QPixmap(statusPath));		// 画图，根据路径
+
+	ui.statusBtn->setIcon(statusBtnPixmap);				// 按钮设置图片
+	ui.statusBtn->setIconSize(ui.statusBtn->size());	// 按钮设置图片大小
+}
+
+QWidget * CCMainWindow::addOtherAppExtension(const QString & appPath, const QString appName) {
+	LOG_DEBUG(QString("CCMainWindow::addOtherAppExtension(%1, %2)").arg(appPath).arg(appName).toStdString());
+
+	QPushButton *btn = new QPushButton(this);
+	btn->setFixedSize(20, 20);
+	
+	QPixmap pixmap(btn->size());
+	pixmap.fill(Qt::transparent);
+
+	QPainter painter(&pixmap);
+	QPixmap appPixmap(appPath);
+	painter.drawPixmap((btn->width() - appPixmap.width()) / 2, (btn->height() - appPixmap.height()) / 2, appPixmap);
+	btn->setIcon(pixmap);
+	btn->setIconSize(btn->size());
+
+	btn->setObjectName(appName);
+	btn->setProperty("hasborder", true);
+
+	connect(btn, &QPushButton::clicked, this, &CCMainWindow::onAppIconClicked);
+
+	return btn;
+}
+
+
+
+void CCMainWindow::onAppIconClicked() {
+
 }
