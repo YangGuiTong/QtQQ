@@ -58,6 +58,15 @@
     <ClCompile Include="UserLogin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SkinWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QClickLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TitleBar.h">
@@ -72,6 +81,12 @@
     <QtMoc Include="UserLogin.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="SkinWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QClickLabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLogger.h">
@@ -80,9 +95,18 @@
     <ClInclude Include="CommonUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MyLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="public_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="UserLogin.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SkinWindow.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

@@ -3,6 +3,8 @@
 #include <QProxyStyle>
 #include <QPainter>
 
+#include "SkinWindow.h"
+
 class CustomProxyStayle : public QProxyStyle {
 public:
 	virtual void drawPrimitive(PrimitiveElement element, const QStyleOption *option, QPainter *painter,
@@ -20,7 +22,7 @@ CCMainWindow::CCMainWindow(QWidget *parent)
 	: BasicWindow(parent) {
 	ui.setupUi(this);
 
-	LOG_DEBUG("主窗体初始化");
+	MyLogDEBUG("主窗体初始化");
 
 	Qt::WindowFlags flag = windowFlags();
 	setWindowFlag(Qt::Tool);
@@ -64,11 +66,11 @@ void CCMainWindow::initControl() {
 }
 
 void CCMainWindow::setUserName(const QString & username) {
-	LOG_DEBUG(QString("设置用户名为：%1").arg(username).toStdString());
+	MyLogDEBUG(QString("设置用户名为：%1").arg(username).toUtf8());
 }
 
 void CCMainWindow::setLevePixmap(int level) {
-	LOG_DEBUG(QString("设置等级为：%1").arg(level).toStdString());
+	MyLogDEBUG(QString("设置等级为：%1").arg(level).toUtf8());
 
 	QPixmap levelPixmap(ui.levelBtn->size());
 	levelPixmap.fill(Qt::transparent);
@@ -90,7 +92,7 @@ void CCMainWindow::setLevePixmap(int level) {
 }
 
 void CCMainWindow::setHeadPixmap(const QString & headPath) {
-	LOG_DEBUG(QString("设置头像路径：%1").arg(headPath).toStdString());
+	MyLogDEBUG(QString("设置头像路径：%1").arg(headPath).toUtf8());
 
 	QPixmap pix;
 	pix.load(":Resources/MainWindow/head_mask.png");
@@ -100,7 +102,7 @@ void CCMainWindow::setHeadPixmap(const QString & headPath) {
 }
 
 void CCMainWindow::setStatusMenuIcon(const QString & statusPath) { 
-	LOG_DEBUG(QString("设置状态路径：%1").arg(statusPath).toStdString());
+	MyLogDEBUG(QString("设置状态路径：%1").arg(statusPath).toUtf8());
 
 	QPixmap statusBtnPixmap(ui.statusBtn->size());		// 定义图片，并设置大小
 	statusBtnPixmap.fill(Qt::transparent);				// 图片填充为透明
@@ -113,7 +115,7 @@ void CCMainWindow::setStatusMenuIcon(const QString & statusPath) {
 }
 
 QWidget * CCMainWindow::addOtherAppExtension(const QString & appPath, const QString appName) {
-	LOG_DEBUG(QString("CCMainWindow::addOtherAppExtension(%1, %2)").arg(appPath).arg(appName).toStdString());
+	MyLogDEBUG(QString("生成按钮返回 (%1, %2)").arg(appPath).arg(appName).toUtf8());
 
 	QPushButton *btn = new QPushButton(this);
 	btn->setFixedSize(20, 20);
@@ -138,5 +140,46 @@ QWidget * CCMainWindow::addOtherAppExtension(const QString & appPath, const QStr
 
 
 void CCMainWindow::onAppIconClicked() {
+
+	// 判断信号发送者的对象名是否是app_skin
+	if (sender()->objectName() == "app_skin") {
+		MyLogDEBUG(QString("皮肤按钮被点击").toUtf8());
+
+		SkinWindow *skinWindow = new SkinWindow;
+		skinWindow->show();
+	
+	} else if (sender()->objectName() == "app_2") {
+		MyLogDEBUG(QString("QQ空间按钮被点击").toUtf8());
+
+	} else if (sender()->objectName() == "app_3") {
+		MyLogDEBUG(QString("腾讯新闻按钮被点击").toUtf8());
+
+	} else if (sender()->objectName() == "app_4") {
+		MyLogDEBUG(QString("购物按钮被点击").toUtf8());
+
+	} else if (sender()->objectName() == "app_5") {
+		MyLogDEBUG(QString("花环按钮被点击").toUtf8());
+
+	} else if (sender()->objectName() == "app_6") {
+		MyLogDEBUG(QString("体育按钮被点击").toUtf8());
+
+	} else if (sender()->objectName() == "app_7") {
+		MyLogDEBUG(QString("网络按钮被点击").toUtf8());
+
+	} else if (sender()->objectName() == "app_8") {
+		MyLogDEBUG(QString("游戏按钮被点击").toUtf8());
+
+	} else if (sender()->objectName() == "app_9") {
+		MyLogDEBUG(QString("雨伞按钮被点击").toUtf8());
+
+	} else if (sender()->objectName() == "app_10") {
+		MyLogDEBUG(QString("云按钮被点击").toUtf8());
+
+	} else if (sender()->objectName() == "app_11") {
+		MyLogDEBUG(QString("QQ农场按钮被点击").toUtf8());
+
+	} else {
+		MyLogERROR(QString("未识别按钮类型。。。").toUtf8());
+	}
 
 }

@@ -3,7 +3,6 @@
 #include <QtWidgets/QWidget>
 #include "ui_CCMainWindow.h"
 
-#include "MyLogger.h"
 #include "BasicWindow.h"
 
 class CCMainWindow : public BasicWindow

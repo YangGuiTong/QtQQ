@@ -1,0 +1,614 @@
+2024-01-07 12:08:59 [DEBUG] [main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 12:09:39 [DEBUG] [main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 12:09:39 [DEBUG] [main][39]: 中文测试
+2024-01-07 12:11:19.123 [DEBUG] [main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 12:11:19.124 [DEBUG] [main][39]: 中文测试
+2024-01-07 12:13:29.209 [DEBUG] [main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 12:13:31.082 [DEBUG] [CCMainWindow::CCMainWindow][23]: 主窗体初始化
+2024-01-07 12:23:33.084 [DEBUG] [main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 12:23:33.084 [DEBUG] [CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 12:23:33.152 [DEBUG] [TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 12:23:33.159 [DEBUG] [BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 12:23:33.159 [DEBUG] [UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 12:23:34.921 [DEBUG] [UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 12:23:34.924 [DEBUG] [CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 12:23:34.932 [DEBUG] [CCMainWindow::CCMainWindow][23]: 主窗体初始化
+2024-01-07 12:23:34.948 [DEBUG] [BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 12:23:34.954 [DEBUG] [CCMainWindow::setLevePixmap][71]: 设置等级为：17
+2024-01-07 12:23:34.955 [DEBUG] [CCMainWindow::setHeadPixmap][93]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 12:23:34.975 [DEBUG] [CCMainWindow::setStatusMenuIcon][103]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 12:23:34.976 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 12:23:34.976 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 12:23:34.977 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 12:23:34.977 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 12:23:34.978 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 12:23:34.978 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 12:23:34.978 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 12:23:34.979 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 12:23:34.979 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 12:23:34.980 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 12:23:34.980 [DEBUG] [CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 13:33:49.555[DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 13:33:49.556[DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:33:49.922[DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 13:33:49.929[DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 13:33:49.929[DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 13:33:51.071[DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 13:33:51.075[DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:33:51.083[DEBUG][CCMainWindow::CCMainWindow][23]: 主窗体初始化
+2024-01-07 13:33:51.099[DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:33:51.104[DEBUG][CCMainWindow::setLevePixmap][71]: 设置等级为：17
+2024-01-07 13:33:51.104[DEBUG][CCMainWindow::setHeadPixmap][93]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 13:33:51.124[DEBUG][CCMainWindow::setStatusMenuIcon][103]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 13:33:51.125[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 13:33:51.126[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 13:33:51.126[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 13:33:51.127[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 13:33:51.127[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 13:33:51.128[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 13:33:51.128[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 13:33:51.129[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 13:33:51.129[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 13:33:51.130[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 13:33:51.131[DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 13:33:52.769[DEBUG][CCMainWindow::onAppIconClicked][141]: 按钮被点击
+2024-01-07 13:34:27.787 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 13:34:27.787 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:34:27.860 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 13:34:27.868 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 13:34:27.868 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 13:34:29.042 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 13:34:29.047 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:34:29.056 [DEBUG][CCMainWindow::CCMainWindow][23]: 主窗体初始化
+2024-01-07 13:34:29.074 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:34:29.082 [DEBUG][CCMainWindow::setLevePixmap][71]: 设置等级为：17
+2024-01-07 13:34:29.083 [DEBUG][CCMainWindow::setHeadPixmap][93]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 13:34:29.104 [DEBUG][CCMainWindow::setStatusMenuIcon][103]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 13:34:29.104 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 13:34:29.105 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 13:34:29.105 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 13:34:29.106 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 13:34:29.106 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 13:34:29.107 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 13:34:29.107 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 13:34:29.108 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 13:34:29.108 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 13:34:29.109 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 13:34:29.109 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 13:50:38.063 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 13:50:38.064 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:50:38.116 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 13:50:38.122 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 13:50:38.122 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 13:50:39.554 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 13:50:39.558 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:50:39.565 [DEBUG][CCMainWindow::CCMainWindow][23]: 主窗体初始化
+2024-01-07 13:50:39.580 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:50:39.585 [DEBUG][CCMainWindow::setLevePixmap][71]: 设置等级为：17
+2024-01-07 13:50:39.586 [DEBUG][CCMainWindow::setHeadPixmap][93]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 13:50:39.604 [DEBUG][CCMainWindow::setStatusMenuIcon][103]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 13:50:39.605 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 13:50:39.605 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 13:50:39.606 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 13:50:39.606 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 13:50:39.607 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 13:50:39.608 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 13:50:39.608 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 13:50:39.609 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 13:50:39.610 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 13:50:39.610 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 13:50:39.611 [DEBUG][CCMainWindow::addOtherAppExtension][116]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 13:50:40.504 [DEBUG][CCMainWindow::onAppIconClicked][141]: 按钮被点击
+2024-01-07 13:50:40.656 [DEBUG][CCMainWindow::onAppIconClicked][141]: 按钮被点击
+2024-01-07 13:50:40.812 [DEBUG][CCMainWindow::onAppIconClicked][141]: 按钮被点击
+2024-01-07 13:50:40.947 [DEBUG][CCMainWindow::onAppIconClicked][141]: 按钮被点击
+2024-01-07 13:54:49.895 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 13:54:49.896 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:54:49.959 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 13:54:49.969 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 13:54:49.969 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 13:54:51.563 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 13:54:51.566 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:54:51.575 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 13:54:51.593 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:54:51.598 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 13:54:51.598 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 13:54:51.618 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 13:54:51.618 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 13:54:51.619 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 13:54:51.619 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 13:54:51.620 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 13:54:51.620 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 13:54:51.621 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 13:54:51.622 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 13:54:51.622 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 13:54:51.623 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 13:54:51.623 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 13:54:51.624 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 13:54:52.928 [DEBUG][CCMainWindow::onAppIconClicked][147]: 皮肤按钮被点击
+2024-01-07 13:54:52.928 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:57:21.238 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 13:57:21.239 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:57:21.291 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 13:57:21.301 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 13:57:21.301 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 13:57:24.077 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 13:57:24.081 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:57:24.089 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 13:57:24.104 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:57:24.110 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 13:57:24.110 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 13:57:24.130 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 13:57:24.131 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 13:57:24.132 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 13:57:24.132 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 13:57:24.133 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 13:57:24.134 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 13:57:24.134 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 13:57:24.135 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 13:57:24.135 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 13:57:24.136 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 13:57:24.137 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 13:57:24.137 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 13:57:25.602 [DEBUG][CCMainWindow::onAppIconClicked][147]: 皮肤按钮被点击
+2024-01-07 13:57:25.603 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:57:25.603 [DEBUG][SkinWindow::initControl][17]: 初始化皮肤页面
+2024-01-07 13:58:34.884 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 13:58:34.885 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:58:34.946 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 13:58:34.952 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 13:58:34.952 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 13:58:36.083 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 13:58:36.086 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:58:36.092 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 13:58:36.107 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:36.114 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 13:58:36.115 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 13:58:36.136 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 13:58:36.136 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 13:58:36.137 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 13:58:36.137 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 13:58:36.138 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 13:58:36.138 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 13:58:36.139 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 13:58:36.139 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 13:58:36.140 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 13:58:36.140 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 13:58:36.141 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 13:58:36.141 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 13:58:37.192 [DEBUG][CCMainWindow::onAppIconClicked][147]: 皮肤按钮被点击
+2024-01-07 13:58:37.192 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,0,221);
+2024-01-07 13:58:37.192 [DEBUG][SkinWindow::initControl][17]: 初始化皮肤页面
+2024-01-07 13:58:37.918 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:37.919 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:37.921 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:37.921 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:37.921 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：40，138，221 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:38.442 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:38.442 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:38.442 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:38.442 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:38.442 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：49，166，107 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:38.955 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:38.956 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:38.956 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:38.956 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:38.956 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：218，67，68 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:39.311 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:39.311 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:39.311 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:39.311 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:39.311 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：40，138，221 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:40.038 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:40.038 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:40.039 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:40.039 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:40.039 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：107，81，92 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:40.512 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:40.512 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:40.512 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:40.512 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:40.512 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：155，183，154 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:41.049 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:41.049 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:41.049 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:41.049 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:41.049 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：79，169，172 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:41.449 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:41.449 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:41.449 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:41.449 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:41.449 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：177，99，158 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:41.758 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:41.758 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:41.758 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:41.758 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:41.758 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：22，154，218 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:42.638 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:42.638 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:42.638 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:42.638 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:42.638 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：40，138，221 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:43.478 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:43.478 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:43.478 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:43.478 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:43.478 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：49，166，107 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:43.758 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:43.758 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:43.758 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:43.758 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:43.758 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：89，92，160 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:58:44.167 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:58:44.167 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:44.167 [DEBUG][BasicWindow::loadStyleSheet][84]: BasicWindow::loadStyleSheet 打开样式文件 :/Resources/QSS/.css 失败
+2024-01-07 13:58:44.167 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:58:44.167 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：21，156，199 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:59:20.357 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 13:59:20.358 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2024-01-07 13:59:20.491 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 13:59:20.499 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 13:59:20.499 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 13:59:21.711 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 13:59:21.716 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2024-01-07 13:59:21.724 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 13:59:21.738 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:59:21.744 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 13:59:21.744 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 13:59:21.764 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 13:59:21.765 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 13:59:21.765 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 13:59:21.766 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 13:59:21.768 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 13:59:21.769 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 13:59:21.770 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 13:59:21.771 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 13:59:21.772 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 13:59:21.772 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 13:59:21.773 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 13:59:21.774 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 13:59:23.529 [DEBUG][CCMainWindow::onAppIconClicked][147]: 皮肤按钮被点击
+2024-01-07 13:59:23.529 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,0,199);
+2024-01-07 13:59:23.530 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 13:59:23.530 [DEBUG][SkinWindow::initControl][19]: 初始化皮肤页面
+2024-01-07 13:59:36.725 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:59:36.726 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:59:36.732 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 13:59:36.732 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:59:36.732 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：89，92，160 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 13:59:40.755 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 13:59:40.756 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(89,0,160);
+2024-01-07 13:59:40.843 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 13:59:40.849 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 13:59:40.849 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 13:59:42.893 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 13:59:42.897 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(89,0,160);
+2024-01-07 13:59:42.905 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 13:59:42.920 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:59:42.925 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 13:59:42.926 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 13:59:42.947 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 13:59:42.947 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 13:59:42.948 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 13:59:42.948 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 13:59:42.949 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 13:59:42.949 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 13:59:42.950 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 13:59:42.950 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 13:59:42.951 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 13:59:42.951 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 13:59:42.952 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 13:59:42.953 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 13:59:45.839 [DEBUG][CCMainWindow::onAppIconClicked][147]: 皮肤按钮被点击
+2024-01-07 13:59:45.839 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(89,0,160);
+2024-01-07 13:59:45.841 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 13:59:45.841 [DEBUG][SkinWindow::initControl][19]: 初始化皮肤页面
+2024-01-07 13:59:48.075 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 13:59:48.075 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:59:48.082 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 13:59:48.082 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 13:59:48.082 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：240，188，189 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:14.084 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:02:14.085 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(240,0,189);
+2024-01-07 14:02:14.153 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:02:14.162 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:02:14.162 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:02:15.962 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:02:15.966 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(240,0,189);
+2024-01-07 14:02:15.973 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 14:02:15.988 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:15.994 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 14:02:15.994 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:02:16.014 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:02:16.014 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:02:16.015 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:02:16.015 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:02:16.016 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:02:16.016 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:02:16.017 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:02:16.017 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:02:16.018 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:02:16.018 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:02:16.019 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:02:16.020 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:02:17.243 [DEBUG][CCMainWindow::onAppIconClicked][147]: 皮肤按钮被点击
+2024-01-07 14:02:17.244 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(240,0,189);
+2024-01-07 14:02:17.245 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:17.245 [DEBUG][SkinWindow::initControl][19]: 初始化皮肤页面
+2024-01-07 14:02:22.256 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:22.256 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:22.265 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:22.265 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:22.265 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：240，188，189 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:22.952 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:22.952 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:22.958 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:22.958 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:22.958 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：21，156，199 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:23.274 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:23.274 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:23.281 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:23.281 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:23.282 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：89，92，160 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:23.619 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:23.619 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:23.628 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:23.628 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:23.628 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：49，166，107 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:23.987 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:23.987 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:23.993 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:23.993 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:23.993 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：218，67，68 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:24.412 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:24.412 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:24.418 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:24.418 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:24.418 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：177，99，158 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:24.838 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:24.838 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:24.844 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:24.844 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:24.844 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：22，154，218 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:25.210 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:25.210 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:25.218 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:25.218 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:25.218 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：40，138，221 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:25.603 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:25.604 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:25.610 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:25.610 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:25.610 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：107，81，92 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:25.987 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:25.987 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:25.997 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:25.998 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:25.998 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：155，183，154 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:26.312 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:26.312 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:26.320 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:26.320 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:26.320 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：79，169，172 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:26.758 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:26.758 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:26.764 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:26.764 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:26.764 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：128，77，77 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:27.123 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:27.123 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:27.129 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:27.129 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:27.129 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：89，92，160 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:27.440 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:27.440 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:27.448 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:27.449 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:27.449 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：21，156，199 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:27.724 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:27.724 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:27.731 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:27.731 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:27.731 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：218，67，68 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:02:27.938 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:02:27.938 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:27.944 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:02:27.944 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:02:27.944 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：49，166，107 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:04:43.433 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:04:43.434 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(49,0,107);
+2024-01-07 14:04:43.484 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:04:43.493 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:04:43.493 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:04:46.571 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:04:46.574 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(49,0,107);
+2024-01-07 14:04:46.581 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 14:04:46.597 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:04:46.603 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 14:04:46.604 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:04:46.622 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:04:46.623 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:04:46.623 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:04:46.624 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:04:46.624 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:04:46.624 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:04:46.625 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:04:46.625 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:04:46.626 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:04:46.627 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:04:46.627 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:04:46.627 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:04:49.302 [DEBUG][CCMainWindow::onAppIconClicked][147]: 皮肤按钮被点击
+2024-01-07 14:04:49.302 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(49,0,107);
+2024-01-07 14:04:49.304 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:04:49.304 [DEBUG][SkinWindow::initControl][19]: 初始化皮肤页面
+2024-01-07 14:04:51.220 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:04:51.220 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:04:51.226 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:04:51.226 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:04:51.226 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：218，67，68 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:25:16.485 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:25:16.485 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(218,0,68);
+2024-01-07 14:25:16.551 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:25:16.558 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:25:16.558 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:25:17.910 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:25:17.914 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(218,0,68);
+2024-01-07 14:25:17.922 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 14:25:17.938 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:25:17.943 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 14:25:17.944 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:25:17.964 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:25:17.964 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:25:17.965 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:25:17.965 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:25:17.966 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:25:17.966 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:25:17.967 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:25:17.967 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:25:17.968 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:25:17.968 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:25:17.969 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:25:17.969 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:25:22.418 [DEBUG][CCMainWindow::onAppIconClicked][152]: QQ控件按钮被点击
+2024-01-07 14:25:24.024 [DEBUG][CCMainWindow::onAppIconClicked][179]: QQ农村按钮被点击
+2024-01-07 14:27:15.440 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:27:15.441 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(218,0,68);
+2024-01-07 14:27:15.561 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:27:15.581 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:27:15.581 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:27:51.200 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:27:51.203 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(218,0,68);
+2024-01-07 14:27:51.211 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 14:27:51.226 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:27:51.232 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 14:27:51.232 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:27:51.251 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:27:51.251 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:27:51.252 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:27:51.253 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:27:51.253 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:27:51.254 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:27:51.254 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:27:51.254 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:27:51.255 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:27:51.256 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:27:51.256 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:27:51.257 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:27:52.763 [DEBUG][CCMainWindow::onAppIconClicked][146]: 皮肤按钮被点击
+2024-01-07 14:27:52.763 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(218,0,68);
+2024-01-07 14:27:52.765 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:27:52.765 [DEBUG][SkinWindow::initControl][19]: 初始化皮肤页面
+2024-01-07 14:27:53.550 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:27:53.550 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:27:53.556 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:27:53.556 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:27:53.556 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：40，138，221 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:27:55.631 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:27:55.631 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:27:55.637 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:27:55.637 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:27:55.638 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：22，154，218 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:28:40.511 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:28:40.512 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,0,218);
+2024-01-07 14:28:40.563 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:28:40.569 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:28:40.569 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:28:43.031 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:28:43.035 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,0,218);
+2024-01-07 14:28:43.043 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 14:28:43.058 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:28:43.064 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 14:28:43.064 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:28:43.084 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:28:43.084 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:28:43.085 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:28:43.086 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:28:43.086 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:28:43.087 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:28:43.087 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:28:43.087 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:28:43.088 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:28:43.088 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:28:43.089 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:28:43.089 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:28:44.727 [DEBUG][CCMainWindow::onAppIconClicked][146]: 皮肤按钮被点击
+2024-01-07 14:28:44.727 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,0,218);
+2024-01-07 14:28:44.729 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:28:44.729 [DEBUG][SkinWindow::initControl][19]: 初始化皮肤页面
+2024-01-07 14:28:46.589 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:28:46.589 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:28:46.598 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:28:46.598 [DEBUG][BasicWindow::onSingalSkinChanged][30]: 颜色切换
+2024-01-07 14:28:46.599 [DEBUG][CommonUtils::setDefaultSkinColor][60]: CommonUtils::setDefaultSkinColor 颜色：22，154，218 写入文件 E:/git_my_demo/graduation_project/QT_QQ/QtQQ/x64/Debug/tradeprintinfo.ini
+2024-01-07 14:28:51.255 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:28:51.256 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,0,218);
+2024-01-07 14:28:51.319 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:28:51.328 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:28:51.328 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:31:06.242 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:31:26.925 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:31:26.926 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:31:27.071 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:31:27.090 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:31:27.090 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:31:38.511 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:31:38.515 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:31:38.523 [DEBUG][CCMainWindow::CCMainWindow][25]: 主窗体初始化
+2024-01-07 14:31:38.540 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:31:38.545 [DEBUG][CCMainWindow::setLevePixmap][73]: 设置等级为：17
+2024-01-07 14:31:38.546 [DEBUG][CCMainWindow::setHeadPixmap][95]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:31:38.565 [DEBUG][CCMainWindow::setStatusMenuIcon][105]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:31:38.565 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:31:38.566 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:31:38.566 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:31:38.567 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:31:38.567 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:31:38.568 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:31:38.569 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:31:38.570 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:31:38.570 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:31:38.571 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:31:38.571 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)

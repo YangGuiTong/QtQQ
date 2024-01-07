@@ -27,7 +27,7 @@ void BasicWindow::onSingalSkinChanged(const QColor &color) {
 	m_colorBackGround = color;
 	loadStyleSheet(m_styleName);
 
-	LOG_DEBUG("颜色切换");
+	MyLogDEBUG("颜色切换");
 }
 
 void BasicWindow::setTitleBarTitle(const QString &title, const QString &icon) {
@@ -76,20 +76,18 @@ void BasicWindow::loadStyleSheet(const QString &sheetName) {
 
 		setStyleSheet(qsstyleSheet);
 
-		//LOG_DEBUG(qsstyleSheet.toStdString());
-		LOG_DEBUG(QString("BasicWindow::loadStyleSheet 加载样式文件 %1 成功").arg(filePath).toStdString());
+		MyLogDEBUG(QString("BasicWindow::loadStyleSheet 加载样式文件 %1 成功").arg(filePath).toUtf8());
 
 		file.close();
 	}
 	else {
-		LOG_DEBUG(QString("BasicWindow::loadStyleSheet 打开样式文件 %1 失败").arg(filePath).toStdString());
+		MyLogDEBUG(QString("BasicWindow::loadStyleSheet 打开样式文件 %1 失败").arg(filePath).toUtf8());
 	}
 }
 
 
 // 初始化背景颜色
 void BasicWindow::initBackGroundColor() {
-	//LOG_DEBUG("初始化背景色");
 	QStyleOption opt;
 	opt.init(this);
 
@@ -188,7 +186,7 @@ void BasicWindow::onButtonRestoreClicked() {
 }
 
 void BasicWindow::onButtonCloseClicked() {
-	LOG_DEBUG("用户主动关闭登录窗口");
+	MyLogDEBUG("用户主动关闭登录窗口");
 	close();
 }
 

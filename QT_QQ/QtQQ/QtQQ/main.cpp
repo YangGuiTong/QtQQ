@@ -17,17 +17,29 @@ int main(int argc, char *argv[])
 	char path[1024] = { 0 };
 	GetModuleFileNameA(NULL, path, MAX_PATH);		// 获取到完整路径，如：E:\Tools\qq.exe
 	*strrchr(path, '\\') = '\0';					// 截取路径，如：E:\Tools
-	std::string logFilePath = path;
-	logFilePath += "\\config\\log.conf";
+	//std::string logFilePath = path;
+	//logFilePath += "\\config\\log.conf";
+	std::string logPath = path;
+	logPath += "\\log\\Qt_QQ";
+	
 
-	qDebug() << QString::fromStdString(logFilePath);
-	if (!MyLogger::instance()->init(logFilePath)) {
+	//qDebug() << QString::fromStdString(logFilePath);
+	//if (!MyLogger::instance()->init(logFilePath)) {
+	//	fprintf(stderr, "init log module failed.\n");
+	//	return -1;
+	//}
+
+
+	if (!MyLog::init(logPath, true)) {
 		fprintf(stderr, "init log module failed.\n");
 		return -1;
 	}
 
+	MyLogDEBUG("\n\n------------------------------------------------------------------------------------------------------");
 
-	LOG_DEBUG("\n\n------------------------------------------------------------------------------------------------------");
+
+	a.setQuitOnLastWindowClosed(false);
+
 
 	UserLogin *userLogin = new UserLogin;
 	userLogin->show();

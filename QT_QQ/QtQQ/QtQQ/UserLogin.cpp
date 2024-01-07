@@ -21,6 +21,8 @@ UserLogin::~UserLogin() { }
 
 
 void UserLogin::initControl() {
+	MyLogDEBUG(QString("登录窗口初始化").toUtf8());
+
 	QLabel *headlabel = new QLabel(this);
 	headlabel->setFixedSize(68, 68);
 	QPixmap pix(QStringLiteral(":/Resources/MainWindow/head_mask.png"));
@@ -33,6 +35,7 @@ void UserLogin::initControl() {
 
 
 void UserLogin::onLoginBtnClicked() {
+	MyLogDEBUG(QString("登录按钮被按下！").toUtf8());
 
 	bool isAccountLogin;
 	QString strAccount;	// 账号或QQ号

@@ -216,11 +216,11 @@ void TitleBar::loadStyleSheet(const QString &sheetName) {
 
 		setStyleSheet(styleSheet);
 
-		LOG_DEBUG(QString("TitleBar::loadStyleSheet 加载样式文件 %1 成功").arg(filePath).toStdString());
+		MyLogDEBUG(QString("TitleBar::loadStyleSheet 加载样式文件 %1 成功").arg(filePath).toUtf8());
 
 		file.close();
 	} else {
-		LOG_DEBUG(QString("TitleBar::loadStyleSheet 打开样式文件 %1 失败").arg(filePath).toStdString());
+		MyLogDEBUG(QString("TitleBar::loadStyleSheet 打开样式文件 %1 失败").arg(filePath).toUtf8());
 	}
 }
 

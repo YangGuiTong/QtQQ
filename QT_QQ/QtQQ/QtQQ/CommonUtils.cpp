@@ -17,6 +17,8 @@ QPixmap CommonUtils::getRoundImage(const QPixmap &src, QPixmap &mask, QSize mask
 		mask = mask.scaled(masksize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
 	}
 
+	MyLogDEBUG(QString("CommonUtils::getRoundImage 生成圆头像.").toUtf8());
+
 	QImage resultImage(masksize, QImage::Format_ARGB32_Premultiplied);
 	QPainter painter(&resultImage);
 	painter.setCompositionMode(QPainter::CompositionMode_Source);
@@ -39,10 +41,10 @@ void CommonUtils::loadStyleSheet(QWidget *widget, const QString &sheetName) {
 		QString qsstyleSheet = QLatin1Literal(file.readAll());
 		widget->setStyleSheet(qsstyleSheet);
 		file.close();
-		LOG_DEBUG(QString("CommonUtils::loadStyleSheet 加载样式文件 %1.css 成功").arg(sheetName).toStdString());
+		MyLogDEBUG(QString("加载样式文件 %1.css 成功").arg(sheetName).toUtf8());
 	
 	} else {
-		LOG_DEBUG(QString("CommonUtils::loadStyleSheet 加载样式文件 %1.css 失败").arg(sheetName).toStdString());
+		MyLogDEBUG(QString("加载样式文件 %1.css 失败").arg(sheetName).toUtf8());
 	}
 }
 
@@ -53,6 +55,9 @@ void CommonUtils::setDefaultSkinColor(const QColor &color) {
 	settings.setValue(QStringLiteral("DefaultSkin/red"), color.red());
 	settings.setValue(QStringLiteral("DefaultSkin/green"), color.green());
 	settings.setValue(QStringLiteral("DefaultSkin/blue"), color.blue());
+
+	QString logTxt = QString("CommonUtils::setDefaultSkinColor 颜色：%1，%2，%3 写入文件 %5").arg(color.red()).arg(color.green()).arg(color.blue()).arg(path);
+	MyLogDEBUG(logTxt.toUtf8());
 }
 
 QColor CommonUtils::getDefaultSkinColor() {
@@ -65,18 +70,18 @@ QColor CommonUtils::getDefaultSkinColor() {
 		color.setGreen(154);
 		color.setBlue(218);
 
-		LOG_DEBUG("读取tradeprintinfo.ini文件失败，使用默认指定颜色：rgb(22,154,218);");
+		MyLogDEBUG("读取tradeprintinfo.ini文件失败，使用默认指定颜色：rgb(22,154,218);");
 
 	} else {
 		QSettings settings(path, QSettings::IniFormat);
 		int r = settings.value(QStringLiteral("DefaultSkin/red")).toInt();
-		int g = settings.value(QStringLiteral("Default/green")).toInt();
+		int g = settings.value(QStringLiteral("DefaultSkin/green")).toInt();
 		int b = settings.value(QStringLiteral("DefaultSkin/blue")).toInt();
 		color.setRed(r);
 		color.setGreen(g);
 		color.setBlue(b);
 
-		LOG_DEBUG(QString("读取tradeprintinfo.ini文件存储背景颜色为：rgb(%1,%2,%3);").arg(r).arg(g).arg(b).toStdString());
+		MyLogDEBUG(QString("读取tradeprintinfo.ini文件存储背景颜色为：rgb(%1,%2,%3);").arg(r).arg(g).arg(b).toUtf8());
 	}
 
 	return color;
