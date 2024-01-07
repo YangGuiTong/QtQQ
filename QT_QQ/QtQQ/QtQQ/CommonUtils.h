@@ -7,8 +7,6 @@
 #include "public_type.h"
 
 
-#pragma execution_character_set("utf-8") // qt支持显示中文
-
 // 改变系统默认的部件风格
 class CustomProxyStyle : public QProxyStyle {
 

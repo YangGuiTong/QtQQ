@@ -125,23 +125,28 @@ QPixmap BasicWindow::getRoundImage(const QPixmap &src, QPixmap &mask, QSize mask
 }
 
 void BasicWindow::onShowClose(bool) {
+	MyLogDEBUG("用户点击关闭按钮");
 	close();
 }
 
 void BasicWindow::onShowMin(bool) {
+	MyLogDEBUG("用户点击最小化按钮");
 	showMinimized();
 }
 
 void BasicWindow::onShowHide(bool) {
+	MyLogDEBUG("用户点击隐藏按钮");
 	hide();
 }
 
 void BasicWindow::onShowNormal(bool) {
+	MyLogDEBUG("窗口恢复正常显示");
 	show();
 	activateWindow();
 }
 
 void BasicWindow::onShowQuit(bool) {
+	MyLogDEBUG("用户点击退出按钮");
 	QApplication::quit();
 }
 

@@ -46,7 +46,7 @@ void SkinWindow::initControl() {
 		}
 	}
 
-	connect(ui.sysmin, SIGNAL(clicked()), this, SLOT(onShowMin()));
+	connect(ui.sysmin, SIGNAL(clicked(bool)), this, SLOT(onShowMin(bool)));
 	connect(ui.sysclose, SIGNAL(clicked()), this, SLOT(onShowClose()));
 }
 

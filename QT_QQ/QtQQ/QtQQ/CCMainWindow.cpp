@@ -2,8 +2,10 @@
 
 #include <QProxyStyle>
 #include <QPainter>
+#include <QTimer>
 
 #include "SkinWindow.h"
+#include "SysTray.h"
 
 class CustomProxyStayle : public QProxyStyle {
 public:
@@ -29,6 +31,7 @@ CCMainWindow::CCMainWindow(QWidget *parent)
 	loadStyleSheet(QStringLiteral("CCMainWindow"));
 
 	initControl();
+	initTimer();
 }
 
 CCMainWindow::~CCMainWindow() {
@@ -36,7 +39,25 @@ CCMainWindow::~CCMainWindow() {
 
 }
 
-void CCMainWindow::initControl() { 
+void CCMainWindow::initTimer() {
+
+	QTimer *timer = new QTimer(this);
+	timer->setInterval(60000);
+
+	connect(timer, &QTimer::timeout, [this]() {
+		static int level = 1;
+		if (99 == level) {
+			level = 0;
+		}
+		level++;
+
+		setLevePixmap(level);
+	});
+
+	timer->start();
+}
+
+void CCMainWindow::initControl() {
 	// 树获取焦点时不绘制边框
 	ui.treeWidget->setStyle(new CustomProxyStayle());
 
@@ -62,6 +83,13 @@ void CCMainWindow::initControl() {
 	ui.bottomLayout_up->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_11.png", "app_11"));
 	ui.bottomLayout_up->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_9.png", "app_9"));
 	ui.bottomLayout_up->addStretch();
+
+
+	connect(ui.sysmin, SIGNAL(clicked(bool)), this, SLOT(onShowHide(bool)));
+	connect(ui.sysclose, SIGNAL(clicked(bool)), this, SLOT(onShowClose(bool)));
+
+
+	SysTray *systray = new SysTray(this);
 
 }
 

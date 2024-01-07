@@ -612,3 +612,621 @@
 2024-01-07 14:31:38.570 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
 2024-01-07 14:31:38.571 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
 2024-01-07 14:31:38.571 [DEBUG][CCMainWindow::addOtherAppExtension][118]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:44:43.944 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:44:43.945 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:44:44.006 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:44:44.013 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:44:44.013 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:44:45.797 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:44:45.801 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:44:45.808 [DEBUG][CCMainWindow::CCMainWindow][26]: 主窗体初始化
+2024-01-07 14:44:45.825 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:44:45.830 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：17
+2024-01-07 14:44:45.831 [DEBUG][CCMainWindow::setHeadPixmap][115]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:44:45.852 [DEBUG][CCMainWindow::setStatusMenuIcon][125]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:44:45.853 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:44:45.853 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:44:45.854 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:44:45.854 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:44:45.855 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:44:45.855 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:44:45.856 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:44:45.856 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:44:45.857 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:44:45.857 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:44:45.858 [DEBUG][CCMainWindow::addOtherAppExtension][138]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:44:46.362 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：2
+2024-01-07 14:44:46.863 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：3
+2024-01-07 14:44:47.371 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：4
+2024-01-07 14:44:47.867 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：5
+2024-01-07 14:44:48.365 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：6
+2024-01-07 14:44:48.874 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：7
+2024-01-07 14:44:49.362 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：8
+2024-01-07 14:44:49.868 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：9
+2024-01-07 14:44:50.368 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：10
+2024-01-07 14:44:50.875 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：11
+2024-01-07 14:44:51.370 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：12
+2024-01-07 14:44:51.865 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：13
+2024-01-07 14:44:52.360 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：14
+2024-01-07 14:44:52.861 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：15
+2024-01-07 14:44:53.361 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：16
+2024-01-07 14:44:53.868 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：17
+2024-01-07 14:44:54.367 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：18
+2024-01-07 14:44:54.865 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：19
+2024-01-07 14:44:55.363 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：20
+2024-01-07 14:44:55.867 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：21
+2024-01-07 14:44:56.364 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：22
+2024-01-07 14:44:56.861 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：23
+2024-01-07 14:44:57.370 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：24
+2024-01-07 14:44:57.865 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：25
+2024-01-07 14:44:58.360 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：26
+2024-01-07 14:44:58.868 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：27
+2024-01-07 14:44:59.361 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：28
+2024-01-07 14:44:59.870 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：29
+2024-01-07 14:45:00.375 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：30
+2024-01-07 14:45:00.865 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：31
+2024-01-07 14:45:01.360 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：32
+2024-01-07 14:45:01.864 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：33
+2024-01-07 14:45:02.363 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：34
+2024-01-07 14:45:02.872 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：35
+2024-01-07 14:45:03.366 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：36
+2024-01-07 14:45:03.874 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：37
+2024-01-07 14:45:04.367 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：38
+2024-01-07 14:45:04.864 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：39
+2024-01-07 14:45:05.363 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：40
+2024-01-07 14:45:05.867 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：41
+2024-01-07 14:45:06.363 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：42
+2024-01-07 14:45:06.875 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：43
+2024-01-07 14:45:07.365 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：44
+2024-01-07 14:45:07.866 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：45
+2024-01-07 14:45:08.361 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：46
+2024-01-07 14:45:08.870 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：47
+2024-01-07 14:45:09.368 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：48
+2024-01-07 14:45:09.871 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：49
+2024-01-07 14:45:10.370 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：50
+2024-01-07 14:45:10.872 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：51
+2024-01-07 14:45:11.370 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：52
+2024-01-07 14:45:11.863 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：53
+2024-01-07 14:45:12.363 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：54
+2024-01-07 14:45:12.862 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：55
+2024-01-07 14:45:13.369 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：56
+2024-01-07 14:45:13.867 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：57
+2024-01-07 14:45:14.363 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：58
+2024-01-07 14:45:14.872 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：59
+2024-01-07 14:45:15.370 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：60
+2024-01-07 14:45:15.866 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：61
+2024-01-07 14:45:16.361 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：62
+2024-01-07 14:45:16.871 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：63
+2024-01-07 14:45:17.367 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：64
+2024-01-07 14:45:17.861 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：65
+2024-01-07 14:45:18.373 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：66
+2024-01-07 14:45:18.866 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：67
+2024-01-07 14:45:19.363 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：68
+2024-01-07 14:45:19.874 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：69
+2024-01-07 14:45:20.371 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：70
+2024-01-07 14:45:20.868 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：71
+2024-01-07 14:45:21.366 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：72
+2024-01-07 14:45:21.862 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：73
+2024-01-07 14:45:22.362 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：74
+2024-01-07 14:45:22.873 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：75
+2024-01-07 14:45:23.370 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：76
+2024-01-07 14:45:23.868 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：77
+2024-01-07 14:45:24.367 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：78
+2024-01-07 14:45:24.863 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：79
+2024-01-07 14:45:25.373 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：80
+2024-01-07 14:45:25.866 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：81
+2024-01-07 14:45:26.365 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：82
+2024-01-07 14:45:26.860 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：83
+2024-01-07 14:45:27.371 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：84
+2024-01-07 14:45:27.865 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：85
+2024-01-07 14:45:28.364 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：86
+2024-01-07 14:45:28.867 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：87
+2024-01-07 14:45:29.374 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：88
+2024-01-07 14:45:29.872 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：89
+2024-01-07 14:45:30.370 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：90
+2024-01-07 14:45:30.866 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：91
+2024-01-07 14:45:31.372 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：92
+2024-01-07 14:45:31.871 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：93
+2024-01-07 14:45:32.366 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：94
+2024-01-07 14:45:32.865 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：95
+2024-01-07 14:45:33.362 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：96
+2024-01-07 14:45:33.873 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：97
+2024-01-07 14:45:34.373 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：98
+2024-01-07 14:45:34.864 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：99
+2024-01-07 14:45:35.365 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：1
+2024-01-07 14:45:35.862 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：2
+2024-01-07 14:45:36.372 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：3
+2024-01-07 14:45:36.870 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：4
+2024-01-07 14:45:37.364 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：5
+2024-01-07 14:45:37.864 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：6
+2024-01-07 14:45:38.376 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：7
+2024-01-07 14:45:38.870 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：8
+2024-01-07 14:45:39.366 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：9
+2024-01-07 14:45:39.862 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：10
+2024-01-07 14:45:40.361 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：11
+2024-01-07 14:45:40.870 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：12
+2024-01-07 14:45:41.365 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：13
+2024-01-07 14:45:41.861 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：14
+2024-01-07 14:45:42.367 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：15
+2024-01-07 14:45:42.862 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：16
+2024-01-07 14:45:43.370 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：17
+2024-01-07 14:45:43.864 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：18
+2024-01-07 14:45:44.370 [DEBUG][CCMainWindow::setLevePixmap][93]: 设置等级为：19
+2024-01-07 14:47:14.281 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:47:14.282 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:47:14.338 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:47:14.346 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:47:14.346 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:47:17.496 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:47:17.501 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:47:17.509 [DEBUG][CCMainWindow::CCMainWindow][26]: 主窗体初始化
+2024-01-07 14:47:17.527 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:47:17.535 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：17
+2024-01-07 14:47:17.536 [DEBUG][CCMainWindow::setHeadPixmap][118]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:47:17.555 [DEBUG][CCMainWindow::setStatusMenuIcon][128]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:47:17.556 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:47:17.556 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:47:17.557 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:47:17.557 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:47:17.558 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:47:17.558 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:47:17.558 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:47:17.559 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:47:17.560 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:47:17.560 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:47:17.561 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:47:18.057 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：2
+2024-01-07 14:47:18.550 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：3
+2024-01-07 14:47:19.056 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：4
+2024-01-07 14:47:19.552 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：5
+2024-01-07 14:47:20.065 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：6
+2024-01-07 14:47:20.564 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：7
+2024-01-07 14:47:21.069 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：8
+2024-01-07 14:47:21.575 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：9
+2024-01-07 14:47:22.067 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：10
+2024-01-07 14:47:22.576 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：11
+2024-01-07 14:47:23.070 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：12
+2024-01-07 14:47:23.566 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：13
+2024-01-07 14:47:24.066 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：14
+2024-01-07 14:47:24.568 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：15
+2024-01-07 14:47:25.064 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：16
+2024-01-07 14:47:25.569 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：17
+2024-01-07 14:47:26.071 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：18
+2024-01-07 14:47:26.576 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：19
+2024-01-07 14:47:27.063 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：20
+2024-01-07 14:47:27.565 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：21
+2024-01-07 14:47:28.072 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：22
+2024-01-07 14:47:28.567 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：23
+2024-01-07 14:47:29.068 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：24
+2024-01-07 14:47:29.564 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：25
+2024-01-07 14:47:30.071 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：26
+2024-01-07 14:47:30.568 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：27
+2024-01-07 14:47:31.068 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：28
+2024-01-07 14:47:55.428 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:47:55.428 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:47:55.502 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:47:55.509 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:47:55.509 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:47:57.329 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:47:57.332 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:47:57.339 [DEBUG][CCMainWindow::CCMainWindow][26]: 主窗体初始化
+2024-01-07 14:47:57.354 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:47:57.359 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：17
+2024-01-07 14:47:57.360 [DEBUG][CCMainWindow::setHeadPixmap][118]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:47:57.380 [DEBUG][CCMainWindow::setStatusMenuIcon][128]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:47:57.380 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:47:57.381 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:47:57.381 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:47:57.382 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:47:57.382 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:47:57.383 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:47:57.383 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:47:57.384 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:47:57.384 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:47:57.385 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:47:57.385 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:47:57.879 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：2
+2024-01-07 14:47:58.383 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：3
+2024-01-07 14:47:58.886 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：4
+2024-01-07 14:47:59.391 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：5
+2024-01-07 14:47:59.883 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：6
+2024-01-07 14:48:00.379 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：7
+2024-01-07 14:48:00.883 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：8
+2024-01-07 14:48:01.380 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：9
+2024-01-07 14:48:01.887 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：10
+2024-01-07 14:48:02.376 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：11
+2024-01-07 14:48:02.878 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：12
+2024-01-07 14:53:18.337 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:53:18.338 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:53:18.396 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:53:18.402 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:53:18.402 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:53:19.659 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:53:19.663 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:53:19.671 [DEBUG][CCMainWindow::CCMainWindow][26]: 主窗体初始化
+2024-01-07 14:53:19.686 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:53:19.691 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：17
+2024-01-07 14:53:19.692 [DEBUG][CCMainWindow::setHeadPixmap][118]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:53:19.711 [DEBUG][CCMainWindow::setStatusMenuIcon][128]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:53:19.712 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:53:19.712 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:53:19.713 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:53:19.713 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:53:19.714 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:53:19.714 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:53:19.715 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:53:19.715 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:53:19.716 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:53:19.716 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:53:19.717 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:53:20.206 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：2
+2024-01-07 14:53:20.705 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：3
+2024-01-07 14:53:21.147 [DEBUG][CCMainWindow::onAppIconClicked][169]: 皮肤按钮被点击
+2024-01-07 14:53:21.147 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:53:21.149 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:53:21.149 [DEBUG][SkinWindow::initControl][19]: 初始化皮肤页面
+2024-01-07 14:53:21.212 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：4
+2024-01-07 14:53:21.705 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：5
+2024-01-07 14:53:22.209 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：6
+2024-01-07 14:53:22.703 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：7
+2024-01-07 14:53:23.212 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：8
+2024-01-07 14:53:23.708 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：9
+2024-01-07 14:53:24.211 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：10
+2024-01-07 14:53:24.704 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：11
+2024-01-07 14:53:25.207 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：12
+2024-01-07 14:53:25.708 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：13
+2024-01-07 14:53:26.205 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：14
+2024-01-07 14:53:26.714 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：15
+2024-01-07 14:53:27.213 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：16
+2024-01-07 14:53:27.706 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：17
+2024-01-07 14:53:28.212 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：18
+2024-01-07 14:53:28.706 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：19
+2024-01-07 14:53:29.206 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：20
+2024-01-07 14:53:29.705 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：21
+2024-01-07 14:53:30.216 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：22
+2024-01-07 14:53:30.720 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：23
+2024-01-07 14:53:31.222 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：24
+2024-01-07 14:53:31.731 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：25
+2024-01-07 14:53:32.221 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：26
+2024-01-07 14:53:32.722 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：27
+2024-01-07 14:53:33.231 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：28
+2024-01-07 14:53:33.732 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：29
+2024-01-07 14:53:34.229 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：30
+2024-01-07 14:53:34.723 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：31
+2024-01-07 14:53:35.227 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：32
+2024-01-07 14:53:35.731 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：33
+2024-01-07 14:59:32.978 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 14:59:32.979 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:59:33.069 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 14:59:33.078 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 14:59:33.078 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 14:59:34.589 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 14:59:34.591 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:59:34.599 [DEBUG][CCMainWindow::CCMainWindow][26]: 主窗体初始化
+2024-01-07 14:59:34.614 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 14:59:34.619 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：17
+2024-01-07 14:59:34.620 [DEBUG][CCMainWindow::setHeadPixmap][118]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 14:59:34.640 [DEBUG][CCMainWindow::setStatusMenuIcon][128]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 14:59:34.640 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 14:59:34.641 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 14:59:34.641 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 14:59:34.642 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 14:59:34.643 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 14:59:34.644 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 14:59:34.645 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 14:59:34.645 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 14:59:34.646 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 14:59:34.647 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 14:59:34.648 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 14:59:35.145 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：2
+2024-01-07 14:59:35.654 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：3
+2024-01-07 14:59:36.117 [DEBUG][CCMainWindow::onAppIconClicked][169]: 皮肤按钮被点击
+2024-01-07 14:59:36.118 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 14:59:36.119 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 14:59:36.119 [DEBUG][SkinWindow::initControl][19]: 初始化皮肤页面
+2024-01-07 14:59:36.149 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：4
+2024-01-07 14:59:36.649 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：5
+2024-01-07 14:59:37.146 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：6
+2024-01-07 14:59:37.461 [DEBUG][BasicWindow::onShowMin][133]: 用户点击最小化按钮
+2024-01-07 14:59:37.650 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：7
+2024-01-07 14:59:38.150 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：8
+2024-01-07 14:59:38.643 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：9
+2024-01-07 14:59:39.143 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：10
+2024-01-07 14:59:39.643 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：11
+2024-01-07 14:59:40.145 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：12
+2024-01-07 14:59:40.397 [DEBUG][BasicWindow::onShowMin][133]: 用户点击最小化按钮
+2024-01-07 14:59:40.643 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：13
+2024-01-07 14:59:41.154 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：14
+2024-01-07 14:59:41.644 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：15
+2024-01-07 14:59:42.143 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：16
+2024-01-07 14:59:42.651 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：17
+2024-01-07 14:59:43.144 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：18
+2024-01-07 14:59:43.645 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：19
+2024-01-07 14:59:43.649 [DEBUG][BasicWindow::onShowMin][133]: 用户点击最小化按钮
+2024-01-07 14:59:44.142 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：20
+2024-01-07 14:59:44.643 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：21
+2024-01-07 14:59:45.150 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：22
+2024-01-07 14:59:45.642 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：23
+2024-01-07 14:59:46.144 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：24
+2024-01-07 14:59:46.656 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：25
+2024-01-07 14:59:47.143 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：26
+2024-01-07 15:05:29.450 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:05:29.450 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:05:29.496 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:05:29.505 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:05:29.505 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:05:30.883 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 15:05:30.887 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:05:30.894 [DEBUG][CCMainWindow::CCMainWindow][26]: 主窗体初始化
+2024-01-07 15:05:30.909 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 15:05:30.915 [DEBUG][CCMainWindow::setLevePixmap][96]: 设置等级为：17
+2024-01-07 15:05:30.916 [DEBUG][CCMainWindow::setHeadPixmap][118]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 15:05:30.935 [DEBUG][CCMainWindow::setStatusMenuIcon][128]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 15:05:30.936 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 15:05:30.936 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 15:05:30.937 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 15:05:30.937 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 15:05:30.938 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 15:05:30.938 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 15:05:30.939 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 15:05:30.939 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 15:05:30.940 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 15:05:30.940 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 15:05:30.941 [DEBUG][CCMainWindow::addOtherAppExtension][141]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 15:05:32.555 [DEBUG][CCMainWindow::onAppIconClicked][169]: 皮肤按钮被点击
+2024-01-07 15:05:32.555 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:05:32.556 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/SkinWindow.css 成功
+2024-01-07 15:05:32.557 [DEBUG][SkinWindow::initControl][19]: 初始化皮肤页面
+2024-01-07 15:05:33.729 [DEBUG][BasicWindow::onShowMin][133]: 用户点击最小化按钮
+2024-01-07 15:06:07.734 [DEBUG][BasicWindow::onShowClose][128]: 用户点击关闭按钮
+2024-01-07 15:18:45.767 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:18:45.768 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:18:45.820 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:18:45.826 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:18:45.826 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:18:48.513 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 15:18:48.517 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:18:48.525 [DEBUG][CCMainWindow::CCMainWindow][27]: 主窗体初始化
+2024-01-07 15:18:48.542 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 15:18:48.548 [DEBUG][CCMainWindow::setLevePixmap][101]: 设置等级为：17
+2024-01-07 15:18:48.549 [DEBUG][CCMainWindow::setHeadPixmap][123]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 15:18:48.568 [DEBUG][CCMainWindow::setStatusMenuIcon][133]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 15:18:48.568 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 15:18:48.569 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 15:18:48.569 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 15:18:48.570 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 15:18:48.570 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 15:18:48.571 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 15:18:48.571 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 15:18:48.572 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 15:18:48.573 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 15:18:48.573 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 15:18:48.574 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 15:18:48.578 [DEBUG][SysTray::initSystemTray][17]: ��ʼ��ϵͳͼ�꣺:Resources/MainWindow/app/login.ico
+2024-01-07 15:18:51.273 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:20:06.140 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:20:06.140 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:20:06.213 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:20:06.219 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:20:06.220 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:20:07.713 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 15:20:07.717 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:20:07.727 [DEBUG][CCMainWindow::CCMainWindow][27]: 主窗体初始化
+2024-01-07 15:20:07.745 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 15:20:07.753 [DEBUG][CCMainWindow::setLevePixmap][101]: 设置等级为：17
+2024-01-07 15:20:07.754 [DEBUG][CCMainWindow::setHeadPixmap][123]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 15:20:07.775 [DEBUG][CCMainWindow::setStatusMenuIcon][133]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 15:20:07.776 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 15:20:07.776 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 15:20:07.777 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 15:20:07.777 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 15:20:07.778 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 15:20:07.778 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 15:20:07.779 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 15:20:07.779 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 15:20:07.780 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 15:20:07.781 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 15:20:07.781 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 15:20:07.783 [DEBUG][SysTray::initSystemTray][18]: ��ʼ��ϵͳͼ�꣺:Resources/MainWindow/app/login.ico
+2024-01-07 15:20:09.539 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:21:34.716 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:21:34.717 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:21:34.770 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:21:34.780 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:21:34.780 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:21:36.616 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 15:21:36.619 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:21:36.626 [DEBUG][CCMainWindow::CCMainWindow][27]: 主窗体初始化
+2024-01-07 15:21:36.641 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 15:21:36.647 [DEBUG][CCMainWindow::setLevePixmap][101]: 设置等级为：17
+2024-01-07 15:21:36.648 [DEBUG][CCMainWindow::setHeadPixmap][123]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 15:21:36.668 [DEBUG][CCMainWindow::setStatusMenuIcon][133]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 15:21:36.669 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 15:21:36.669 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 15:21:36.670 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 15:21:36.670 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 15:21:36.671 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 15:21:36.671 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 15:21:36.672 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 15:21:36.672 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 15:21:36.673 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 15:21:36.673 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 15:21:36.674 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 15:21:37.103 [DEBUG][SysTray::initSystemTray][18]: 初始化系统图标：:Resources/MainWindow/app/login.ico
+2024-01-07 15:21:40.094 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:25:49.368 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:25:49.368 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:25:49.439 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:25:49.447 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:25:49.447 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:25:50.821 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 15:25:50.825 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:25:50.832 [DEBUG][CCMainWindow::CCMainWindow][27]: 主窗体初始化
+2024-01-07 15:25:50.848 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 15:25:50.854 [DEBUG][CCMainWindow::setLevePixmap][101]: 设置等级为：17
+2024-01-07 15:25:50.855 [DEBUG][CCMainWindow::setHeadPixmap][123]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 15:25:50.876 [DEBUG][CCMainWindow::setStatusMenuIcon][133]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 15:25:50.876 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 15:25:50.877 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 15:25:50.877 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 15:25:50.878 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 15:25:50.878 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 15:25:50.879 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 15:25:50.879 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 15:25:50.880 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 15:25:50.880 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 15:25:50.881 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 15:25:50.881 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 15:25:50.883 [DEBUG][SysTray::initSystemTray][22]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-01-07 15:25:52.459 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:25:57.715 [DEBUG][SysTray::onIconActivated][28]: 窗口恢复活动窗口显示
+2024-01-07 15:25:59.733 [DEBUG][SysTray::onIconActivated][28]: 窗口恢复活动窗口显示
+2024-01-07 15:26:00.144 [DEBUG][SysTray::onIconActivated][28]: 窗口恢复活动窗口显示
+2024-01-07 15:26:01.217 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:26:04.094 [DEBUG][SysTray::onIconActivated][28]: 窗口恢复活动窗口显示
+2024-01-07 15:28:17.428 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:28:17.429 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:28:17.505 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:28:17.512 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:28:17.512 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:28:18.748 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 15:28:18.751 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:28:18.759 [DEBUG][CCMainWindow::CCMainWindow][27]: 主窗体初始化
+2024-01-07 15:28:18.774 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 15:28:18.779 [DEBUG][CCMainWindow::setLevePixmap][101]: 设置等级为：17
+2024-01-07 15:28:18.780 [DEBUG][CCMainWindow::setHeadPixmap][123]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 15:28:18.800 [DEBUG][CCMainWindow::setStatusMenuIcon][133]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 15:28:18.801 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 15:28:18.801 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 15:28:18.802 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 15:28:18.803 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 15:28:18.803 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 15:28:18.804 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 15:28:18.804 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 15:28:18.805 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 15:28:18.805 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 15:28:18.806 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 15:28:18.806 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 15:28:19.247 [DEBUG][SysTray::initSystemTray][22]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-01-07 15:28:20.408 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:46:45.579 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:46:45.580 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:46:45.681 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:46:45.687 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:46:45.687 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:46:47.373 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 15:46:47.379 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:46:47.388 [DEBUG][CCMainWindow::CCMainWindow][27]: 主窗体初始化
+2024-01-07 15:46:47.405 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 15:46:47.412 [DEBUG][CCMainWindow::setLevePixmap][101]: 设置等级为：17
+2024-01-07 15:46:47.412 [DEBUG][CCMainWindow::setHeadPixmap][123]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 15:46:47.433 [DEBUG][CCMainWindow::setStatusMenuIcon][133]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 15:46:47.433 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 15:46:47.434 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 15:46:47.435 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 15:46:47.435 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 15:46:47.436 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 15:46:47.436 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 15:46:47.437 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 15:46:47.437 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 15:46:47.438 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 15:46:47.438 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 15:46:47.439 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 15:46:47.440 [DEBUG][SysTray::initSystemTray][25]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-01-07 15:46:47.442 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 Menu.css 成功
+2024-01-07 15:46:48.636 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:47:33.792 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:47:33.792 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:47:33.846 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:47:33.852 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:47:33.852 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:47:35.376 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 15:47:35.380 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:47:35.390 [DEBUG][CCMainWindow::CCMainWindow][27]: 主窗体初始化
+2024-01-07 15:47:35.407 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 15:47:35.414 [DEBUG][CCMainWindow::setLevePixmap][101]: 设置等级为：17
+2024-01-07 15:47:35.415 [DEBUG][CCMainWindow::setHeadPixmap][123]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 15:47:35.435 [DEBUG][CCMainWindow::setStatusMenuIcon][133]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 15:47:35.435 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 15:47:35.436 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 15:47:35.436 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 15:47:35.437 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 15:47:35.437 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 15:47:35.438 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 15:47:35.438 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 15:47:35.439 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 15:47:35.439 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 15:47:35.440 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 15:47:35.441 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 15:47:35.897 [DEBUG][SysTray::initSystemTray][25]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-01-07 15:47:35.898 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 Menu.css 成功
+2024-01-07 15:47:37.047 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:47:42.211 [DEBUG][SysTray::onIconActivated][43]: 窗口恢复活动窗口显示
+2024-01-07 15:49:40.653 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:49:40.654 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:49:40.704 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:49:40.711 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:49:40.711 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:49:42.002 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-01-07 15:49:42.006 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:49:42.012 [DEBUG][CCMainWindow::CCMainWindow][27]: 主窗体初始化
+2024-01-07 15:49:42.027 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-01-07 15:49:42.033 [DEBUG][CCMainWindow::setLevePixmap][101]: 设置等级为：17
+2024-01-07 15:49:42.033 [DEBUG][CCMainWindow::setHeadPixmap][123]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-01-07 15:49:42.053 [DEBUG][CCMainWindow::setStatusMenuIcon][133]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-01-07 15:49:42.053 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-01-07 15:49:42.054 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-01-07 15:49:42.055 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-01-07 15:49:42.056 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-01-07 15:49:42.057 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-01-07 15:49:42.058 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-01-07 15:49:42.059 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-01-07 15:49:42.060 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-01-07 15:49:42.061 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-01-07 15:49:42.061 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-01-07 15:49:42.062 [DEBUG][CCMainWindow::addOtherAppExtension][146]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-01-07 15:49:42.064 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-01-07 15:49:43.249 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:49:45.799 [DEBUG][SysTray::onIconActivated][50]: 系统托盘菜单显示
+2024-01-07 15:49:45.800 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 Menu.css 成功
+2024-01-07 15:49:47.582 [DEBUG][BasicWindow::onShowNormal][143]: 窗口恢复正常显示
+2024-01-07 15:49:49.684 [DEBUG][BasicWindow::onShowHide][138]: 用户点击隐藏按钮
+2024-01-07 15:49:51.385 [DEBUG][SysTray::onIconActivated][50]: 系统托盘菜单显示
+2024-01-07 15:49:51.385 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 Menu.css 成功
+2024-01-07 15:49:52.492 [DEBUG][BasicWindow::onShowQuit][149]: 用户点击退出按钮
+2024-01-07 15:49:56.717 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 15:49:56.717 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 15:49:56.863 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 15:49:56.869 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 15:49:56.869 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 15:49:58.382 [DEBUG][BasicWindow::onButtonCloseClicked][194]: 用户主动关闭登录窗口

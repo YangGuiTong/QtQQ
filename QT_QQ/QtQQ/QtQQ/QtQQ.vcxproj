@@ -95,11 +95,13 @@
   <ItemGroup>
     <ClCompile Include="BasicWindow.cpp" />
     <ClCompile Include="CommonUtils.cpp" />
+    <ClCompile Include="CustomMenu.cpp" />
     <ClCompile Include="MyLog.cpp" />
     <ClCompile Include="MyLogger.cpp" />
     <ClCompile Include="NotifyManager.cpp" />
     <ClCompile Include="QClickLabel.cpp" />
     <ClCompile Include="SkinWindow.cpp" />
+    <ClCompile Include="SysTray.cpp" />
     <ClCompile Include="TitleBar.cpp" />
     <ClCompile Include="UserLogin.cpp" />
     <QtRcc Include="CCMainWindow.qrc" />
@@ -118,9 +120,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <QtMoc Include="CustomMenu.h" />
     <ClInclude Include="MyLog.h" />
     <ClInclude Include="MyLogger.h" />
     <ClInclude Include="public_type.h" />
+    <QtMoc Include="SysTray.h" />
     <QtMoc Include="QClickLabel.h" />
     <QtMoc Include="SkinWindow.h" />
     <QtMoc Include="UserLogin.h" />

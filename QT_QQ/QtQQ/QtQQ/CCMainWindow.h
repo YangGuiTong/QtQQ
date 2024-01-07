@@ -13,6 +13,7 @@ public:
     CCMainWindow(QWidget *parent = nullptr);
     ~CCMainWindow();
 
+	void initTimer();										// 初始化等级计时器
 	void initControl();
 	void setUserName(const QString &username);
 	void setLevePixmap(int level);
