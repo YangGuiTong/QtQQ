@@ -3,9 +3,11 @@
 #include <QProxyStyle>
 #include <QPainter>
 #include <QTimer>
+#include <QEvent>
 
 #include "SkinWindow.h"
 #include "SysTray.h"
+#include "NotifyManager.h"
 
 class CustomProxyStayle : public QProxyStyle {
 public:
@@ -85,12 +87,27 @@ void CCMainWindow::initControl() {
 	ui.bottomLayout_up->addStretch();
 
 
+	// 个性签名
+	ui.lineEdit->installEventFilter(this);
+	// 好友搜索
+	ui.searchLineEdit->installEventFilter(this);
+
+
 	connect(ui.sysmin, SIGNAL(clicked(bool)), this, SLOT(onShowHide(bool)));
 	connect(ui.sysclose, SIGNAL(clicked(bool)), this, SLOT(onShowClose(bool)));
+	connect(NotifyManager::getInstance(), &NotifyManager::signalSkinChanged, [this]() {
+		updateSeachStyle();
+	});
 
-
+	// 系统托盘
 	SysTray *systray = new SysTray(this);
 
+}
+
+void CCMainWindow::updateSeachStyle() { 
+	ui.searchWidget->setStyleSheet(QString("QWidget#searchWidget{background-color:rgba(%1,%2,%3,50);border-bottom:1px solid rgba(%1,%2,%3, 30)}\
+											QPushButton#searchBtn{border-image:url(:Resources/MainWindow/search/search_icon.png)}")
+									.arg(m_colorBackGround.red()).arg(m_colorBackGround.green()).arg(m_colorBackGround.blue()));
 }
 
 void CCMainWindow::setUserName(const QString & username) {
@@ -175,6 +192,25 @@ QWidget * CCMainWindow::addOtherAppExtension(const QString & appPath, const QStr
 void CCMainWindow::resizeEvent(QResizeEvent * event) {
 	setUserName(QString::fromLocal8Bit("Qt即时通讯软件"));
 	BasicWindow::resizeEvent(event);
+}
+
+bool CCMainWindow::eventFilter(QObject * obj, QEvent * event) {
+	if (ui.searchLineEdit == obj) {
+		// 键盘焦点事件
+		if (event->type() == QEvent::FocusIn) {
+			ui.searchWidget->setStyleSheet(QString("QWidget#searchWidget{background-color:rgb(255,255,255);border-bottom:1px solid rgba(%1,%2,%3, 100)}\
+													QPushButton#searchBtn{border-image:url(:Resources/MainWindow/search/main_search_deldown.png)}\
+													QPushButton#searchBtn:hover{border-image:url(:Resources/MainWindow/search/main_search_delhighlight.png)}\
+													QPushButton#searchBtn:pressed{border-image:url(:Resources/MainWindow/search/main_search_delhighdown.png)}")
+											.arg(m_colorBackGround.red()).arg(m_colorBackGround.green()).arg(m_colorBackGround.blue()));
+		
+		} else if (event->type() == QEvent::FocusOut) {
+			updateSeachStyle();
+		}
+	}
+
+
+	return false;
 }
 
 
