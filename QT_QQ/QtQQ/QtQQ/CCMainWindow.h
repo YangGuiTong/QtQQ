@@ -1,8 +1,9 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include "ui_CCMainWindow.h"
+#include <QTreeWidgetItem>
 
+#include "ui_CCMainWindow.h"
 #include "BasicWindow.h"
 
 class CCMainWindow : public BasicWindow
@@ -21,6 +22,7 @@ public:
 
 	// 添加应用部件(app图片路径，app部件对象名)
 	QWidget *addOtherAppExtension(const QString &appPath, const QString appName);
+	void initContactTree();
 
 private:
 	void initTimer();										// 初始化等级计时器
@@ -33,6 +35,10 @@ private:
 
 private slots:
 	void onAppIconClicked();
+	void onItemClicked(QTreeWidgetItem *item, int column);
+	void onItemExpanded(QTreeWidgetItem *item);
+	void onItemCollapsed(QTreeWidgetItem *item);
+	void onItemDoubleClicked(QTreeWidgetItem *item, int column);
 
 private:
     Ui::CCMainWindowClass ui;

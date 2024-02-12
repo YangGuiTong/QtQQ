@@ -1,6 +1,40 @@
-﻿  moc CCMainWindow.h
-  CCMainWindow.cpp
+﻿  uic CCMainWindow.ui
+  uic SkinWindow.ui
+  uic UserLogin.ui
+  rcc CCMainWindow.qrc
+  moc CCMainWindow.h
+  moc TitleBar.h
+  moc BasicWindow.h
+  moc RootContatItem.h
+  moc CustomMenu.h
+  moc SysTray.h
+  moc QClickLabel.h
+  moc SkinWindow.h
+  moc UserLogin.h
+  moc NotifyManager.h
+  BasicWindow.cpp
+  CommonUtils.cpp
+  CustomMenu.cpp
+  MyLog.cpp
+  MyLogger.cpp
+  NotifyManager.cpp
+  QClickLabel.cpp
+  RootContatItem.cpp
+  SkinWindow.cpp
+  SysTray.cpp
+  TitleBar.cpp
   UserLogin.cpp
+  CCMainWindow.cpp
   main.cpp
+  qrc_CCMainWindow.cpp
   moc_CCMainWindow.cpp
+  moc_TitleBar.cpp
+  moc_BasicWindow.cpp
+  moc_RootContatItem.cpp
+  moc_CustomMenu.cpp
+  moc_SysTray.cpp
+  moc_QClickLabel.cpp
+  moc_SkinWindow.cpp
+  moc_UserLogin.cpp
+  moc_NotifyManager.cpp
   QtQQ.vcxproj -> E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\QtQQ.exe

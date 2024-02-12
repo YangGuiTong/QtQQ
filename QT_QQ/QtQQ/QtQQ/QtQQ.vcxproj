@@ -100,6 +100,7 @@
     <ClCompile Include="MyLogger.cpp" />
     <ClCompile Include="NotifyManager.cpp" />
     <ClCompile Include="QClickLabel.cpp" />
+    <ClCompile Include="RootContatItem.cpp" />
     <ClCompile Include="SkinWindow.cpp" />
     <ClCompile Include="SysTray.cpp" />
     <ClCompile Include="TitleBar.cpp" />
@@ -120,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <QtMoc Include="RootContatItem.h" />
     <QtMoc Include="CustomMenu.h" />
     <ClInclude Include="MyLog.h" />
     <ClInclude Include="MyLogger.h" />
