@@ -1230,3 +1230,11 @@
 2024-01-07 15:49:56.869 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
 2024-01-07 15:49:56.869 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
 2024-01-07 15:49:58.382 [DEBUG][BasicWindow::onButtonCloseClicked][194]: 用户主动关闭登录窗口
+2024-01-07 17:52:10.265 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-01-07 17:52:10.265 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(22,154,218);
+2024-01-07 17:52:10.300 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-01-07 17:52:10.305 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-01-07 17:52:10.305 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-01-07 17:52:11.893 [DEBUG][BasicWindow::onButtonCloseClicked][194]: 用户主动关闭登录窗口

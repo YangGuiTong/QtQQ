@@ -95,6 +95,13 @@ void CCMainWindow::initControl() {
 
 void CCMainWindow::setUserName(const QString & username) {
 	MyLogDEBUG(QString("设置用户名为：%1").arg(username).toUtf8());
+
+	ui.nameLabel->adjustSize();	// 根据内容进行设置大小
+
+	// 文本过长则进行省略...
+	QString userName = ui.nameLabel->fontMetrics().elidedText(username, Qt::TextElideMode::ElideRight, ui.nameLabel->width());
+	ui.nameLabel->setText(userName);
+	ui.nameLabel->setToolTip(username);
 }
 
 void CCMainWindow::setLevePixmap(int level) {
@@ -163,6 +170,11 @@ QWidget * CCMainWindow::addOtherAppExtension(const QString & appPath, const QStr
 	connect(btn, &QPushButton::clicked, this, &CCMainWindow::onAppIconClicked);
 
 	return btn;
+}
+
+void CCMainWindow::resizeEvent(QResizeEvent * event) {
+	setUserName(QString::fromLocal8Bit("Qt即时通讯软件"));
+	BasicWindow::resizeEvent(event);
 }
 
 

@@ -24,6 +24,9 @@ public:
 	QWidget *addOtherAppExtension(const QString &appPath, const QString appName);
 
 
+private:
+	void resizeEvent(QResizeEvent *event);
+
 private slots:
 	void onAppIconClicked();
 
