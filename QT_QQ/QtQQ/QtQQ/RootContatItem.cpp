@@ -1,4 +1,5 @@
 #include "RootContatItem.h"
+#include "public_type.h"
 
 #include <QPainter>
 #include <QPixmap>
@@ -28,11 +29,13 @@ void RootContatItem::setText(const QString & title) {
 }
 
 void RootContatItem::setExpanded(bool expand) {
+	int end = 0;
 	if (expand) {
-		m_animation->setEndValue(90);	// 设置属性动画的结束值
-	} else {
-		m_animation->setEndValue(0);
+		end = 90;		
 	}
+	m_animation->setEndValue(end);	// 设置属性动画的结束值
+
+	MyLogDEBUG(QString("设置属性动画的结束值：%1").arg(end).toUtf8());
 
 	m_animation->start();
 }

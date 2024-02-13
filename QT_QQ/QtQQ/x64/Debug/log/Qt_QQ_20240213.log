@@ -1,0 +1,90 @@
+2024-02-13 19:42:04.150 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-13 19:42:04.151 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-13 19:42:04.272 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-13 19:42:04.283 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-13 19:42:04.283 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-13 19:42:05.942 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-13 19:42:05.946 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-13 19:42:05.956 [DEBUG][CCMainWindow::CCMainWindow][29]: 主窗体初始化
+2024-02-13 19:42:05.971 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-13 19:42:05.977 [DEBUG][CCMainWindow::setLevePixmap][126]: 设置等级为：17
+2024-02-13 19:42:05.978 [DEBUG][CCMainWindow::setHeadPixmap][148]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-13 19:42:06.000 [DEBUG][CCMainWindow::setStatusMenuIcon][158]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-13 19:42:06.000 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-13 19:42:06.001 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-13 19:42:06.002 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-13 19:42:06.002 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-13 19:42:06.003 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-13 19:42:06.003 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-13 19:42:06.004 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-13 19:42:06.005 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-13 19:42:06.005 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-13 19:42:06.006 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-13 19:42:06.006 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-13 19:42:06.525 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-13 19:42:06.569 [DEBUG][CCMainWindow::setUserName][115]: 设置用户名为：Qt即时通讯软件
+2024-02-13 19:43:21.409 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-13 19:43:21.410 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-13 19:43:21.476 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-13 19:43:21.482 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-13 19:43:21.483 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-13 19:43:22.982 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-13 19:43:22.985 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-13 19:43:22.992 [DEBUG][CCMainWindow::CCMainWindow][29]: 主窗体初始化
+2024-02-13 19:43:23.007 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-13 19:43:23.013 [DEBUG][CCMainWindow::setLevePixmap][126]: 设置等级为：17
+2024-02-13 19:43:23.014 [DEBUG][CCMainWindow::setHeadPixmap][148]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-13 19:43:23.035 [DEBUG][CCMainWindow::setStatusMenuIcon][158]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-13 19:43:23.035 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-13 19:43:23.036 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-13 19:43:23.036 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-13 19:43:23.037 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-13 19:43:23.037 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-13 19:43:23.038 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-13 19:43:23.038 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-13 19:43:23.039 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-13 19:43:23.039 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-13 19:43:23.040 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-13 19:43:23.040 [DEBUG][CCMainWindow::addOtherAppExtension][171]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-13 19:43:23.046 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-13 19:43:23.087 [DEBUG][CCMainWindow::setUserName][115]: 设置用户名为：Qt即时通讯软件
+2024-02-13 20:26:33.678 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-13 20:26:33.683 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-13 20:26:33.756 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-13 20:26:33.761 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-13 20:26:33.762 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-13 20:26:37.197 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-13 20:26:37.200 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-13 20:26:37.210 [DEBUG][CCMainWindow::CCMainWindow][29]: 主窗体初始化
+2024-02-13 20:26:37.225 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-13 20:26:37.230 [DEBUG][CCMainWindow::setLevePixmap][143]: 设置等级为：17
+2024-02-13 20:26:37.230 [DEBUG][CCMainWindow::setHeadPixmap][165]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-13 20:26:37.250 [DEBUG][CCMainWindow::setStatusMenuIcon][175]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-13 20:26:37.250 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-13 20:26:37.251 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-13 20:26:37.252 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-13 20:26:37.252 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-13 20:26:37.252 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-13 20:26:37.253 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-13 20:26:37.254 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-13 20:26:37.255 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-13 20:26:37.255 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-13 20:26:37.256 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-13 20:26:37.256 [DEBUG][CCMainWindow::addOtherAppExtension][188]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-13 20:26:37.257 [DEBUG][CCMainWindow::initContactTree][211]: 树初始化
+2024-02-13 20:26:37.258 [DEBUG][CCMainWindow::addCompanyDeps][115]: 添加子节点：公司群
+2024-02-13 20:26:37.276 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-13 20:26:37.278 [DEBUG][CCMainWindow::addCompanyDeps][115]: 添加子节点：人事部
+2024-02-13 20:26:37.280 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-13 20:26:37.282 [DEBUG][CCMainWindow::addCompanyDeps][115]: 添加子节点：研发部
+2024-02-13 20:26:37.284 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-13 20:26:37.286 [DEBUG][CCMainWindow::addCompanyDeps][115]: 添加子节点：市场部
+2024-02-13 20:26:37.288 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-13 20:26:37.290 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-13 20:26:37.329 [DEBUG][CCMainWindow::setUserName][132]: 设置用户名为：Qt即时通讯软件

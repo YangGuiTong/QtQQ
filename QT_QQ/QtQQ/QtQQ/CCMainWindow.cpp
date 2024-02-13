@@ -111,6 +111,23 @@ void CCMainWindow::updateSeachStyle() {
 									.arg(m_colorBackGround.red()).arg(m_colorBackGround.green()).arg(m_colorBackGround.blue()));
 }
 
+void CCMainWindow::addCompanyDeps(QTreeWidgetItem * pRootGroupItem, const QString & sDeps) {
+	MyLogDEBUG(QString("添加子节点：%1").arg(sDeps).toUtf8());
+
+	QTreeWidgetItem *pChild = new QTreeWidgetItem;
+	QPixmap pix;
+	pix.load(":Resources/MainWindow/head_mask.png");
+
+	// 添加子节点
+	pChild->setData(0, Qt::UserRole, 1);	// 子项设置为1
+	Contactltem *pContactItem = new Contactltem(ui.treeWidget);
+	pContactItem->setHeadPixmap(getRoundImage(QPixmap(":Resources/MainWindow/girl.png"), pix, pContactItem->getHeadLabelSize()));
+	pContactItem->setUserName(sDeps);
+
+	pRootGroupItem->addChild(pChild);
+	ui.treeWidget->setItemWidget(pChild, 0, pContactItem);
+}
+
 void CCMainWindow::setUserName(const QString & username) {
 	MyLogDEBUG(QString("设置用户名为：%1").arg(username).toUtf8());
 
@@ -191,6 +208,7 @@ QWidget * CCMainWindow::addOtherAppExtension(const QString & appPath, const QStr
 }
 
 void CCMainWindow::initContactTree() { 
+	MyLogDEBUG(QString("树初始化").toUtf8());
 	// 展开与收缩的信号
 	connect(ui.treeWidget, SIGNAL(itemClicked(QTreeWidgetItem *, int)), this, SLOT(onItemClicked(QTreeWidgetItem *, int)));
 	connect(ui.treeWidget, SIGNAL(itemExpanded(QTreeWidgetItem *)), this, SLOT(onItemExpanded(QTreeWidgetItem *)));
@@ -202,7 +220,24 @@ void CCMainWindow::initContactTree() {
 	pRootGroupItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
 	pRootGroupItem->setData(0, Qt::UserRole, 0);
 
+	RootContatItem *pItemName = new RootContatItem(true, ui.treeWidget);
 
+	QString strGroupName = QString::fromLocal8Bit("Qt即时通讯");
+	pItemName->setText(strGroupName);
+
+	// 插入分组节点
+	ui.treeWidget->addTopLevelItem(pRootGroupItem);
+	ui.treeWidget->setItemWidget(pRootGroupItem, 0, pItemName);
+
+	QStringList sCompDeps;	// 公司部门
+	sCompDeps << QString::fromLocal8Bit("公司群");
+	sCompDeps << QString::fromLocal8Bit("人事部");
+	sCompDeps << QString::fromLocal8Bit("研发部");
+	sCompDeps << QString::fromLocal8Bit("市场部");
+
+	for (int index = 0; index < sCompDeps.size(); index++) {
+		addCompanyDeps(pRootGroupItem, sCompDeps.at(index));
+	}
 
 }
 
@@ -230,7 +265,12 @@ bool CCMainWindow::eventFilter(QObject * obj, QEvent * event) {
 	return false;
 }
 
-void CCMainWindow::onItemClicked(QTreeWidgetItem * item, int column) { }
+void CCMainWindow::onItemClicked(QTreeWidgetItem * item, int column) {
+	bool bIsChild = item->data(0, Qt::UserRole).toBool();
+	if (!bIsChild) {
+		item->setExpanded(!item->isExpanded());	// 未展开则展开子项
+	}
+}
 
 void CCMainWindow::onItemExpanded(QTreeWidgetItem * item) { }
 

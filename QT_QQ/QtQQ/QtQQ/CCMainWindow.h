@@ -5,6 +5,8 @@
 
 #include "ui_CCMainWindow.h"
 #include "BasicWindow.h"
+#include "RootContatItem.h"
+#include "Contactltem.h"
 
 class CCMainWindow : public BasicWindow
 {
@@ -28,6 +30,7 @@ private:
 	void initTimer();										// 初始化等级计时器
 	void initControl();
 	void updateSeachStyle();								// 更新搜索样式
+	void addCompanyDeps(QTreeWidgetItem *pRootGroupItem, const QString &sDeps);
 
 private:
 	void resizeEvent(QResizeEvent *event);

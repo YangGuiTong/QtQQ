@@ -76,6 +76,9 @@
     <ClCompile Include="RootContatItem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Contactltem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TitleBar.h">
@@ -105,6 +108,9 @@
     <QtMoc Include="RootContatItem.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="Contactltem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLogger.h">
@@ -125,6 +131,9 @@
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="SkinWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Contactltem.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
