@@ -267,16 +267,42 @@ bool CCMainWindow::eventFilter(QObject * obj, QEvent * event) {
 
 void CCMainWindow::onItemClicked(QTreeWidgetItem * item, int column) {
 	bool bIsChild = item->data(0, Qt::UserRole).toBool();
+
+	MyLogDEBUG(QString("树项被单击").toUtf8());
 	if (!bIsChild) {
 		item->setExpanded(!item->isExpanded());	// 未展开则展开子项
 	}
 }
 
-void CCMainWindow::onItemExpanded(QTreeWidgetItem * item) { }
+void CCMainWindow::onItemExpanded(QTreeWidgetItem * item) {
+	MyLogDEBUG(QString("树项被展开").toUtf8());
 
-void CCMainWindow::onItemCollapsed(QTreeWidgetItem * item) { }
+	bool bIsChild = item->data(0, Qt::UserRole).toBool();
+	if (!bIsChild) {
+		// 将基类对象指针或引用转换成派生类指针
+		RootContatItem *pRootItem = dynamic_cast<RootContatItem *>(ui.treeWidget->itemWidget(item, 0));
+		if (pRootItem) {
+			pRootItem->setExpanded(true);
+		}
+	}
+}
 
-void CCMainWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) { }
+void CCMainWindow::onItemCollapsed(QTreeWidgetItem * item) {
+	MyLogDEBUG(QString("树项被收缩").toUtf8());
+
+	bool bIsChild = item->data(0, Qt::UserRole).toBool();
+	if (!bIsChild) {
+		// 将基类对象指针或引用转换成派生类指针
+		RootContatItem *pRootItem = dynamic_cast<RootContatItem *>(ui.treeWidget->itemWidget(item, 0));
+		if (pRootItem) {
+			pRootItem->setExpanded(false);
+		}
+	}
+}
+
+void CCMainWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) { 
+	MyLogDEBUG(QString("树项被双击").toUtf8());
+}
 
 
 
