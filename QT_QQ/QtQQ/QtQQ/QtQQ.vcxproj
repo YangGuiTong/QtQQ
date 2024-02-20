@@ -104,6 +104,7 @@
     <ClCompile Include="RootContatItem.cpp" />
     <ClCompile Include="SkinWindow.cpp" />
     <ClCompile Include="SysTray.cpp" />
+    <ClCompile Include="TalkWindowSheel.cpp" />
     <ClCompile Include="TitleBar.cpp" />
     <ClCompile Include="UserLogin.cpp" />
     <QtRcc Include="CCMainWindow.qrc" />
@@ -113,6 +114,7 @@
     <ClCompile Include="main.cpp" />
     <QtUic Include="Contactltem.ui" />
     <QtUic Include="SkinWindow.ui" />
+    <QtUic Include="TalkWindowSheel.ui" />
     <QtUic Include="UserLogin.ui" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <QtMoc Include="TalkWindowSheel.h" />
     <QtMoc Include="RootContatItem.h" />
     <QtMoc Include="CustomMenu.h" />
     <QtMoc Include="Contactltem.h" />
