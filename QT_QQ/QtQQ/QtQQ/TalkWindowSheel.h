@@ -3,13 +3,14 @@
 #include <QWidget>
 #include "ui_TalkWindowSheel.h"
 #include "BasicWindow.h"
+#include "EmotionWindow.h"
+
 
 #include <QMap>
 
 class TalkWindow;
 class TalkWindowItem;
 class QListWidgetItem;
-//class EmotionWindow;
 
 
 class TalkWindowSheel : public BasicWindow
@@ -39,5 +40,5 @@ private slots:
 private:
 	Ui::TalkWindowClass ui;
 	QMap<QListWidgetItem *, QWidget *> m_talkwindowItemMap;	// 打开的聊天窗口
-	//EmotionWindow *m_emotionWindow;		// 表情窗口
+	EmotionWindow *m_emotionWindow;		// 表情窗口
 };

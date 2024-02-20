@@ -97,6 +97,7 @@
     <ClCompile Include="CommonUtils.cpp" />
     <ClCompile Include="Contactltem.cpp" />
     <ClCompile Include="CustomMenu.cpp" />
+    <ClCompile Include="EmotionWindow.cpp" />
     <ClCompile Include="MyLog.cpp" />
     <ClCompile Include="MyLogger.cpp" />
     <ClCompile Include="NotifyManager.cpp" />
@@ -113,6 +114,7 @@
     <ClCompile Include="CCMainWindow.cpp" />
     <ClCompile Include="main.cpp" />
     <QtUic Include="Contactltem.ui" />
+    <QtUic Include="EmotionWindow.ui" />
     <QtUic Include="SkinWindow.ui" />
     <QtUic Include="TalkWindowSheel.ui" />
     <QtUic Include="UserLogin.ui" />
@@ -129,6 +131,7 @@
     <QtMoc Include="RootContatItem.h" />
     <QtMoc Include="CustomMenu.h" />
     <QtMoc Include="Contactltem.h" />
+    <QtMoc Include="EmotionWindow.h" />
     <ClInclude Include="MyLog.h" />
     <ClInclude Include="MyLogger.h" />
     <ClInclude Include="public_type.h" />

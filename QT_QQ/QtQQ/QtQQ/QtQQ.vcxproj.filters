@@ -82,6 +82,9 @@
     <ClCompile Include="TalkWindowSheel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EmotionWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TitleBar.h">
@@ -117,6 +120,9 @@
     <QtMoc Include="TalkWindowSheel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="EmotionWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLogger.h">
@@ -143,6 +149,9 @@
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="TalkWindowSheel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="EmotionWindow.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
