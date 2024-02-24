@@ -1,5 +1,7 @@
 #include "TalkWindowSheel.h"
 #include "CommonUtils.h"
+#include "EmotionWindow.h"
+#include "public_type.h"
 
 
 TalkWindowSheel::TalkWindowSheel(QWidget *parent)
@@ -11,13 +13,32 @@ TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 }
 
 TalkWindowSheel::~TalkWindowSheel() {
-	
+
 	delete m_emotionWindow;
 	m_emotionWindow = NULL;
-	
+
 }
 
-void TalkWindowSheel::initControl() { 
+void TalkWindowSheel::addTalkWindow(TalkWindow * talkWindow, TalkWindowItem * talkWindowItem, GroupType grouptype) {
+	MyLogDEBUG(QString("添加聊天窗口, 类型为：%1").arg(grouptype).toUtf8());
+
+	ui.rightStackedWidget->addWidget(talkWindow);
+	connect(m_emotionWindow, SIGNAL(signalEmotionWindowHide()), talkWindow, SLOT(onSetEmotionBtnStatus()));
+
+	QListWidgetItem *aItem = new QListWidgetItem(ui.listWidget);
+	m_talkwindowItemMap.insert(aItem, talkWindow);
+
+	aItem->setSelected(true);
+}
+
+void TalkWindowSheel::setCurrentWidget(QWidget * widget) {
+	MyLogDEBUG(QString("设置当前窗口").toUtf8());
+	ui.rightStackedWidget->setCurrentWidget(widget);
+}
+
+void TalkWindowSheel::initControl() {
+	MyLogDEBUG(QString("Qt聊天窗口初始化").toUtf8());
+
 	loadStyleSheet("TalkWindow");
 	setWindowTitle(QString::fromLocal8Bit("Qt聊天窗口"));
 
@@ -32,4 +53,32 @@ void TalkWindowSheel::initControl() {
 
 	connect(ui.listWidget, &QListWidget::itemClicked, this, &TalkWindowSheel::onTalkWindowItemClicked);
 	connect(m_emotionWindow, SIGNAL(signalEmotionItemClicked(int)), this, SLOT(onEmotionItemClicked(int)));
+}
+
+
+void onEmotionBtnClicked(bool) {
+	MyLogDEBUG(QString("表情按钮被点击").toUtf8());
+
+	m_emotionWindow->setVisible(m_emotionWindow->isVisible());
+	QPoint emotionPoint = this->mapToGlobal(QPoint(0, 0));	// 将当前控件的相对位置转换为屏幕的绝对位置
+
+	emotionPoint.setX(emotionPoint.x() + 170);
+	emotionPoint.setY(emotionPoint.y() + 220);
+	m_emotionWindow->move(emotionPoint);
+}
+
+
+void TalkWindowSheel::onTalkWindowItemClicked(QListWidgetItem *item) {
+
+	QWidget *talkWindowWidget = m_talkwindowItemMap.find(item).value();
+	ui.rightStackedWidget->setCurrentWidget(talkWindowWidget);
+}
+
+void TalkWindowSheel::onEmotionItemClicked(int emotionNum) {
+	MyLogDEBUG(QString("%1 表情被点击").arg(emotionNum).toUtf8());
+
+	TalkWindow *curTalkWindow = dynamic_cast<TalkWindow *>(ui.rightStackedWidget->currentWidget());
+	if (curTalkWindow) {
+		curTalkWindow->addEmotionImage(emotionNum);
+	}
 }

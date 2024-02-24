@@ -13,6 +13,16 @@ class TalkWindowItem;
 class QListWidgetItem;
 
 
+enum GroupType {
+	COMPANY				= 0,		// 公司群
+	PERSONELGROUP		= 1,		// 人事部
+	DEVELOPMENTGROUP	= 2,		// 研发部
+	MARKETGROUP			= 3,		// 市场部
+	PTOP				= 4,		// 同事之间单独聊天
+
+	COUNT
+};
+
 class TalkWindowSheel : public BasicWindow
 {
 	Q_OBJECT
@@ -23,7 +33,7 @@ public:
 
 public:
 	// 添加新的聊天窗口
-	void addTalkWindow(TalkWindow *talkWindow, TalkWindowItem *talkWindowItem);
+	void addTalkWindow(TalkWindow *talkWindow, TalkWindowItem *talkWindowItem, GroupType grouptype);
 	// 设置当前聊天窗口
 	void setCurrentWidget(QWidget *widget);
 
