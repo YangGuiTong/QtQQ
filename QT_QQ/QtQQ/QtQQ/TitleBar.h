@@ -13,7 +13,7 @@ enum ButtonType{
 	MIX_MAX_BUTTON = 1,		// 最小化、最大化及关闭按钮
 	QNLY_CLOSE_BUTTON = 2,	// 只有关闭按钮
 	
-	COUNT					// 默认值
+	BUTTON_TYPE_COUNT					// 默认值
 };
 
 class TitleBar : public QWidget{

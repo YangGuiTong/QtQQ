@@ -115,7 +115,7 @@ void TitleBar::setButtonType(ButtonType buttontype) {
 			m_pButtonMax->setVisible(false);
 		}
 		break;
-		case COUNT:
+		case BUTTON_TYPE_COUNT:
 		{
 
 		}

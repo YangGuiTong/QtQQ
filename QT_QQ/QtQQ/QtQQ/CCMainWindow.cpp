@@ -4,10 +4,14 @@
 #include <QPainter>
 #include <QTimer>
 #include <QEvent>
+#include <QMouseEvent>
+#include <QApplication>
 
 #include "SkinWindow.h"
 #include "SysTray.h"
 #include "NotifyManager.h"
+#include "WindowManager.h"
+#include "TalkWindowSheel.h"
 
 class CustomProxyStayle : public QProxyStyle {
 public:
@@ -120,12 +124,15 @@ void CCMainWindow::addCompanyDeps(QTreeWidgetItem * pRootGroupItem, const QStrin
 
 	// 添加子节点
 	pChild->setData(0, Qt::UserRole, 1);	// 子项设置为1
+	pChild->setData(0, Qt::UserRole + 1, QString::number((int)pChild));
 	Contactltem *pContactItem = new Contactltem(ui.treeWidget);
 	pContactItem->setHeadPixmap(getRoundImage(QPixmap(":Resources/MainWindow/girl.png"), pix, pContactItem->getHeadLabelSize()));
 	pContactItem->setUserName(sDeps);
 
 	pRootGroupItem->addChild(pChild);
 	ui.treeWidget->setItemWidget(pChild, 0, pContactItem);
+
+	m_groupMap.insert(pChild, sDeps);
 }
 
 void CCMainWindow::setUserName(const QString & username) {
@@ -265,6 +272,16 @@ bool CCMainWindow::eventFilter(QObject * obj, QEvent * event) {
 	return false;
 }
 
+void CCMainWindow::mousePressEvent(QMouseEvent * event) {
+	if (qApp->widgetAt(event->pos()) != ui.searchLineEdit && ui.searchLineEdit->hasFocus()) {
+		ui.searchLineEdit->clearFocus();
+	} else if (qApp->widgetAt(event->pos()) != ui.lineEdit && ui.lineEdit->hasFocus()) {
+		ui.lineEdit->clearFocus();
+	}
+
+	BasicWindow::mousePressEvent(event);
+}
+
 void CCMainWindow::onItemClicked(QTreeWidgetItem * item, int column) {
 	bool bIsChild = item->data(0, Qt::UserRole).toBool();
 
@@ -302,6 +319,28 @@ void CCMainWindow::onItemCollapsed(QTreeWidgetItem * item) {
 
 void CCMainWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) { 
 	MyLogDEBUG(QString("树项被双击").toUtf8());
+
+	bool bIsChild = item->data(0, Qt::UserRole).toBool();
+	if (bIsChild) {
+		QString strGroup = m_groupMap.value(item);
+		QString text = "";
+
+		if (strGroup == QString::fromLocal8Bit("公司群")) {
+			text = "公司群";
+			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), COMPANY);
+		} else if (strGroup == QString::fromLocal8Bit("人事部")) {
+			text = "人事部";
+			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), PERSONELGROUP);
+		} else if (strGroup == QString::fromLocal8Bit("市场部")) {
+			text = "市场部";
+			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), MARKETGROUP);
+		} else if (strGroup == QString::fromLocal8Bit("研发部")) {
+			text = "研发部";
+			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), DEVELOPMENTGROUP);
+		}
+
+		MyLogDEBUG(QString("%1").arg(text).toUtf8());
+	}
 }
 
 

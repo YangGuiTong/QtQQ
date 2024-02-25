@@ -1,18 +1,24 @@
-﻿  uic CCMainWindow.ui
+﻿  Reading Qt configuration (D:/Qt/Qt5.9.6/5.9.6/msvc2017_64/bin/qmake)
+  uic CCMainWindow.ui
   uic Contactltem.ui
   uic EmotionWindow.ui
   uic SkinWindow.ui
+  uic TalkWindow.ui
+  uic TalkWindowItem.ui
   uic TalkWindowSheel.ui
   uic UserLogin.ui
   rcc CCMainWindow.qrc
   moc CCMainWindow.h
   moc TitleBar.h
   moc BasicWindow.h
+  moc TalkWindow.h
+  moc TalkWindowItem.h
   moc TalkWindowSheel.h
   moc RootContatItem.h
   moc CustomMenu.h
   moc Contactltem.h
   moc EmotionWindow.h
+  moc EmotionLabelItem.h
   moc SysTray.h
   moc QClickLabel.h
   moc SkinWindow.h
@@ -22,6 +28,7 @@
   CommonUtils.cpp
   Contactltem.cpp
   CustomMenu.cpp
+  EmotionLabelItem.cpp
   EmotionWindow.cpp
   MyLog.cpp
   MyLogger.cpp
@@ -30,6 +37,8 @@
   RootContatItem.cpp
   SkinWindow.cpp
   SysTray.cpp
+  TalkWindow.cpp
+  TalkWindowItem.cpp
   TalkWindowSheel.cpp
   TitleBar.cpp
   UserLogin.cpp
@@ -39,18 +48,17 @@
   moc_CCMainWindow.cpp
   moc_TitleBar.cpp
   moc_BasicWindow.cpp
+  moc_TalkWindow.cpp
+  moc_TalkWindowItem.cpp
   moc_TalkWindowSheel.cpp
   moc_RootContatItem.cpp
   moc_CustomMenu.cpp
   moc_Contactltem.cpp
   moc_EmotionWindow.cpp
+  moc_EmotionLabelItem.cpp
   moc_SysTray.cpp
   moc_QClickLabel.cpp
   moc_SkinWindow.cpp
   moc_UserLogin.cpp
   moc_NotifyManager.cpp
-TalkWindowSheel.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl TalkWindowSheel::onTalkWindowItemClicked(class QListWidgetItem *)" (?onTalkWindowItemClicked@TalkWindowSheel@@AEAAXPEAVQListWidgetItem@@@Z)，该符号在函数 "private: void __cdecl TalkWindowSheel::initControl(void)" (?initControl@TalkWindowSheel@@AEAAXXZ) 中被引用
-moc_TalkWindowSheel.obj : error LNK2001: 无法解析的外部符号 "private: void __cdecl TalkWindowSheel::onTalkWindowItemClicked(class QListWidgetItem *)" (?onTalkWindowItemClicked@TalkWindowSheel@@AEAAXPEAVQListWidgetItem@@@Z)
-moc_TalkWindowSheel.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl TalkWindowSheel::onEmotionBtnClicked(bool)" (?onEmotionBtnClicked@TalkWindowSheel@@QEAAX_N@Z)，该符号在函数 "public: virtual int __cdecl TalkWindowSheel::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@TalkWindowSheel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z) 中被引用
-moc_TalkWindowSheel.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl TalkWindowSheel::onEmotionItemClicked(int)" (?onEmotionItemClicked@TalkWindowSheel@@AEAAXH@Z)，该符号在函数 "public: virtual int __cdecl TalkWindowSheel::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@TalkWindowSheel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z) 中被引用
-E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\QtQQ.exe : fatal error LNK1120: 3 个无法解析的外部命令
+  QtQQ.vcxproj -> E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\QtQQ.exe

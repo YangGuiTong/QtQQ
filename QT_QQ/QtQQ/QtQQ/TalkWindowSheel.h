@@ -4,12 +4,13 @@
 #include "ui_TalkWindowSheel.h"
 #include "BasicWindow.h"
 #include "EmotionWindow.h"
+#include "TalkWindow.h"
+#include "TalkWindowItem.h"
 
 
+#include <QListWidget>
 #include <QMap>
 
-class TalkWindow;
-class TalkWindowItem;
 class QListWidgetItem;
 
 
@@ -20,7 +21,7 @@ enum GroupType {
 	MARKETGROUP			= 3,		// 市场部
 	PTOP				= 4,		// 同事之间单独聊天
 
-	COUNT
+	GROUP_TYPE_COUNT
 };
 
 class TalkWindowSheel : public BasicWindow

@@ -56,7 +56,7 @@ void TalkWindowSheel::initControl() {
 }
 
 
-void onEmotionBtnClicked(bool) {
+void TalkWindowSheel::onEmotionBtnClicked(bool) {
 	MyLogDEBUG(QString("表情按钮被点击").toUtf8());
 
 	m_emotionWindow->setVisible(m_emotionWindow->isVisible());
