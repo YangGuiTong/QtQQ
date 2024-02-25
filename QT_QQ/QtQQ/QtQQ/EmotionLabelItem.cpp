@@ -25,11 +25,11 @@ void EmotionLabelItem::setEmotionName(int emotionName) {
 	m_apngMovie->stop();
 	setMovie(m_apngMovie);
 
-	MyLogDEBUG(QString("设置表情 %1").arg(imageName).toUtf8());
+	//MyLogDEBUG(QString("设置表情 %1").arg(imageName).toUtf8());
 }
 
 void EmotionLabelItem::initControl() { 
-	MyLogDEBUG(QString("表情显示初始化").toUtf8());
+	//MyLogDEBUG(QString("表情显示初始化").toUtf8());
 
 	setAlignment(Qt::AlignCenter);	// 居中对齐
 	setObjectName("emotionLabelItem");

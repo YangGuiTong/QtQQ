@@ -125,6 +125,7 @@ void CCMainWindow::addCompanyDeps(QTreeWidgetItem * pRootGroupItem, const QStrin
 	// 添加子节点
 	pChild->setData(0, Qt::UserRole, 1);	// 子项设置为1
 	pChild->setData(0, Qt::UserRole + 1, QString::number((int)pChild));
+
 	Contactltem *pContactItem = new Contactltem(ui.treeWidget);
 	pContactItem->setHeadPixmap(getRoundImage(QPixmap(":Resources/MainWindow/girl.png"), pix, pContactItem->getHeadLabelSize()));
 	pContactItem->setUserName(sDeps);

@@ -43,3 +43,1231 @@
 2024-02-25 10:42:17.826 [DEBUG][CCMainWindow::onItemClicked][271]: 树项被单击
 2024-02-25 10:42:17.887 [DEBUG][CCMainWindow::onItemDoubleClicked][304]: 树项被双击
 2024-02-25 10:42:17.990 [DEBUG][CCMainWindow::onItemClicked][271]: 树项被单击
+2024-02-25 12:12:14.498 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 12:12:14.498 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 12:12:14.555 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 12:12:14.561 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 12:12:14.562 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 12:12:16.133 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 12:12:16.137 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 12:12:16.146 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 12:12:16.163 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 12:12:16.168 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 12:12:16.169 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 12:12:16.189 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 12:12:16.190 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 12:12:16.191 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 12:12:16.191 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 12:12:16.192 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 12:12:16.192 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 12:12:16.193 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 12:12:16.193 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 12:12:16.194 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 12:12:16.194 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 12:12:16.195 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 12:12:16.195 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 12:12:16.195 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 12:12:16.196 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 12:12:16.216 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 12:12:16.218 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 12:12:16.220 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 12:12:16.222 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 12:12:16.224 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 12:12:16.226 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 12:12:16.228 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 12:12:16.673 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 12:12:16.709 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 12:12:17.864 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:17.864 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 12:12:17.864 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 12:12:19.063 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:19.137 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 12:12:19.137 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1483926944, groupType = 0, strPeopel = 
+2024-02-25 12:12:19.137 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 12:12:19.145 [DEBUG][TalkWindowSheel::initControl][40]: Qt聊天窗口初始化
+2024-02-25 12:12:19.152 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 12:12:19.154 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 12:12:19.156 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 12:12:19.156 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.165 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/0.png
+2024-02-25 12:12:19.165 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.165 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/1.png
+2024-02-25 12:12:19.166 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.166 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/2.png
+2024-02-25 12:12:19.166 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.166 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/3.png
+2024-02-25 12:12:19.167 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.167 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/4.png
+2024-02-25 12:12:19.167 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.168 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/5.png
+2024-02-25 12:12:19.168 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.168 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/6.png
+2024-02-25 12:12:19.168 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.169 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/7.png
+2024-02-25 12:12:19.169 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.169 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/8.png
+2024-02-25 12:12:19.169 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.170 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/9.png
+2024-02-25 12:12:19.170 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.170 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/10.png
+2024-02-25 12:12:19.171 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.171 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/11.png
+2024-02-25 12:12:19.171 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.171 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/12.png
+2024-02-25 12:12:19.172 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.172 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/13.png
+2024-02-25 12:12:19.172 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.172 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/14.png
+2024-02-25 12:12:19.173 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.173 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/15.png
+2024-02-25 12:12:19.173 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.174 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/16.png
+2024-02-25 12:12:19.174 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.174 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/17.png
+2024-02-25 12:12:19.174 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.175 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/18.png
+2024-02-25 12:12:19.175 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.175 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/19.png
+2024-02-25 12:12:19.175 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.176 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/20.png
+2024-02-25 12:12:19.176 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.176 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/21.png
+2024-02-25 12:12:19.176 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.177 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/22.png
+2024-02-25 12:12:19.177 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.177 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/23.png
+2024-02-25 12:12:19.177 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.178 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/24.png
+2024-02-25 12:12:19.178 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.178 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/25.png
+2024-02-25 12:12:19.178 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.179 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/26.png
+2024-02-25 12:12:19.179 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.180 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/27.png
+2024-02-25 12:12:19.180 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.181 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/28.png
+2024-02-25 12:12:19.181 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.181 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/29.png
+2024-02-25 12:12:19.181 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.182 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/30.png
+2024-02-25 12:12:19.182 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.182 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/31.png
+2024-02-25 12:12:19.183 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.183 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/32.png
+2024-02-25 12:12:19.183 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.183 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/33.png
+2024-02-25 12:12:19.184 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.184 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/34.png
+2024-02-25 12:12:19.184 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.185 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/35.png
+2024-02-25 12:12:19.185 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.185 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/36.png
+2024-02-25 12:12:19.185 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.186 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/37.png
+2024-02-25 12:12:19.186 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.186 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/38.png
+2024-02-25 12:12:19.186 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.187 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/39.png
+2024-02-25 12:12:19.187 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.187 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/40.png
+2024-02-25 12:12:19.187 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.188 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/41.png
+2024-02-25 12:12:19.188 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.188 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/42.png
+2024-02-25 12:12:19.188 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.189 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/43.png
+2024-02-25 12:12:19.189 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.189 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/44.png
+2024-02-25 12:12:19.189 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.190 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/45.png
+2024-02-25 12:12:19.190 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.190 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/46.png
+2024-02-25 12:12:19.190 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.191 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/47.png
+2024-02-25 12:12:19.191 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.191 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/48.png
+2024-02-25 12:12:19.192 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.192 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/49.png
+2024-02-25 12:12:19.192 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.192 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/50.png
+2024-02-25 12:12:19.193 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.193 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/51.png
+2024-02-25 12:12:19.193 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.193 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/52.png
+2024-02-25 12:12:19.194 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.194 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/53.png
+2024-02-25 12:12:19.194 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.194 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/54.png
+2024-02-25 12:12:19.195 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.195 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/55.png
+2024-02-25 12:12:19.196 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.196 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/56.png
+2024-02-25 12:12:19.196 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.197 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/57.png
+2024-02-25 12:12:19.197 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.197 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/58.png
+2024-02-25 12:12:19.197 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.198 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/59.png
+2024-02-25 12:12:19.198 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.198 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/60.png
+2024-02-25 12:12:19.198 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.199 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/61.png
+2024-02-25 12:12:19.199 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.199 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/62.png
+2024-02-25 12:12:19.199 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.200 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/63.png
+2024-02-25 12:12:19.200 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.200 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/64.png
+2024-02-25 12:12:19.200 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.201 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/65.png
+2024-02-25 12:12:19.201 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.201 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/66.png
+2024-02-25 12:12:19.201 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.202 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/67.png
+2024-02-25 12:12:19.202 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.202 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/68.png
+2024-02-25 12:12:19.202 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.203 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/69.png
+2024-02-25 12:12:19.203 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.203 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/70.png
+2024-02-25 12:12:19.203 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.204 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/71.png
+2024-02-25 12:12:19.204 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.204 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/72.png
+2024-02-25 12:12:19.204 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.205 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/73.png
+2024-02-25 12:12:19.205 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.205 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/74.png
+2024-02-25 12:12:19.205 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.206 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/75.png
+2024-02-25 12:12:19.206 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.206 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/76.png
+2024-02-25 12:12:19.206 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.207 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/77.png
+2024-02-25 12:12:19.207 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.207 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/78.png
+2024-02-25 12:12:19.207 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.208 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/79.png
+2024-02-25 12:12:19.208 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.208 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/80.png
+2024-02-25 12:12:19.208 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.209 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/81.png
+2024-02-25 12:12:19.209 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.209 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/82.png
+2024-02-25 12:12:19.209 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.210 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/83.png
+2024-02-25 12:12:19.210 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.210 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/84.png
+2024-02-25 12:12:19.210 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.211 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/85.png
+2024-02-25 12:12:19.211 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.212 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/86.png
+2024-02-25 12:12:19.212 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.213 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/87.png
+2024-02-25 12:12:19.213 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.213 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/88.png
+2024-02-25 12:12:19.213 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.214 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/89.png
+2024-02-25 12:12:19.214 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.214 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/90.png
+2024-02-25 12:12:19.215 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.215 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/91.png
+2024-02-25 12:12:19.215 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.215 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/92.png
+2024-02-25 12:12:19.216 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.216 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/93.png
+2024-02-25 12:12:19.216 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.216 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/94.png
+2024-02-25 12:12:19.217 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.217 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/95.png
+2024-02-25 12:12:19.217 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.217 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/96.png
+2024-02-25 12:12:19.218 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.218 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/97.png
+2024-02-25 12:12:19.218 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.219 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/98.png
+2024-02-25 12:12:19.219 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.219 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/99.png
+2024-02-25 12:12:19.219 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.220 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/100.png
+2024-02-25 12:12:19.220 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.221 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/101.png
+2024-02-25 12:12:19.221 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.221 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/102.png
+2024-02-25 12:12:19.221 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.222 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/103.png
+2024-02-25 12:12:19.222 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.223 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/104.png
+2024-02-25 12:12:19.223 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.223 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/105.png
+2024-02-25 12:12:19.224 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.224 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/106.png
+2024-02-25 12:12:19.225 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.225 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/107.png
+2024-02-25 12:12:19.225 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.226 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/108.png
+2024-02-25 12:12:19.226 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.227 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/109.png
+2024-02-25 12:12:19.227 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.228 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/110.png
+2024-02-25 12:12:19.228 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.228 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/111.png
+2024-02-25 12:12:19.228 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.229 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/112.png
+2024-02-25 12:12:19.229 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.229 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/113.png
+2024-02-25 12:12:19.230 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.230 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/114.png
+2024-02-25 12:12:19.230 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.230 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/115.png
+2024-02-25 12:12:19.231 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.231 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/116.png
+2024-02-25 12:12:19.231 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.231 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/117.png
+2024-02-25 12:12:19.232 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.232 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/118.png
+2024-02-25 12:12:19.232 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.232 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/119.png
+2024-02-25 12:12:19.233 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.233 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/120.png
+2024-02-25 12:12:19.233 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.233 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/121.png
+2024-02-25 12:12:19.234 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.234 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/122.png
+2024-02-25 12:12:19.234 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.234 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/123.png
+2024-02-25 12:12:19.235 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.235 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/124.png
+2024-02-25 12:12:19.235 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.235 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/125.png
+2024-02-25 12:12:19.236 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.236 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/126.png
+2024-02-25 12:12:19.236 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.237 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/127.png
+2024-02-25 12:12:19.237 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.237 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/128.png
+2024-02-25 12:12:19.237 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.238 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/129.png
+2024-02-25 12:12:19.238 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.238 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/130.png
+2024-02-25 12:12:19.238 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.239 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/131.png
+2024-02-25 12:12:19.239 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.239 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/132.png
+2024-02-25 12:12:19.239 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.240 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/133.png
+2024-02-25 12:12:19.240 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.241 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/134.png
+2024-02-25 12:12:19.241 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.241 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/135.png
+2024-02-25 12:12:19.242 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.242 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/136.png
+2024-02-25 12:12:19.242 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.243 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/137.png
+2024-02-25 12:12:19.243 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.243 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/138.png
+2024-02-25 12:12:19.244 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.244 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/139.png
+2024-02-25 12:12:19.244 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.245 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/140.png
+2024-02-25 12:12:19.245 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.245 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/141.png
+2024-02-25 12:12:19.245 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.246 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/142.png
+2024-02-25 12:12:19.246 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.246 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/143.png
+2024-02-25 12:12:19.247 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.247 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/144.png
+2024-02-25 12:12:19.247 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.248 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/145.png
+2024-02-25 12:12:19.248 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.248 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/146.png
+2024-02-25 12:12:19.248 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.249 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/147.png
+2024-02-25 12:12:19.249 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.249 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/148.png
+2024-02-25 12:12:19.249 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.250 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/149.png
+2024-02-25 12:12:19.250 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.250 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/150.png
+2024-02-25 12:12:19.250 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.251 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/151.png
+2024-02-25 12:12:19.251 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.251 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/152.png
+2024-02-25 12:12:19.251 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.252 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/153.png
+2024-02-25 12:12:19.252 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.252 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/154.png
+2024-02-25 12:12:19.253 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.253 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/155.png
+2024-02-25 12:12:19.253 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.253 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/156.png
+2024-02-25 12:12:19.254 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.254 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/157.png
+2024-02-25 12:12:19.254 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.255 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/158.png
+2024-02-25 12:12:19.255 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.255 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/159.png
+2024-02-25 12:12:19.255 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.256 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/160.png
+2024-02-25 12:12:19.256 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.256 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/161.png
+2024-02-25 12:12:19.256 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.257 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/162.png
+2024-02-25 12:12:19.257 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.257 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/163.png
+2024-02-25 12:12:19.258 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.258 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/164.png
+2024-02-25 12:12:19.258 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.259 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/165.png
+2024-02-25 12:12:19.259 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.259 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/166.png
+2024-02-25 12:12:19.260 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:12:19.260 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/167.png
+2024-02-25 12:12:19.263 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1483926944 寻找窗口
+2024-02-25 12:12:19.263 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1483926944 没有找到窗口，new一个新的窗口
+2024-02-25 12:12:19.264 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 12:12:19.264 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt鍏徃缇?
+2024-02-25 12:12:19.288 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 12:12:19.359 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:20.051 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 12:12:20.743 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 12:12:34.031 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:34.087 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 12:12:34.087 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1483863584, groupType = 1, strPeopel = 
+2024-02-25 12:12:34.087 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1483863584 寻找窗口
+2024-02-25 12:12:34.087 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1483863584 没有找到窗口，new一个新的窗口
+2024-02-25 12:12:34.088 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 12:12:34.088 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt浜轰簨缇?
+2024-02-25 12:12:34.092 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 12:12:34.186 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:34.995 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:35.055 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 12:12:35.055 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1483863584, groupType = 1, strPeopel = 
+2024-02-25 12:12:35.055 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1483863584 寻找窗口
+2024-02-25 12:12:35.055 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1483863584 没有找到窗口，new一个新的窗口
+2024-02-25 12:12:35.056 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 12:12:35.056 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt浜轰簨缇?
+2024-02-25 12:12:35.059 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 12:12:35.165 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:35.568 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:35.630 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 12:12:35.630 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1483863840, groupType = 2, strPeopel = 
+2024-02-25 12:12:35.630 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1483863840 寻找窗口
+2024-02-25 12:12:35.630 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1483863840 没有找到窗口，new一个新的窗口
+2024-02-25 12:12:35.631 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 12:12:35.631 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt鐮斿彂缇?
+2024-02-25 12:12:35.632 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 12:12:35.739 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:35.910 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:36.296 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:36.362 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 12:12:36.362 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1483869856, groupType = 3, strPeopel = 
+2024-02-25 12:12:36.362 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1483869856 寻找窗口
+2024-02-25 12:12:36.362 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1483869856 没有找到窗口，new一个新的窗口
+2024-02-25 12:12:36.363 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 12:12:36.363 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt甯傚満缇?
+2024-02-25 12:12:36.364 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 市场部
+2024-02-25 12:12:36.456 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:36.621 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:36.686 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 12:12:36.686 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1483869856, groupType = 3, strPeopel = 
+2024-02-25 12:12:36.686 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1483869856 寻找窗口
+2024-02-25 12:12:36.686 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1483869856 没有找到窗口，new一个新的窗口
+2024-02-25 12:12:36.687 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 12:12:36.687 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt甯傚満缇?
+2024-02-25 12:12:36.690 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 市场部
+2024-02-25 12:12:36.780 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:36.948 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:12:37.180 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:15:00.288 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 12:15:00.288 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 12:15:00.341 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 12:15:00.351 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 12:15:00.351 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 12:15:02.158 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 12:15:02.161 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 12:15:02.170 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 12:15:02.185 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 12:15:02.192 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 12:15:02.193 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 12:15:02.211 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 12:15:02.212 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 12:15:02.212 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 12:15:02.213 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 12:15:02.213 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 12:15:02.214 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 12:15:02.214 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 12:15:02.215 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 12:15:02.216 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 12:15:02.216 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 12:15:02.217 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 12:15:02.218 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 12:15:02.218 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 12:15:02.219 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 12:15:02.238 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 12:15:02.241 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 12:15:02.243 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 12:15:02.245 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 12:15:02.247 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 12:15:02.250 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 12:15:02.252 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 12:15:02.254 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 12:15:02.292 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 12:15:03.291 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:15:03.291 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 12:15:03.291 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 12:15:03.342 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 12:15:03.431 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:15:03.431 [DEBUG][CCMainWindow::onItemCollapsed][309]: 树项被收缩
+2024-02-25 12:15:03.431 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：0
+2024-02-25 12:15:03.905 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:15:03.905 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 12:15:03.905 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 12:15:04.909 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:15:04.979 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 12:15:04.979 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1380837344, groupType = 1, strPeopel = 
+2024-02-25 12:15:04.979 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 12:15:04.982 [DEBUG][TalkWindowSheel::initControl][40]: Qt聊天窗口初始化
+2024-02-25 12:15:04.989 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 12:15:04.990 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 12:15:04.992 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 12:15:04.992 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.992 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/0.png
+2024-02-25 12:15:04.992 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.993 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/1.png
+2024-02-25 12:15:04.993 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.993 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/2.png
+2024-02-25 12:15:04.993 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.994 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/3.png
+2024-02-25 12:15:04.994 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.994 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/4.png
+2024-02-25 12:15:04.994 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.995 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/5.png
+2024-02-25 12:15:04.995 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.995 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/6.png
+2024-02-25 12:15:04.996 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.996 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/7.png
+2024-02-25 12:15:04.996 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.996 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/8.png
+2024-02-25 12:15:04.997 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.997 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/9.png
+2024-02-25 12:15:04.997 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.998 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/10.png
+2024-02-25 12:15:04.998 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.998 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/11.png
+2024-02-25 12:15:04.998 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.999 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/12.png
+2024-02-25 12:15:04.999 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:04.999 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/13.png
+2024-02-25 12:15:05.000 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.000 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/14.png
+2024-02-25 12:15:05.000 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.001 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/15.png
+2024-02-25 12:15:05.001 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.001 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/16.png
+2024-02-25 12:15:05.002 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.002 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/17.png
+2024-02-25 12:15:05.002 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.002 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/18.png
+2024-02-25 12:15:05.003 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.003 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/19.png
+2024-02-25 12:15:05.003 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.003 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/20.png
+2024-02-25 12:15:05.004 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.004 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/21.png
+2024-02-25 12:15:05.004 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.005 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/22.png
+2024-02-25 12:15:05.005 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.005 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/23.png
+2024-02-25 12:15:05.005 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.006 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/24.png
+2024-02-25 12:15:05.006 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.006 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/25.png
+2024-02-25 12:15:05.006 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.007 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/26.png
+2024-02-25 12:15:05.007 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.007 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/27.png
+2024-02-25 12:15:05.008 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.008 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/28.png
+2024-02-25 12:15:05.008 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.008 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/29.png
+2024-02-25 12:15:05.009 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.009 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/30.png
+2024-02-25 12:15:05.009 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.010 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/31.png
+2024-02-25 12:15:05.010 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.010 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/32.png
+2024-02-25 12:15:05.010 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.011 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/33.png
+2024-02-25 12:15:05.011 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.011 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/34.png
+2024-02-25 12:15:05.011 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.012 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/35.png
+2024-02-25 12:15:05.012 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.012 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/36.png
+2024-02-25 12:15:05.012 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.013 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/37.png
+2024-02-25 12:15:05.013 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.013 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/38.png
+2024-02-25 12:15:05.014 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.014 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/39.png
+2024-02-25 12:15:05.014 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.015 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/40.png
+2024-02-25 12:15:05.015 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.015 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/41.png
+2024-02-25 12:15:05.016 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.016 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/42.png
+2024-02-25 12:15:05.017 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.017 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/43.png
+2024-02-25 12:15:05.017 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.018 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/44.png
+2024-02-25 12:15:05.018 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.018 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/45.png
+2024-02-25 12:15:05.019 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.019 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/46.png
+2024-02-25 12:15:05.019 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.019 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/47.png
+2024-02-25 12:15:05.020 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.020 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/48.png
+2024-02-25 12:15:05.020 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.021 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/49.png
+2024-02-25 12:15:05.021 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.021 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/50.png
+2024-02-25 12:15:05.022 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.022 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/51.png
+2024-02-25 12:15:05.022 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.022 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/52.png
+2024-02-25 12:15:05.023 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.023 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/53.png
+2024-02-25 12:15:05.023 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.024 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/54.png
+2024-02-25 12:15:05.024 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.024 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/55.png
+2024-02-25 12:15:05.024 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.025 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/56.png
+2024-02-25 12:15:05.025 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.025 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/57.png
+2024-02-25 12:15:05.025 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.026 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/58.png
+2024-02-25 12:15:05.026 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.026 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/59.png
+2024-02-25 12:15:05.026 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.027 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/60.png
+2024-02-25 12:15:05.027 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.028 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/61.png
+2024-02-25 12:15:05.028 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.028 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/62.png
+2024-02-25 12:15:05.028 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.029 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/63.png
+2024-02-25 12:15:05.029 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.029 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/64.png
+2024-02-25 12:15:05.029 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.030 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/65.png
+2024-02-25 12:15:05.030 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.030 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/66.png
+2024-02-25 12:15:05.031 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.031 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/67.png
+2024-02-25 12:15:05.031 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.032 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/68.png
+2024-02-25 12:15:05.032 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.032 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/69.png
+2024-02-25 12:15:05.033 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.033 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/70.png
+2024-02-25 12:15:05.033 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.034 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/71.png
+2024-02-25 12:15:05.034 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.034 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/72.png
+2024-02-25 12:15:05.035 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.035 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/73.png
+2024-02-25 12:15:05.035 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.036 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/74.png
+2024-02-25 12:15:05.036 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.036 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/75.png
+2024-02-25 12:15:05.036 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.037 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/76.png
+2024-02-25 12:15:05.037 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.037 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/77.png
+2024-02-25 12:15:05.038 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.038 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/78.png
+2024-02-25 12:15:05.038 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.038 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/79.png
+2024-02-25 12:15:05.039 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.039 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/80.png
+2024-02-25 12:15:05.039 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.039 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/81.png
+2024-02-25 12:15:05.040 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.040 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/82.png
+2024-02-25 12:15:05.040 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.041 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/83.png
+2024-02-25 12:15:05.041 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.041 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/84.png
+2024-02-25 12:15:05.041 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.042 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/85.png
+2024-02-25 12:15:05.042 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.042 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/86.png
+2024-02-25 12:15:05.042 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.043 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/87.png
+2024-02-25 12:15:05.043 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.043 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/88.png
+2024-02-25 12:15:05.044 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.044 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/89.png
+2024-02-25 12:15:05.044 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.045 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/90.png
+2024-02-25 12:15:05.045 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.045 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/91.png
+2024-02-25 12:15:05.045 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.046 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/92.png
+2024-02-25 12:15:05.046 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.046 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/93.png
+2024-02-25 12:15:05.046 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.047 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/94.png
+2024-02-25 12:15:05.047 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.047 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/95.png
+2024-02-25 12:15:05.048 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.048 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/96.png
+2024-02-25 12:15:05.048 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.049 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/97.png
+2024-02-25 12:15:05.049 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.049 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/98.png
+2024-02-25 12:15:05.049 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.050 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/99.png
+2024-02-25 12:15:05.050 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.050 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/100.png
+2024-02-25 12:15:05.051 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.051 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/101.png
+2024-02-25 12:15:05.051 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.052 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/102.png
+2024-02-25 12:15:05.052 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.052 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/103.png
+2024-02-25 12:15:05.052 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.053 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/104.png
+2024-02-25 12:15:05.053 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.053 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/105.png
+2024-02-25 12:15:05.053 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.054 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/106.png
+2024-02-25 12:15:05.054 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.054 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/107.png
+2024-02-25 12:15:05.055 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.055 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/108.png
+2024-02-25 12:15:05.055 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.055 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/109.png
+2024-02-25 12:15:05.056 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.056 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/110.png
+2024-02-25 12:15:05.056 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.056 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/111.png
+2024-02-25 12:15:05.057 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.057 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/112.png
+2024-02-25 12:15:05.057 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.057 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/113.png
+2024-02-25 12:15:05.058 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.058 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/114.png
+2024-02-25 12:15:05.058 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.059 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/115.png
+2024-02-25 12:15:05.059 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.059 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/116.png
+2024-02-25 12:15:05.059 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.060 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/117.png
+2024-02-25 12:15:05.060 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.060 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/118.png
+2024-02-25 12:15:05.060 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.061 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/119.png
+2024-02-25 12:15:05.061 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.061 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/120.png
+2024-02-25 12:15:05.062 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.062 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/121.png
+2024-02-25 12:15:05.062 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.063 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/122.png
+2024-02-25 12:15:05.063 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.064 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/123.png
+2024-02-25 12:15:05.064 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.064 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/124.png
+2024-02-25 12:15:05.065 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.065 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/125.png
+2024-02-25 12:15:05.065 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.065 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/126.png
+2024-02-25 12:15:05.066 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.066 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/127.png
+2024-02-25 12:15:05.066 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.067 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/128.png
+2024-02-25 12:15:05.067 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.067 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/129.png
+2024-02-25 12:15:05.067 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.068 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/130.png
+2024-02-25 12:15:05.068 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.068 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/131.png
+2024-02-25 12:15:05.068 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.069 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/132.png
+2024-02-25 12:15:05.069 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.069 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/133.png
+2024-02-25 12:15:05.069 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.070 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/134.png
+2024-02-25 12:15:05.070 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.070 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/135.png
+2024-02-25 12:15:05.070 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.071 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/136.png
+2024-02-25 12:15:05.071 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.071 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/137.png
+2024-02-25 12:15:05.071 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.072 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/138.png
+2024-02-25 12:15:05.072 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.072 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/139.png
+2024-02-25 12:15:05.072 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.073 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/140.png
+2024-02-25 12:15:05.073 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.073 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/141.png
+2024-02-25 12:15:05.073 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.074 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/142.png
+2024-02-25 12:15:05.074 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.074 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/143.png
+2024-02-25 12:15:05.074 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.075 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/144.png
+2024-02-25 12:15:05.075 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.075 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/145.png
+2024-02-25 12:15:05.075 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.076 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/146.png
+2024-02-25 12:15:05.076 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.076 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/147.png
+2024-02-25 12:15:05.076 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.077 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/148.png
+2024-02-25 12:15:05.077 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.077 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/149.png
+2024-02-25 12:15:05.077 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.078 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/150.png
+2024-02-25 12:15:05.078 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.078 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/151.png
+2024-02-25 12:15:05.079 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.079 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/152.png
+2024-02-25 12:15:05.079 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.080 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/153.png
+2024-02-25 12:15:05.080 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.080 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/154.png
+2024-02-25 12:15:05.080 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.081 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/155.png
+2024-02-25 12:15:05.081 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.081 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/156.png
+2024-02-25 12:15:05.081 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.082 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/157.png
+2024-02-25 12:15:05.082 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.082 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/158.png
+2024-02-25 12:15:05.082 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.083 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/159.png
+2024-02-25 12:15:05.083 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.083 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/160.png
+2024-02-25 12:15:05.083 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.084 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/161.png
+2024-02-25 12:15:05.084 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.084 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/162.png
+2024-02-25 12:15:05.084 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.085 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/163.png
+2024-02-25 12:15:05.085 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.085 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/164.png
+2024-02-25 12:15:05.085 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.086 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/165.png
+2024-02-25 12:15:05.086 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.086 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/166.png
+2024-02-25 12:15:05.087 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:15:05.087 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/167.png
+2024-02-25 12:15:05.090 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1380837344 寻找窗口
+2024-02-25 12:15:05.090 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1380837344 没有找到窗口，new一个新的窗口
+2024-02-25 12:15:05.090 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 12:15:05.090 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt浜轰簨缇?
+2024-02-25 12:15:05.102 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 12:15:05.170 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:16:17.760 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 12:16:17.760 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 12:16:17.818 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 12:16:17.824 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 12:16:17.824 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 12:16:19.265 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 12:16:19.268 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 12:16:19.275 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 12:16:19.294 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 12:16:19.302 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 12:16:19.303 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 12:16:19.326 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 12:16:19.327 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 12:16:19.328 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 12:16:19.328 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 12:16:19.329 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 12:16:19.329 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 12:16:19.330 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 12:16:19.330 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 12:16:19.331 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 12:16:19.332 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 12:16:19.332 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 12:16:19.333 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 12:16:19.333 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 12:16:19.334 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 12:16:19.353 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 12:16:19.356 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 12:16:19.358 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 12:16:19.361 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 12:16:19.364 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 12:16:19.366 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 12:16:19.368 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 12:16:19.809 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 12:16:19.846 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 12:16:20.587 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:16:20.587 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 12:16:20.587 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 12:16:21.254 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:16:21.297 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 12:16:21.297 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = -1318990704, groupType = 2, strPeopel = 
+2024-02-25 12:16:21.298 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 12:16:21.300 [DEBUG][TalkWindowSheel::initControl][40]: Qt聊天窗口初始化
+2024-02-25 12:16:21.307 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 12:16:21.308 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 12:16:21.310 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 12:16:21.310 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.311 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/0.png
+2024-02-25 12:16:21.311 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.311 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/1.png
+2024-02-25 12:16:21.311 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.312 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/2.png
+2024-02-25 12:16:21.312 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.312 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/3.png
+2024-02-25 12:16:21.312 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.313 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/4.png
+2024-02-25 12:16:21.313 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.313 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/5.png
+2024-02-25 12:16:21.313 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.314 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/6.png
+2024-02-25 12:16:21.314 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.314 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/7.png
+2024-02-25 12:16:21.314 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.315 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/8.png
+2024-02-25 12:16:21.315 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.315 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/9.png
+2024-02-25 12:16:21.316 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.316 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/10.png
+2024-02-25 12:16:21.316 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.316 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/11.png
+2024-02-25 12:16:21.317 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.317 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/12.png
+2024-02-25 12:16:21.317 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.318 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/13.png
+2024-02-25 12:16:21.318 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.318 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/14.png
+2024-02-25 12:16:21.319 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.319 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/15.png
+2024-02-25 12:16:21.319 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.320 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/16.png
+2024-02-25 12:16:21.320 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.320 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/17.png
+2024-02-25 12:16:21.321 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.321 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/18.png
+2024-02-25 12:16:21.321 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.321 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/19.png
+2024-02-25 12:16:21.322 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.322 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/20.png
+2024-02-25 12:16:21.322 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.322 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/21.png
+2024-02-25 12:16:21.323 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.323 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/22.png
+2024-02-25 12:16:21.323 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.324 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/23.png
+2024-02-25 12:16:21.324 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.324 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/24.png
+2024-02-25 12:16:21.324 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.325 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/25.png
+2024-02-25 12:16:21.325 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.325 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/26.png
+2024-02-25 12:16:21.325 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.326 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/27.png
+2024-02-25 12:16:21.326 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.326 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/28.png
+2024-02-25 12:16:21.326 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.327 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/29.png
+2024-02-25 12:16:21.327 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.327 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/30.png
+2024-02-25 12:16:21.328 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.328 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/31.png
+2024-02-25 12:16:21.328 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.329 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/32.png
+2024-02-25 12:16:21.329 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.329 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/33.png
+2024-02-25 12:16:21.329 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.330 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/34.png
+2024-02-25 12:16:21.330 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.330 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/35.png
+2024-02-25 12:16:21.330 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.331 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/36.png
+2024-02-25 12:16:21.331 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.331 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/37.png
+2024-02-25 12:16:21.332 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.332 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/38.png
+2024-02-25 12:16:21.332 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.332 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/39.png
+2024-02-25 12:16:21.333 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.333 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/40.png
+2024-02-25 12:16:21.333 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.333 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/41.png
+2024-02-25 12:16:21.334 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.334 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/42.png
+2024-02-25 12:16:21.334 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.335 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/43.png
+2024-02-25 12:16:21.335 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.336 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/44.png
+2024-02-25 12:16:21.336 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.336 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/45.png
+2024-02-25 12:16:21.337 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.337 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/46.png
+2024-02-25 12:16:21.337 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.338 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/47.png
+2024-02-25 12:16:21.338 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.338 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/48.png
+2024-02-25 12:16:21.339 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.339 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/49.png
+2024-02-25 12:16:21.339 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.340 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/50.png
+2024-02-25 12:16:21.340 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.340 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/51.png
+2024-02-25 12:16:21.340 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.341 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/52.png
+2024-02-25 12:16:21.341 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.341 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/53.png
+2024-02-25 12:16:21.342 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.342 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/54.png
+2024-02-25 12:16:21.342 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.342 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/55.png
+2024-02-25 12:16:21.343 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.343 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/56.png
+2024-02-25 12:16:21.343 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.344 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/57.png
+2024-02-25 12:16:21.344 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.344 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/58.png
+2024-02-25 12:16:21.344 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.345 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/59.png
+2024-02-25 12:16:21.345 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.345 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/60.png
+2024-02-25 12:16:21.345 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.346 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/61.png
+2024-02-25 12:16:21.346 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.346 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/62.png
+2024-02-25 12:16:21.346 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.347 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/63.png
+2024-02-25 12:16:21.347 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.347 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/64.png
+2024-02-25 12:16:21.347 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.348 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/65.png
+2024-02-25 12:16:21.348 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.348 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/66.png
+2024-02-25 12:16:21.348 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.349 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/67.png
+2024-02-25 12:16:21.349 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.349 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/68.png
+2024-02-25 12:16:21.349 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.350 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/69.png
+2024-02-25 12:16:21.350 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.350 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/70.png
+2024-02-25 12:16:21.351 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.351 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/71.png
+2024-02-25 12:16:21.351 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.352 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/72.png
+2024-02-25 12:16:21.352 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.352 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/73.png
+2024-02-25 12:16:21.352 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.353 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/74.png
+2024-02-25 12:16:21.353 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.353 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/75.png
+2024-02-25 12:16:21.353 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.354 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/76.png
+2024-02-25 12:16:21.354 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.354 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/77.png
+2024-02-25 12:16:21.354 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.355 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/78.png
+2024-02-25 12:16:21.355 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.355 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/79.png
+2024-02-25 12:16:21.355 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.356 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/80.png
+2024-02-25 12:16:21.356 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.356 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/81.png
+2024-02-25 12:16:21.356 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.357 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/82.png
+2024-02-25 12:16:21.357 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.357 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/83.png
+2024-02-25 12:16:21.357 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.358 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/84.png
+2024-02-25 12:16:21.358 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.358 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/85.png
+2024-02-25 12:16:21.358 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.359 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/86.png
+2024-02-25 12:16:21.359 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.359 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/87.png
+2024-02-25 12:16:21.359 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.360 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/88.png
+2024-02-25 12:16:21.360 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.360 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/89.png
+2024-02-25 12:16:21.360 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.361 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/90.png
+2024-02-25 12:16:21.361 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.361 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/91.png
+2024-02-25 12:16:21.361 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.362 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/92.png
+2024-02-25 12:16:21.362 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.362 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/93.png
+2024-02-25 12:16:21.362 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.363 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/94.png
+2024-02-25 12:16:21.363 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.363 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/95.png
+2024-02-25 12:16:21.363 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.364 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/96.png
+2024-02-25 12:16:21.364 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.364 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/97.png
+2024-02-25 12:16:21.365 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.365 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/98.png
+2024-02-25 12:16:21.365 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.365 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/99.png
+2024-02-25 12:16:21.366 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.366 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/100.png
+2024-02-25 12:16:21.367 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.367 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/101.png
+2024-02-25 12:16:21.368 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.368 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/102.png
+2024-02-25 12:16:21.368 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.369 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/103.png
+2024-02-25 12:16:21.369 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.369 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/104.png
+2024-02-25 12:16:21.369 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.370 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/105.png
+2024-02-25 12:16:21.370 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.370 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/106.png
+2024-02-25 12:16:21.370 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.371 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/107.png
+2024-02-25 12:16:21.371 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.371 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/108.png
+2024-02-25 12:16:21.372 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.372 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/109.png
+2024-02-25 12:16:21.372 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.372 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/110.png
+2024-02-25 12:16:21.373 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.373 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/111.png
+2024-02-25 12:16:21.373 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.373 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/112.png
+2024-02-25 12:16:21.374 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.374 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/113.png
+2024-02-25 12:16:21.374 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.374 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/114.png
+2024-02-25 12:16:21.375 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.375 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/115.png
+2024-02-25 12:16:21.375 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.376 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/116.png
+2024-02-25 12:16:21.376 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.376 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/117.png
+2024-02-25 12:16:21.377 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.377 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/118.png
+2024-02-25 12:16:21.377 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.377 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/119.png
+2024-02-25 12:16:21.377 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.378 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/120.png
+2024-02-25 12:16:21.378 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.378 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/121.png
+2024-02-25 12:16:21.379 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.379 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/122.png
+2024-02-25 12:16:21.379 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.379 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/123.png
+2024-02-25 12:16:21.380 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.380 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/124.png
+2024-02-25 12:16:21.380 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.380 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/125.png
+2024-02-25 12:16:21.381 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.381 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/126.png
+2024-02-25 12:16:21.381 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.382 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/127.png
+2024-02-25 12:16:21.382 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.382 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/128.png
+2024-02-25 12:16:21.383 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.383 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/129.png
+2024-02-25 12:16:21.384 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.384 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/130.png
+2024-02-25 12:16:21.384 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.385 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/131.png
+2024-02-25 12:16:21.385 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.385 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/132.png
+2024-02-25 12:16:21.386 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.386 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/133.png
+2024-02-25 12:16:21.386 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.386 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/134.png
+2024-02-25 12:16:21.387 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.387 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/135.png
+2024-02-25 12:16:21.387 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.387 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/136.png
+2024-02-25 12:16:21.388 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.388 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/137.png
+2024-02-25 12:16:21.388 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.388 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/138.png
+2024-02-25 12:16:21.389 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.389 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/139.png
+2024-02-25 12:16:21.389 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.389 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/140.png
+2024-02-25 12:16:21.390 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.390 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/141.png
+2024-02-25 12:16:21.390 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.390 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/142.png
+2024-02-25 12:16:21.391 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.391 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/143.png
+2024-02-25 12:16:21.391 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.391 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/144.png
+2024-02-25 12:16:21.392 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.392 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/145.png
+2024-02-25 12:16:21.392 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.392 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/146.png
+2024-02-25 12:16:21.393 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.393 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/147.png
+2024-02-25 12:16:21.393 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.393 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/148.png
+2024-02-25 12:16:21.394 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.394 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/149.png
+2024-02-25 12:16:21.394 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.394 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/150.png
+2024-02-25 12:16:21.395 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.395 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/151.png
+2024-02-25 12:16:21.395 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.395 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/152.png
+2024-02-25 12:16:21.396 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.396 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/153.png
+2024-02-25 12:16:21.396 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.396 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/154.png
+2024-02-25 12:16:21.397 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.397 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/155.png
+2024-02-25 12:16:21.397 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.397 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/156.png
+2024-02-25 12:16:21.398 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.398 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/157.png
+2024-02-25 12:16:21.398 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.399 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/158.png
+2024-02-25 12:16:21.399 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.399 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/159.png
+2024-02-25 12:16:21.400 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.400 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/160.png
+2024-02-25 12:16:21.400 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.400 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/161.png
+2024-02-25 12:16:21.401 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.401 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/162.png
+2024-02-25 12:16:21.401 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.401 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/163.png
+2024-02-25 12:16:21.402 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.402 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/164.png
+2024-02-25 12:16:21.402 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.402 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/165.png
+2024-02-25 12:16:21.403 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.403 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/166.png
+2024-02-25 12:16:21.403 [DEBUG][EmotionLabelItem::initControl][32]: 表情显示初始化
+2024-02-25 12:16:21.403 [DEBUG][EmotionLabelItem::setEmotionName][28]: 设置表情 :Resources/MainWindow/emotion/167.png
+2024-02-25 12:16:21.406 [DEBUG][WindowManager::findWindowName][18]: 根据名字：-1318990704 寻找窗口
+2024-02-25 12:16:21.406 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 -1318990704 没有找到窗口，new一个新的窗口
+2024-02-25 12:16:21.407 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 12:16:21.407 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt研发群
+2024-02-25 12:16:21.418 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 12:16:21.489 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 12:16:23.329 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 12:16:23.437 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 12:16:23.728 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 12:16:26.414 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口

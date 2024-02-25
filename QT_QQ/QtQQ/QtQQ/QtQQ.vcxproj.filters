@@ -94,6 +94,9 @@
     <ClCompile Include="TalkWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TitleBar.h">
@@ -139,6 +142,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="TalkWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WindowManager.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

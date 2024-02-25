@@ -111,6 +111,7 @@
     <ClCompile Include="TalkWindowSheel.cpp" />
     <ClCompile Include="TitleBar.cpp" />
     <ClCompile Include="UserLogin.cpp" />
+    <ClCompile Include="WindowManager.cpp" />
     <QtRcc Include="CCMainWindow.qrc" />
     <QtUic Include="CCMainWindow.ui" />
     <QtMoc Include="CCMainWindow.h" />
@@ -132,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <QtMoc Include="WindowManager.h" />
     <QtMoc Include="TalkWindow.h" />
     <QtMoc Include="TalkWindowItem.h" />
     <QtMoc Include="TalkWindowSheel.h" />

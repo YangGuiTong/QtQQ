@@ -32,7 +32,7 @@ bool MyLog::init(std::string logName, bool logBakcName, bool toScreen) {
 		logName = year + month + day + ".log";
 
 	} else if (true == logBakcName) {
-		logName = logName + "_" + year + month + day + ".log";
+		logName = logName + "_" + year + "-" + month + "-" + day + ".log";
 	}
 
 	if (MyLog::log == NULL) {
