@@ -348,5 +348,8 @@
         <file>Resources/QSS/TalkWindow.css</file>
         <file>Resources/QSS/Title.css</file>
         <file>Resources/QSS/UserLogin.css</file>
+        <file>Resources/MainWindow/fileopen.png</file>
+        <file>Resources/MainWindow/fileopen_hover.png</file>
+        <file>Resources/MainWindow/fileopen_press.png</file>
     </qresource>
 </RCC>

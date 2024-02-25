@@ -60,19 +60,19 @@ void WindowManager::addNewTalkWindow(const QString & uid, GroupType groupType, c
 		switch (groupType) {
 			case COMPANY:
 			{
-				talkwindow->setWindowName(QStringLiteral("这个群一天也不想呆了"));
-				talkwindowItem->setMsgLabelContent(QStringLiteral("Qt公司群"));
+				talkwindow->setWindowName(QString("这个群一天也不想呆了"));
+				talkwindowItem->setMsgLabelContent(QString("Qt公司群"));
 				break;
 			}
 			case PERSONELGROUP:
 			{
-				talkwindow->setWindowName(QString("骗劳资入职的人事群"));
+				talkwindow->setWindowName(QString("今天上班不努力，明天努力找工作"));
 				talkwindowItem->setMsgLabelContent(QString("Qt人事群"));
 				break;
 			}
 			case MARKETGROUP:
 			{
-				talkwindow->setWindowName(QString("把公司不成品的产品卖个客户的群"));
+				talkwindow->setWindowName(QString("到处造谣拐骗"));
 				talkwindowItem->setMsgLabelContent(QString("Qt市场群"));
 				break;
 			}
@@ -93,6 +93,8 @@ void WindowManager::addNewTalkWindow(const QString & uid, GroupType groupType, c
 				break;
 			}
 		}
+
+		m_talkwindowshell->addTalkWindow(talkwindow, talkwindowItem, groupType);
 
 	} else {
 		MyLogDEBUG(QString("根据 %1 找到窗口，直接添加").arg(uid).toUtf8());

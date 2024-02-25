@@ -51,3 +51,224 @@
 2024-02-25 12:18:27.162 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt人事群
 2024-02-25 12:18:27.174 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
 2024-02-25 12:18:27.245 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:19:43.224 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 15:19:43.229 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 15:19:43.328 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 15:19:43.334 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 15:19:43.334 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 15:19:45.395 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 15:19:45.398 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 15:19:45.406 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 15:19:45.422 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 15:19:45.428 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 15:19:45.428 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 15:19:45.448 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 15:19:45.448 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 15:19:45.449 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 15:19:45.449 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 15:19:45.450 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 15:19:45.450 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 15:19:45.451 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 15:19:45.451 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 15:19:45.452 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 15:19:45.452 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 15:19:45.453 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 15:19:45.453 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 15:19:45.454 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 15:19:45.455 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 15:19:45.476 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 15:19:45.478 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 15:19:45.480 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 15:19:45.482 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 15:19:45.484 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 15:19:45.488 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 15:19:45.490 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 15:19:45.493 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 15:19:45.528 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 15:19:46.853 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:19:46.853 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 15:19:46.853 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 15:19:48.458 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:19:48.541 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 15:19:48.541 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 45061408, groupType = 3, strPeopel = 
+2024-02-25 15:19:48.542 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 15:19:48.544 [DEBUG][TalkWindowSheel::initControl][40]: Qt聊天窗口初始化
+2024-02-25 15:19:48.552 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 15:19:48.552 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 15:19:48.554 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 15:19:48.632 [DEBUG][WindowManager::findWindowName][18]: 根据名字：45061408 寻找窗口
+2024-02-25 15:19:48.633 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 45061408 没有找到窗口，new一个新的窗口
+2024-02-25 15:19:48.685 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 15:19:48.685 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt市场群
+2024-02-25 15:19:48.708 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 市场部
+2024-02-25 15:19:48.792 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:37:49.963 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 15:37:49.963 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 15:37:50.014 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 15:37:50.021 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 15:37:50.021 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 15:37:52.623 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 15:37:52.627 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 15:37:52.634 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 15:37:52.650 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 15:37:52.656 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 15:37:52.656 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 15:37:52.676 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 15:37:52.677 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 15:37:52.678 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 15:37:52.678 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 15:37:52.679 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 15:37:52.679 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 15:37:52.680 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 15:37:52.680 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 15:37:52.681 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 15:37:52.681 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 15:37:52.682 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 15:37:52.683 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 15:37:52.683 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 15:37:52.684 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 15:37:52.703 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 15:37:52.706 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 15:37:52.707 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 15:37:52.709 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 15:37:52.711 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 15:37:52.714 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 15:37:52.717 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 15:37:52.719 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 15:37:52.758 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 15:37:54.047 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:37:54.047 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 15:37:54.047 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 15:37:54.700 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:37:54.758 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 15:37:54.758 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 885230208, groupType = 0, strPeopel = 
+2024-02-25 15:37:54.758 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 15:37:54.761 [DEBUG][TalkWindowSheel::initControl][40]: Qt聊天窗口初始化
+2024-02-25 15:37:54.768 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 15:37:54.768 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 15:37:54.770 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 15:37:54.849 [DEBUG][WindowManager::findWindowName][18]: 根据名字：885230208 寻找窗口
+2024-02-25 15:37:54.849 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 885230208 没有找到窗口，new一个新的窗口
+2024-02-25 15:37:54.867 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 15:37:54.868 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt公司群
+2024-02-25 15:37:54.868 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：0
+2024-02-25 15:37:54.908 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 15:37:54.988 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:38:06.144 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 15:38:06.208 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 15:55:23.503 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 15:55:23.508 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 15:55:23.874 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 15:55:23.879 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 15:55:23.879 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 15:55:25.407 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 15:55:25.411 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 15:55:25.419 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 15:55:25.434 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 15:55:25.439 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 15:55:25.440 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 15:55:25.461 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 15:55:25.461 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 15:55:25.462 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 15:55:25.462 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 15:55:25.463 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 15:55:25.463 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 15:55:25.464 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 15:55:25.464 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 15:55:25.465 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 15:55:25.465 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 15:55:25.466 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 15:55:25.466 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 15:55:25.467 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 15:55:25.468 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 15:55:25.487 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 15:55:25.490 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 15:55:25.492 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 15:55:25.494 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 15:55:25.495 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 15:55:25.498 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 15:55:25.500 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 15:55:25.981 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 15:55:26.019 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 15:55:26.898 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:55:26.898 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 15:55:26.898 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 15:55:27.462 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:55:27.535 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 15:55:27.535 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 263003504, groupType = 1, strPeopel = 
+2024-02-25 15:55:27.535 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 15:55:27.539 [DEBUG][TalkWindowSheel::initControl][40]: Qt聊天窗口初始化
+2024-02-25 15:55:27.546 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 15:55:27.547 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 15:55:27.548 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 15:55:27.627 [DEBUG][WindowManager::findWindowName][18]: 根据名字：263003504 寻找窗口
+2024-02-25 15:55:27.627 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 263003504 没有找到窗口，new一个新的窗口
+2024-02-25 15:55:27.645 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 15:55:27.645 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt人事群
+2024-02-25 15:55:27.645 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：1
+2024-02-25 15:55:27.686 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 15:55:27.765 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 15:55:31.800 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 15:55:31.950 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 16:00:51.114 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 16:00:51.115 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 16:00:51.167 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 16:00:51.177 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 16:00:51.177 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 16:00:52.406 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 16:00:52.411 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 16:00:52.418 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 16:00:52.435 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 16:00:52.440 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 16:00:52.441 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 16:00:52.462 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 16:00:52.462 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 16:00:52.463 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 16:00:52.463 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 16:00:52.464 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 16:00:52.464 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 16:00:52.465 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 16:00:52.465 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 16:00:52.466 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 16:00:52.466 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 16:00:52.467 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 16:00:52.467 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 16:00:52.468 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 16:00:52.469 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 16:00:52.489 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 16:00:52.491 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 16:00:52.494 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 16:00:52.496 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 16:00:52.498 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 16:00:52.500 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 16:00:52.502 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 16:00:52.505 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 16:00:52.546 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 16:00:53.555 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 16:00:53.555 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 16:00:53.555 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 16:00:53.960 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 16:00:54.023 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 16:00:54.023 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 108672, groupType = 1, strPeopel = 
+2024-02-25 16:00:54.024 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 16:00:54.026 [DEBUG][TalkWindowSheel::initControl][40]: Qt聊天窗口初始化
+2024-02-25 16:00:54.033 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 16:00:54.033 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 16:00:54.037 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 16:00:54.116 [DEBUG][WindowManager::findWindowName][18]: 根据名字：108672 寻找窗口
+2024-02-25 16:00:54.116 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 108672 没有找到窗口，new一个新的窗口
+2024-02-25 16:00:54.138 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 16:00:54.138 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt人事群
+2024-02-25 16:00:54.138 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：1
+2024-02-25 16:00:54.176 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 16:00:54.260 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 16:00:57.339 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 16:00:57.632 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
