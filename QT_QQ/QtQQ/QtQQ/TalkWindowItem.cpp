@@ -13,10 +13,11 @@ TalkWindowItem::TalkWindowItem(QWidget *parent)
 TalkWindowItem::~TalkWindowItem()
 {}
 
-void TalkWindowItem::setHeadPixmap(const QPixmap & pixmap) {
+void TalkWindowItem::setHeadPixmap(const QString &headPath) {
 	MyLogDEBUG(QString("ÉèÖÃÍ·Ïñ").toUtf8());
 
 	QPixmap mask = QPixmap(":/Resources/MainWindow/head_mask.png");
+	QPixmap pixmap = QPixmap(":/Resources/MainWindow/girl.png");
 
 	const QPixmap &headpixmap = CommonUtils::getRoundImage(pixmap, mask, ui.headlabel->size());
 	ui.headlabel->setPixmap(headpixmap);

@@ -272,3 +272,1936 @@
 2024-02-25 16:00:54.260 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
 2024-02-25 16:00:57.339 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
 2024-02-25 16:00:57.632 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 17:03:40.711 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 17:03:40.711 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:03:40.770 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 17:03:40.778 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 17:03:40.778 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 17:03:42.611 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 17:03:42.617 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:03:42.624 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 17:03:42.641 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 17:03:42.646 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 17:03:42.646 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 17:03:42.667 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 17:03:42.667 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 17:03:42.668 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 17:03:42.668 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 17:03:42.669 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 17:03:42.670 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 17:03:42.671 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 17:03:42.671 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 17:03:42.672 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 17:03:42.673 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 17:03:42.673 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 17:03:42.674 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 17:03:42.674 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 17:03:42.675 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 17:03:42.696 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 17:03:42.699 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 17:03:42.701 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 17:03:42.703 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 17:03:42.705 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 17:03:42.706 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 17:03:42.708 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 17:03:43.150 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 17:03:43.188 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 17:03:44.121 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:03:44.121 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 17:03:44.121 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 17:03:44.850 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:03:44.895 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:03:44.895 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 893941456, groupType = 1, strPeopel = 
+2024-02-25 17:03:44.895 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:03:44.898 [DEBUG][TalkWindowSheel::initControl][40]: Qt聊天窗口初始化
+2024-02-25 17:03:44.905 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 17:03:44.905 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 17:03:44.907 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 17:03:44.987 [DEBUG][WindowManager::findWindowName][18]: 根据名字：893941456 寻找窗口
+2024-02-25 17:03:44.987 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 893941456 没有找到窗口，new一个新的窗口
+2024-02-25 17:03:45.004 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:03:45.006 [DEBUG][TalkWindow::initPersonelTalk][117]: 人事群聊天窗口初始化
+2024-02-25 17:03:45.008 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:03:45.009 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云0
+2024-02-25 17:03:45.009 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:03:45.012 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:03:45.014 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云1
+2024-02-25 17:03:45.014 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:03:45.016 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:03:45.018 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云2
+2024-02-25 17:03:45.018 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:03:45.020 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:03:45.022 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云3
+2024-02-25 17:03:45.022 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:03:45.024 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:03:45.025 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云4
+2024-02-25 17:03:45.025 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:03:45.028 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:03:45.029 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云5
+2024-02-25 17:03:45.029 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:03:45.032 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:03:45.033 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云6
+2024-02-25 17:03:45.033 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:03:45.035 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 17:03:45.035 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt人事群
+2024-02-25 17:03:45.035 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：1
+2024-02-25 17:03:45.088 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:03:45.194 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:03:54.302 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 17:03:54.337 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 17:03:54.644 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 17:03:55.746 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 17:03:56.063 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 17:03:57.206 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 17:03:59.518 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 17:03:59.614 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 17:04:00.721 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 17:04:00.769 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 17:04:09.201 [DEBUG][SysTray::onIconActivated][44]: 窗口恢复活动窗口显示
+2024-02-25 17:04:10.096 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 17:04:10.120 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 17:04:10.210 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 17:04:10.295 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 17:04:12.165 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:04:12.207 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:04:12.207 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 893936848, groupType = 0, strPeopel = 
+2024-02-25 17:04:12.207 [DEBUG][WindowManager::findWindowName][18]: 根据名字：893936848 寻找窗口
+2024-02-25 17:04:12.207 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 893936848 没有找到窗口，new一个新的窗口
+2024-02-25 17:04:12.223 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:04:12.225 [DEBUG][TalkWindow::initCompanyTalk][89]: 公司群聊天窗口初始化
+2024-02-25 17:04:12.227 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.228 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云7
+2024-02-25 17:04:12.228 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.231 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.232 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云8
+2024-02-25 17:04:12.232 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.236 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.237 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云9
+2024-02-25 17:04:12.237 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.239 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.240 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云10
+2024-02-25 17:04:12.241 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.243 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.244 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云11
+2024-02-25 17:04:12.244 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.246 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.247 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云12
+2024-02-25 17:04:12.247 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.251 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.252 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云13
+2024-02-25 17:04:12.252 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.254 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.256 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云14
+2024-02-25 17:04:12.256 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.258 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.259 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云15
+2024-02-25 17:04:12.259 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.261 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.262 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云16
+2024-02-25 17:04:12.262 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.265 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.266 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云17
+2024-02-25 17:04:12.267 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.269 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.271 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云18
+2024-02-25 17:04:12.271 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.273 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.274 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云19
+2024-02-25 17:04:12.274 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.277 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.278 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云20
+2024-02-25 17:04:12.278 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.282 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.283 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云21
+2024-02-25 17:04:12.284 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.286 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.287 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云22
+2024-02-25 17:04:12.287 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.290 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.291 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云23
+2024-02-25 17:04:12.291 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.293 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.294 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云24
+2024-02-25 17:04:12.294 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.298 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.300 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云25
+2024-02-25 17:04:12.300 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.302 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.303 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云26
+2024-02-25 17:04:12.303 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.306 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.307 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云27
+2024-02-25 17:04:12.307 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.309 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.310 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云28
+2024-02-25 17:04:12.310 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.313 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.315 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云29
+2024-02-25 17:04:12.315 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.317 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.318 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云30
+2024-02-25 17:04:12.318 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.320 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.321 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云31
+2024-02-25 17:04:12.321 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.324 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.325 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云32
+2024-02-25 17:04:12.325 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.328 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.329 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云33
+2024-02-25 17:04:12.330 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.332 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.333 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云34
+2024-02-25 17:04:12.333 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.335 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.336 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云35
+2024-02-25 17:04:12.336 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.338 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.339 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云36
+2024-02-25 17:04:12.340 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.342 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.343 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云37
+2024-02-25 17:04:12.343 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.345 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.346 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云38
+2024-02-25 17:04:12.346 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.348 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.350 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云39
+2024-02-25 17:04:12.350 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.352 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.353 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云40
+2024-02-25 17:04:12.353 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.355 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.356 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云41
+2024-02-25 17:04:12.356 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.358 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.360 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云42
+2024-02-25 17:04:12.360 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.363 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.364 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云43
+2024-02-25 17:04:12.364 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.366 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.367 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云44
+2024-02-25 17:04:12.367 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.370 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.371 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云45
+2024-02-25 17:04:12.371 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.373 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.374 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云46
+2024-02-25 17:04:12.374 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.377 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.378 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云47
+2024-02-25 17:04:12.378 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.381 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.382 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云48
+2024-02-25 17:04:12.382 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.384 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.385 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云49
+2024-02-25 17:04:12.385 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.387 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.388 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云50
+2024-02-25 17:04:12.388 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.391 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.392 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云51
+2024-02-25 17:04:12.392 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.395 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.396 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云52
+2024-02-25 17:04:12.396 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.398 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.399 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云53
+2024-02-25 17:04:12.399 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.401 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.402 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云54
+2024-02-25 17:04:12.402 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.404 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.406 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云55
+2024-02-25 17:04:12.406 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.408 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:12.409 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云56
+2024-02-25 17:04:12.409 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:12.411 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 17:04:12.411 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt公司群
+2024-02-25 17:04:12.411 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：0
+2024-02-25 17:04:12.503 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:04:12.535 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:04:23.492 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:04:23.974 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:04:24.046 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:04:24.046 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 893947728, groupType = 2, strPeopel = 
+2024-02-25 17:04:24.046 [DEBUG][WindowManager::findWindowName][18]: 根据名字：893947728 寻找窗口
+2024-02-25 17:04:24.046 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 893947728 没有找到窗口，new一个新的窗口
+2024-02-25 17:04:24.062 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:04:24.063 [DEBUG][TalkWindow::initDevelopTalk][173]: 研发群聊天窗口初始化
+2024-02-25 17:04:24.066 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.067 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云57
+2024-02-25 17:04:24.067 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.070 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.071 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云58
+2024-02-25 17:04:24.071 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.073 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.074 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云59
+2024-02-25 17:04:24.074 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.076 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.077 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云60
+2024-02-25 17:04:24.077 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.080 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.081 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云61
+2024-02-25 17:04:24.081 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.084 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.085 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云62
+2024-02-25 17:04:24.085 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.088 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.089 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云63
+2024-02-25 17:04:24.089 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.091 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.092 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云64
+2024-02-25 17:04:24.092 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.094 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.095 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云65
+2024-02-25 17:04:24.096 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.098 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.099 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云66
+2024-02-25 17:04:24.099 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.104 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.105 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云67
+2024-02-25 17:04:24.105 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.107 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.108 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云68
+2024-02-25 17:04:24.108 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.111 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.112 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云69
+2024-02-25 17:04:24.112 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.114 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.116 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云70
+2024-02-25 17:04:24.116 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.119 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.120 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云71
+2024-02-25 17:04:24.121 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.123 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.124 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云72
+2024-02-25 17:04:24.124 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.126 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.127 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云73
+2024-02-25 17:04:24.127 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.129 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.131 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云74
+2024-02-25 17:04:24.131 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.135 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.137 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云75
+2024-02-25 17:04:24.137 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.139 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.140 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云76
+2024-02-25 17:04:24.141 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.143 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.144 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云77
+2024-02-25 17:04:24.144 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.146 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.148 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云78
+2024-02-25 17:04:24.148 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.151 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.152 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云79
+2024-02-25 17:04:24.152 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.155 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.156 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云80
+2024-02-25 17:04:24.156 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.158 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.159 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云81
+2024-02-25 17:04:24.159 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.161 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.163 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云82
+2024-02-25 17:04:24.163 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.165 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.166 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云83
+2024-02-25 17:04:24.166 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.169 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:24.170 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云84
+2024-02-25 17:04:24.170 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:24.172 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 17:04:24.172 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt研发群
+2024-02-25 17:04:24.172 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：2
+2024-02-25 17:04:24.229 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:04:24.264 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:04:30.602 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:04:30.931 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:04:31.012 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:04:31.012 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 893942480, groupType = 3, strPeopel = 
+2024-02-25 17:04:31.012 [DEBUG][WindowManager::findWindowName][18]: 根据名字：893942480 寻找窗口
+2024-02-25 17:04:31.012 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 893942480 没有找到窗口，new一个新的窗口
+2024-02-25 17:04:31.028 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:04:31.029 [DEBUG][TalkWindow::initMarketTalk][145]: 市场群聊天窗口初始化
+2024-02-25 17:04:31.031 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.032 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云85
+2024-02-25 17:04:31.032 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.035 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.036 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云86
+2024-02-25 17:04:31.036 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.038 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.039 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云87
+2024-02-25 17:04:31.039 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.041 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.042 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云88
+2024-02-25 17:04:31.042 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.047 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.048 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云89
+2024-02-25 17:04:31.048 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.050 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.051 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云90
+2024-02-25 17:04:31.051 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.054 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.055 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云91
+2024-02-25 17:04:31.055 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.057 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.058 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云92
+2024-02-25 17:04:31.058 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.060 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.061 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云93
+2024-02-25 17:04:31.062 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.064 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.065 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云94
+2024-02-25 17:04:31.065 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.067 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.068 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云95
+2024-02-25 17:04:31.068 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.070 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.071 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云96
+2024-02-25 17:04:31.071 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.073 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.075 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云97
+2024-02-25 17:04:31.075 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.079 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.080 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云98
+2024-02-25 17:04:31.080 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.082 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:04:31.083 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云99
+2024-02-25 17:04:31.083 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:04:31.085 [DEBUG][TalkWindowItem::initControl][37]: Qt聊天列表窗口初始化
+2024-02-25 17:04:31.086 [DEBUG][TalkWindowItem::setMsgLabelContent][26]: 设置名字：Qt市场群
+2024-02-25 17:04:31.086 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：3
+2024-02-25 17:04:31.128 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 市场部
+2024-02-25 17:04:31.166 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:04:35.203 [DEBUG][TalkWindowItem::enterEvent][44]: 鼠标进入聊天列表窗口
+2024-02-25 17:04:35.296 [DEBUG][TalkWindowItem::leaveEvent][50]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:07.597 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 17:22:07.597 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:22:07.643 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 17:22:07.653 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 17:22:07.653 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 17:22:09.657 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 17:22:09.662 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:22:09.669 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 17:22:09.685 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 17:22:09.691 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 17:22:09.691 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 17:22:09.712 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 17:22:09.713 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 17:22:09.714 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 17:22:09.714 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 17:22:09.715 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 17:22:09.715 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 17:22:09.716 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 17:22:09.716 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 17:22:09.717 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 17:22:09.717 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 17:22:09.718 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 17:22:09.718 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 17:22:09.719 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 17:22:09.719 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 17:22:09.739 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 17:22:09.742 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 17:22:09.744 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 17:22:09.747 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 17:22:09.749 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 17:22:09.750 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 17:22:09.752 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 17:22:09.755 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 17:22:09.793 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 17:22:10.792 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:22:10.792 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 17:22:10.792 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 17:22:11.854 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:22:11.931 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:22:11.931 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1123666864, groupType = 1, strPeopel = 
+2024-02-25 17:22:11.932 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:22:11.934 [DEBUG][TalkWindowSheel::initControl][59]: Qt聊天窗口初始化
+2024-02-25 17:22:11.941 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 17:22:11.942 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 17:22:11.943 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 17:22:12.023 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1123666864 寻找窗口
+2024-02-25 17:22:12.023 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1123666864 没有找到窗口，new一个新的窗口
+2024-02-25 17:22:12.040 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:22:12.041 [DEBUG][TalkWindow::initPersonelTalk][117]: 人事群聊天窗口初始化
+2024-02-25 17:22:12.043 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:12.044 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云0
+2024-02-25 17:22:12.044 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:12.047 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:12.049 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云1
+2024-02-25 17:22:12.049 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:12.051 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:12.053 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云2
+2024-02-25 17:22:12.053 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:12.056 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:12.057 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云3
+2024-02-25 17:22:12.057 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:12.059 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:12.060 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云4
+2024-02-25 17:22:12.060 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:12.063 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:12.064 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云5
+2024-02-25 17:22:12.064 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:12.066 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:12.067 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云6
+2024-02-25 17:22:12.067 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:12.070 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:22:12.070 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt人事群
+2024-02-25 17:22:12.070 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：1
+2024-02-25 17:22:12.109 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:22:12.109 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:12.128 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:22:12.225 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:22:14.079 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:14.927 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:15.206 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:15.375 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:16.082 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:18.928 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:25.518 [DEBUG][SysTray::onIconActivated][44]: 窗口恢复活动窗口显示
+2024-02-25 17:22:28.995 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:22:29.048 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:22:29.048 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1123658672, groupType = 0, strPeopel = 
+2024-02-25 17:22:29.048 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1123658672 寻找窗口
+2024-02-25 17:22:29.048 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1123658672 没有找到窗口，new一个新的窗口
+2024-02-25 17:22:29.065 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:22:29.066 [DEBUG][TalkWindow::initCompanyTalk][89]: 公司群聊天窗口初始化
+2024-02-25 17:22:29.068 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.069 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云7
+2024-02-25 17:22:29.070 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.073 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.074 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云8
+2024-02-25 17:22:29.074 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.077 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.078 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云9
+2024-02-25 17:22:29.078 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.080 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.081 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云10
+2024-02-25 17:22:29.081 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.083 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.085 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云11
+2024-02-25 17:22:29.085 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.089 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.090 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云12
+2024-02-25 17:22:29.090 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.092 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.093 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云13
+2024-02-25 17:22:29.093 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.095 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.097 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云14
+2024-02-25 17:22:29.097 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.099 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.100 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云15
+2024-02-25 17:22:29.100 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.103 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.104 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云16
+2024-02-25 17:22:29.104 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.106 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.108 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云17
+2024-02-25 17:22:29.108 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.110 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.111 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云18
+2024-02-25 17:22:29.111 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.113 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.114 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云19
+2024-02-25 17:22:29.114 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.116 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.118 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云20
+2024-02-25 17:22:29.118 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.121 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.123 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云21
+2024-02-25 17:22:29.123 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.125 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.127 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云22
+2024-02-25 17:22:29.127 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.129 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.131 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云23
+2024-02-25 17:22:29.131 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.134 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.135 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云24
+2024-02-25 17:22:29.136 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.138 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.140 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云25
+2024-02-25 17:22:29.140 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.142 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.143 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云26
+2024-02-25 17:22:29.143 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.146 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.147 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云27
+2024-02-25 17:22:29.147 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.152 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.153 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云28
+2024-02-25 17:22:29.153 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.156 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.158 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云29
+2024-02-25 17:22:29.158 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.160 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.162 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云30
+2024-02-25 17:22:29.162 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.164 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.165 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云31
+2024-02-25 17:22:29.165 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.168 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.169 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云32
+2024-02-25 17:22:29.169 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.171 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.172 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云33
+2024-02-25 17:22:29.172 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.174 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.176 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云34
+2024-02-25 17:22:29.176 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.178 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.179 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云35
+2024-02-25 17:22:29.179 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.182 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.183 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云36
+2024-02-25 17:22:29.183 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.186 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.187 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云37
+2024-02-25 17:22:29.187 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.189 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.190 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云38
+2024-02-25 17:22:29.190 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.192 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.193 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云39
+2024-02-25 17:22:29.193 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.196 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.198 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云40
+2024-02-25 17:22:29.198 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.200 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.201 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云41
+2024-02-25 17:22:29.201 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.204 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.205 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云42
+2024-02-25 17:22:29.205 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.207 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.208 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云43
+2024-02-25 17:22:29.208 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.211 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.212 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云44
+2024-02-25 17:22:29.212 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.216 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.217 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云45
+2024-02-25 17:22:29.217 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.220 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.221 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云46
+2024-02-25 17:22:29.221 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.223 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.224 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云47
+2024-02-25 17:22:29.224 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.226 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.228 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云48
+2024-02-25 17:22:29.228 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.230 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.231 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云49
+2024-02-25 17:22:29.231 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.233 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.234 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云50
+2024-02-25 17:22:29.234 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.237 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.238 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云51
+2024-02-25 17:22:29.238 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.240 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.241 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云52
+2024-02-25 17:22:29.241 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.245 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.246 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云53
+2024-02-25 17:22:29.246 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.248 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.250 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云54
+2024-02-25 17:22:29.250 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.252 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.253 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云55
+2024-02-25 17:22:29.253 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.255 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.256 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云56
+2024-02-25 17:22:29.257 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:29.259 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:22:29.259 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt公司群
+2024-02-25 17:22:29.259 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：0
+2024-02-25 17:22:29.350 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:22:29.351 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:29.392 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:22:29.427 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:22:31.323 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:22:31.388 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:22:31.388 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1123662896, groupType = 2, strPeopel = 
+2024-02-25 17:22:31.388 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1123662896 寻找窗口
+2024-02-25 17:22:31.388 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1123662896 没有找到窗口，new一个新的窗口
+2024-02-25 17:22:31.406 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:22:31.407 [DEBUG][TalkWindow::initDevelopTalk][173]: 研发群聊天窗口初始化
+2024-02-25 17:22:31.409 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.411 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云57
+2024-02-25 17:22:31.411 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.414 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.416 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云58
+2024-02-25 17:22:31.416 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.418 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.419 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云59
+2024-02-25 17:22:31.419 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.422 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.423 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云60
+2024-02-25 17:22:31.423 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.425 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.427 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云61
+2024-02-25 17:22:31.427 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.431 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.432 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云62
+2024-02-25 17:22:31.433 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.435 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.436 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云63
+2024-02-25 17:22:31.436 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.438 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.439 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云64
+2024-02-25 17:22:31.439 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.441 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.443 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云65
+2024-02-25 17:22:31.443 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.448 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.449 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云66
+2024-02-25 17:22:31.449 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.452 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.453 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云67
+2024-02-25 17:22:31.453 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.455 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.457 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云68
+2024-02-25 17:22:31.457 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.461 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.462 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云69
+2024-02-25 17:22:31.462 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.465 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.466 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云70
+2024-02-25 17:22:31.466 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.468 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.469 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云71
+2024-02-25 17:22:31.469 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.471 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.473 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云72
+2024-02-25 17:22:31.473 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.476 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.477 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云73
+2024-02-25 17:22:31.477 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.479 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.480 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云74
+2024-02-25 17:22:31.480 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.482 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.484 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云75
+2024-02-25 17:22:31.484 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.486 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.487 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云76
+2024-02-25 17:22:31.487 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.490 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.492 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云77
+2024-02-25 17:22:31.492 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.495 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.496 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云78
+2024-02-25 17:22:31.496 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.498 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.500 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云79
+2024-02-25 17:22:31.500 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.502 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.503 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云80
+2024-02-25 17:22:31.503 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.505 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.507 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云81
+2024-02-25 17:22:31.507 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.510 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.511 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云82
+2024-02-25 17:22:31.511 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.513 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.514 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云83
+2024-02-25 17:22:31.514 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.517 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.518 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云84
+2024-02-25 17:22:31.518 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:31.520 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:22:31.520 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt研发群
+2024-02-25 17:22:31.520 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：2
+2024-02-25 17:22:31.581 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:22:31.582 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:31.615 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:22:31.651 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:22:32.871 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:22:32.928 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:22:32.928 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1123672752, groupType = 3, strPeopel = 
+2024-02-25 17:22:32.928 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1123672752 寻找窗口
+2024-02-25 17:22:32.928 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1123672752 没有找到窗口，new一个新的窗口
+2024-02-25 17:22:32.944 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:22:32.945 [DEBUG][TalkWindow::initMarketTalk][145]: 市场群聊天窗口初始化
+2024-02-25 17:22:32.948 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.949 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云85
+2024-02-25 17:22:32.950 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.952 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.953 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云86
+2024-02-25 17:22:32.954 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.956 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.957 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云87
+2024-02-25 17:22:32.957 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.959 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.960 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云88
+2024-02-25 17:22:32.960 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.964 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.966 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云89
+2024-02-25 17:22:32.966 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.968 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.969 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云90
+2024-02-25 17:22:32.969 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.971 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.972 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云91
+2024-02-25 17:22:32.973 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.975 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.976 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云92
+2024-02-25 17:22:32.976 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.980 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.981 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云93
+2024-02-25 17:22:32.981 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.984 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.985 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云94
+2024-02-25 17:22:32.985 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.987 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.988 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云95
+2024-02-25 17:22:32.988 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.990 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.991 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云96
+2024-02-25 17:22:32.991 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.995 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:32.997 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云97
+2024-02-25 17:22:32.997 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:32.999 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:33.000 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云98
+2024-02-25 17:22:33.000 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:33.002 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:33.003 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云99
+2024-02-25 17:22:33.004 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:22:33.005 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:22:33.006 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt市场群
+2024-02-25 17:22:33.006 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：3
+2024-02-25 17:22:33.048 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:22:33.048 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:22:33.074 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 市场部
+2024-02-25 17:22:33.108 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:22:34.255 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:34.807 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:34.815 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:35.311 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:35.316 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:36.047 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:36.047 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:36.054 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:37.284 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:37.481 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:37.488 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:39.449 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:39.460 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:39.821 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:39.829 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:22:39.873 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:22:47.680 [DEBUG][BasicWindow::onShowClose][128]: 用户点击关闭按钮
+2024-02-25 17:24:16.271 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 17:24:16.272 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:24:16.336 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 17:24:16.342 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 17:24:16.342 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 17:24:24.201 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 17:24:24.206 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:24:24.214 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 17:24:24.229 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 17:24:24.235 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 17:24:24.235 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 17:24:24.256 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 17:24:24.256 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 17:24:24.257 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 17:24:24.257 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 17:24:24.258 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 17:24:24.258 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 17:24:24.259 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 17:24:24.260 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 17:24:24.260 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 17:24:24.261 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 17:24:24.261 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 17:24:24.262 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 17:24:24.262 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 17:24:24.263 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 17:24:24.283 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 17:24:24.286 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 17:24:24.289 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 17:24:24.291 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 17:24:24.293 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 17:24:24.295 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 17:24:24.297 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 17:24:24.727 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 17:24:24.765 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 17:24:26.775 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:24:26.776 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 17:24:26.776 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 17:24:27.214 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:24:27.268 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:24:27.268 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = -1291402128, groupType = 0, strPeopel = 
+2024-02-25 17:24:27.269 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:24:27.271 [DEBUG][TalkWindowSheel::initControl][59]: Qt聊天窗口初始化
+2024-02-25 17:24:27.279 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 17:24:27.280 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 17:24:27.282 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 17:24:27.360 [DEBUG][WindowManager::findWindowName][18]: 根据名字：-1291402128 寻找窗口
+2024-02-25 17:24:27.360 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 -1291402128 没有找到窗口，new一个新的窗口
+2024-02-25 17:24:27.378 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:24:27.379 [DEBUG][TalkWindow::initCompanyTalk][89]: 公司群聊天窗口初始化
+2024-02-25 17:24:27.380 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.382 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云0
+2024-02-25 17:24:27.382 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.385 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.386 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云1
+2024-02-25 17:24:27.386 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.389 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.390 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云2
+2024-02-25 17:24:27.390 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.393 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.395 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云3
+2024-02-25 17:24:27.395 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.398 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.399 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云4
+2024-02-25 17:24:27.399 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.402 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.403 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云5
+2024-02-25 17:24:27.403 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.405 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.406 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云6
+2024-02-25 17:24:27.406 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.409 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.410 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云7
+2024-02-25 17:24:27.411 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.413 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.414 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云8
+2024-02-25 17:24:27.415 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.417 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.418 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云9
+2024-02-25 17:24:27.418 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.421 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.422 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云10
+2024-02-25 17:24:27.422 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.424 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.425 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云11
+2024-02-25 17:24:27.425 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.428 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.429 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云12
+2024-02-25 17:24:27.429 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.431 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.433 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云13
+2024-02-25 17:24:27.433 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.435 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.436 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云14
+2024-02-25 17:24:27.436 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.438 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.439 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云15
+2024-02-25 17:24:27.440 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.442 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.443 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云16
+2024-02-25 17:24:27.443 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.446 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.447 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云17
+2024-02-25 17:24:27.447 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.449 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.450 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云18
+2024-02-25 17:24:27.450 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.453 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.454 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云19
+2024-02-25 17:24:27.454 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.456 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.457 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云20
+2024-02-25 17:24:27.457 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.459 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.460 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云21
+2024-02-25 17:24:27.460 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.463 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.464 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云22
+2024-02-25 17:24:27.464 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.466 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.467 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云23
+2024-02-25 17:24:27.468 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.470 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.471 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云24
+2024-02-25 17:24:27.471 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.473 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.474 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云25
+2024-02-25 17:24:27.474 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.476 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.477 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云26
+2024-02-25 17:24:27.477 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.480 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.481 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云27
+2024-02-25 17:24:27.481 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.483 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.485 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云28
+2024-02-25 17:24:27.485 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.487 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.488 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云29
+2024-02-25 17:24:27.488 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.490 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.491 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云30
+2024-02-25 17:24:27.491 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.493 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.494 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云31
+2024-02-25 17:24:27.494 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.497 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.499 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云32
+2024-02-25 17:24:27.499 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.501 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.503 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云33
+2024-02-25 17:24:27.503 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.505 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.506 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云34
+2024-02-25 17:24:27.506 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.509 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.510 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云35
+2024-02-25 17:24:27.510 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.512 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.513 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云36
+2024-02-25 17:24:27.513 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.515 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.516 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云37
+2024-02-25 17:24:27.516 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.518 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.520 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云38
+2024-02-25 17:24:27.520 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.522 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.523 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云39
+2024-02-25 17:24:27.523 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.525 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.526 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云40
+2024-02-25 17:24:27.526 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.529 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.531 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云41
+2024-02-25 17:24:27.531 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.533 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.534 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云42
+2024-02-25 17:24:27.534 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.537 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.538 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云43
+2024-02-25 17:24:27.538 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.540 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.541 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云44
+2024-02-25 17:24:27.541 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.543 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.544 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云45
+2024-02-25 17:24:27.544 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.546 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.547 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云46
+2024-02-25 17:24:27.548 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.550 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.551 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云47
+2024-02-25 17:24:27.551 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.553 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.554 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云48
+2024-02-25 17:24:27.554 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.556 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.557 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云49
+2024-02-25 17:24:27.557 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:27.559 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:24:27.560 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt公司群
+2024-02-25 17:24:27.560 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：0
+2024-02-25 17:24:27.664 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:24:27.664 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:27.706 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:24:27.823 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:24:31.064 [DEBUG][SysTray::onIconActivated][44]: 窗口恢复活动窗口显示
+2024-02-25 17:24:32.414 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:24:32.475 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:24:32.475 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = -1291386768, groupType = 1, strPeopel = 
+2024-02-25 17:24:32.475 [DEBUG][WindowManager::findWindowName][18]: 根据名字：-1291386768 寻找窗口
+2024-02-25 17:24:32.475 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 -1291386768 没有找到窗口，new一个新的窗口
+2024-02-25 17:24:32.493 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:24:32.494 [DEBUG][TalkWindow::initPersonelTalk][117]: 人事群聊天窗口初始化
+2024-02-25 17:24:32.496 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:32.497 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云50
+2024-02-25 17:24:32.497 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:32.500 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:32.501 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云51
+2024-02-25 17:24:32.501 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:32.503 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:32.504 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云52
+2024-02-25 17:24:32.505 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:32.508 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:32.509 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云53
+2024-02-25 17:24:32.509 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:32.511 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:32.512 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云54
+2024-02-25 17:24:32.512 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:32.515 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:32.516 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云55
+2024-02-25 17:24:32.516 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:32.518 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:32.519 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云56
+2024-02-25 17:24:32.519 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:32.521 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:24:32.522 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt人事群
+2024-02-25 17:24:32.522 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：1
+2024-02-25 17:24:32.552 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:24:32.552 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:32.574 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:24:32.606 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:24:34.148 [DEBUG][SysTray::onIconActivated][44]: 窗口恢复活动窗口显示
+2024-02-25 17:24:35.212 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:24:35.269 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:24:35.269 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = -1291402128, groupType = 0, strPeopel = 
+2024-02-25 17:24:35.269 [DEBUG][WindowManager::findWindowName][18]: 根据名字：-1291402128 寻找窗口
+2024-02-25 17:24:35.269 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 -1291402128 没有找到窗口，new一个新的窗口
+2024-02-25 17:24:35.287 [DEBUG][TalkWindow::initControl][27]: 初始化
+2024-02-25 17:24:35.288 [DEBUG][TalkWindow::initCompanyTalk][89]: 公司群聊天窗口初始化
+2024-02-25 17:24:35.290 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.291 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云57
+2024-02-25 17:24:35.291 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.294 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.295 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云58
+2024-02-25 17:24:35.295 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.299 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.300 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云59
+2024-02-25 17:24:35.300 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.302 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.304 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云60
+2024-02-25 17:24:35.304 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.306 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.307 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云61
+2024-02-25 17:24:35.307 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.309 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.311 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云62
+2024-02-25 17:24:35.311 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.315 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.316 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云63
+2024-02-25 17:24:35.316 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.318 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.319 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云64
+2024-02-25 17:24:35.320 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.322 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.323 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云65
+2024-02-25 17:24:35.323 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.325 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.326 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云66
+2024-02-25 17:24:35.326 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.331 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.332 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云67
+2024-02-25 17:24:35.332 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.335 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.336 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云68
+2024-02-25 17:24:35.336 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.338 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.339 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云69
+2024-02-25 17:24:35.339 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.341 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.343 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云70
+2024-02-25 17:24:35.343 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.345 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.346 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云71
+2024-02-25 17:24:35.346 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.349 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.350 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云72
+2024-02-25 17:24:35.350 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.352 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.353 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云73
+2024-02-25 17:24:35.353 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.355 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.356 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云74
+2024-02-25 17:24:35.356 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.360 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.361 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云75
+2024-02-25 17:24:35.361 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.364 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.365 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云76
+2024-02-25 17:24:35.365 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.367 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.368 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云77
+2024-02-25 17:24:35.368 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.370 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.372 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云78
+2024-02-25 17:24:35.372 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.374 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.376 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云79
+2024-02-25 17:24:35.376 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.378 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.380 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云80
+2024-02-25 17:24:35.380 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.382 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.383 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云81
+2024-02-25 17:24:35.383 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.385 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.386 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云82
+2024-02-25 17:24:35.386 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.389 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.390 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云83
+2024-02-25 17:24:35.390 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.394 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.395 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云84
+2024-02-25 17:24:35.395 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.397 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.398 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云85
+2024-02-25 17:24:35.398 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.400 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.402 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云86
+2024-02-25 17:24:35.402 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.404 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.405 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云87
+2024-02-25 17:24:35.405 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.409 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.410 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云88
+2024-02-25 17:24:35.410 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.413 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.414 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云89
+2024-02-25 17:24:35.414 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.416 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.417 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云90
+2024-02-25 17:24:35.417 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.419 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.420 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云91
+2024-02-25 17:24:35.421 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.424 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.425 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云92
+2024-02-25 17:24:35.425 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.428 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.429 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云93
+2024-02-25 17:24:35.429 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.431 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.432 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云94
+2024-02-25 17:24:35.432 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.434 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.435 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云95
+2024-02-25 17:24:35.436 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.438 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.440 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云96
+2024-02-25 17:24:35.440 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.442 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.444 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云97
+2024-02-25 17:24:35.444 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.446 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.447 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云98
+2024-02-25 17:24:35.447 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.449 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.450 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云99
+2024-02-25 17:24:35.450 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.453 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.454 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云100
+2024-02-25 17:24:35.454 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.458 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.459 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云101
+2024-02-25 17:24:35.459 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.462 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.464 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云102
+2024-02-25 17:24:35.464 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.466 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.467 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云103
+2024-02-25 17:24:35.467 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.470 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.471 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云104
+2024-02-25 17:24:35.471 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.474 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.475 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云105
+2024-02-25 17:24:35.475 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.477 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.478 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云106
+2024-02-25 17:24:35.478 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:24:35.480 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:24:35.480 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt公司群
+2024-02-25 17:24:35.480 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：0
+2024-02-25 17:24:35.572 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:24:35.572 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:24:35.612 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:24:35.646 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:09.673 [DEBUG][main][38]: 
+
+------------------------------------------------------------------------------------------------------
+2024-02-25 17:35:09.674 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:35:09.723 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-02-25 17:35:09.730 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-02-25 17:35:09.731 [DEBUG][UserLogin::initControl][24]: 登录窗口初始化
+2024-02-25 17:35:11.492 [DEBUG][UserLogin::onLoginBtnClicked][38]: 登录按钮被按下！
+2024-02-25 17:35:11.496 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:35:11.503 [DEBUG][CCMainWindow::CCMainWindow][33]: 主窗体初始化
+2024-02-25 17:35:11.520 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-02-25 17:35:11.527 [DEBUG][CCMainWindow::setLevePixmap][151]: 设置等级为：17
+2024-02-25 17:35:11.528 [DEBUG][CCMainWindow::setHeadPixmap][173]: 设置头像路径：:/Resources/MainWindow/girl.png
+2024-02-25 17:35:11.548 [DEBUG][CCMainWindow::setStatusMenuIcon][183]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-02-25 17:35:11.549 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-02-25 17:35:11.549 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-02-25 17:35:11.550 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-02-25 17:35:11.551 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-02-25 17:35:11.551 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-02-25 17:35:11.552 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-02-25 17:35:11.552 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-02-25 17:35:11.553 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-02-25 17:35:11.553 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-02-25 17:35:11.554 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-02-25 17:35:11.554 [DEBUG][CCMainWindow::addOtherAppExtension][196]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-02-25 17:35:11.555 [DEBUG][CCMainWindow::initContactTree][219]: 树初始化
+2024-02-25 17:35:11.556 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：公司群
+2024-02-25 17:35:11.576 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-02-25 17:35:11.579 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：人事部
+2024-02-25 17:35:11.580 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-02-25 17:35:11.582 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：研发部
+2024-02-25 17:35:11.584 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-02-25 17:35:11.586 [DEBUG][CCMainWindow::addCompanyDeps][119]: 添加子节点：市场部
+2024-02-25 17:35:11.589 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市场部
+2024-02-25 17:35:11.591 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-02-25 17:35:11.630 [DEBUG][CCMainWindow::setUserName][140]: 设置用户名为：Qt即时通讯软件
+2024-02-25 17:35:12.575 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:12.575 [DEBUG][CCMainWindow::onItemExpanded][296]: 树项被展开
+2024-02-25 17:35:12.575 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-02-25 17:35:15.137 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:15.191 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:15.191 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:15.192 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-02-25 17:35:15.194 [DEBUG][TalkWindowSheel::initControl][59]: Qt聊天窗口初始化
+2024-02-25 17:35:15.201 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-02-25 17:35:15.202 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-02-25 17:35:15.205 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-02-25 17:35:15.288 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:15.288 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1520333056 没有找到窗口，new一个新的窗口
+2024-02-25 17:35:15.305 [DEBUG][WindowManager::addWindowName][33]: 根据名字：1520333056 添加窗口
+2024-02-25 17:35:15.305 [DEBUG][TalkWindow::initControl][30]: 初始化
+2024-02-25 17:35:15.306 [DEBUG][TalkWindow::initCompanyTalk][92]: 公司群聊天窗口初始化
+2024-02-25 17:35:15.307 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.308 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云0
+2024-02-25 17:35:15.309 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.312 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.313 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云1
+2024-02-25 17:35:15.313 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.316 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.317 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云2
+2024-02-25 17:35:15.317 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.320 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.321 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云3
+2024-02-25 17:35:15.321 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.324 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.325 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云4
+2024-02-25 17:35:15.325 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.327 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.329 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云5
+2024-02-25 17:35:15.329 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.332 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.333 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云6
+2024-02-25 17:35:15.333 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.336 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.337 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云7
+2024-02-25 17:35:15.337 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.339 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.340 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云8
+2024-02-25 17:35:15.340 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.343 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.344 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云9
+2024-02-25 17:35:15.344 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.347 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.348 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云10
+2024-02-25 17:35:15.348 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.351 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.352 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云11
+2024-02-25 17:35:15.352 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.354 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.355 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云12
+2024-02-25 17:35:15.355 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.357 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.358 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云13
+2024-02-25 17:35:15.358 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.360 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.362 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云14
+2024-02-25 17:35:15.362 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.365 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.366 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云15
+2024-02-25 17:35:15.366 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.368 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.369 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云16
+2024-02-25 17:35:15.370 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.372 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.373 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云17
+2024-02-25 17:35:15.373 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.375 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.376 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云18
+2024-02-25 17:35:15.376 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.379 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.380 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云19
+2024-02-25 17:35:15.380 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.383 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.384 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云20
+2024-02-25 17:35:15.384 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.386 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.387 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云21
+2024-02-25 17:35:15.387 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.389 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.390 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云22
+2024-02-25 17:35:15.390 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.393 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.394 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云23
+2024-02-25 17:35:15.394 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.397 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.398 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云24
+2024-02-25 17:35:15.398 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.400 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.401 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云25
+2024-02-25 17:35:15.401 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.403 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.404 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云26
+2024-02-25 17:35:15.405 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.407 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.408 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云27
+2024-02-25 17:35:15.408 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.411 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.412 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云28
+2024-02-25 17:35:15.412 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.414 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.415 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云29
+2024-02-25 17:35:15.416 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.418 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.419 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云30
+2024-02-25 17:35:15.419 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.421 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.422 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云31
+2024-02-25 17:35:15.422 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.424 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.426 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云32
+2024-02-25 17:35:15.426 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.428 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.429 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云33
+2024-02-25 17:35:15.429 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.432 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.433 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云34
+2024-02-25 17:35:15.433 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.435 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.436 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云35
+2024-02-25 17:35:15.436 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.438 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.439 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云36
+2024-02-25 17:35:15.439 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.442 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.443 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云37
+2024-02-25 17:35:15.443 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.446 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.447 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云38
+2024-02-25 17:35:15.447 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.449 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.450 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云39
+2024-02-25 17:35:15.450 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.452 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.454 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云40
+2024-02-25 17:35:15.454 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.457 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.458 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云41
+2024-02-25 17:35:15.458 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.461 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.462 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云42
+2024-02-25 17:35:15.462 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.465 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.466 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云43
+2024-02-25 17:35:15.466 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.468 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.469 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云44
+2024-02-25 17:35:15.469 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.471 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.472 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云45
+2024-02-25 17:35:15.472 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.475 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.477 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云46
+2024-02-25 17:35:15.477 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.479 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.481 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云47
+2024-02-25 17:35:15.481 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.483 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.484 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云48
+2024-02-25 17:35:15.484 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.486 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.487 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云49
+2024-02-25 17:35:15.488 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:15.490 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:35:15.490 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt公司群
+2024-02-25 17:35:15.491 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：0
+2024-02-25 17:35:15.589 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:35:15.589 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:15.631 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:15.750 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:16.713 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:21.283 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:21.350 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:21.350 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:21.350 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:21.350 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1520340224 没有找到窗口，new一个新的窗口
+2024-02-25 17:35:21.366 [DEBUG][WindowManager::addWindowName][33]: 根据名字：1520340224 添加窗口
+2024-02-25 17:35:21.366 [DEBUG][TalkWindow::initControl][30]: 初始化
+2024-02-25 17:35:21.366 [DEBUG][TalkWindow::initPersonelTalk][120]: 人事群聊天窗口初始化
+2024-02-25 17:35:21.368 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:21.369 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云50
+2024-02-25 17:35:21.369 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:21.371 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:21.373 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云51
+2024-02-25 17:35:21.373 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:21.377 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:21.378 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云52
+2024-02-25 17:35:21.378 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:21.380 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:21.381 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云53
+2024-02-25 17:35:21.381 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:21.383 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:21.385 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云54
+2024-02-25 17:35:21.385 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:21.387 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:21.388 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云55
+2024-02-25 17:35:21.388 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:21.391 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:21.392 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云56
+2024-02-25 17:35:21.392 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:21.394 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:35:21.395 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt人事群
+2024-02-25 17:35:21.395 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：1
+2024-02-25 17:35:21.422 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:35:21.423 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:21.445 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:21.474 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:22.859 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:22.918 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:22.918 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:22.918 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:22.918 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:22.918 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:22.926 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:23.026 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:24.058 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:24.139 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:24.140 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:24.140 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:24.140 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:24.140 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:24.142 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:24.229 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:24.508 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:24.598 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:24.598 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:24.599 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:24.599 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:24.599 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:24.600 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:24.698 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:24.866 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:24.946 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:24.946 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:24.946 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:24.946 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:24.946 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:24.948 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:25.046 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:25.229 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:25.319 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:25.319 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:25.319 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:25.319 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:25.319 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:25.322 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:25.415 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:25.611 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:25.674 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:25.674 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:25.674 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:25.674 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:25.674 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:25.676 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:25.781 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:25.973 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:26.031 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:26.031 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:26.031 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:26.031 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:26.031 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:26.033 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:26.144 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:26.305 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:26.375 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:26.375 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:26.375 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:26.375 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:26.375 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:26.378 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:26.483 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:26.659 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:27.960 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:28.042 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:28.042 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343296, groupType = 3, strPeopel = 
+2024-02-25 17:35:28.042 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343296 寻找窗口
+2024-02-25 17:35:28.042 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1520343296 没有找到窗口，new一个新的窗口
+2024-02-25 17:35:28.059 [DEBUG][WindowManager::addWindowName][33]: 根据名字：1520343296 添加窗口
+2024-02-25 17:35:28.060 [DEBUG][TalkWindow::initControl][30]: 初始化
+2024-02-25 17:35:28.060 [DEBUG][TalkWindow::initMarketTalk][148]: 市场群聊天窗口初始化
+2024-02-25 17:35:28.062 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.063 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云57
+2024-02-25 17:35:28.063 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.065 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.067 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云58
+2024-02-25 17:35:28.067 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.070 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.071 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云59
+2024-02-25 17:35:28.072 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.074 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.075 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云60
+2024-02-25 17:35:28.075 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.077 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.078 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云61
+2024-02-25 17:35:28.078 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.080 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.081 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云62
+2024-02-25 17:35:28.081 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.084 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.085 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云63
+2024-02-25 17:35:28.085 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.088 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.089 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云64
+2024-02-25 17:35:28.089 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.091 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.092 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云65
+2024-02-25 17:35:28.092 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.095 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.096 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云66
+2024-02-25 17:35:28.096 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.098 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.099 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云67
+2024-02-25 17:35:28.099 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.103 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.104 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云68
+2024-02-25 17:35:28.104 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.106 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.107 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云69
+2024-02-25 17:35:28.107 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.110 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.111 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云70
+2024-02-25 17:35:28.111 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.113 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.114 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云71
+2024-02-25 17:35:28.114 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.117 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:35:28.117 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt市场群
+2024-02-25 17:35:28.117 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：3
+2024-02-25 17:35:28.160 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:35:28.160 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.187 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 市场部
+2024-02-25 17:35:28.222 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:28.765 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:28.846 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:28.846 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343808, groupType = 2, strPeopel = 
+2024-02-25 17:35:28.846 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343808 寻找窗口
+2024-02-25 17:35:28.846 [DEBUG][WindowManager::addNewTalkWindow][55]: 根据 1520343808 没有找到窗口，new一个新的窗口
+2024-02-25 17:35:28.863 [DEBUG][WindowManager::addWindowName][33]: 根据名字：1520343808 添加窗口
+2024-02-25 17:35:28.864 [DEBUG][TalkWindow::initControl][30]: 初始化
+2024-02-25 17:35:28.864 [DEBUG][TalkWindow::initDevelopTalk][176]: 研发群聊天窗口初始化
+2024-02-25 17:35:28.866 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.868 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云72
+2024-02-25 17:35:28.868 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.870 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.871 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云73
+2024-02-25 17:35:28.871 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.875 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.876 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云74
+2024-02-25 17:35:28.876 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.879 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.880 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云75
+2024-02-25 17:35:28.880 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.882 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.883 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云76
+2024-02-25 17:35:28.883 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.885 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.886 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云77
+2024-02-25 17:35:28.886 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.890 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.891 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云78
+2024-02-25 17:35:28.891 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.893 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.894 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云79
+2024-02-25 17:35:28.894 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.897 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.898 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云80
+2024-02-25 17:35:28.898 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.900 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.901 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云81
+2024-02-25 17:35:28.901 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.903 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.905 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云82
+2024-02-25 17:35:28.905 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.907 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.908 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云83
+2024-02-25 17:35:28.908 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.911 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.912 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云84
+2024-02-25 17:35:28.912 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.914 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.915 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云85
+2024-02-25 17:35:28.915 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.917 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.918 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云86
+2024-02-25 17:35:28.918 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.921 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.922 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云87
+2024-02-25 17:35:28.922 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.924 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.926 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云88
+2024-02-25 17:35:28.926 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.928 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.929 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云89
+2024-02-25 17:35:28.929 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.932 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.933 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云90
+2024-02-25 17:35:28.933 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.935 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.937 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云91
+2024-02-25 17:35:28.937 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.940 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.942 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云92
+2024-02-25 17:35:28.942 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.944 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.945 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云93
+2024-02-25 17:35:28.945 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.947 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.948 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云94
+2024-02-25 17:35:28.948 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.951 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.952 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云95
+2024-02-25 17:35:28.952 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.956 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.958 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云96
+2024-02-25 17:35:28.958 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.960 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.961 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云97
+2024-02-25 17:35:28.961 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.963 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.964 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云98
+2024-02-25 17:35:28.965 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.968 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:28.970 [DEBUG][Contactltem::setUserName][15]: 设置用户名：白云99
+2024-02-25 17:35:28.970 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：这是一个个性签名
+2024-02-25 17:35:28.972 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-02-25 17:35:28.972 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：Qt研发群
+2024-02-25 17:35:28.973 [DEBUG][TalkWindowSheel::addTalkWindow][23]: 添加聊天窗口, 类型为：2
+2024-02-25 17:35:29.033 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-02-25 17:35:29.033 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-02-25 17:35:29.065 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:35:29.104 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:29.871 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:29.940 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:29.940 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:29.940 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:29.940 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520340224 找到窗口，直接添加
+2024-02-25 17:35:29.940 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:29.944 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:30.047 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:30.758 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:30.817 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:30.817 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:30.817 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:30.817 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:30.817 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:30.826 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:30.933 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:31.899 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:31.977 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:31.978 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:31.978 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:31.978 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520340224 找到窗口，直接添加
+2024-02-25 17:35:31.978 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:31.984 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:32.088 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:33.795 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:33.857 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:33.857 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343808, groupType = 2, strPeopel = 
+2024-02-25 17:35:33.857 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343808 寻找窗口
+2024-02-25 17:35:33.857 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343808 找到窗口，直接添加
+2024-02-25 17:35:33.857 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:33.862 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:35:33.969 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:34.609 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:34.684 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:34.684 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343296, groupType = 3, strPeopel = 
+2024-02-25 17:35:34.684 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343296 寻找窗口
+2024-02-25 17:35:34.684 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343296 找到窗口，直接添加
+2024-02-25 17:35:34.684 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:34.693 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 市场部
+2024-02-25 17:35:34.783 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:35.217 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:35.279 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:35.279 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343808, groupType = 2, strPeopel = 
+2024-02-25 17:35:35.279 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343808 寻找窗口
+2024-02-25 17:35:35.279 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343808 找到窗口，直接添加
+2024-02-25 17:35:35.279 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:35.286 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:35:35.376 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:35.657 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:35.744 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:35.744 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:35.744 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:35.744 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520340224 找到窗口，直接添加
+2024-02-25 17:35:35.744 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:35.751 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:35.820 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:36.208 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:36.302 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:36.302 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:36.302 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:36.302 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:36.302 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:36.309 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:36.395 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:37.451 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:37.517 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:37.517 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:37.517 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:37.517 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520340224 找到窗口，直接添加
+2024-02-25 17:35:37.517 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:37.525 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:37.601 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:37.932 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:38.252 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:35:38.390 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:35:38.401 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:35:38.433 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:35:38.440 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:35:38.481 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:35:38.487 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:35:39.226 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:35:39.329 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:35:39.330 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:35:39.477 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:35:39.481 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:35:39.920 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:35:40.033 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:35:40.034 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-02-25 17:35:40.174 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-02-25 17:35:40.908 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:40.966 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:40.966 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:40.966 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:40.966 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520340224 找到窗口，直接添加
+2024-02-25 17:35:40.966 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:40.970 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:41.082 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:41.472 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:41.537 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:41.537 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343808, groupType = 2, strPeopel = 
+2024-02-25 17:35:41.537 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343808 寻找窗口
+2024-02-25 17:35:41.537 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343808 找到窗口，直接添加
+2024-02-25 17:35:41.537 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:41.538 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:35:41.654 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:42.353 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:42.411 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:42.411 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:42.411 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:42.411 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:42.411 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:42.421 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:42.521 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:43.022 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:43.085 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:43.085 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:43.085 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:43.085 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520340224 找到窗口，直接添加
+2024-02-25 17:35:43.086 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:43.087 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:43.214 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:43.669 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:43.738 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:43.738 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343808, groupType = 2, strPeopel = 
+2024-02-25 17:35:43.738 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343808 寻找窗口
+2024-02-25 17:35:43.738 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343808 找到窗口，直接添加
+2024-02-25 17:35:43.738 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:43.747 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:35:43.846 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:44.339 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:44.409 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:44.409 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343296, groupType = 3, strPeopel = 
+2024-02-25 17:35:44.409 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343296 寻找窗口
+2024-02-25 17:35:44.409 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343296 找到窗口，直接添加
+2024-02-25 17:35:44.409 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:44.410 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 市场部
+2024-02-25 17:35:44.505 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:44.680 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:44.751 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:44.751 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343296, groupType = 3, strPeopel = 
+2024-02-25 17:35:44.751 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343296 寻找窗口
+2024-02-25 17:35:44.751 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343296 找到窗口，直接添加
+2024-02-25 17:35:44.751 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:44.755 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 市场部
+2024-02-25 17:35:44.847 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:45.011 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:45.251 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:45.329 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:45.329 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343808, groupType = 2, strPeopel = 
+2024-02-25 17:35:45.329 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343808 寻找窗口
+2024-02-25 17:35:45.329 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343808 找到窗口，直接添加
+2024-02-25 17:35:45.329 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:45.330 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:35:45.426 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:45.664 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:45.758 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:45.758 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:45.758 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:45.758 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520340224 找到窗口，直接添加
+2024-02-25 17:35:45.758 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:45.760 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:45.837 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:46.090 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:46.172 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:46.172 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:46.172 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:46.172 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:46.172 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:46.180 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:46.285 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:46.441 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:46.511 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:46.511 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:46.511 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:46.511 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:46.511 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:46.514 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:46.607 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:46.849 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:46.937 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:46.937 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343808, groupType = 2, strPeopel = 
+2024-02-25 17:35:46.937 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343808 寻找窗口
+2024-02-25 17:35:46.937 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343808 找到窗口，直接添加
+2024-02-25 17:35:46.937 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:46.945 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:35:47.018 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:47.356 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:47.413 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:47.413 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:47.413 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:47.413 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520340224 找到窗口，直接添加
+2024-02-25 17:35:47.413 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:47.417 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:47.535 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:47.784 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:47.873 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:47.873 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520333056, groupType = 0, strPeopel = 
+2024-02-25 17:35:47.873 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520333056 寻找窗口
+2024-02-25 17:35:47.873 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520333056 找到窗口，直接添加
+2024-02-25 17:35:47.873 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:47.881 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 公司群
+2024-02-25 17:35:47.962 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:48.176 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:48.257 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:48.257 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520340224, groupType = 1, strPeopel = 
+2024-02-25 17:35:48.257 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520340224 寻找窗口
+2024-02-25 17:35:48.257 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520340224 找到窗口，直接添加
+2024-02-25 17:35:48.257 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:48.261 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 人事部
+2024-02-25 17:35:48.340 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:48.531 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:48.609 [DEBUG][CCMainWindow::onItemDoubleClicked][322]: 树项被双击
+2024-02-25 17:35:48.609 [DEBUG][WindowManager::addNewTalkWindow][45]: 添加新的窗口，uid = 1520343808, groupType = 2, strPeopel = 
+2024-02-25 17:35:48.609 [DEBUG][WindowManager::findWindowName][18]: 根据名字：1520343808 寻找窗口
+2024-02-25 17:35:48.610 [DEBUG][WindowManager::addNewTalkWindow][100]: 根据 1520343808 找到窗口，直接添加
+2024-02-25 17:35:48.610 [DEBUG][TalkWindowSheel::setCurrentWidget][54]: 设置当前窗口
+2024-02-25 17:35:48.617 [DEBUG][CCMainWindow::onItemDoubleClicked][343]: 研发部
+2024-02-25 17:35:48.697 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击
+2024-02-25 17:35:48.869 [DEBUG][CCMainWindow::onItemClicked][289]: 树项被单击

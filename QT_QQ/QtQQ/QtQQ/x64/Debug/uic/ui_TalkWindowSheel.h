@@ -36,7 +36,7 @@ public:
     {
         if (TalkWindowClass->objectName().isEmpty())
             TalkWindowClass->setObjectName(QStringLiteral("TalkWindowClass"));
-        TalkWindowClass->resize(1043, 732);
+        TalkWindowClass->resize(1043, 730);
         verticalLayout_2 = new QVBoxLayout(TalkWindowClass);
         verticalLayout_2->setSpacing(0);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
