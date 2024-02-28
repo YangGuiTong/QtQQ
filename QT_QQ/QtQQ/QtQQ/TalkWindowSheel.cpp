@@ -54,6 +54,9 @@ void TalkWindowSheel::setCurrentWidget(QWidget * widget) {
 	MyLogDEBUG(QString("设置当前窗口").toUtf8());
 	ui.rightStackedWidget->setCurrentWidget(widget);
 }
+const QMap<QListWidgetItem*, QWidget*>& TalkWindowSheel::getTalkWindowItemMap() const {
+	return m_talkwindowItemMap;
+}
 
 void TalkWindowSheel::initControl() {
 	MyLogDEBUG(QString("Qt聊天窗口初始化").toUtf8());

@@ -85,7 +85,7 @@ void WindowManager::addNewTalkWindow(const QString & uid, GroupType groupType, c
 			case PTOP:
 			{
 				talkwindow->setWindowName(QString("这个家伙"));
-				talkwindowItem->setMsgLabelContent(QString("Qt个人聊天"));
+				talkwindowItem->setMsgLabelContent(strPeopel);
 				break;
 			}
 			default:
@@ -98,6 +98,12 @@ void WindowManager::addNewTalkWindow(const QString & uid, GroupType groupType, c
 
 	} else {
 		MyLogDEBUG(QString("根据 %1 找到窗口，直接添加").arg(uid).toUtf8());
+		
+		// 左侧聊天列表设为选中
+		QListWidgetItem *item = m_talkwindowshell->getTalkWindowItemMap().key(widget);
+		item->setSelected(true);
+
+		// 设置右侧当前聊天窗口
 		m_talkwindowshell->setCurrentWidget(widget);
 	}
 

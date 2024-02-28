@@ -26,6 +26,8 @@ public:
 	// 设置当前聊天窗口
 	void setCurrentWidget(QWidget *widget);
 
+	const QMap<QListWidgetItem *, QWidget *>& getTalkWindowItemMap() const;
+
 private:
 	void initControl();	// 初始化控件
 

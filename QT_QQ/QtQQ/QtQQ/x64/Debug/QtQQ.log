@@ -1,11 +1,4 @@
-﻿  moc TalkWindow.h
-  CCMainWindow.cpp
-  TalkWindow.cpp
-  TalkWindowSheel.cpp
+﻿  TalkWindow.cpp
   WindowManager.cpp
 e:\git_my_demo\graduation_project\qt_qq\qtqq\qtqq\talkwindow.cpp(213): warning C4311: “类型强制转换”: 从“QTreeWidgetItem *”到“int”的指针截断
-e:\git_my_demo\graduation_project\qt_qq\qtqq\qtqq\ccmainwindow.cpp(127): warning C4311: “类型强制转换”: 从“QTreeWidgetItem *”到“int”的指针截断
-  moc_TalkWindow.cpp
-  moc_TalkWindowSheel.cpp
-  moc_WindowManager.cpp
   QtQQ.vcxproj -> E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\QtQQ.exe
