@@ -1,5 +1,6 @@
 QMAKE_CXX.INCDIRS = \
-    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\QtQQ\\include \
+    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\QtQQ \
+    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\ \
     D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\include \
     D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\include \
     D:\\VS2017\\VC\\Auxiliary\\VS\\include \
@@ -10,8 +11,24 @@ QMAKE_CXX.INCDIRS = \
     "D:\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt" \
     "D:\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt" \
     "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um" \
-    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um"
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um" \
+    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\QtQQ\\include
 QMAKE_CXX.LIBDIRS = \
+    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\ \
+    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\QtQQ \
+    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\ \
+    D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\include \
+    D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\include \
+    D:\\VS2017\\VC\\Auxiliary\\VS\\include \
+    "D:\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt" \
+    D:\\VS2017\\VC\\Auxiliary\\VS\\UnitTest\\include \
+    "D:\\Windows Kits\\10\\Include\\10.0.17763.0\\um" \
+    "D:\\Windows Kits\\10\\Include\\10.0.17763.0\\shared" \
+    "D:\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt" \
+    "D:\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um" \
+    E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\QtQQ\\include \
     E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ\\x64\\Debug\\lib\\x64 \
     D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x64 \
     D:\\VS2017\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\lib\\x64 \

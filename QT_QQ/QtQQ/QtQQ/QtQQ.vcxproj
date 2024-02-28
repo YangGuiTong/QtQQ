@@ -54,8 +54,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <IncludePath>E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ;$(SolutionDir);$(IncludePath);E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\include</IncludePath>
+    <LibraryPath>$(SolutionDir);$(IncludePath);E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
   </PropertyGroup>
@@ -103,6 +103,7 @@
     <ClCompile Include="MyLogger.cpp" />
     <ClCompile Include="NotifyManager.cpp" />
     <ClCompile Include="QClickLabel.cpp" />
+    <ClCompile Include="QMsgTextEdit.cpp" />
     <ClCompile Include="RootContatItem.cpp" />
     <ClCompile Include="SkinWindow.cpp" />
     <ClCompile Include="SysTray.cpp" />
@@ -133,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <QtMoc Include="QMsgTextEdit.h" />
     <QtMoc Include="WindowManager.h" />
     <QtMoc Include="TalkWindow.h" />
     <QtMoc Include="TalkWindowItem.h" />

@@ -638,7 +638,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QTextEdit" name="textEdit">
+         <widget class="QMsgTextEdit" name="textEdit">
           <property name="contextMenuPolicy">
            <enum>Qt::NoContextMenu</enum>
           </property>
@@ -827,6 +827,13 @@
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QMsgTextEdit</class>
+   <extends>QTextEdit</extends>
+   <header location="global">qmsgtextedit.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

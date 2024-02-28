@@ -97,6 +97,9 @@
     <ClCompile Include="WindowManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QMsgTextEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TitleBar.h">
@@ -145,6 +148,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="WindowManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QMsgTextEdit.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
