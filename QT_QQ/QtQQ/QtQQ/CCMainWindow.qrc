@@ -351,5 +351,15 @@
         <file>Resources/MainWindow/fileopen.png</file>
         <file>Resources/MainWindow/fileopen_hover.png</file>
         <file>Resources/MainWindow/fileopen_press.png</file>
+        <file>Resources/MainWindow/MsgHtml/jquery-3.3.1.min.js</file>
+        <file>Resources/MainWindow/MsgHtml/msgFont.txt</file>
+        <file>Resources/MainWindow/MsgHtml/msgleftTmpl.html</file>
+        <file>Resources/MainWindow/MsgHtml/msgrightTmpl.html</file>
+        <file>Resources/MainWindow/MsgHtml/msgTmpl.html</file>
+        <file>Resources/MainWindow/MsgHtml/msgtmpl.js</file>
+        <file>Resources/MainWindow/MsgHtml/msgtmpl.txt</file>
+        <file>Resources/MainWindow/MsgHtml/qwebchannel.js</file>
+        <file>Resources/MainWindow/MsgHtml/recvHtml.txt</file>
+        <file>Resources/MainWindow/MsgHtml/ui.css</file>
     </qresource>
 </RCC>
