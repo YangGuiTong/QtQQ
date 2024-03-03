@@ -8,8 +8,8 @@
 #include <QFile>
 #include <QMessageBox>
 
-TalkWindow::TalkWindow(QWidget *parent, const QString &uid, GroupType groupType)
-	: QWidget(parent), m_talkId(uid), m_groupType(groupType) {
+TalkWindow::TalkWindow(QWidget *parent, const QString &uid)
+	: QWidget(parent), m_talkId(uid) {
 	ui.setupUi(this);
 
 	WindowManager::getInstance()->addWindowName(m_talkId, this);
@@ -50,6 +50,7 @@ void TalkWindow::initControl() {
 
 	connect(ui.treeWidget, SIGNAL(itemDoubleClicked(QTreeWidgetItem *, int)), this, SLOT(onItemDoubleClicked(QTreeWidgetItem *, int)));
 
+/*
 	switch (m_groupType) {
 		case COMPANY:
 		{
@@ -78,6 +79,7 @@ void TalkWindow::initControl() {
 		}		
 
 	}
+*/
 }
 
 void TalkWindow::initPtoPTalk() {
@@ -239,7 +241,7 @@ void TalkWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) {
 		MyLogDEBUG(QString("µ¥ÁÄË«»÷").toUtf8());
 
 		QString sgtrPeopelName = m_groupPeopleMap.value(item);
-		WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), PTOP, sgtrPeopelName);
+		WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString());
 	}
 }
 

@@ -6,12 +6,15 @@
 #include <QEvent>
 #include <QMouseEvent>
 #include <QApplication>
+#include <QSqlQuery>
 
 #include "SkinWindow.h"
 #include "SysTray.h"
 #include "NotifyManager.h"
 #include "WindowManager.h"
 #include "TalkWindowSheel.h"
+
+extern QString gLoginEmployeeID;
 
 class CustomProxyStayle : public QProxyStyle {
 public:
@@ -115,8 +118,8 @@ void CCMainWindow::updateSeachStyle() {
 									.arg(m_colorBackGround.red()).arg(m_colorBackGround.green()).arg(m_colorBackGround.blue()));
 }
 
-void CCMainWindow::addCompanyDeps(QTreeWidgetItem * pRootGroupItem, const QString & sDeps) {
-	MyLogDEBUG(QString("添加子节点：%1").arg(sDeps).toUtf8());
+void CCMainWindow::addCompanyDeps(QTreeWidgetItem * pRootGroupItem, int DepID) {
+	MyLogDEBUG(QString("群id：%1").arg(DepID).toUtf8());
 
 	QTreeWidgetItem *pChild = new QTreeWidgetItem;
 	QPixmap pix;
@@ -124,16 +127,36 @@ void CCMainWindow::addCompanyDeps(QTreeWidgetItem * pRootGroupItem, const QStrin
 
 	// 添加子节点
 	pChild->setData(0, Qt::UserRole, 1);	// 子项设置为1
-	pChild->setData(0, Qt::UserRole + 1, QString::number((int)pChild));
+	pChild->setData(0, Qt::UserRole + 1, DepID);
+
+
+	// 获取公司、部门头像
+	QPixmap groupPix;
+	QString sql = QString("SELECT picture FROM tab_department WHERE departmentID = %1").arg(DepID);
+	QSqlQuery queryPixmap(sql);
+	MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+	queryPixmap.exec();
+	queryPixmap.next();
+	// 获得头像
+	groupPix.load(queryPixmap.value(0).toString());
+
+	// 获得部门名称
+	QString strDepName;
+	sql = QString("SELECT department_name FROM tab_department WHERE departmentID = %1").arg(DepID);
+	QSqlQuery queryDepName(sql);
+	MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+	queryDepName.exec();
+	queryDepName.next();
+	strDepName = queryDepName.value(0).toString();
 
 	Contactltem *pContactItem = new Contactltem(ui.treeWidget);
-	pContactItem->setHeadPixmap(getRoundImage(QPixmap(":Resources/MainWindow/girl.png"), pix, pContactItem->getHeadLabelSize()));
-	pContactItem->setUserName(sDeps);
+	pContactItem->setHeadPixmap(getRoundImage(groupPix, pix, pContactItem->getHeadLabelSize()));
+	pContactItem->setUserName(strDepName);
 
 	pRootGroupItem->addChild(pChild);
 	ui.treeWidget->setItemWidget(pChild, 0, pContactItem);
 
-	m_groupMap.insert(pChild, sDeps);
+	//m_groupMap.insert(pChild, sDeps);
 }
 
 void CCMainWindow::setUserName(const QString & username) {
@@ -230,6 +253,31 @@ void CCMainWindow::initContactTree() {
 
 	RootContatItem *pItemName = new RootContatItem(true, ui.treeWidget);
 
+
+
+	// 获取公司部门ID（公司群号）
+	QString sql = QString("SELECT departmentID FROM tab_department WHERE department_name = '%1'").arg("公司群");
+	QSqlQuery queryCompDepID(sql);
+	MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+
+	queryCompDepID.exec();
+	queryCompDepID.first();
+	int CompDepID = queryCompDepID.value(0).toInt();
+
+	// 获取QQ登录者的所在的部门ID
+	sql = QString("SELECT departmentID FROM tab_employees WHERE employeeID = %1").arg(gLoginEmployeeID);
+	QSqlQuery querySelfDepID(sql);
+	MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+
+	querySelfDepID.exec();
+	querySelfDepID.first();
+	int SelfDepID = querySelfDepID.value(0).toInt();
+
+	// 初始化公司群和自己所对应的部门群
+	addCompanyDeps(pRootGroupItem, CompDepID);
+	addCompanyDeps(pRootGroupItem, SelfDepID);
+
+
 	QString strGroupName = QString::fromLocal8Bit("Qt即时通讯");
 	pItemName->setText(strGroupName);
 
@@ -238,19 +286,15 @@ void CCMainWindow::initContactTree() {
 	ui.treeWidget->setItemWidget(pRootGroupItem, 0, pItemName);
 
 
+	//QStringList sCompDeps;	// 公司部门
+	//sCompDeps << QString::fromLocal8Bit("公司群");
+	//sCompDeps << QString::fromLocal8Bit("人事部");
+	//sCompDeps << QString::fromLocal8Bit("研发部");
+	//sCompDeps << QString::fromLocal8Bit("市场部");
 
-
-
-
-	QStringList sCompDeps;	// 公司部门
-	sCompDeps << QString::fromLocal8Bit("公司群");
-	sCompDeps << QString::fromLocal8Bit("人事部");
-	sCompDeps << QString::fromLocal8Bit("研发部");
-	sCompDeps << QString::fromLocal8Bit("市场部");
-
-	for (int index = 0; index < sCompDeps.size(); index++) {
-		addCompanyDeps(pRootGroupItem, sCompDeps.at(index));
-	}
+	//for (int index = 0; index < sCompDeps.size(); index++) {
+	//	addCompanyDeps(pRootGroupItem, sCompDeps.at(index));
+	//}
 
 
 
@@ -331,9 +375,10 @@ void CCMainWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) {
 
 	bool bIsChild = item->data(0, Qt::UserRole).toBool();
 	if (bIsChild) {
-		QString strGroup = m_groupMap.value(item);
+		//QString strGroup = m_groupMap.value(item);
 		QString text = "";
-
+		WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString());
+/*
 		if (strGroup == QString::fromLocal8Bit("公司群")) {
 			text = "公司群";
 			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), COMPANY);
@@ -347,6 +392,8 @@ void CCMainWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) {
 			text = "研发部";
 			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), DEVELOPMENTGROUP);
 		}
+*/
+		
 
 		MyLogDEBUG(QString("%1").arg(text).toUtf8());
 	}

@@ -30,7 +30,7 @@ private:
 	void initTimer();										// 初始化等级计时器
 	void initControl();
 	void updateSeachStyle();								// 更新搜索样式
-	void addCompanyDeps(QTreeWidgetItem *pRootGroupItem, const QString &sDeps);
+	void addCompanyDeps(QTreeWidgetItem *pRootGroupItem, int DepID);
 
 private:
 	void resizeEvent(QResizeEvent *event);
@@ -47,5 +47,5 @@ private slots:
 private:
     Ui::CCMainWindowClass ui;
 
-	QMap<QTreeWidgetItem *, QString> m_groupMap;	// 所有分组项
+	//QMap<QTreeWidgetItem *, QString> m_groupMap;	// 所有分组项
 };

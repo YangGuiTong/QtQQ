@@ -58,11 +58,13 @@ bool UserLogin::connectMySql() {
 }
 
 bool UserLogin::verfyAccountCode() {
+	MyLogDEBUG(QString("’À∫≈√‹¬Î—È÷§").toUtf8());
 	QString strAccountInput = ui.editUserAccount->text();
 	QString strCodeInput = ui.editPassword->text();
 
 	//  ‰»Î‘±π§∫≈£®QQ∫≈µ«¬º£©
 	QString strSqlCode = QString("SELECT code FROM tab_accounts WHERE employeeId=%1").arg(strAccountInput);
+	MyLogDEBUG(QString("sql”Ôæ‰£∫%1").arg(strSqlCode).toUtf8());
 	QSqlQuery queryEmployeeID(strSqlCode);
 	queryEmployeeID.exec();
 
@@ -71,6 +73,7 @@ bool UserLogin::verfyAccountCode() {
 		QString strCode = queryEmployeeID.value(0).toString();
 
 		if (strCode == strCodeInput) {
+			gLoginEmployeeID = strAccountInput;
 			return true;
 		}
 
@@ -80,6 +83,7 @@ bool UserLogin::verfyAccountCode() {
 
 	// ’À∫≈µ«¬º
 	strSqlCode = QString("SELECT code, employeeID FROM tab_accounts WHERE account = '%1'").arg(strAccountInput);
+	MyLogDEBUG(QString("sql”Ôæ‰£∫%1").arg(strSqlCode).toUtf8());
 	QSqlQuery queryAccount(strSqlCode);
 	queryAccount.exec();
 
@@ -87,6 +91,7 @@ bool UserLogin::verfyAccountCode() {
 		QString strCode = queryAccount.value(0).toString();
 
 		if (strCode == strCodeInput) {
+			gLoginEmployeeID = queryAccount.value(1).toString();
 			return true;
 		
 		} 
