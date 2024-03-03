@@ -99,6 +99,7 @@
     <ClCompile Include="CustomMenu.cpp" />
     <ClCompile Include="EmotionLabelItem.cpp" />
     <ClCompile Include="EmotionWindow.cpp" />
+    <ClCompile Include="MsgWebView.cpp" />
     <ClCompile Include="MyLog.cpp" />
     <ClCompile Include="MyLogger.cpp" />
     <ClCompile Include="NotifyManager.cpp" />
@@ -144,6 +145,7 @@
     <QtMoc Include="Contactltem.h" />
     <QtMoc Include="EmotionWindow.h" />
     <QtMoc Include="EmotionLabelItem.h" />
+    <QtMoc Include="MsgWebView.h" />
     <ClInclude Include="MyLog.h" />
     <ClInclude Include="MyLogger.h" />
     <ClInclude Include="public_type.h" />

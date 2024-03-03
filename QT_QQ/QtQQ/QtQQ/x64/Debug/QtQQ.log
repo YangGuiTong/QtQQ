@@ -21,6 +21,7 @@
   moc Contactltem.h
   moc EmotionWindow.h
   moc EmotionLabelItem.h
+  moc MsgWebView.h
   moc SysTray.h
   moc QClickLabel.h
   moc SkinWindow.h
@@ -32,6 +33,7 @@
   CustomMenu.cpp
   EmotionLabelItem.cpp
   EmotionWindow.cpp
+  MsgWebView.cpp
   MyLog.cpp
   MyLogger.cpp
   NotifyManager.cpp
@@ -64,6 +66,7 @@ e:\git_my_demo\graduation_project\qt_qq\qtqq\qtqq\ccmainwindow.cpp(127): warning
   moc_Contactltem.cpp
   moc_EmotionWindow.cpp
   moc_EmotionLabelItem.cpp
+  moc_MsgWebView.cpp
   moc_SysTray.cpp
   moc_QClickLabel.cpp
   moc_SkinWindow.cpp
