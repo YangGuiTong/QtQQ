@@ -7,6 +7,8 @@
 #include <QToolTip>
 #include <QFile>
 #include <QMessageBox>
+#include <QSqlQueryModel>
+#include <QSqlQuery>
 
 TalkWindow::TalkWindow(QWidget *parent, const QString &uid)
 	: QWidget(parent), m_talkId(uid) {
@@ -15,6 +17,8 @@ TalkWindow::TalkWindow(QWidget *parent, const QString &uid)
 	WindowManager::getInstance()->addWindowName(m_talkId, this);
 
 	setAttribute(Qt::WA_DeleteOnClose);
+
+	initGroupTalkStatus();
 	initControl();
 }
 
@@ -50,6 +54,14 @@ void TalkWindow::initControl() {
 
 	connect(ui.treeWidget, SIGNAL(itemDoubleClicked(QTreeWidgetItem *, int)), this, SLOT(onItemDoubleClicked(QTreeWidgetItem *, int)));
 
+
+	if (m_isGroupTalk) {
+		initTalkWindow();
+	} else {
+		initPtoPTalk();
+	}
+
+
 /*
 	switch (m_groupType) {
 		case COMPANY:
@@ -82,6 +94,32 @@ void TalkWindow::initControl() {
 */
 }
 
+void TalkWindow::initGroupTalkStatus() {
+	QSqlQueryModel sqlDepModel;
+
+	QString sql = QString("SELECT * FROM tab_department WHERE departmentID = %1").arg(m_talkId);
+	MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+	sqlDepModel.setQuery(sql);
+
+	int rows = sqlDepModel.rowCount();
+	if (rows == 0) {		// 单独聊天
+		m_isGroupTalk = false;
+	} else {
+		m_isGroupTalk = true;
+	}
+}
+
+int TalkWindow::getCompDepID() {
+	QString sql = QString("SELECT departmentID FROM tab_department WHERE department_name = '%1'").arg("公司群");
+	MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+	QSqlQuery queryDepID(sql);
+	queryDepID.next();
+
+	int companyId = queryDepID.value(0).toInt();
+
+	return companyId;
+}
+
 void TalkWindow::initPtoPTalk() {
 	MyLogDEBUG(QString("个人聊天窗口初始化").toUtf8());
 
@@ -95,137 +133,211 @@ void TalkWindow::initPtoPTalk() {
 	skinLabel->setFixedSize(ui.widget->size());
 }
 
-void TalkWindow::initCompanyTalk() {
-	MyLogDEBUG(QString("公司群聊天窗口初始化").toUtf8());
-
+void TalkWindow::initTalkWindow() { 
+	MyLogDEBUG(QString("群聊天窗口初始化").toUtf8());
+	
 	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
 	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
-
+	
 	// 设置data，用于区分根项子项
 	pRootItem->setData(0, Qt::UserRole, 0);
 	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
-
+	
 	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
+	
+	// 当前聊天的群组名
+	QString strGroupName;
+	QString sql = QString("SELECT department_name FROM tab_department WHERE departmentID = %1").arg(m_talkId);
+	MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+	QSqlQuery queryGroupName(sql);
+	queryGroupName.exec();
+	if (queryGroupName.next()) {
+		strGroupName = queryGroupName.value(0).toString();
+	}
 
-	int nEmployeeNum = 50;
-	QString qsGroupName = QString::fromLocal8Bit("公司群 %1/%2").arg(0).arg(nEmployeeNum);
+	
+
+	QSqlQueryModel queryEmployeeModel;
+	if (getCompDepID() == m_talkId.toInt()) {		// 公司群
+		QString sql = QString("SELECT employeeID FROM tab_employees WHERE status = 1");
+		MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+		queryEmployeeModel.setQuery(sql);
+	
+	} else {
+		QString sql = QString("SELECT employeeID FROM tab_employees WHERE status = 1 AND departmentID = %1").arg(m_talkId);
+		MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+		queryEmployeeModel.setQuery(sql);
+	}
+	int nEmployeeNum = queryEmployeeModel.rowCount();
+
+	QString qsGroupName = QString::fromLocal8Bit("%1 %2/%3").arg(strGroupName).arg(0).arg(nEmployeeNum);
 	pItemName->setText(qsGroupName);
-
+	
 	// 插入分组节点
 	ui.treeWidget->addTopLevelItem(pRootItem);
 	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
-
+	
 	// 展开
 	pRootItem->setExpanded(true);
-
+	
 	for (int i = 0; i < nEmployeeNum; i++) {
-		addPeopInfo(pRootItem);
+		QModelIndex modelIndex = queryEmployeeModel.index(i, 0);
+		int employeeID = queryEmployeeModel.data(modelIndex).toInt();
+
+		// 添加子节点
+		addPeopInfo(pRootItem, employeeID);
 	}
 }
 
-void TalkWindow::initPersonelTalk() {
-	MyLogDEBUG(QString("人事群聊天窗口初始化").toUtf8());
+//
+//void TalkWindow::initCompanyTalk() {
+//	MyLogDEBUG(QString("公司群聊天窗口初始化").toUtf8());
+//
+//	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
+//	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
+//
+//	// 设置data，用于区分根项子项
+//	pRootItem->setData(0, Qt::UserRole, 0);
+//	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
+//
+//	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
+//
+//	int nEmployeeNum = 50;
+//	QString qsGroupName = QString::fromLocal8Bit("公司群 %1/%2").arg(0).arg(nEmployeeNum);
+//	pItemName->setText(qsGroupName);
+//
+//	// 插入分组节点
+//	ui.treeWidget->addTopLevelItem(pRootItem);
+//	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
+//
+//	// 展开
+//	pRootItem->setExpanded(true);
+//
+//	for (int i = 0; i < nEmployeeNum; i++) {
+//		addPeopInfo(pRootItem);
+//	}
+//}
+//
+//void TalkWindow::initPersonelTalk() {
+//	MyLogDEBUG(QString("人事群聊天窗口初始化").toUtf8());
+//
+//	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
+//	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
+//
+//	// 设置data，用于区分根项子项
+//	pRootItem->setData(0, Qt::UserRole, 0);
+//	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
+//
+//	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
+//
+//	int nEmployeeNum = 7;
+//	QString qsGroupName = QString::fromLocal8Bit("人事群 %1/%2").arg(0).arg(nEmployeeNum);
+//	pItemName->setText(qsGroupName);
+//
+//	// 插入分组节点
+//	ui.treeWidget->addTopLevelItem(pRootItem);
+//	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
+//
+//	// 展开
+//	pRootItem->setExpanded(true);
+//
+//	for (int i = 0; i < nEmployeeNum; i++) {
+//		addPeopInfo(pRootItem);
+//	}
+//}
+//
+//void TalkWindow::initMarketTalk() {
+//	MyLogDEBUG(QString("市场群聊天窗口初始化").toUtf8());
+//
+//	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
+//	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
+//
+//	// 设置data，用于区分根项子项
+//	pRootItem->setData(0, Qt::UserRole, 0);
+//	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
+//
+//	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
+//
+//	int nEmployeeNum = 15;
+//	QString qsGroupName = QString::fromLocal8Bit("市场群 %1/%2").arg(0).arg(nEmployeeNum);
+//	pItemName->setText(qsGroupName);
+//
+//	// 插入分组节点
+//	ui.treeWidget->addTopLevelItem(pRootItem);
+//	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
+//
+//	// 展开
+//	pRootItem->setExpanded(true);
+//
+//	for (int i = 0; i < nEmployeeNum; i++) {
+//		addPeopInfo(pRootItem);
+//	}
+//}
+//
+//void TalkWindow::initDevelopTalk() { 
+//	MyLogDEBUG(QString("研发群聊天窗口初始化").toUtf8());
+//
+//	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
+//	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
+//
+//	// 设置data，用于区分根项子项
+//	pRootItem->setData(0, Qt::UserRole, 0);
+//	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
+//
+//	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
+//
+//	int nEmployeeNum = 28;
+//	QString qsGroupName = QString::fromLocal8Bit("研发群 %1/%2").arg(0).arg(nEmployeeNum);
+//	pItemName->setText(qsGroupName);
+//
+//	// 插入分组节点
+//	ui.treeWidget->addTopLevelItem(pRootItem);
+//	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
+//
+//	// 展开
+//	pRootItem->setExpanded(true);
+//
+//	for (int i = 0; i < nEmployeeNum; i++) {
+//		addPeopInfo(pRootItem);
+//	}
+//}
 
-	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
-	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
-
-	// 设置data，用于区分根项子项
-	pRootItem->setData(0, Qt::UserRole, 0);
-	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
-
-	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
-
-	int nEmployeeNum = 7;
-	QString qsGroupName = QString::fromLocal8Bit("人事群 %1/%2").arg(0).arg(nEmployeeNum);
-	pItemName->setText(qsGroupName);
-
-	// 插入分组节点
-	ui.treeWidget->addTopLevelItem(pRootItem);
-	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
-
-	// 展开
-	pRootItem->setExpanded(true);
-
-	for (int i = 0; i < nEmployeeNum; i++) {
-		addPeopInfo(pRootItem);
-	}
-}
-
-void TalkWindow::initMarketTalk() {
-	MyLogDEBUG(QString("市场群聊天窗口初始化").toUtf8());
-
-	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
-	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
-
-	// 设置data，用于区分根项子项
-	pRootItem->setData(0, Qt::UserRole, 0);
-	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
-
-	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
-
-	int nEmployeeNum = 15;
-	QString qsGroupName = QString::fromLocal8Bit("市场群 %1/%2").arg(0).arg(nEmployeeNum);
-	pItemName->setText(qsGroupName);
-
-	// 插入分组节点
-	ui.treeWidget->addTopLevelItem(pRootItem);
-	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
-
-	// 展开
-	pRootItem->setExpanded(true);
-
-	for (int i = 0; i < nEmployeeNum; i++) {
-		addPeopInfo(pRootItem);
-	}
-}
-
-void TalkWindow::initDevelopTalk() { 
-	MyLogDEBUG(QString("研发群聊天窗口初始化").toUtf8());
-
-	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
-	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
-
-	// 设置data，用于区分根项子项
-	pRootItem->setData(0, Qt::UserRole, 0);
-	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
-
-	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
-
-	int nEmployeeNum = 28;
-	QString qsGroupName = QString::fromLocal8Bit("研发群 %1/%2").arg(0).arg(nEmployeeNum);
-	pItemName->setText(qsGroupName);
-
-	// 插入分组节点
-	ui.treeWidget->addTopLevelItem(pRootItem);
-	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
-
-	// 展开
-	pRootItem->setExpanded(true);
-
-	for (int i = 0; i < nEmployeeNum; i++) {
-		addPeopInfo(pRootItem);
-	}
-}
-
-void TalkWindow::addPeopInfo(QTreeWidgetItem * pRootGroupItem) {
+void TalkWindow::addPeopInfo(QTreeWidgetItem * pRootGroupItem, int employeeID) {
 	QTreeWidgetItem *pChild = new QTreeWidgetItem();
 
-	QPixmap pixl;
-	pixl.load(":Resources/MainWindow/head_mask.png");
-	//QImage image(":Resources/MainWindow/girl.png");
-	const QPixmap image(":Resources/MainWindow/girl.png");
 
 	// 添加子节点
 	pChild->setData(0, Qt::UserRole, 1);
-	pChild->setData(0, Qt::UserRole + 1, QString::number((int)pChild));
+	pChild->setData(0, Qt::UserRole + 1, employeeID);
 
 	Contactltem *pContactItem = new Contactltem(ui.treeWidget);
 
-	static int i = 0;
-	pContactItem->setHeadPixmap(CommonUtils::getRoundImage(image, pixl, pContactItem->getHeadLabelSize()));
-	pContactItem->setUserName(QString::fromLocal8Bit("白云%1").arg(i));
-	i++;
-	pContactItem->setSignName(QString::fromLocal8Bit("这是一个个性签名"));
+	QPixmap pixl;
+	pixl.load(":Resources/MainWindow/head_mask.png");
+
+
+	// 获取名称、签名、头像
+	QString strName, strSign, strPicturePath, sql;
+	QSqlQueryModel queryInfoModel;
+	sql = QString("SELECT employee_name, employee_sign, picture FROM tab_employees WHERE employeeID = %1").arg(employeeID);
+	queryInfoModel.setQuery(sql);
+
+	QModelIndex nameIndex, signIndex, pictureInex;
+	nameIndex = queryInfoModel.index(0, 0);	// 行，列
+	signIndex = queryInfoModel.index(0, 1);	// 行，列
+	pictureInex = queryInfoModel.index(0, 2);	// 行，列
+
+	strName = queryInfoModel.data(nameIndex).toString();
+	strSign = queryInfoModel.data(signIndex).toString();
+	strPicturePath = queryInfoModel.data(pictureInex).toString();
+
+
+	QImage imageHead;
+	imageHead.load(strPicturePath);
+
+	pContactItem->setHeadPixmap(CommonUtils::getRoundImage(QPixmap::fromImage(imageHead), pixl, pContactItem->getHeadLabelSize()));
+	pContactItem->setUserName(strName);
+	pContactItem->setSignName(strSign);
 
 	pRootGroupItem->addChild(pChild);
 	ui.treeWidget->setItemWidget(pChild, 0, pContactItem);

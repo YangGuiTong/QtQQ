@@ -20,13 +20,18 @@ public:
 
 private:
 	void initControl();
-	void initPtoPTalk();		// 初始化单聊
-	void initCompanyTalk();		// 初始化公司群聊天
-	void initPersonelTalk();	// 初始化人事部聊天
-	void initMarketTalk();		// 初始化市场部聊天
-	void initDevelopTalk();		// 初始化研发部聊天
+	void initGroupTalkStatus();
 
-	void addPeopInfo(QTreeWidgetItem *pRootGroupItem);
+	int getCompDepID();			// 获取公司群ID
+
+	void initPtoPTalk();		// 初始化单聊
+	void initTalkWindow();		// 初始化群聊
+	//void initCompanyTalk();		// 初始化公司群聊天
+	//void initPersonelTalk();	// 初始化人事部聊天
+	//void initMarketTalk();		// 初始化市场部聊天
+	//void initDevelopTalk();		// 初始化研发部聊天
+
+	void addPeopInfo(QTreeWidgetItem *pRootGroupItem, int employeeID);
 
 private slots:
 	void onItemDoubleClicked(QTreeWidgetItem * item, int column);
@@ -40,4 +45,5 @@ private:
 
 	QString m_talkId;
 	QMap<QTreeWidgetItem *, QString> m_groupPeopleMap;	// 所有分组联系人姓名
+	bool m_isGroupTalk;		// 判断是否为群聊
 };
