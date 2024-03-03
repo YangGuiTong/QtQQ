@@ -16,6 +16,8 @@ private slots:
 
 private:
 	void initControl();
+	bool connectMySql();
+	bool verfyAccountCode();
 
 private:
 	Ui::UserLogin ui;

@@ -4,6 +4,9 @@
 #include <QMessageBox>
 #include <QSqlDatabase>
 #include <QSqlQuery>
+#include <QMessageBox>
+#include <QSqlDatabase>
+#include <QSqlQuery>
 
 QString gLoginEmployeeID;	// 登录者的QQ号
 
@@ -30,6 +33,68 @@ void UserLogin::initControl() {
 	headlabel->move(width() / 2 - 34, ui.titleWidget->height() - 34);		// 将label图像移动到中心点
 
 	connect(ui.loginBtn, &QPushButton::clicked, this, &UserLogin::onLoginBtnClicked);
+
+
+	if (!connectMySql()) {
+		QMessageBox::information(nullptr, "提示", "数据库连接失败");
+		close();
+	}
+}
+
+bool UserLogin::connectMySql() {
+	QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+	db.setDatabaseName("qtqq");
+	db.setHostName("localhost");
+	db.setUserName("root");
+	db.setPassword("yang");
+	db.setPort(3306);
+
+	if (db.open()) {
+		return true;
+	}
+
+
+	return false;
+}
+
+bool UserLogin::verfyAccountCode() {
+	QString strAccountInput = ui.editUserAccount->text();
+	QString strCodeInput = ui.editPassword->text();
+
+	// 输入员工号（QQ号登录）
+	QString strSqlCode = QString("SELECT code FROM tab_accounts WHERE employeeId=%1").arg(strAccountInput);
+	QSqlQuery queryEmployeeID(strSqlCode);
+	queryEmployeeID.exec();
+
+	if (queryEmployeeID.first()) {		// 指向结构集的第一条
+		// 数据库中qq号对应的密码
+		QString strCode = queryEmployeeID.value(0).toString();
+
+		if (strCode == strCodeInput) {
+			return true;
+		}
+
+		return false;
+	
+	} 
+
+	// 账号登录
+	strSqlCode = QString("SELECT code, employeeID FROM tab_accounts WHERE account = '%1'").arg(strAccountInput);
+	QSqlQuery queryAccount(strSqlCode);
+	queryAccount.exec();
+
+	if (queryAccount.first()) {
+		QString strCode = queryAccount.value(0).toString();
+
+		if (strCode == strCodeInput) {
+			return true;
+		
+		} 
+
+		return false;
+	}
+
+	return false;
 }
 
 
@@ -37,11 +102,14 @@ void UserLogin::initControl() {
 void UserLogin::onLoginBtnClicked() {
 	MyLogDEBUG(QString("登录按钮被按下！").toUtf8());
 
-	bool isAccountLogin;
-	QString strAccount;	// 账号或QQ号
+	if (!verfyAccountCode()) {
+		QMessageBox::information(NULL, "提示", "您输入的账号或密码有误，请重新输入！");
+		ui.editPassword->setText("");
+		ui.editUserAccount->setText("");
+		return;
+	}
 
 	close();
-
 	CCMainWindow *mainwindow = new CCMainWindow();
 	mainwindow->show();
 }

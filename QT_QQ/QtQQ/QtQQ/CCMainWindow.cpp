@@ -51,7 +51,7 @@ void CCMainWindow::initTimer() {
 	timer->setInterval(60000);
 
 	connect(timer, &QTimer::timeout, [this]() {
-		static int level = 1;
+		static int level = 18;
 		if (99 == level) {
 			level = 0;
 		}
@@ -226,7 +226,7 @@ void CCMainWindow::initContactTree() {
 	// 根节点
 	QTreeWidgetItem *pRootGroupItem = new QTreeWidgetItem;
 	pRootGroupItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
-	pRootGroupItem->setData(0, Qt::UserRole, 0);
+	pRootGroupItem->setData(0, Qt::UserRole, 0);	// 根项数据设为0
 
 	RootContatItem *pItemName = new RootContatItem(true, ui.treeWidget);
 
@@ -237,6 +237,11 @@ void CCMainWindow::initContactTree() {
 	ui.treeWidget->addTopLevelItem(pRootGroupItem);
 	ui.treeWidget->setItemWidget(pRootGroupItem, 0, pItemName);
 
+
+
+
+
+
 	QStringList sCompDeps;	// 公司部门
 	sCompDeps << QString::fromLocal8Bit("公司群");
 	sCompDeps << QString::fromLocal8Bit("人事部");
@@ -246,6 +251,9 @@ void CCMainWindow::initContactTree() {
 	for (int index = 0; index < sCompDeps.size(); index++) {
 		addCompanyDeps(pRootGroupItem, sCompDeps.at(index));
 	}
+
+
+
 
 }
 
