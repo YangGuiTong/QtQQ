@@ -82,10 +82,35 @@ void MsgWebView::appendMsg(const QString & html) {
 	QString qsMsg;
 	const QList<QStringList> msgLst = parseHtml(html);		// 解析html
 
+	int imageNum = 0;	// 记录发送的一段信息中的表情个数
+	int msgType = 1;	// 信息类型：0是表情信息，1是文本信息，2是文件
+	QString strData;	// 发送的数据（表情宽度为3位，例：055，008，155）
+
 	for (int i = 0; i < msgLst.size(); i++) {
 		if (msgLst.at(i).at(0) == "img") {
 			QString imagePath = msgLst.at(i).at(1);
 			QPixmap pixmap;
+
+			// 获取表情名称
+			QString strEmotionPath = "qrc:/Resources/MainWindow/emotion/";
+			int pos = strEmotionPath.size();
+			QString strEmotionName = imagePath.mid(pos);
+			strEmotionName.replace(".png", "");
+
+			// 根据表情名称的长度进行设置表情数据，不足3位则补足3位，例如23，则补为023
+			int emotionNameL = strEmotionName.length();
+			if (1 == emotionNameL) {
+				strData = strData + "00" + strEmotionName;
+			} else if (2 == emotionNameL) {
+				strData = strData + "0" + strEmotionName;
+			} else if (3 == emotionNameL) {
+				strData = strData + strEmotionName;
+			}
+
+			// 设置信息类型
+			msgType = 0;
+			imageNum++;
+
 			if (imagePath.left(3) == "qrc") {
 				pixmap.load(imagePath.mid(3));		// 去掉表情路径中的qrc
 			
@@ -99,6 +124,9 @@ void MsgWebView::appendMsg(const QString & html) {
 
 		} else if (msgLst.at(i).at(0) == "text") {
 			qsMsg += msgLst.at(i).at(1);
+
+			msgType = 1;
+			strData = qsMsg;
 		}
 	}
 
@@ -107,6 +135,9 @@ void MsgWebView::appendMsg(const QString & html) {
 	MyLogDEBUG(QString("已完成封装的信息：%1").arg(Msg).toUtf8());
 
 	this->page()->runJavaScript(QString("appendHtml0(%1)").arg(Msg));
+
+	// 将信息通过网络发送出去
+	emit signalSendMsg(strData, msgType);
 }
 
 QList<QStringList> MsgWebView::parseHtml(const QString & html) {
