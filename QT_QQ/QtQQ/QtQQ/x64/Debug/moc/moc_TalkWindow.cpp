@@ -60,11 +60,11 @@ static const uint qt_meta_data_TalkWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   24,    2, 0x08 /* Private */,
-       3,    2,   25,    2, 0x08 /* Private */,
+       1,    1,   24,    2, 0x08 /* Private */,
+       3,    2,   27,    2, 0x08 /* Private */,
 
  // slots: parameters
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::Bool,    2,
     QMetaType::Void, 0x80000000 | 4, QMetaType::Int,    5,    6,
 
        0        // eod
@@ -76,7 +76,7 @@ void TalkWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         TalkWindow *_t = static_cast<TalkWindow *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->onSendBtnClicked(); break;
+        case 0: _t->onSendBtnClicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 1: _t->onItemDoubleClicked((*reinterpret_cast< QTreeWidgetItem*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         default: ;
         }

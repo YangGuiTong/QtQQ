@@ -4,6 +4,8 @@
 #include "CommonUtils.h"
 #include "WindowManager.h"
 
+#include <QToolTip>
+
 TalkWindow::TalkWindow(QWidget *parent, const QString &uid, GroupType groupType)
 	: QWidget(parent), m_talkId(uid), m_groupType(groupType) {
 	ui.setupUi(this);
@@ -19,7 +21,8 @@ TalkWindow::~TalkWindow() {
 }
 
 void TalkWindow::addEmotionImage(int emotionNum) {
-
+	ui.textEdit->setFocus();
+	ui.textEdit->addEmotionUrl(emotionNum);
 }
 
 void TalkWindow::setWindowName(const QString & name) {
@@ -239,6 +242,18 @@ void TalkWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) {
 }
 
 
-void TalkWindow::onSendBtnClicked() {
+void TalkWindow::onSendBtnClicked(bool ) {
+	if (ui.textEdit->toPlainText().isEmpty()) {
+		QToolTip::showText(this->mapToGlobal(QPoint(630, 660)), 
+						   "发送的信息不能为空！", this, QRect(0, 0, 120, 100), 2000);
+		return;
+	}
 
+	const QString &html = ui.textEdit->document()->toHtml();
+	MyLogDEBUG(QString("发送的信息为：%1").arg(html).toUtf8());
+
+	ui.textEdit->clear();
+	ui.textEdit->deleteAllEmotionImage();
+	
+	ui.msgWidget->appendMsg(html);
 }

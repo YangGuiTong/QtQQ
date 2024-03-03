@@ -29,7 +29,7 @@ private:
 	void addPeopInfo(QTreeWidgetItem *pRootGroupItem);
 
 private slots:
-	void onSendBtnClicked();
+	void onSendBtnClicked(bool);
 	void onItemDoubleClicked(QTreeWidgetItem * item, int column);
 
 private:
