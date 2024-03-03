@@ -60,8 +60,11 @@ MsgWebView::MsgWebView(QWidget *parent)
 
 	QWebChannel *channel = new QWebChannel(this);
 	m_msgHtmlObj = new MsgHtmlObj(this);
-	channel->registerObject("external", m_msgHtmlObj);
+	channel->registerObject("external0", m_msgHtmlObj);
 	this->page()->setWebChannel(channel);
+
+	// 初始化收信息页面
+	this->load(QUrl("qrc:/Resources/MainWindow/MsgHtml/msgTmpl.html"));
 }
 
 MsgWebView::~MsgWebView() { }
@@ -97,7 +100,7 @@ void MsgWebView::appendMsg(const QString & html) {
 	const QString &Msg = QJsonDocument(msgObj).toJson(QJsonDocument::Compact);
 	MyLogDEBUG(QString("已完成封装的信息：%1").arg(Msg).toUtf8());
 
-	this->page()->runJavaScript(QString("appendHtml(%1)").arg(Msg));
+	this->page()->runJavaScript(QString("appendHtml0(%1)").arg(Msg));
 }
 
 QList<QStringList> MsgWebView::parseHtml(const QString & html) {
@@ -113,7 +116,7 @@ QList<QStringList> MsgWebView::parseHtml(const QString & html) {
 }
 
 QList<QStringList> MsgWebView::parseDocNode(const QDomNode & node) {
-	MyLogDEBUG(QString("QDomNode：%1").arg(node.nodeValue()).toUtf8());
+	MyLogDEBUG(QString("QDomNode：%1").arg(node.toElement().text()).toUtf8());
 
 	QList<QStringList> attribute;
 	const QDomNodeList &list = node.childNodes();		// 返回左右子节点
@@ -128,9 +131,12 @@ QList<QStringList> MsgWebView::parseDocNode(const QDomNode & node) {
 				attributeList << "img" << element.attribute("src");
 				attribute << attributeList;
 			
-			} else if (element.tagName() == "span") {
+			} 
+			
+			if (element.tagName() == "span") {
 				QStringList attributeList;
 				attributeList << "text" << element.text();
+				attribute << attributeList;
 			
 			}
 

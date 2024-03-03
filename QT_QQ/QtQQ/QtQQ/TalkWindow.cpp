@@ -5,6 +5,8 @@
 #include "WindowManager.h"
 
 #include <QToolTip>
+#include <QFile>
+#include <QMessageBox>
 
 TalkWindow::TalkWindow(QWidget *parent, const QString &uid, GroupType groupType)
 	: QWidget(parent), m_talkId(uid), m_groupType(groupType) {
@@ -249,8 +251,29 @@ void TalkWindow::onSendBtnClicked(bool) {
 		return;
 	}
 
-	const QString &html = ui.textEdit->document()->toHtml();
+	QString html = ui.textEdit->document()->toHtml();
 	MyLogDEBUG(QString("发送的信息为：%1").arg(html).toUtf8());
+
+	// 文本html如果没有字体则添加字体    msgFont.txt
+	if (!html.contains(".png") && !html.contains("</span>")) {
+		QString fontHtml;
+		QString text = ui.textEdit->toPlainText();
+		QFile file(":/Resources/MainWindow/MsgHtml/msgFont.txt");
+		if (file.open(QIODevice::ReadOnly)) {
+			fontHtml = file.readAll();
+			fontHtml.replace("%1", text);
+			file.close();
+		
+		} else {
+			MyLogDEBUG(QString("msgFont.txt文件打开失败！").toUtf8());
+			QMessageBox::information(this, "提示", "msgFont.txt文件打开失败！"); 
+			return;
+		}
+
+		if (!html.contains(fontHtml)) {
+			html.replace(text, fontHtml);
+		}
+	}
 
 	ui.textEdit->clear();
 	ui.textEdit->deleteAllEmotionImage();

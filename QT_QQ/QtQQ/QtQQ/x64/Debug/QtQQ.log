@@ -1,3 +1,3 @@
 ﻿  TalkWindow.cpp
-e:\git_my_demo\graduation_project\qt_qq\qtqq\qtqq\talkwindow.cpp(216): warning C4311: “类型强制转换”: 从“QTreeWidgetItem *”到“int”的指针截断
+e:\git_my_demo\graduation_project\qt_qq\qtqq\qtqq\talkwindow.cpp(218): warning C4311: “类型强制转换”: 从“QTreeWidgetItem *”到“int”的指针截断
   QtQQ.vcxproj -> E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\QtQQ.exe

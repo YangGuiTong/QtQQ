@@ -20,7 +20,7 @@ void QMsgTextEdit::onEmotionImageFrameChange(int frame) {
 }
 
 void QMsgTextEdit::addEmotionUrl(int emotionNum) { 
-	const QString &imageName = QString(":Resources/MainWindow/emotion/%1.png").arg(emotionNum);
+	const QString &imageName = QString("qrc:/Resources/MainWindow/emotion/%1.png").arg(emotionNum);
 	const QString &flagName = QString("%1").arg(imageName);
 	insertHtml(QString("<img src='%1' />").arg(flagName));
 
@@ -34,7 +34,8 @@ void QMsgTextEdit::addEmotionUrl(int emotionNum) {
 	m_emotionMap.insert(apngMovie, flagName);
 
 	// 数据帧改变时发射的信号
-	connect(apngMovie, SIGNAL(frameChanged(int)), this, SLOT(onEmotionImageFrameChange(int)));
+	//connect(apngMovie, SIGNAL(frameChanged(int)), this, SLOT(onEmotionImageFrameChange(int)));
+	connect(apngMovie, &QMovie::frameChanged, this, &QMsgTextEdit::onEmotionImageFrameChange);
 	apngMovie->start();
 	updateGeometry();
 }
