@@ -1,2 +1,8 @@
-﻿  TalkWindow.cpp
+﻿  moc CCMainWindow.h
+  moc UserLogin.h
+  CCMainWindow.cpp
+  UserLogin.cpp
+  main.cpp
+  moc_CCMainWindow.cpp
+  moc_UserLogin.cpp
   QtQQ.vcxproj -> E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\QtQQ.exe

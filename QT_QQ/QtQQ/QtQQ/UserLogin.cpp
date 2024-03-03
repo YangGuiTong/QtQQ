@@ -57,7 +57,7 @@ bool UserLogin::connectMySql() {
 	return false;
 }
 
-bool UserLogin::verfyAccountCode() {
+bool UserLogin::verfyAccountCode(bool &isAccountLogin, QString &strAccount) {
 	MyLogDEBUG(QString("账号密码验证").toUtf8());
 	QString strAccountInput = ui.editUserAccount->text();
 	QString strCodeInput = ui.editPassword->text();
@@ -74,6 +74,9 @@ bool UserLogin::verfyAccountCode() {
 
 		if (strCode == strCodeInput) {
 			gLoginEmployeeID = strAccountInput;
+
+			isAccountLogin = false;
+			strAccount = strAccountInput;
 			return true;
 		}
 
@@ -92,6 +95,9 @@ bool UserLogin::verfyAccountCode() {
 
 		if (strCode == strCodeInput) {
 			gLoginEmployeeID = queryAccount.value(1).toString();
+
+			isAccountLogin = true;
+			strAccount = strAccountInput;
 			return true;
 		
 		} 
@@ -107,7 +113,10 @@ bool UserLogin::verfyAccountCode() {
 void UserLogin::onLoginBtnClicked() {
 	MyLogDEBUG(QString("登录按钮被按下！").toUtf8());
 
-	if (!verfyAccountCode()) {
+	bool isAccountLogin = false;;
+	QString strAccount = "";		// 账号或者QQ号
+
+	if (!verfyAccountCode(isAccountLogin, strAccount)) {
 		QMessageBox::information(NULL, "提示", "您输入的账号或密码有误，请重新输入！");
 		ui.editPassword->setText("");
 		ui.editUserAccount->setText("");
@@ -115,6 +124,6 @@ void UserLogin::onLoginBtnClicked() {
 	}
 
 	close();
-	CCMainWindow *mainwindow = new CCMainWindow();
+	CCMainWindow *mainwindow = new CCMainWindow(strAccount, isAccountLogin);
 	mainwindow->show();
 }

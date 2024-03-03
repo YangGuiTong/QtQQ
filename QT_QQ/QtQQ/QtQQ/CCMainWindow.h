@@ -13,7 +13,7 @@ class CCMainWindow : public BasicWindow
     Q_OBJECT
 
 public:
-    CCMainWindow(QWidget *parent = nullptr);
+    CCMainWindow(QString account, bool isAccountLogin, QWidget *parent = nullptr);
     ~CCMainWindow();
 
 	
@@ -31,6 +31,7 @@ private:
 	void initControl();
 	void updateSeachStyle();								// 更新搜索样式
 	void addCompanyDeps(QTreeWidgetItem *pRootGroupItem, int DepID);
+	QString getHeadPixturePath();							// 获取登录者的头像路径
 
 private:
 	void resizeEvent(QResizeEvent *event);
@@ -46,6 +47,9 @@ private slots:
 
 private:
     Ui::CCMainWindowClass ui;
+
+	QString m_account;
+	bool m_isAccountLogin;
 
 	//QMap<QTreeWidgetItem *, QString> m_groupMap;	// 所有分组项
 };
