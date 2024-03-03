@@ -32,17 +32,17 @@ struct qt_meta_stringdata_TalkWindow_t {
 static const qt_meta_stringdata_TalkWindow_t qt_meta_stringdata_TalkWindow = {
     {
 QT_MOC_LITERAL(0, 0, 10), // "TalkWindow"
-QT_MOC_LITERAL(1, 11, 16), // "onSendBtnClicked"
-QT_MOC_LITERAL(2, 28, 0), // ""
-QT_MOC_LITERAL(3, 29, 19), // "onItemDoubleClicked"
-QT_MOC_LITERAL(4, 49, 16), // "QTreeWidgetItem*"
-QT_MOC_LITERAL(5, 66, 4), // "item"
-QT_MOC_LITERAL(6, 71, 6) // "column"
+QT_MOC_LITERAL(1, 11, 19), // "onItemDoubleClicked"
+QT_MOC_LITERAL(2, 31, 0), // ""
+QT_MOC_LITERAL(3, 32, 16), // "QTreeWidgetItem*"
+QT_MOC_LITERAL(4, 49, 4), // "item"
+QT_MOC_LITERAL(5, 54, 6), // "column"
+QT_MOC_LITERAL(6, 61, 16) // "onSendBtnClicked"
 
     },
-    "TalkWindow\0onSendBtnClicked\0\0"
-    "onItemDoubleClicked\0QTreeWidgetItem*\0"
-    "item\0column"
+    "TalkWindow\0onItemDoubleClicked\0\0"
+    "QTreeWidgetItem*\0item\0column\0"
+    "onSendBtnClicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -60,12 +60,12 @@ static const uint qt_meta_data_TalkWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,   24,    2, 0x08 /* Private */,
-       3,    2,   27,    2, 0x08 /* Private */,
+       1,    2,   24,    2, 0x08 /* Private */,
+       6,    1,   29,    2, 0x08 /* Private */,
 
  // slots: parameters
+    QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    4,    5,
     QMetaType::Void, QMetaType::Bool,    2,
-    QMetaType::Void, 0x80000000 | 4, QMetaType::Int,    5,    6,
 
        0        // eod
 };
@@ -76,8 +76,8 @@ void TalkWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         TalkWindow *_t = static_cast<TalkWindow *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->onSendBtnClicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 1: _t->onItemDoubleClicked((*reinterpret_cast< QTreeWidgetItem*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 0: _t->onItemDoubleClicked((*reinterpret_cast< QTreeWidgetItem*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 1: _t->onSendBtnClicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
         default: ;
         }
     }

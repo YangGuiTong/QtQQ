@@ -3,11 +3,16 @@
 #include <QDebug>
 #include <QTextCodec>
 
+#include <QQuickWindow>
+#include <QSGRendererInterface>
+
 #include "UserLogin.h"
 
 
 int main(int argc, char *argv[])
 {
+	QQuickWindow::setSceneGraphBackend(QSGRendererInterface::Software);
+
     QApplication a(argc, argv);
     //CCMainWindow w;
 

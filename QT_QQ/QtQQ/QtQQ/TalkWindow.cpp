@@ -44,7 +44,7 @@ void TalkWindow::initControl() {
 	connect(ui.closeBtn, SIGNAL(clicked(bool)), parent(), SLOT(onShowClose(bool)));
 	
 	connect(ui.faceBtn, SIGNAL(clicked(bool)), parent(), SLOT(onEmotionBtnClicked(bool)));
-	connect(ui.sendBtn, SIGNAL(clicked(bool)), parent(), SLOT(onSendBtnClicked(bool)));
+	connect(ui.sendBtn, SIGNAL(clicked(bool)), this, SLOT(onSendBtnClicked(bool)));
 
 	connect(ui.treeWidget, SIGNAL(itemDoubleClicked(QTreeWidgetItem *, int)), this, SLOT(onItemDoubleClicked(QTreeWidgetItem *, int)));
 
@@ -242,7 +242,7 @@ void TalkWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) {
 }
 
 
-void TalkWindow::onSendBtnClicked(bool ) {
+void TalkWindow::onSendBtnClicked(bool) {
 	if (ui.textEdit->toPlainText().isEmpty()) {
 		QToolTip::showText(this->mapToGlobal(QPoint(630, 660)), 
 						   "发送的信息不能为空！", this, QRect(0, 0, 120, 100), 2000);

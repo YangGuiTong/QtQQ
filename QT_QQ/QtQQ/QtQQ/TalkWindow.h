@@ -29,8 +29,11 @@ private:
 	void addPeopInfo(QTreeWidgetItem *pRootGroupItem);
 
 private slots:
-	void onSendBtnClicked(bool);
 	void onItemDoubleClicked(QTreeWidgetItem * item, int column);
+
+	void onSendBtnClicked(bool);
+
+	
 
 private:
 	Ui::TalkWindow ui;

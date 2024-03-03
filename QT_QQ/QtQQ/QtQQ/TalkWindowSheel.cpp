@@ -87,6 +87,7 @@ void TalkWindowSheel::onEmotionBtnClicked(bool) {
 	emotionPoint.setX(emotionPoint.x() + 170);
 	emotionPoint.setY(emotionPoint.y() + 220);
 	m_emotionWindow->move(emotionPoint);
+	m_emotionWindow->show();
 }
 
 
