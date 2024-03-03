@@ -66,6 +66,10 @@ private:
 	QList<QStringList> parseDocNode(const QDomNode &node);		// ½âÎö½Úµã
 
 
+signals:
+	void signalSendMsg(QString &strData, int &msgType, QString sFile = "");
+
+
 private:
 	MsgHtmlObj *m_msgHtmlObj;
 };

@@ -20,6 +20,8 @@ public:
 	static WindowManager *getInstance();
 	void addNewTalkWindow(const QString &uid);
 
+	TalkWindowSheel *getTalkWindowSheel();
+
 private:
 	TalkWindowSheel *m_talkwindowshell;
 	QMap<QString, QWidget *> m_windowMap;

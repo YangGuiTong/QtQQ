@@ -140,3 +140,7 @@ void WindowManager::addNewTalkWindow(const QString & uid) {
 	m_talkwindowshell->activateWindow();
 
 }
+
+TalkWindowSheel * WindowManager::getTalkWindowSheel() {
+	return m_talkwindowshell;
+}

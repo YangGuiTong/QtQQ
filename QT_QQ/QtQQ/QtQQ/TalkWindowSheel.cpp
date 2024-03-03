@@ -12,6 +12,7 @@ TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 
 	setAttribute(Qt::WA_DeleteOnClose);
 	initControl();
+	initTcpSocket();
 }
 
 TalkWindowSheel::~TalkWindowSheel() {
@@ -95,6 +96,19 @@ void TalkWindowSheel::initControl() {
 
 	connect(ui.listWidget, &QListWidget::itemClicked, this, &TalkWindowSheel::onTalkWindowItemClicked);
 	connect(m_emotionWindow, SIGNAL(signalEmotionItemClicked(int)), this, SLOT(onEmotionItemClicked(int)));
+}
+
+void TalkWindowSheel::initTcpSocket() {
+	MyLogDEBUG(QString("初始化TCP客户端").toUtf8());
+
+	m_tcpClientSocket = new QTcpSocket(this);
+	m_tcpClientSocket->connectToHost("127.0.0.1", gtcpProt);
+
+}
+
+void TalkWindowSheel::updateSendTcpMsg(QString & strData, int & msgType, QString sFile) {
+
+
 }
 
 

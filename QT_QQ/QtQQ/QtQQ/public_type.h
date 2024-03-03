@@ -16,3 +16,6 @@ enum GroupType {
 
 	GROUP_TYPE_COUNT
 };
+
+
+const int gtcpProt = 10086;

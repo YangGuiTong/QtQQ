@@ -10,6 +10,7 @@
 
 #include <QListWidget>
 #include <QMap>
+#include <QTcpSocket>
 
 
 class TalkWindowSheel : public BasicWindow
@@ -29,10 +30,14 @@ public:
 	const QMap<QListWidgetItem *, QWidget *>& getTalkWindowItemMap() const;
 
 private:
-	void initControl();	// 初始化控件
+	void initControl();			// 初始化控件
+	void initTcpSocket();		// 初始化TCP
 
 public slots:
 	void onEmotionBtnClicked(bool);		// 表情按钮点击后执行的槽函数
+
+	// 客户端发送TCP数据（参数：数据，数据类型，文件）
+	void updateSendTcpMsg(QString &strData, int &msgType, QString sFile = "");	
 
 private slots:
 	void onTalkWindowItemClicked(QListWidgetItem *item);	// 左侧列表点击后执行的槽函数
@@ -42,4 +47,7 @@ private:
 	Ui::TalkWindowClass ui;
 	QMap<QListWidgetItem *, QWidget *> m_talkwindowItemMap;	// 打开的聊天窗口
 	EmotionWindow *m_emotionWindow;		// 表情窗口
+
+private:
+	QTcpSocket *m_tcpClientSocket;		// tcp客户端
 };

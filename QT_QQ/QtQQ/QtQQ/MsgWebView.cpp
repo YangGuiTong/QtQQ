@@ -1,4 +1,6 @@
 #include "MsgWebView.h"
+#include "TalkWindowSheel.h"
+#include "WindowManager.h"
 
 #include <QFile>
 #include <QMessageBox>
@@ -62,6 +64,10 @@ MsgWebView::MsgWebView(QWidget *parent)
 	m_msgHtmlObj = new MsgHtmlObj(this);
 	channel->registerObject("external0", m_msgHtmlObj);
 	this->page()->setWebChannel(channel);
+
+	TalkWindowSheel *talkWindowShell = WindowManager::getInstance()->getTalkWindowSheel();
+	connect(this, &MsgWebView::signalSendMsg, talkWindowShell, &TalkWindowSheel::updateSendTcpMsg);
+
 
 	// 初始化收信息页面
 	this->load(QUrl("qrc:/Resources/MainWindow/MsgHtml/msgTmpl.html"));
