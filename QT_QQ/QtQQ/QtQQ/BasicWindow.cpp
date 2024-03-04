@@ -20,7 +20,10 @@ BasicWindow::BasicWindow(QWidget *parent) : QDialog(parent) {
 }
 
 BasicWindow::~BasicWindow() {
-
+	if (m_pTitleBar) {
+		delete m_pTitleBar;
+		m_pTitleBar = nullptr;
+	}
 }
 
 void BasicWindow::onSingalSkinChanged(const QColor &color) {

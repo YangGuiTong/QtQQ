@@ -5,6 +5,8 @@
 #include "TalkWindowItem.h"
 
 #include <QSqlQueryModel>
+#include <QMessageBox>
+#include <QFile>
 
 TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 	: BasicWindow(parent) {
@@ -13,6 +15,17 @@ TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 	setAttribute(Qt::WA_DeleteOnClose);
 	initControl();
 	initTcpSocket();
+
+	
+	QFile file("Resources/MainWindow/MsgHtml/msgtmpl.js");
+	if (!file.size()) {
+		QStringList employeesIDList = getEmployeeID();
+		if (!createJSFile(employeesIDList)) {
+			MyLogDEBUG(QString("更新js文件数据失败").toUtf8());
+			QMessageBox::information(this, "提示", "更新js文件数据失败");
+		}
+	}
+	
 }
 
 TalkWindowSheel::~TalkWindowSheel() {
@@ -104,6 +117,126 @@ void TalkWindowSheel::initTcpSocket() {
 	m_tcpClientSocket = new QTcpSocket(this);
 	m_tcpClientSocket->connectToHost("127.0.0.1", gtcpProt);
 
+}
+
+QStringList TalkWindowSheel::getEmployeeID() {
+	QStringList employeesIDList;
+	QSqlQueryModel queryModel;
+	QString sql = QString("SELECT employeeID FROM tab_employees WHERE status = 1");
+	MyLogDEBUG(QString("sql语句：%1").arg(sql).toUtf8());
+
+	queryModel.setQuery(sql);
+	// 获得员工总数
+	int employeesNum = queryModel.rowCount();
+	MyLogDEBUG(QString("当前一共有：%1个员工").arg(employeesNum).toUtf8());
+	QModelIndex index;
+	for (int i = 0; i < employeesNum; i++) {
+		index = queryModel.index(i, 0);		// 行 列
+		employeesIDList << queryModel.data(index).toString();
+	}
+
+	return employeesIDList;
+}
+
+bool TalkWindowSheel::createJSFile(QStringList & employeesList) {
+	MyLogDEBUG(QString("创建js文件").toUtf8());
+
+	// 读取txt文件数据
+	QString strFileTxt = ":/Resources/MainWindow/MsgHtml/msgtmpl.txt";
+	QFile fileRead(strFileTxt);
+	QString strFile = "";
+
+	if (fileRead.open(QIODevice::ReadOnly)) {
+		strFile = fileRead.readAll();
+		fileRead.close();
+	} else {
+		MyLogDEBUG(QString("读取msgtmpl.txt文件失败").toUtf8());
+		QMessageBox::information(this, tr("提示"), tr("读取msgtmpl.txt文件失败"));
+		return false;
+	}
+
+	// 替换(external0, appendHtml0用作自己发信息使用
+	QFile fileWrite("Resources/MainWindow/MsgHtml/msgtmpl.js");
+	if (fileWrite.open(QIODevice::WriteOnly | QIODevice::Truncate)) {
+		// 更新空值
+		QString strSourceInitNull = "var external = null;";
+
+		// 更新初始化
+		QString strSourceInit = "external = channel.objects.external;";
+
+		// 更新newWebChannel
+		QString strSourceNew = "new QWebChannel(qt.webChannelTransport,			\
+									function(channel) {							\
+										external0 = channel.objects.external0;	\
+										external = channel.objects.external;	\
+									}											\
+								);												\
+								";
+
+		// 更新追加recvHtml，脚本中有双引号无法直接进行赋值，采用读文件方式
+		QString strSourceRecvHtml = "";
+		QFile fileRecvHtml(":/Resources/MainWindow/MsgHtml/recvHtml.txt");
+		if (fileRecvHtml.open(QIODevice::ReadOnly)) {
+			strSourceRecvHtml = fileRecvHtml.readAll();
+			fileRecvHtml.close();
+		} else {
+			MyLogDEBUG(QString("读取recvHtml.txt文件失败").toUtf8());
+			QMessageBox::information(this, tr("提示"), tr("读取recvHtml.txt文件失败"));
+			return false;
+		}
+
+
+		// 保存替换后的脚本
+		QString strReplaceInitNull = "";
+		QString strReplaceInit = "";
+		QString strReplaceNew = "";
+		QString strReplaceRecvHtml = "";
+
+		for (int i = 0; i < employeesList.length(); i++) {
+			// 编辑替换后的空值
+			QString strInitNull = strSourceInitNull;
+			strInitNull.replace("external", QString("external_%1").arg(employeesList.at(i)));
+			strReplaceInitNull += strInitNull;
+			strReplaceInitNull += "\n";
+
+			// 编辑替换后的初始值
+			QString strInit = strSourceInit;
+			strInit.replace("external", QString("external_%1").arg(employeesList.at(i)));
+			strReplaceInit += strInit;
+			strReplaceInit += "\n";
+
+			// 编辑替换后的 newWebChannel
+			QString strNew = strSourceNew;
+			strNew.replace("external", QString("external_%1").arg(employeesList.at(i)));
+			strReplaceNew += strNew;
+			strReplaceNew += "\n";
+
+			// 编辑替换后的 recvHtml
+			QString strRecvHtml = strSourceRecvHtml;
+			strRecvHtml.replace("external", QString("external_%1").arg(employeesList.at(i)));
+			strRecvHtml.replace("recvHtml", QString("recvHtml_%1").arg(employeesList.at(i)));
+			strReplaceRecvHtml += strRecvHtml;
+			strReplaceRecvHtml += "\n\n";
+		}
+
+		strFile.replace(strSourceInitNull, strReplaceInitNull);
+		strFile.replace(strSourceInit, strReplaceInit);
+		strFile.replace(strSourceNew, strReplaceNew);
+		strFile.replace(strSourceRecvHtml, strReplaceRecvHtml);
+
+		MyLogDEBUG(QString("最终生成的脚本数据：\n%1\n").arg(strFile).toUtf8());
+
+		QTextStream stream(&fileWrite);
+		stream << strFile;
+		fileWrite.close();
+
+		return true;
+	
+	} else {
+		MyLogDEBUG(QString("写入msgtmpl.js文件失败").toUtf8());
+		QMessageBox::information(this, tr("提示"), tr("写入msgtmpl.js文件失败"));
+		return false;
+	}
 }
 
 void TalkWindowSheel::updateSendTcpMsg(QString & strData, int & msgType, QString sFile) {

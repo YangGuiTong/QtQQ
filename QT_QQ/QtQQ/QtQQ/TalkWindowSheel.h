@@ -33,6 +33,9 @@ private:
 	void initControl();			// 初始化控件
 	void initTcpSocket();		// 初始化TCP
 
+	QStringList getEmployeeID();	// 获取所有员工QQ号
+	bool createJSFile(QStringList &employeesList);
+
 public slots:
 	void onEmotionBtnClicked(bool);		// 表情按钮点击后执行的槽函数
 

@@ -1,0 +1,1263 @@
+2024-03-04 22:24:17.655 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-04 22:24:17.659 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:24:18.012 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-03-04 22:24:18.018 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-03-04 22:24:18.018 [DEBUG][UserLogin::initControl][27]: 登录窗口初始化
+2024-03-04 22:24:25.437 [DEBUG][UserLogin::onLoginBtnClicked][114]: 登录按钮被按下！
+2024-03-04 22:24:25.439 [DEBUG][UserLogin::verfyAccountCode][61]: 账号密码验证
+2024-03-04 22:24:25.439 [DEBUG][UserLogin::verfyAccountCode][67]: sql语句：SELECT code FROM tab_accounts WHERE employeeId=yansan
+2024-03-04 22:24:25.440 [DEBUG][UserLogin::verfyAccountCode][89]: sql语句：SELECT code, employeeID FROM tab_accounts WHERE account = 'yansan'
+2024-03-04 22:24:25.446 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:24:25.454 [DEBUG][CCMainWindow::CCMainWindow][36]: 主窗体初始化
+2024-03-04 22:24:25.470 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-03-04 22:24:25.470 [DEBUG][CCMainWindow::getHeadPixturePath][171]: sql语句：SELECT employeeID FROM tab_accounts WHERE account = '10006'
+2024-03-04 22:24:25.471 [DEBUG][CCMainWindow::getHeadPixturePath][179]: sql语句：SELECT picture FROM tab_employees WHERE employeeID = 10006
+2024-03-04 22:24:25.471 [DEBUG][CCMainWindow::setHeadPixmap][223]: 设置头像路径：E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\Resources\qtqq_images\y3.png
+2024-03-04 22:24:25.484 [DEBUG][CCMainWindow::setLevePixmap][201]: 设置等级为：17
+2024-03-04 22:24:25.484 [DEBUG][CCMainWindow::setStatusMenuIcon][233]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-03-04 22:24:25.485 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-03-04 22:24:25.485 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-03-04 22:24:25.486 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-03-04 22:24:25.486 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-03-04 22:24:25.487 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-03-04 22:24:25.487 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-03-04 22:24:25.488 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-03-04 22:24:25.489 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-03-04 22:24:25.489 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-03-04 22:24:25.490 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-03-04 22:24:25.490 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-03-04 22:24:25.491 [DEBUG][CCMainWindow::initContactTree][269]: 树初始化
+2024-03-04 22:24:25.491 [DEBUG][CCMainWindow::initContactTree][288]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 22:24:25.492 [DEBUG][CCMainWindow::initContactTree][297]: sql语句：SELECT departmentID FROM tab_employees WHERE employeeID = 10006
+2024-03-04 22:24:25.492 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2000
+2024-03-04 22:24:25.492 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:24:25.500 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:24:25.502 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-03-04 22:24:25.504 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2002
+2024-03-04 22:24:25.505 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:24:25.512 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:24:25.514 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-03-04 22:24:25.517 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-03-04 22:24:25.555 [DEBUG][CCMainWindow::setUserName][190]: 设置用户名为：Qt即时通讯软件
+2024-03-04 22:24:28.916 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:24:28.916 [DEBUG][CCMainWindow::onItemExpanded][375]: 树项被展开
+2024-03-04 22:24:28.917 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-03-04 22:24:30.637 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:24:30.697 [DEBUG][CCMainWindow::onItemDoubleClicked][401]: 树项被双击
+2024-03-04 22:24:30.697 [DEBUG][WindowManager::addNewTalkWindow][46]: 添加新的窗口，uid = 2002
+2024-03-04 22:24:30.698 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:24:30.700 [DEBUG][TalkWindowSheel::initControl][96]: Qt聊天窗口初始化
+2024-03-04 22:24:30.708 [DEBUG][BasicWindow::loadStyleSheet][79]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-03-04 22:24:30.709 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-03-04 22:24:30.711 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-03-04 22:24:30.793 [DEBUG][TalkWindowSheel::initTcpSocket][115]: 初始化TCP客户端
+2024-03-04 22:24:30.795 [DEBUG][TalkWindowSheel::getEmployeeID][126]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 22:24:30.795 [DEBUG][TalkWindowSheel::getEmployeeID][131]: 当前一共有：12个员工
+2024-03-04 22:24:30.795 [DEBUG][TalkWindowSheel::createJSFile][142]: 创建js文件
+2024-03-04 22:24:30.798 [DEBUG][TalkWindowSheel::createJSFile][227]: 最终生成的脚本数据：
+var external0 = null;
+var external_10001 = null;
+var external_10002 = null;
+var external_10003 = null;
+var external_10004 = null;
+var external_10005 = null;
+var external_10006 = null;
+var external_10007 = null;
+var external_10008 = null;
+var external_10009 = null;
+var external_10010 = null;
+var external_10011 = null;
+var external_10012 = null;
+
+
+
+String.prototype.format = function() {  
+    if(arguments.length == 0) return this;  
+    var obj = arguments[0];  
+    var s = this;  
+    for(var key in obj) {  
+        s = s.replace(new RegExp("\\{\\{" + key + "\\}\\}", "g"), obj[key]);  
+    }  
+    return s;  
+}  
+
+new QWebChannel(qt.webChannelTransport,
+	function(channel) {
+		external0 = channel.objects.external0;
+		external_10001 = channel.objects.external_10001;
+external_10002 = channel.objects.external_10002;
+external_10003 = channel.objects.external_10003;
+external_10004 = channel.objects.external_10004;
+external_10005 = channel.objects.external_10005;
+external_10006 = channel.objects.external_10006;
+external_10007 = channel.objects.external_10007;
+external_10008 = channel.objects.external_10008;
+external_10009 = channel.objects.external_10009;
+external_10010 = channel.objects.external_10010;
+external_10011 = channel.objects.external_10011;
+external_10012 = channel.objects.external_10012;
+
+		
+	}
+);
+
+function appendHtml0(msg){
+	$("#placeholder").append(external0.msgRHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10001(msg){
+	$("#placeholder").append(external_10001.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10002(msg){
+	$("#placeholder").append(external_10002.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10003(msg){
+	$("#placeholder").append(external_10003.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10004(msg){
+	$("#placeholder").append(external_10004.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10005(msg){
+	$("#placeholder").append(external_10005.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10006(msg){
+	$("#placeholder").append(external_10006.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10007(msg){
+	$("#placeholder").append(external_10007.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10008(msg){
+	$("#placeholder").append(external_10008.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10009(msg){
+	$("#placeholder").append(external_10009.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10010(msg){
+	$("#placeholder").append(external_10010.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10011(msg){
+	$("#placeholder").append(external_10011.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10012(msg){
+	$("#placeholder").append(external_10012.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+
+2024-03-04 22:24:30.800 [DEBUG][WindowManager::findWindowName][20]: 根据名字：2002 寻找窗口
+2024-03-04 22:24:30.800 [DEBUG][WindowManager::addNewTalkWindow][56]: 根据 2002 没有找到窗口，new一个新的窗口
+2024-03-04 22:24:30.959 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgleftTmpl.html
+2024-03-04 22:24:30.959 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap left">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:24:30.959 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgrightTmpl.html
+2024-03-04 22:24:30.959 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap right">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;" onselect="document.selection.empty();">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:24:30.976 [DEBUG][WindowManager::addWindowName][35]: 根据名字：2002 添加窗口
+2024-03-04 22:24:30.976 [DEBUG][TalkWindow::initGroupTalkStatus][101]: sql语句：SELECT * FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:24:30.977 [DEBUG][TalkWindow::initControl][39]: 初始化
+2024-03-04 22:24:30.977 [DEBUG][TalkWindow::initTalkWindow][137]: 群聊天窗口初始化
+2024-03-04 22:24:30.978 [DEBUG][TalkWindow::initTalkWindow][151]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:24:30.978 [DEBUG][TalkWindow::getCompDepID][114]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 22:24:30.979 [DEBUG][TalkWindow::initTalkWindow][168]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1 AND departmentID = 2002
+2024-03-04 22:24:30.990 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:24:30.990 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研1
+2024-03-04 22:24:30.990 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：调BUG中
+2024-03-04 22:24:31.000 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:24:31.001 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研2
+2024-03-04 22:24:31.001 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：改BUG中
+2024-03-04 22:24:31.007 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:24:31.008 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研3
+2024-03-04 22:24:31.008 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：写BUG中
+2024-03-04 22:24:31.016 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:24:31.017 [DEBUG][Contactltem::setUserName][15]: 设置用户名：小黑
+2024-03-04 22:24:31.017 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:24:31.020 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-03-04 22:24:31.020 [DEBUG][WindowManager::addNewTalkWindow][64]: sql语句：SELECT department_name, sign FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:24:31.021 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：研发部
+2024-03-04 22:24:31.021 [DEBUG][TalkWindowSheel::addTalkWindow][39]: uid：2002
+2024-03-04 22:24:31.061 [DEBUG][TalkWindowSheel::addTalkWindow][53]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:24:31.064 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-03-04 22:24:31.064 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:24:31.082 [DEBUG][CCMainWindow::onItemDoubleClicked][425]: 
+2024-03-04 22:24:31.176 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:24:31.226 [DEBUG][MsgWebPage::acceptNavigationRequest][46]:   属于qrc类型，返回true
+2024-03-04 22:25:25.526 [DEBUG][CCMainWindow::setLevePixmap][201]: 设置等级为：19
+2024-03-04 22:25:37.508 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-03-04 22:25:37.672 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-03-04 22:25:45.825 [DEBUG][TalkWindow::onItemDoubleClicked][353]: 单聊双击
+2024-03-04 22:25:45.826 [DEBUG][WindowManager::addNewTalkWindow][46]: 添加新的窗口，uid = 10005
+2024-03-04 22:25:45.826 [DEBUG][WindowManager::findWindowName][20]: 根据名字：10005 寻找窗口
+2024-03-04 22:25:45.826 [DEBUG][WindowManager::addNewTalkWindow][56]: 根据 10005 没有找到窗口，new一个新的窗口
+2024-03-04 22:25:45.835 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgleftTmpl.html
+2024-03-04 22:25:45.836 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap left">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:25:45.836 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgrightTmpl.html
+2024-03-04 22:25:45.836 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap right">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;" onselect="document.selection.empty();">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:25:45.855 [DEBUG][WindowManager::addWindowName][35]: 根据名字：10005 添加窗口
+2024-03-04 22:25:45.855 [DEBUG][TalkWindow::initGroupTalkStatus][101]: sql语句：SELECT * FROM tab_department WHERE departmentID = 10005
+2024-03-04 22:25:45.855 [DEBUG][TalkWindow::initControl][39]: 初始化
+2024-03-04 22:25:45.858 [DEBUG][TalkWindow::initPtoPTalk][124]: 个人聊天窗口初始化
+2024-03-04 22:25:45.866 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-03-04 22:25:45.867 [DEBUG][WindowManager::addNewTalkWindow][64]: sql语句：SELECT department_name, sign FROM tab_department WHERE departmentID = 10005
+2024-03-04 22:25:45.867 [DEBUG][WindowManager::addNewTalkWindow][70]: sql语句：SELECT employee_name, employee_sign FROM tab_employees WHERE employeeID = 10005
+2024-03-04 22:25:45.867 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：研2
+2024-03-04 22:25:45.867 [DEBUG][TalkWindowSheel::addTalkWindow][39]: uid：10005
+2024-03-04 22:25:45.889 [DEBUG][TalkWindowSheel::addTalkWindow][53]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 10005
+2024-03-04 22:25:45.893 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-03-04 22:25:45.893 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:25:45.946 [DEBUG][MsgWebPage::acceptNavigationRequest][46]:   属于qrc类型，返回true
+2024-03-04 22:25:47.807 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-03-04 22:25:48.691 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-03-04 22:25:48.692 [DEBUG][WindowManager::deleteWindowName][30]: 根据名字：2002 移除窗口
+2024-03-04 22:25:48.744 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-03-04 22:25:48.744 [DEBUG][TalkWindowItem::enterEvent][45]: 鼠标进入聊天列表窗口
+2024-03-04 22:25:49.397 [DEBUG][TalkWindowItem::leaveEvent][51]: 鼠标离开聊天列表窗口
+2024-03-04 22:25:49.402 [DEBUG][WindowManager::deleteWindowName][30]: 根据名字：10005 移除窗口
+2024-03-04 22:26:53.160 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-04 22:26:53.161 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:26:53.216 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-03-04 22:26:53.222 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-03-04 22:26:53.222 [DEBUG][UserLogin::initControl][27]: 登录窗口初始化
+2024-03-04 22:27:00.796 [DEBUG][UserLogin::onLoginBtnClicked][114]: 登录按钮被按下！
+2024-03-04 22:27:00.796 [DEBUG][UserLogin::verfyAccountCode][61]: 账号密码验证
+2024-03-04 22:27:00.796 [DEBUG][UserLogin::verfyAccountCode][67]: sql语句：SELECT code FROM tab_accounts WHERE employeeId=rensan
+2024-03-04 22:27:00.797 [DEBUG][UserLogin::verfyAccountCode][89]: sql语句：SELECT code, employeeID FROM tab_accounts WHERE account = 'rensan'
+2024-03-04 22:27:00.803 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:27:00.810 [DEBUG][CCMainWindow::CCMainWindow][36]: 主窗体初始化
+2024-03-04 22:27:00.825 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-03-04 22:27:00.825 [DEBUG][CCMainWindow::getHeadPixturePath][171]: sql语句：SELECT employeeID FROM tab_accounts WHERE account = '10003'
+2024-03-04 22:27:00.826 [DEBUG][CCMainWindow::getHeadPixturePath][179]: sql语句：SELECT picture FROM tab_employees WHERE employeeID = 10003
+2024-03-04 22:27:00.826 [DEBUG][CCMainWindow::setHeadPixmap][223]: 设置头像路径：E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\Resources\qtqq_images\r3.png
+2024-03-04 22:27:00.840 [DEBUG][CCMainWindow::setLevePixmap][201]: 设置等级为：17
+2024-03-04 22:27:00.841 [DEBUG][CCMainWindow::setStatusMenuIcon][233]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-03-04 22:27:00.841 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-03-04 22:27:00.842 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-03-04 22:27:00.842 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-03-04 22:27:00.843 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-03-04 22:27:00.843 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-03-04 22:27:00.844 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-03-04 22:27:00.844 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-03-04 22:27:00.845 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-03-04 22:27:00.846 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-03-04 22:27:00.846 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-03-04 22:27:00.847 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-03-04 22:27:00.847 [DEBUG][CCMainWindow::initContactTree][269]: 树初始化
+2024-03-04 22:27:00.848 [DEBUG][CCMainWindow::initContactTree][288]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 22:27:00.848 [DEBUG][CCMainWindow::initContactTree][297]: sql语句：SELECT departmentID FROM tab_employees WHERE employeeID = 10003
+2024-03-04 22:27:00.848 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2000
+2024-03-04 22:27:00.849 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:27:00.852 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:27:00.853 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-03-04 22:27:00.855 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2001
+2024-03-04 22:27:00.855 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2001
+2024-03-04 22:27:00.863 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2001
+2024-03-04 22:27:00.864 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人事部
+2024-03-04 22:27:00.868 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-03-04 22:27:00.905 [DEBUG][CCMainWindow::setUserName][190]: 设置用户名为：Qt即时通讯软件
+2024-03-04 22:27:02.507 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:27:02.507 [DEBUG][CCMainWindow::onItemExpanded][375]: 树项被展开
+2024-03-04 22:27:02.507 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-03-04 22:27:04.061 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:27:04.111 [DEBUG][CCMainWindow::onItemDoubleClicked][401]: 树项被双击
+2024-03-04 22:27:04.111 [DEBUG][WindowManager::addNewTalkWindow][46]: 添加新的窗口，uid = 2000
+2024-03-04 22:27:04.111 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:27:04.114 [DEBUG][TalkWindowSheel::initControl][96]: Qt聊天窗口初始化
+2024-03-04 22:27:04.121 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-03-04 22:27:04.121 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-03-04 22:27:04.124 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-03-04 22:27:04.206 [DEBUG][TalkWindowSheel::initTcpSocket][115]: 初始化TCP客户端
+2024-03-04 22:27:04.208 [DEBUG][TalkWindowSheel::getEmployeeID][126]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 22:27:04.208 [DEBUG][TalkWindowSheel::getEmployeeID][131]: 当前一共有：12个员工
+2024-03-04 22:27:04.209 [DEBUG][TalkWindowSheel::createJSFile][142]: 创建js文件
+2024-03-04 22:27:04.209 [DEBUG][TalkWindowSheel::createJSFile][227]: 最终生成的脚本数据：
+var external0 = null;
+var external_10001 = null;
+var external_10002 = null;
+var external_10003 = null;
+var external_10004 = null;
+var external_10005 = null;
+var external_10006 = null;
+var external_10007 = null;
+var external_10008 = null;
+var external_10009 = null;
+var external_10010 = null;
+var external_10011 = null;
+var external_10012 = null;
+
+
+
+String.prototype.format = function() {  
+    if(arguments.length == 0) return this;  
+    var obj = arguments[0];  
+    var s = this;  
+    for(var key in obj) {  
+        s = s.replace(new RegExp("\\{\\{" + key + "\\}\\}", "g"), obj[key]);  
+    }  
+    return s;  
+}  
+
+new QWebChannel(qt.webChannelTransport,
+	function(channel) {
+		external0 = channel.objects.external0;
+		external_10001 = channel.objects.external_10001;
+external_10002 = channel.objects.external_10002;
+external_10003 = channel.objects.external_10003;
+external_10004 = channel.objects.external_10004;
+external_10005 = channel.objects.external_10005;
+external_10006 = channel.objects.external_10006;
+external_10007 = channel.objects.external_10007;
+external_10008 = channel.objects.external_10008;
+external_10009 = channel.objects.external_10009;
+external_10010 = channel.objects.external_10010;
+external_10011 = channel.objects.external_10011;
+external_10012 = channel.objects.external_10012;
+
+		
+	}
+);
+
+function appendHtml0(msg){
+	$("#placeholder").append(external0.msgRHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10001(msg){
+	$("#placeholder").append(external_10001.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10002(msg){
+	$("#placeholder").append(external_10002.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10003(msg){
+	$("#placeholder").append(external_10003.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10004(msg){
+	$("#placeholder").append(external_10004.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10005(msg){
+	$("#placeholder").append(external_10005.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10006(msg){
+	$("#placeholder").append(external_10006.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10007(msg){
+	$("#placeholder").append(external_10007.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10008(msg){
+	$("#placeholder").append(external_10008.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10009(msg){
+	$("#placeholder").append(external_10009.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10010(msg){
+	$("#placeholder").append(external_10010.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10011(msg){
+	$("#placeholder").append(external_10011.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10012(msg){
+	$("#placeholder").append(external_10012.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+
+2024-03-04 22:27:04.210 [DEBUG][WindowManager::findWindowName][20]: 根据名字：2000 寻找窗口
+2024-03-04 22:27:04.210 [DEBUG][WindowManager::addNewTalkWindow][56]: 根据 2000 没有找到窗口，new一个新的窗口
+2024-03-04 22:27:04.335 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgleftTmpl.html
+2024-03-04 22:27:04.335 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap left">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:27:04.335 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgrightTmpl.html
+2024-03-04 22:27:04.335 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap right">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;" onselect="document.selection.empty();">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:27:04.360 [DEBUG][WindowManager::addWindowName][35]: 根据名字：2000 添加窗口
+2024-03-04 22:27:04.360 [DEBUG][TalkWindow::initGroupTalkStatus][101]: sql语句：SELECT * FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:27:04.360 [DEBUG][TalkWindow::initControl][39]: 初始化
+2024-03-04 22:27:04.361 [DEBUG][TalkWindow::initTalkWindow][137]: 群聊天窗口初始化
+2024-03-04 22:27:04.361 [DEBUG][TalkWindow::initTalkWindow][151]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:27:04.361 [DEBUG][TalkWindow::getCompDepID][114]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 22:27:04.361 [DEBUG][TalkWindow::initTalkWindow][163]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 22:27:04.370 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.370 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人1
+2024-03-04 22:27:04.370 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：风一样的女子
+2024-03-04 22:27:04.381 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.381 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人2
+2024-03-04 22:27:04.381 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：奋斗中
+2024-03-04 22:27:04.387 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.387 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人3
+2024-03-04 22:27:04.387 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：出差中
+2024-03-04 22:27:04.392 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.392 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研1
+2024-03-04 22:27:04.392 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：调BUG中
+2024-03-04 22:27:04.397 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.398 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研2
+2024-03-04 22:27:04.398 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：改BUG中
+2024-03-04 22:27:04.402 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.403 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研3
+2024-03-04 22:27:04.403 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：写BUG中
+2024-03-04 22:27:04.412 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.412 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市1
+2024-03-04 22:27:04.412 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：梦游中
+2024-03-04 22:27:04.421 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.422 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市2
+2024-03-04 22:27:04.422 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：目标明确，坚定不够
+2024-03-04 22:27:04.432 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.433 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市2
+2024-03-04 22:27:04.433 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：周末去爬山
+2024-03-04 22:27:04.438 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.438 [DEBUG][Contactltem::setUserName][15]: 设置用户名：小黑
+2024-03-04 22:27:04.438 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:27:04.443 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.443 [DEBUG][Contactltem::setUserName][15]: 设置用户名：小美
+2024-03-04 22:27:04.443 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:27:04.448 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.448 [DEBUG][Contactltem::setUserName][15]: 设置用户名：12345他
+2024-03-04 22:27:04.448 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:27:04.451 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-03-04 22:27:04.451 [DEBUG][WindowManager::addNewTalkWindow][64]: sql语句：SELECT department_name, sign FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:27:04.451 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：公司群
+2024-03-04 22:27:04.451 [DEBUG][TalkWindowSheel::addTalkWindow][39]: uid：2000
+2024-03-04 22:27:04.500 [DEBUG][TalkWindowSheel::addTalkWindow][53]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:27:04.502 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-03-04 22:27:04.502 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:27:04.523 [DEBUG][CCMainWindow::onItemDoubleClicked][425]: 
+2024-03-04 22:27:04.639 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:27:04.685 [DEBUG][MsgWebPage::acceptNavigationRequest][46]:   属于qrc类型，返回true
+2024-03-04 22:27:19.070 [DEBUG][TalkWindowSheel::onEmotionBtnClicked][249]: 表情按钮被点击
+2024-03-04 22:27:19.311 [DEBUG][EmotionLabelItem::{ctor}::<lambda_8b1d6eecd208417098feeefbc006aad8>::operator ()][12]: 表情 32 被点击
+2024-03-04 22:27:19.317 [DEBUG][TalkWindowSheel::onEmotionItemClicked][268]: 32 表情被点击
+2024-03-04 22:27:20.506 [DEBUG][TalkWindow::onSendBtnClicked][369]: 发送的信息为：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Microsoft YaHei'; font-size:9pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="qrc:/Resources/MainWindow/emotion/32.png" /></p></body></html>
+2024-03-04 22:27:20.507 [DEBUG][MsgWebView::appendMsg][79]: 追加信息的html为：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Microsoft YaHei'; font-size:9pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="qrc:/Resources/MainWindow/emotion/32.png" /></p></body></html>
+2024-03-04 22:27:20.507 [DEBUG][MsgWebView::parseHtml][144]: 解析的html为：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Microsoft YaHei'; font-size:9pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="qrc:/Resources/MainWindow/emotion/32.png" /></p></body></html>
+2024-03-04 22:27:20.507 [DEBUG][MsgWebView::parseDocNode][156]: QDomNode：
+2024-03-04 22:27:20.507 [DEBUG][MsgWebView::parseDocNode][156]: QDomNode：
+2024-03-04 22:27:20.507 [DEBUG][MsgWebView::appendMsg][135]: 已完成封装的信息：{"MSG":"<img src=\"qrc:/Resources/MainWindow/emotion/32.png\" width=\"24\" height=\"24\" />"}
+2024-03-04 22:27:23.443 [DEBUG][TalkWindowSheel::onEmotionBtnClicked][249]: 表情按钮被点击
+2024-03-04 22:27:24.294 [DEBUG][EmotionLabelItem::{ctor}::<lambda_8b1d6eecd208417098feeefbc006aad8>::operator ()][12]: 表情 49 被点击
+2024-03-04 22:27:24.301 [DEBUG][TalkWindowSheel::onEmotionItemClicked][268]: 49 表情被点击
+2024-03-04 22:27:25.438 [DEBUG][TalkWindow::onSendBtnClicked][369]: 发送的信息为：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Microsoft YaHei'; font-size:9pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="qrc:/Resources/MainWindow/emotion/49.png" /></p></body></html>
+2024-03-04 22:27:25.439 [DEBUG][MsgWebView::appendMsg][79]: 追加信息的html为：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Microsoft YaHei'; font-size:9pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="qrc:/Resources/MainWindow/emotion/49.png" /></p></body></html>
+2024-03-04 22:27:25.439 [DEBUG][MsgWebView::parseHtml][144]: 解析的html为：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Microsoft YaHei'; font-size:9pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="qrc:/Resources/MainWindow/emotion/49.png" /></p></body></html>
+2024-03-04 22:27:25.439 [DEBUG][MsgWebView::parseDocNode][156]: QDomNode：
+2024-03-04 22:27:25.439 [DEBUG][MsgWebView::parseDocNode][156]: QDomNode：
+2024-03-04 22:27:25.440 [DEBUG][MsgWebView::appendMsg][135]: 已完成封装的信息：{"MSG":"<img src=\"qrc:/Resources/MainWindow/emotion/49.png\" width=\"24\" height=\"24\" />"}
+2024-03-04 22:31:59.420 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-04 22:31:59.420 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:31:59.461 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-03-04 22:31:59.468 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-03-04 22:31:59.468 [DEBUG][UserLogin::initControl][27]: 登录窗口初始化
+2024-03-04 22:32:04.854 [DEBUG][UserLogin::onLoginBtnClicked][114]: 登录按钮被按下！
+2024-03-04 22:32:04.854 [DEBUG][UserLogin::verfyAccountCode][61]: 账号密码验证
+2024-03-04 22:32:04.854 [DEBUG][UserLogin::verfyAccountCode][67]: sql语句：SELECT code FROM tab_accounts WHERE employeeId=yanyi
+2024-03-04 22:32:04.855 [DEBUG][UserLogin::verfyAccountCode][89]: sql语句：SELECT code, employeeID FROM tab_accounts WHERE account = 'yanyi'
+2024-03-04 22:32:04.860 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:32:04.868 [DEBUG][CCMainWindow::CCMainWindow][36]: 主窗体初始化
+2024-03-04 22:32:04.885 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-03-04 22:32:04.885 [DEBUG][CCMainWindow::getHeadPixturePath][171]: sql语句：SELECT employeeID FROM tab_accounts WHERE account = '10004'
+2024-03-04 22:32:04.886 [DEBUG][CCMainWindow::getHeadPixturePath][179]: sql语句：SELECT picture FROM tab_employees WHERE employeeID = 10004
+2024-03-04 22:32:04.886 [DEBUG][CCMainWindow::setHeadPixmap][223]: 设置头像路径：E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\Resources\qtqq_images\y1.png
+2024-03-04 22:32:04.894 [DEBUG][CCMainWindow::setLevePixmap][201]: 设置等级为：17
+2024-03-04 22:32:04.895 [DEBUG][CCMainWindow::setStatusMenuIcon][233]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-03-04 22:32:04.895 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-03-04 22:32:04.896 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-03-04 22:32:04.897 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-03-04 22:32:04.898 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-03-04 22:32:04.898 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-03-04 22:32:04.899 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-03-04 22:32:04.899 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-03-04 22:32:04.900 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-03-04 22:32:04.901 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-03-04 22:32:04.901 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-03-04 22:32:04.902 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-03-04 22:32:04.902 [DEBUG][CCMainWindow::initContactTree][269]: 树初始化
+2024-03-04 22:32:04.903 [DEBUG][CCMainWindow::initContactTree][288]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 22:32:04.903 [DEBUG][CCMainWindow::initContactTree][297]: sql语句：SELECT departmentID FROM tab_employees WHERE employeeID = 10004
+2024-03-04 22:32:04.904 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2000
+2024-03-04 22:32:04.904 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:32:04.906 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:32:04.907 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-03-04 22:32:04.910 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2002
+2024-03-04 22:32:04.911 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:32:04.914 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:32:04.916 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-03-04 22:32:04.920 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-03-04 22:32:04.959 [DEBUG][CCMainWindow::setUserName][190]: 设置用户名为：Qt即时通讯软件
+2024-03-04 22:32:05.922 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:32:05.922 [DEBUG][CCMainWindow::onItemExpanded][375]: 树项被展开
+2024-03-04 22:32:05.922 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-03-04 22:32:06.337 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:32:06.404 [DEBUG][CCMainWindow::onItemDoubleClicked][401]: 树项被双击
+2024-03-04 22:32:06.404 [DEBUG][WindowManager::addNewTalkWindow][46]: 添加新的窗口，uid = 2000
+2024-03-04 22:32:06.404 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:32:06.407 [DEBUG][TalkWindowSheel::initControl][96]: Qt聊天窗口初始化
+2024-03-04 22:32:06.415 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-03-04 22:32:06.415 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-03-04 22:32:06.417 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-03-04 22:32:06.498 [DEBUG][TalkWindowSheel::initTcpSocket][115]: 初始化TCP客户端
+2024-03-04 22:32:06.500 [DEBUG][TalkWindowSheel::getEmployeeID][126]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 22:32:06.500 [DEBUG][TalkWindowSheel::getEmployeeID][131]: 当前一共有：12个员工
+2024-03-04 22:32:06.501 [DEBUG][TalkWindowSheel::createJSFile][142]: 创建js文件
+2024-03-04 22:37:30.054 [DEBUG][TalkWindowSheel::createJSFile][227]: 最终生成的脚本数据：
+var external0 = null;
+var external_10001 = null;
+var external_10002 = null;
+var external_10003 = null;
+var external_10004 = null;
+var external_10005 = null;
+var external_10006 = null;
+var external_10007 = null;
+var external_10008 = null;
+var external_10009 = null;
+var external_10010 = null;
+var external_10011 = null;
+var external_10012 = null;
+
+
+
+String.prototype.format = function() {  
+    if(arguments.length == 0) return this;  
+    var obj = arguments[0];  
+    var s = this;  
+    for(var key in obj) {  
+        s = s.replace(new RegExp("\\{\\{" + key + "\\}\\}", "g"), obj[key]);  
+    }  
+    return s;  
+}  
+
+new QWebChannel(qt.webChannelTransport,
+	function(channel) {
+		external0 = channel.objects.external0;
+		external_10001 = channel.objects.external_10001;
+external_10002 = channel.objects.external_10002;
+external_10003 = channel.objects.external_10003;
+external_10004 = channel.objects.external_10004;
+external_10005 = channel.objects.external_10005;
+external_10006 = channel.objects.external_10006;
+external_10007 = channel.objects.external_10007;
+external_10008 = channel.objects.external_10008;
+external_10009 = channel.objects.external_10009;
+external_10010 = channel.objects.external_10010;
+external_10011 = channel.objects.external_10011;
+external_10012 = channel.objects.external_10012;
+
+		
+	}
+);
+
+function appendHtml0(msg){
+	$("#placeholder").append(external0.msgRHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10001(msg){
+	$("#placeholder").append(external_10001.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10002(msg){
+	$("#placeholder").append(external_10002.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10003(msg){
+	$("#placeholder").append(external_10003.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10004(msg){
+	$("#placeholder").append(external_10004.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10005(msg){
+	$("#placeholder").append(external_10005.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10006(msg){
+	$("#placeholder").append(external_10006.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10007(msg){
+	$("#placeholder").append(external_10007.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10008(msg){
+	$("#placeholder").append(external_10008.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10009(msg){
+	$("#placeholder").append(external_10009.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10010(msg){
+	$("#placeholder").append(external_10010.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10011(msg){
+	$("#placeholder").append(external_10011.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+function recvHtml_10012(msg){
+	$("#placeholder").append(external_10012.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+
+2024-03-04 22:37:30.056 [DEBUG][WindowManager::findWindowName][20]: 根据名字：2000 寻找窗口
+2024-03-04 22:37:30.056 [DEBUG][WindowManager::addNewTalkWindow][56]: 根据 2000 没有找到窗口，new一个新的窗口
+2024-03-04 22:37:30.179 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgleftTmpl.html
+2024-03-04 22:37:30.179 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap left">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:37:30.179 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgrightTmpl.html
+2024-03-04 22:37:30.179 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap right">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;" onselect="document.selection.empty();">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:37:30.201 [DEBUG][WindowManager::addWindowName][35]: 根据名字：2000 添加窗口
+2024-03-04 22:37:30.202 [DEBUG][TalkWindow::initGroupTalkStatus][101]: sql语句：SELECT * FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:37:30.202 [DEBUG][TalkWindow::initControl][39]: 初始化
+2024-03-04 22:37:30.202 [DEBUG][TalkWindow::initTalkWindow][137]: 群聊天窗口初始化
+2024-03-04 22:37:30.202 [DEBUG][TalkWindow::initTalkWindow][151]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:37:30.203 [DEBUG][TalkWindow::getCompDepID][114]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 22:37:30.203 [DEBUG][TalkWindow::initTalkWindow][163]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 22:37:30.207 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.208 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人1
+2024-03-04 22:37:30.208 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：风一样的女子
+2024-03-04 22:37:30.214 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.214 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人2
+2024-03-04 22:37:30.215 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：奋斗中
+2024-03-04 22:37:30.220 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.220 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人3
+2024-03-04 22:37:30.220 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：出差中
+2024-03-04 22:37:30.224 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.225 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研1
+2024-03-04 22:37:30.225 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：调BUG中
+2024-03-04 22:37:30.230 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.231 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研2
+2024-03-04 22:37:30.231 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：改BUG中
+2024-03-04 22:37:30.236 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.236 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研3
+2024-03-04 22:37:30.236 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：写BUG中
+2024-03-04 22:37:30.241 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.242 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市1
+2024-03-04 22:37:30.242 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：梦游中
+2024-03-04 22:37:30.248 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.249 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市2
+2024-03-04 22:37:30.249 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：目标明确，坚定不够
+2024-03-04 22:37:30.255 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.255 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市2
+2024-03-04 22:37:30.255 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：周末去爬山
+2024-03-04 22:37:30.260 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.261 [DEBUG][Contactltem::setUserName][15]: 设置用户名：小黑
+2024-03-04 22:37:30.261 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:37:30.266 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.267 [DEBUG][Contactltem::setUserName][15]: 设置用户名：小美
+2024-03-04 22:37:30.267 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:37:30.271 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.272 [DEBUG][Contactltem::setUserName][15]: 设置用户名：12345他
+2024-03-04 22:37:30.272 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:37:30.274 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-03-04 22:37:30.274 [DEBUG][WindowManager::addNewTalkWindow][64]: sql语句：SELECT department_name, sign FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:37:30.275 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：公司群
+2024-03-04 22:37:30.275 [DEBUG][TalkWindowSheel::addTalkWindow][39]: uid：2000
+2024-03-04 22:37:30.326 [DEBUG][TalkWindowSheel::addTalkWindow][53]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:37:30.328 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-03-04 22:37:30.328 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:37:30.351 [DEBUG][CCMainWindow::onItemDoubleClicked][425]: 
+2024-03-04 22:37:30.390 [DEBUG][CCMainWindow::setLevePixmap][201]: 设置等级为：19
+2024-03-04 22:37:30.470 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:37:30.513 [DEBUG][MsgWebPage::acceptNavigationRequest][46]:   属于qrc类型，返回true
+2024-03-04 22:43:26.757 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-04 22:43:26.758 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:43:26.804 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-03-04 22:43:26.810 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-03-04 22:43:26.810 [DEBUG][UserLogin::initControl][27]: 登录窗口初始化
+2024-03-04 22:43:40.570 [DEBUG][UserLogin::onLoginBtnClicked][114]: 登录按钮被按下！
+2024-03-04 22:43:40.571 [DEBUG][UserLogin::verfyAccountCode][61]: 账号密码验证
+2024-03-04 22:43:40.571 [DEBUG][UserLogin::verfyAccountCode][67]: sql语句：SELECT code FROM tab_accounts WHERE employeeId=yaner
+2024-03-04 22:43:40.571 [DEBUG][UserLogin::verfyAccountCode][89]: sql语句：SELECT code, employeeID FROM tab_accounts WHERE account = 'yaner'
+2024-03-04 22:43:40.576 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:43:40.583 [DEBUG][CCMainWindow::CCMainWindow][36]: 主窗体初始化
+2024-03-04 22:43:40.600 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-03-04 22:43:40.600 [DEBUG][CCMainWindow::getHeadPixturePath][171]: sql语句：SELECT employeeID FROM tab_accounts WHERE account = '10005'
+2024-03-04 22:43:40.600 [DEBUG][CCMainWindow::getHeadPixturePath][179]: sql语句：SELECT picture FROM tab_employees WHERE employeeID = 10005
+2024-03-04 22:43:40.601 [DEBUG][CCMainWindow::setHeadPixmap][223]: 设置头像路径：E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\Resources\qtqq_images\y2.png
+2024-03-04 22:43:40.609 [DEBUG][CCMainWindow::setLevePixmap][201]: 设置等级为：17
+2024-03-04 22:43:40.610 [DEBUG][CCMainWindow::setStatusMenuIcon][233]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-03-04 22:43:40.610 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-03-04 22:43:40.611 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-03-04 22:43:40.611 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-03-04 22:43:40.612 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-03-04 22:43:40.612 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-03-04 22:43:40.613 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-03-04 22:43:40.613 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-03-04 22:43:40.614 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-03-04 22:43:40.615 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-03-04 22:43:40.615 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-03-04 22:43:40.616 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-03-04 22:43:40.616 [DEBUG][CCMainWindow::initContactTree][269]: 树初始化
+2024-03-04 22:43:40.617 [DEBUG][CCMainWindow::initContactTree][288]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 22:43:40.617 [DEBUG][CCMainWindow::initContactTree][297]: sql语句：SELECT departmentID FROM tab_employees WHERE employeeID = 10005
+2024-03-04 22:43:40.617 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2000
+2024-03-04 22:43:40.618 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:43:40.620 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:43:40.622 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-03-04 22:43:40.624 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2002
+2024-03-04 22:43:40.624 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:43:40.627 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:43:40.629 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-03-04 22:43:40.633 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-03-04 22:43:40.671 [DEBUG][CCMainWindow::setUserName][190]: 设置用户名为：Qt即时通讯软件
+2024-03-04 22:43:41.790 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:43:41.790 [DEBUG][CCMainWindow::onItemExpanded][375]: 树项被展开
+2024-03-04 22:43:41.790 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-03-04 22:43:42.783 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:43:42.852 [DEBUG][CCMainWindow::onItemDoubleClicked][401]: 树项被双击
+2024-03-04 22:43:42.852 [DEBUG][WindowManager::addNewTalkWindow][46]: 添加新的窗口，uid = 2000
+2024-03-04 22:43:42.852 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:43:42.857 [DEBUG][TalkWindowSheel::initControl][96]: Qt聊天窗口初始化
+2024-03-04 22:43:42.865 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-03-04 22:43:42.865 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-03-04 22:43:42.867 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-03-04 22:43:42.946 [DEBUG][TalkWindowSheel::initTcpSocket][115]: 初始化TCP客户端
+2024-03-04 22:43:42.949 [DEBUG][TalkWindowSheel::getEmployeeID][126]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 22:43:42.949 [DEBUG][TalkWindowSheel::getEmployeeID][131]: 当前一共有：12个员工
+2024-03-04 22:43:42.949 [DEBUG][TalkWindowSheel::createJSFile][142]: 创建js文件
+2024-03-04 22:55:09.148 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-04 22:55:09.149 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:55:09.199 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-03-04 22:55:09.205 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-03-04 22:55:09.205 [DEBUG][UserLogin::initControl][27]: 登录窗口初始化
+2024-03-04 22:55:14.673 [DEBUG][UserLogin::onLoginBtnClicked][114]: 登录按钮被按下！
+2024-03-04 22:55:14.673 [DEBUG][UserLogin::verfyAccountCode][61]: 账号密码验证
+2024-03-04 22:55:14.673 [DEBUG][UserLogin::verfyAccountCode][67]: sql语句：SELECT code FROM tab_accounts WHERE employeeId=yanyi
+2024-03-04 22:55:14.674 [DEBUG][UserLogin::verfyAccountCode][89]: sql语句：SELECT code, employeeID FROM tab_accounts WHERE account = 'yanyi'
+2024-03-04 22:55:14.680 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:55:14.686 [DEBUG][CCMainWindow::CCMainWindow][36]: 主窗体初始化
+2024-03-04 22:55:14.705 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-03-04 22:55:14.705 [DEBUG][CCMainWindow::getHeadPixturePath][171]: sql语句：SELECT employeeID FROM tab_accounts WHERE account = '10004'
+2024-03-04 22:55:14.706 [DEBUG][CCMainWindow::getHeadPixturePath][179]: sql语句：SELECT picture FROM tab_employees WHERE employeeID = 10004
+2024-03-04 22:55:14.706 [DEBUG][CCMainWindow::setHeadPixmap][223]: 设置头像路径：E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\Resources\qtqq_images\y1.png
+2024-03-04 22:55:14.714 [DEBUG][CCMainWindow::setLevePixmap][201]: 设置等级为：17
+2024-03-04 22:55:14.715 [DEBUG][CCMainWindow::setStatusMenuIcon][233]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-03-04 22:55:14.715 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-03-04 22:55:14.716 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-03-04 22:55:14.716 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-03-04 22:55:14.717 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-03-04 22:55:14.717 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-03-04 22:55:14.718 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-03-04 22:55:14.719 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-03-04 22:55:14.719 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-03-04 22:55:14.720 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-03-04 22:55:14.721 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-03-04 22:55:14.721 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-03-04 22:55:14.722 [DEBUG][CCMainWindow::initContactTree][269]: 树初始化
+2024-03-04 22:55:14.722 [DEBUG][CCMainWindow::initContactTree][288]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 22:55:14.723 [DEBUG][CCMainWindow::initContactTree][297]: sql语句：SELECT departmentID FROM tab_employees WHERE employeeID = 10004
+2024-03-04 22:55:14.723 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2000
+2024-03-04 22:55:14.723 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:55:14.726 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:55:14.727 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-03-04 22:55:14.729 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2002
+2024-03-04 22:55:14.729 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:55:14.732 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2002
+2024-03-04 22:55:14.734 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-03-04 22:55:14.737 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-03-04 22:55:14.775 [DEBUG][CCMainWindow::setUserName][190]: 设置用户名为：Qt即时通讯软件
+2024-03-04 22:55:15.751 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:55:15.751 [DEBUG][CCMainWindow::onItemExpanded][375]: 树项被展开
+2024-03-04 22:55:15.751 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-03-04 22:55:16.145 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:55:16.204 [DEBUG][CCMainWindow::onItemDoubleClicked][401]: 树项被双击
+2024-03-04 22:55:16.204 [DEBUG][WindowManager::addNewTalkWindow][46]: 添加新的窗口，uid = 2000
+2024-03-04 22:55:16.205 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 22:55:16.208 [DEBUG][TalkWindowSheel::initControl][96]: Qt聊天窗口初始化
+2024-03-04 22:55:16.215 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-03-04 22:55:16.216 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-03-04 22:55:16.217 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-03-04 22:55:16.301 [DEBUG][TalkWindowSheel::initTcpSocket][115]: 初始化TCP客户端
+2024-03-04 22:55:16.304 [DEBUG][TalkWindowSheel::getEmployeeID][126]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 22:55:16.304 [DEBUG][TalkWindowSheel::getEmployeeID][131]: 当前一共有：12个员工
+2024-03-04 22:55:16.304 [DEBUG][TalkWindowSheel::createJSFile][142]: 创建js文件
+2024-03-04 22:55:16.305 [DEBUG][TalkWindowSheel::createJSFile][227]: 最终生成的脚本数据：
+var external0 = null;
+var external_10001 = null;
+var external_10002 = null;
+var external_10003 = null;
+var external_10004 = null;
+var external_10005 = null;
+var external_10006 = null;
+var external_10007 = null;
+var external_10008 = null;
+var external_10009 = null;
+var external_10010 = null;
+var external_10011 = null;
+var external_10012 = null;
+
+
+
+String.prototype.format = function() {  
+    if(arguments.length == 0) return this;  
+    var obj = arguments[0];  
+    var s = this;  
+    for(var key in obj) {  
+        s = s.replace(new RegExp("\\{\\{" + key + "\\}\\}", "g"), obj[key]);  
+    }  
+    return s;  
+}  
+
+new QWebChannel(qt.webChannelTransport,
+	function(channel) {
+		external0 = channel.objects.external0;
+		external_10001 = channel.objects.external_10001;
+external_10002 = channel.objects.external_10002;
+external_10003 = channel.objects.external_10003;
+external_10004 = channel.objects.external_10004;
+external_10005 = channel.objects.external_10005;
+external_10006 = channel.objects.external_10006;
+external_10007 = channel.objects.external_10007;
+external_10008 = channel.objects.external_10008;
+external_10009 = channel.objects.external_10009;
+external_10010 = channel.objects.external_10010;
+external_10011 = channel.objects.external_10011;
+external_10012 = channel.objects.external_10012;
+
+		
+	}
+);
+
+function appendHtml0(msg){
+	$("#placeholder").append(external0.msgRHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10001(msg){
+	$("#placeholder").append(external_10001.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10002(msg){
+	$("#placeholder").append(external_10002.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10003(msg){
+	$("#placeholder").append(external_10003.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10004(msg){
+	$("#placeholder").append(external_10004.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10005(msg){
+	$("#placeholder").append(external_10005.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10006(msg){
+	$("#placeholder").append(external_10006.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10007(msg){
+	$("#placeholder").append(external_10007.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10008(msg){
+	$("#placeholder").append(external_10008.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10009(msg){
+	$("#placeholder").append(external_10009.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10010(msg){
+	$("#placeholder").append(external_10010.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10011(msg){
+	$("#placeholder").append(external_10011.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10012(msg){
+	$("#placeholder").append(external_10012.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+
+
+2024-03-04 22:55:16.305 [DEBUG][WindowManager::findWindowName][20]: 根据名字：2000 寻找窗口
+2024-03-04 22:55:16.305 [DEBUG][WindowManager::addNewTalkWindow][56]: 根据 2000 没有找到窗口，new一个新的窗口
+2024-03-04 22:55:16.426 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgleftTmpl.html
+2024-03-04 22:55:16.426 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap left">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:55:16.426 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgrightTmpl.html
+2024-03-04 22:55:16.426 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap right">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;" onselect="document.selection.empty();">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 22:55:16.449 [DEBUG][WindowManager::addWindowName][35]: 根据名字：2000 添加窗口
+2024-03-04 22:55:16.449 [DEBUG][TalkWindow::initGroupTalkStatus][101]: sql语句：SELECT * FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:55:16.450 [DEBUG][TalkWindow::initControl][39]: 初始化
+2024-03-04 22:55:16.451 [DEBUG][TalkWindow::initTalkWindow][137]: 群聊天窗口初始化
+2024-03-04 22:55:16.451 [DEBUG][TalkWindow::initTalkWindow][151]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:55:16.452 [DEBUG][TalkWindow::getCompDepID][114]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 22:55:16.452 [DEBUG][TalkWindow::initTalkWindow][163]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 22:55:16.456 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.457 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人1
+2024-03-04 22:55:16.457 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：风一样的女子
+2024-03-04 22:55:16.463 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.463 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人2
+2024-03-04 22:55:16.463 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：奋斗中
+2024-03-04 22:55:16.469 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.469 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人3
+2024-03-04 22:55:16.469 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：出差中
+2024-03-04 22:55:16.474 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.475 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研1
+2024-03-04 22:55:16.475 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：调BUG中
+2024-03-04 22:55:16.480 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.481 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研2
+2024-03-04 22:55:16.481 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：改BUG中
+2024-03-04 22:55:16.485 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.485 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研3
+2024-03-04 22:55:16.485 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：写BUG中
+2024-03-04 22:55:16.491 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.491 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市1
+2024-03-04 22:55:16.491 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：梦游中
+2024-03-04 22:55:16.497 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.498 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市2
+2024-03-04 22:55:16.498 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：目标明确，坚定不够
+2024-03-04 22:55:16.504 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.505 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市2
+2024-03-04 22:55:16.505 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：周末去爬山
+2024-03-04 22:55:16.510 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.510 [DEBUG][Contactltem::setUserName][15]: 设置用户名：小黑
+2024-03-04 22:55:16.510 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:55:16.515 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.515 [DEBUG][Contactltem::setUserName][15]: 设置用户名：小美
+2024-03-04 22:55:16.515 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:55:16.519 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.520 [DEBUG][Contactltem::setUserName][15]: 设置用户名：12345他
+2024-03-04 22:55:16.520 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 22:55:16.522 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-03-04 22:55:16.522 [DEBUG][WindowManager::addNewTalkWindow][64]: sql语句：SELECT department_name, sign FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:55:16.523 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：公司群
+2024-03-04 22:55:16.523 [DEBUG][TalkWindowSheel::addTalkWindow][39]: uid：2000
+2024-03-04 22:55:16.571 [DEBUG][TalkWindowSheel::addTalkWindow][53]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 22:55:16.573 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-03-04 22:55:16.574 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 22:55:16.595 [DEBUG][CCMainWindow::onItemDoubleClicked][425]: 
+2024-03-04 22:55:16.715 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 22:55:16.759 [DEBUG][MsgWebPage::acceptNavigationRequest][46]:   属于qrc类型，返回true
+2024-03-04 23:07:39.128 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-04 23:07:39.129 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 23:07:39.217 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-03-04 23:07:39.222 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-03-04 23:07:39.223 [DEBUG][UserLogin::initControl][27]: 登录窗口初始化
+2024-03-04 23:07:44.730 [DEBUG][UserLogin::onLoginBtnClicked][114]: 登录按钮被按下！
+2024-03-04 23:07:44.730 [DEBUG][UserLogin::verfyAccountCode][61]: 账号密码验证
+2024-03-04 23:07:44.730 [DEBUG][UserLogin::verfyAccountCode][67]: sql语句：SELECT code FROM tab_accounts WHERE employeeId=yanyi
+2024-03-04 23:07:44.730 [DEBUG][UserLogin::verfyAccountCode][89]: sql语句：SELECT code, employeeID FROM tab_accounts WHERE account = 'yanyi'
+2024-03-04 23:07:44.738 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 23:07:44.745 [DEBUG][CCMainWindow::CCMainWindow][36]: 主窗体初始化
+2024-03-04 23:07:44.761 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/CCMainWindow.css 成功
+2024-03-04 23:07:44.761 [DEBUG][CCMainWindow::getHeadPixturePath][171]: sql语句：SELECT employeeID FROM tab_accounts WHERE account = '10004'
+2024-03-04 23:07:44.761 [DEBUG][CCMainWindow::getHeadPixturePath][179]: sql语句：SELECT picture FROM tab_employees WHERE employeeID = 10004
+2024-03-04 23:07:44.762 [DEBUG][CCMainWindow::setHeadPixmap][223]: 设置头像路径：E:\git_my_demo\graduation_project\QT_QQ\QtQQ\QtQQ\Resources\qtqq_images\y1.png
+2024-03-04 23:07:44.770 [DEBUG][CCMainWindow::setLevePixmap][201]: 设置等级为：17
+2024-03-04 23:07:44.771 [DEBUG][CCMainWindow::setStatusMenuIcon][233]: 设置状态路径：:/Resources/MainWindow/StatusSucceeded.png
+2024-03-04 23:07:44.771 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_7.png, app_7)
+2024-03-04 23:07:44.772 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_2.png, app_2)
+2024-03-04 23:07:44.772 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_3.png, app_3)
+2024-03-04 23:07:44.773 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_4.png, app_4)
+2024-03-04 23:07:44.773 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_5.png, app_5)
+2024-03-04 23:07:44.774 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_6.png, app_6)
+2024-03-04 23:07:44.774 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/skin.png, app_skin)
+2024-03-04 23:07:44.775 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_10.png, app_10)
+2024-03-04 23:07:44.775 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_8.png, app_8)
+2024-03-04 23:07:44.776 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_11.png, app_11)
+2024-03-04 23:07:44.776 [DEBUG][CCMainWindow::addOtherAppExtension][246]: 生成按钮返回 (:Resources/MainWindow/app/app_9.png, app_9)
+2024-03-04 23:07:44.777 [DEBUG][CCMainWindow::initContactTree][269]: 树初始化
+2024-03-04 23:07:44.778 [DEBUG][CCMainWindow::initContactTree][288]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 23:07:44.778 [DEBUG][CCMainWindow::initContactTree][297]: sql语句：SELECT departmentID FROM tab_employees WHERE employeeID = 10004
+2024-03-04 23:07:44.778 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2000
+2024-03-04 23:07:44.778 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 23:07:44.780 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 23:07:44.782 [DEBUG][Contactltem::setUserName][15]: 设置用户名：公司群
+2024-03-04 23:07:44.785 [DEBUG][CCMainWindow::addCompanyDeps][123]: 群id：2002
+2024-03-04 23:07:44.785 [DEBUG][CCMainWindow::addCompanyDeps][138]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2002
+2024-03-04 23:07:44.789 [DEBUG][CCMainWindow::addCompanyDeps][148]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2002
+2024-03-04 23:07:44.790 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研发部
+2024-03-04 23:07:44.793 [DEBUG][SysTray::initSystemTray][24]: 初始化系统托盘图标：:Resources/MainWindow/app/logo.ico
+2024-03-04 23:07:44.831 [DEBUG][CCMainWindow::setUserName][190]: 设置用户名为：Qt即时通讯软件
+2024-03-04 23:07:45.736 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 23:07:45.736 [DEBUG][CCMainWindow::onItemExpanded][375]: 树项被展开
+2024-03-04 23:07:45.736 [DEBUG][RootContatItem::setExpanded][38]: 设置属性动画的结束值：90
+2024-03-04 23:07:46.140 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 23:07:46.188 [DEBUG][CCMainWindow::onItemDoubleClicked][401]: 树项被双击
+2024-03-04 23:07:46.188 [DEBUG][WindowManager::addNewTalkWindow][46]: 添加新的窗口，uid = 2000
+2024-03-04 23:07:46.188 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-04 23:07:46.191 [DEBUG][TalkWindowSheel::initControl][96]: Qt聊天窗口初始化
+2024-03-04 23:07:46.198 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/TalkWindow.css 成功
+2024-03-04 23:07:46.200 [DEBUG][EmotionWindow::initControl][31]: 表情窗口初始化
+2024-03-04 23:07:46.202 [DEBUG][CommonUtils::loadStyleSheet][44]: 加载样式文件 EmotionWindow.css 成功
+2024-03-04 23:07:46.284 [DEBUG][TalkWindowSheel::initTcpSocket][115]: 初始化TCP客户端
+2024-03-04 23:07:46.287 [DEBUG][TalkWindowSheel::getEmployeeID][126]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 23:07:46.287 [DEBUG][TalkWindowSheel::getEmployeeID][131]: 当前一共有：12个员工
+2024-03-04 23:07:46.287 [DEBUG][TalkWindowSheel::createJSFile][142]: 创建js文件
+2024-03-04 23:07:46.288 [DEBUG][TalkWindowSheel::createJSFile][227]: 最终生成的脚本数据：
+var external0 = null;
+var external_10001 = null;
+var external_10002 = null;
+var external_10003 = null;
+var external_10004 = null;
+var external_10005 = null;
+var external_10006 = null;
+var external_10007 = null;
+var external_10008 = null;
+var external_10009 = null;
+var external_10010 = null;
+var external_10011 = null;
+var external_10012 = null;
+
+
+
+String.prototype.format = function() {  
+    if(arguments.length == 0) return this;  
+    var obj = arguments[0];  
+    var s = this;  
+    for(var key in obj) {  
+        s = s.replace(new RegExp("\\{\\{" + key + "\\}\\}", "g"), obj[key]);  
+    }  
+    return s;  
+}  
+
+new QWebChannel(qt.webChannelTransport,
+	function(channel) {
+		external0 = channel.objects.external0;
+		external_10001 = channel.objects.external_10001;
+external_10002 = channel.objects.external_10002;
+external_10003 = channel.objects.external_10003;
+external_10004 = channel.objects.external_10004;
+external_10005 = channel.objects.external_10005;
+external_10006 = channel.objects.external_10006;
+external_10007 = channel.objects.external_10007;
+external_10008 = channel.objects.external_10008;
+external_10009 = channel.objects.external_10009;
+external_10010 = channel.objects.external_10010;
+external_10011 = channel.objects.external_10011;
+external_10012 = channel.objects.external_10012;
+
+		
+	}
+);
+
+function appendHtml0(msg){
+	$("#placeholder").append(external0.msgRHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10001(msg){
+	$("#placeholder").append(external_10001.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10002(msg){
+	$("#placeholder").append(external_10002.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10003(msg){
+	$("#placeholder").append(external_10003.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10004(msg){
+	$("#placeholder").append(external_10004.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10005(msg){
+	$("#placeholder").append(external_10005.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10006(msg){
+	$("#placeholder").append(external_10006.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10007(msg){
+	$("#placeholder").append(external_10007.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10008(msg){
+	$("#placeholder").append(external_10008.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10009(msg){
+	$("#placeholder").append(external_10009.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10010(msg){
+	$("#placeholder").append(external_10010.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10011(msg){
+	$("#placeholder").append(external_10011.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+function recvHtml_10012(msg){
+	$("#placeholder").append(external_10012.msgLHtmlTmpl.format(msg));
+	window.scrollTo(0,document.body.scrollHeight); ;  
+};
+
+
+
+2024-03-04 23:07:46.288 [DEBUG][WindowManager::findWindowName][20]: 根据名字：2000 寻找窗口
+2024-03-04 23:07:46.289 [DEBUG][WindowManager::addNewTalkWindow][56]: 根据 2000 没有找到窗口，new一个新的窗口
+2024-03-04 23:07:46.410 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgleftTmpl.html
+2024-03-04 23:07:46.410 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap left">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 23:07:46.410 [DEBUG][MsgHtmlObj::getMsgTmplHtml][24]: 准备打开文件：msgrightTmpl.html
+2024-03-04 23:07:46.410 [DEBUG][MsgHtmlObj::getMsgTmplHtml][31]: 文件打开成功，读取到的文件内容是：<div class="msg-wrap right">
+	<img class="header" src="qrc:/Resources/MainWindow/girl.png" ondragstart="return false;" onselectstart="return false;" onselect="document.selection.empty();">
+	<div class="msg">{{MSG}}<span class="trigon"></span></div>
+</div>
+2024-03-04 23:07:46.433 [DEBUG][WindowManager::addWindowName][35]: 根据名字：2000 添加窗口
+2024-03-04 23:07:46.433 [DEBUG][TalkWindow::initGroupTalkStatus][101]: sql语句：SELECT * FROM tab_department WHERE departmentID = 2000
+2024-03-04 23:07:46.433 [DEBUG][TalkWindow::initControl][39]: 初始化
+2024-03-04 23:07:46.433 [DEBUG][TalkWindow::initTalkWindow][137]: 群聊天窗口初始化
+2024-03-04 23:07:46.433 [DEBUG][TalkWindow::initTalkWindow][151]: sql语句：SELECT department_name FROM tab_department WHERE departmentID = 2000
+2024-03-04 23:07:46.434 [DEBUG][TalkWindow::getCompDepID][114]: sql语句：SELECT departmentID FROM tab_department WHERE department_name = '公司群'
+2024-03-04 23:07:46.434 [DEBUG][TalkWindow::initTalkWindow][163]: sql语句：SELECT employeeID FROM tab_employees WHERE status = 1
+2024-03-04 23:07:46.438 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.439 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人1
+2024-03-04 23:07:46.439 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：风一样的女子
+2024-03-04 23:07:46.445 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.445 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人2
+2024-03-04 23:07:46.445 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：奋斗中
+2024-03-04 23:07:46.451 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.452 [DEBUG][Contactltem::setUserName][15]: 设置用户名：人3
+2024-03-04 23:07:46.452 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：出差中
+2024-03-04 23:07:46.457 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.457 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研1
+2024-03-04 23:07:46.457 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：调BUG中
+2024-03-04 23:07:46.462 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.462 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研2
+2024-03-04 23:07:46.462 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：改BUG中
+2024-03-04 23:07:46.468 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.469 [DEBUG][Contactltem::setUserName][15]: 设置用户名：研3
+2024-03-04 23:07:46.469 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：写BUG中
+2024-03-04 23:07:46.475 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.475 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市1
+2024-03-04 23:07:46.475 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：梦游中
+2024-03-04 23:07:46.481 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.481 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市2
+2024-03-04 23:07:46.481 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：目标明确，坚定不够
+2024-03-04 23:07:46.489 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.489 [DEBUG][Contactltem::setUserName][15]: 设置用户名：市2
+2024-03-04 23:07:46.489 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：周末去爬山
+2024-03-04 23:07:46.494 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.495 [DEBUG][Contactltem::setUserName][15]: 设置用户名：小黑
+2024-03-04 23:07:46.495 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 23:07:46.501 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.502 [DEBUG][Contactltem::setUserName][15]: 设置用户名：小美
+2024-03-04 23:07:46.502 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 23:07:46.507 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.507 [DEBUG][Contactltem::setUserName][15]: 设置用户名：12345他
+2024-03-04 23:07:46.508 [DEBUG][Contactltem::setSignName][20]: 设置个性签名：
+2024-03-04 23:07:46.510 [DEBUG][TalkWindowItem::initControl][38]: Qt聊天列表窗口初始化
+2024-03-04 23:07:46.510 [DEBUG][WindowManager::addNewTalkWindow][64]: sql语句：SELECT department_name, sign FROM tab_department WHERE departmentID = 2000
+2024-03-04 23:07:46.510 [DEBUG][TalkWindowItem::setMsgLabelContent][27]: 设置名字：公司群
+2024-03-04 23:07:46.511 [DEBUG][TalkWindowSheel::addTalkWindow][39]: uid：2000
+2024-03-04 23:07:46.559 [DEBUG][TalkWindowSheel::addTalkWindow][53]: sql语句：SELECT picture FROM tab_department WHERE departmentID = 2000
+2024-03-04 23:07:46.561 [DEBUG][TalkWindowItem::setHeadPixmap][17]: 设置头像
+2024-03-04 23:07:46.561 [DEBUG][CommonUtils::getRoundImage][20]: CommonUtils::getRoundImage 生成圆头像.
+2024-03-04 23:07:46.582 [DEBUG][CCMainWindow::onItemDoubleClicked][425]: 
+2024-03-04 23:07:46.699 [DEBUG][CCMainWindow::onItemClicked][368]: 树项被单击
+2024-03-04 23:07:46.742 [DEBUG][MsgWebPage::acceptNavigationRequest][46]:   属于qrc类型，返回true
