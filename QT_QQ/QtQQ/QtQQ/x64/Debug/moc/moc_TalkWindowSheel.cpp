@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_TalkWindowSheel_t {
     QByteArrayData data[14];
-    char stringdata0[168];
+    char stringdata0[171];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -39,17 +39,17 @@ QT_MOC_LITERAL(4, 54, 8), // "QString&"
 QT_MOC_LITERAL(5, 63, 7), // "strData"
 QT_MOC_LITERAL(6, 71, 4), // "int&"
 QT_MOC_LITERAL(7, 76, 7), // "msgType"
-QT_MOC_LITERAL(8, 84, 5), // "sFile"
-QT_MOC_LITERAL(9, 90, 23), // "onTalkWindowItemClicked"
-QT_MOC_LITERAL(10, 114, 16), // "QListWidgetItem*"
-QT_MOC_LITERAL(11, 131, 4), // "item"
-QT_MOC_LITERAL(12, 136, 20), // "onEmotionItemClicked"
-QT_MOC_LITERAL(13, 157, 10) // "emotionNum"
+QT_MOC_LITERAL(8, 84, 8), // "fileName"
+QT_MOC_LITERAL(9, 93, 23), // "onTalkWindowItemClicked"
+QT_MOC_LITERAL(10, 117, 16), // "QListWidgetItem*"
+QT_MOC_LITERAL(11, 134, 4), // "item"
+QT_MOC_LITERAL(12, 139, 20), // "onEmotionItemClicked"
+QT_MOC_LITERAL(13, 160, 10) // "emotionNum"
 
     },
     "TalkWindowSheel\0onEmotionBtnClicked\0"
     "\0updateSendTcpMsg\0QString&\0strData\0"
-    "int&\0msgType\0sFile\0onTalkWindowItemClicked\0"
+    "int&\0msgType\0fileName\0onTalkWindowItemClicked\0"
     "QListWidgetItem*\0item\0onEmotionItemClicked\0"
     "emotionNum"
 };

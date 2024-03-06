@@ -8,6 +8,8 @@
 #include <QMessageBox>
 #include <QFile>
 
+extern QString gLoginEmployeeID;
+
 TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 	: BasicWindow(parent) {
 	ui.setupUi(this);
@@ -239,9 +241,75 @@ bool TalkWindowSheel::createJSFile(QStringList & employeesList) {
 	}
 }
 
-void TalkWindowSheel::updateSendTcpMsg(QString & strData, int & msgType, QString sFile) {
+// 文本数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(1) + 数据长度 + 数据
+// 表情数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(0) + 表情个数 + images + 数据
+// 文件数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(2) + 文件长度 + "bytes" + 文件名称 + "data_begin" + 文件内容
+// msgType 0表情信息	1文本信息	2文件信息
+void TalkWindowSheel::updateSendTcpMsg(QString & strData, int & msgType, QString fileName) {
+	MyLogDEBUG(QString("数据通过网络发送，strData = %1   msgType = %2   sFile = %3").toUtf8());
+
+	// 获取当前获得窗口
+	TalkWindow *curTalkWindow = dynamic_cast<TalkWindow *>(ui.rightStackedWidget->currentWidget());
+	QString talkId = curTalkWindow->GetTalkId();
+
+	QString strGroupFlag = "";
+	QString strSend = "";
+	if (talkId.length() == 4) {		// QQ群长度为4
+		strGroupFlag = "1";
+	} else if (talkId.length() == 5) {	// 个人QQ号为5
+		strGroupFlag = "0";
+	} else {
+		MyLogDEBUG(QString("标识有误：%1").arg(talkId.length()).toUtf8());
+		return;
+	}
 
 
+	int dataLength = QString::number(strData.length()).length();
+	const int sourceDataLength = dataLength;
+	QString strdataLength = "";
+
+	if (1 == msgType) {		// 发送文本信息
+		// 文本信息的长度约定为5位
+		if (1 == dataLength) {
+			strdataLength = "0000" + QString::number(sourceDataLength);
+		} else if (2 == dataLength) {
+			strdataLength = "000" + QString::number(sourceDataLength);
+		} else if (3 == dataLength) {
+			strdataLength = "00" + QString::number(sourceDataLength);
+		} else if (4 == dataLength) {
+			strdataLength = "0" + QString::number(sourceDataLength);
+		} else if (5 == dataLength) {
+			strdataLength = QString::number(sourceDataLength);
+		} else {
+			MyLogDEBUG(QString("数据长度有误：%1").arg(dataLength).toUtf8());
+			QMessageBox::information(this, "提示", "不合理的数据长度");
+			return;
+		}
+
+		// 发送的信息汇总
+		strSend = strGroupFlag + gLoginEmployeeID + talkId + "1" + strdataLength + strData;
+	
+	} else if (0 == msgType) {	// 发送的表情信息
+		strSend = strGroupFlag + gLoginEmployeeID + talkId + "0" + strData;
+	
+	} else if (2 == msgType) {	// 发送的文件信息
+		// 获取文件的字节长度
+		QByteArray bt = strData.toUtf8();
+		QString strFileLength = QString::number(bt.length());
+
+		strSend = strGroupFlag + gLoginEmployeeID + talkId + "2" + strFileLength + "bytes" + fileName + "data_begin" + strData;
+	
+	} else {
+		MyLogDEBUG(QString("要发送的数据类型有误：%1").arg(msgType).toUtf8());
+		QMessageBox::information(this, "提示", "要发送的数据类型有误");
+		return;
+	}
+
+	QByteArray dataBt;
+	dataBt.resize(strSend.length());
+	dataBt = strSend.toUtf8();
+
+	m_tcpClientSocket->write(dataBt);
 }
 
 

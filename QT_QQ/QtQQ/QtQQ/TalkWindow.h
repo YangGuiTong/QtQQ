@@ -17,6 +17,7 @@ public:
 	void addEmotionImage(int emotionNum);
 	void setWindowName(const QString &name);
 
+	QString GetTalkId();
 
 private:
 	void initControl();

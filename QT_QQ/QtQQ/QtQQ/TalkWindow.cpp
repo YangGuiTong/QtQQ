@@ -35,6 +35,10 @@ void TalkWindow::setWindowName(const QString & name) {
 	ui.nameLabel->setText(name);
 }
 
+QString TalkWindow::GetTalkId() {
+	return m_talkId;
+}
+
 void TalkWindow::initControl() {
 	MyLogDEBUG(QString("≥ı ºªØ").toUtf8());
 
