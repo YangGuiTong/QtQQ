@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>QtQQ_ServerClass</class>
+ <widget class="QDialog" name="QtQQ_ServerClass" >
+  <property name="objectName" >
+   <string notr="true">QtQQ_ServerClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>QtQQ_Server</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="QtQQ_Server.qrc"/>
+ </resources>
+ <connections/>
+</UI>
