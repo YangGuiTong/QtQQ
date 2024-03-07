@@ -1,0 +1,7 @@
+2024-03-07 21:43:12.901 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-07 21:43:12.907 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(79,169,172);
+2024-03-07 21:43:13.367 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-03-07 21:43:13.374 [DEBUG][BasicWindow::loadStyleSheet][82]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-03-07 21:43:13.375 [DEBUG][UserLogin::initControl][27]: 登录窗口初始化
