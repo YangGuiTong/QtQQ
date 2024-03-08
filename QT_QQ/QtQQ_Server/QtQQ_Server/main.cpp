@@ -9,12 +9,6 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    QtQQ_Server w;
-
-
-
-
-
 
 	QTextCodec *codec = QTextCodec::codecForName("UTF-8");//或者"GBK",不分大小写
 	QTextCodec::setCodecForLocale(codec);
@@ -33,11 +27,7 @@ int main(int argc, char *argv[])
 	MyLogDEBUG("\n\n------------------------------------------------------------------------------------------------------");
 
 
-
-
-
-
-
+    QtQQ_Server w;
 
     w.show();
     return a.exec();

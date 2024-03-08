@@ -9,7 +9,13 @@ QtQQ_Server::QtQQ_Server(QWidget *parent)
 	initTcpSocket();
 }
 
-QtQQ_Server::~QtQQ_Server() { }
+QtQQ_Server::~QtQQ_Server() {
+	if (m_tcpServer) {
+		delete m_tcpServer;
+		m_tcpServer = nullptr;
+	}
+
+}
 
 void QtQQ_Server::initTcpSocket() { 
 	m_tcpServer = new TcpServer(gtcpProt);

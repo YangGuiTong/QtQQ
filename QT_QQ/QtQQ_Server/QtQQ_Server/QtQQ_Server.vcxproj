@@ -93,6 +93,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="TcpServer.cpp" />
+    <ClCompile Include="TcpSocket.cpp" />
     <QtRcc Include="QtQQ_Server.qrc" />
     <QtUic Include="QtQQ_Server.ui" />
     <QtMoc Include="QtQQ_Server.h" />
@@ -103,6 +105,8 @@
   <ItemGroup>
     <ClInclude Include="MyLog.h" />
     <ClInclude Include="public_type.h" />
+    <QtMoc Include="TcpSocket.h" />
+    <QtMoc Include="TcpServer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

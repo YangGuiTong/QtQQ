@@ -43,6 +43,12 @@
     <ClCompile Include="MyLog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TcpServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLog.h">
@@ -51,5 +57,13 @@
     <ClInclude Include="public_type.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="TcpServer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="TcpSocket.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

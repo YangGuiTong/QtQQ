@@ -1,0 +1,48 @@
+2024-03-09 00:02:08.736 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 00:02:08.758 [DEBUG][TcpServer::run][14]: 服务的监听端口 10086 成功！
+2024-03-09 00:02:19.795 [DEBUG][TcpServer::incomingConnection][28]: 新的连接：1264
+2024-03-09 00:02:46.148 [DEBUG][TcpServer::SocketDisconnecgted][75]: tcpSocket描述符：1264  IP： 127.0.0.1  断开连接!
+2024-03-09 00:03:23.036 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 00:03:23.060 [DEBUG][TcpServer::run][14]: 服务的监听端口 10086 成功！
+2024-03-09 00:03:33.885 [DEBUG][TcpServer::incomingConnection][28]: 新的连接：1272
+2024-03-09 00:04:39.831 [DEBUG][TcpServer::incomingConnection][28]: 新的连接：796
+2024-03-09 00:04:58.757 [DEBUG][TcpServer::incomingConnection][28]: 新的连接：1276
+2024-03-09 00:05:03.272 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1276  IP： 127.0.0.1  断开连接!
+2024-03-09 00:05:06.446 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：796  IP： 127.0.0.1  断开连接!
+2024-03-09 00:05:13.256 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1272  IP： 127.0.0.1  断开连接!
+2024-03-09 00:06:19.433 [DEBUG][TcpServer::incomingConnection][28]: 新的连接：964
+2024-03-09 00:06:23.328 [DEBUG][TcpSocket::onReceiveData][24]: 收到描述符 964 的数据：110004200001images044
+2024-03-09 00:06:27.933 [DEBUG][TcpSocket::onReceiveData][24]: 收到描述符 964 的数据：1100042000100001hhh哈哈哈哈
+2024-03-09 00:10:14.260 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 00:10:14.285 [DEBUG][TcpServer::run][14]: 服务的监听端口 10086 成功！
+2024-03-09 00:10:41.203 [DEBUG][TcpServer::incomingConnection][28]: 新的连接：1296
+2024-03-09 00:10:44.603 [DEBUG][TcpSocket::onReceiveData][24]: 收到描述符 1296 的数据：110005200001images062
+2024-03-09 00:10:44.603 [DEBUG][TcpServer::SocketDataProcessiong][56]: 来自IP： 127.0.0.1  发来的数据：110005200001images062
+2024-03-09 00:10:52.734 [DEBUG][TcpSocket::onReceiveData][24]: 收到描述符 1296 的数据：110005200001images001
+2024-03-09 00:10:52.734 [DEBUG][TcpServer::SocketDataProcessiong][56]: 来自IP： 127.0.0.1  发来的数据：110005200001images001
+2024-03-09 00:10:59.509 [DEBUG][TcpSocket::onReceiveData][24]: 收到描述符 1296 的数据：110005200001images084
+2024-03-09 00:10:59.510 [DEBUG][TcpServer::SocketDataProcessiong][56]: 来自IP： 127.0.0.1  发来的数据：110005200001images084
+2024-03-09 00:11:07.307 [DEBUG][TcpSocket::onReceiveData][24]: 收到描述符 1296 的数据：1100052000100001我擦
+2024-03-09 00:11:07.307 [DEBUG][TcpServer::SocketDataProcessiong][56]: 来自IP： 127.0.0.1  发来的数据：1100052000100001我擦
+2024-03-09 00:16:43.731 [DEBUG][TcpServer::SocketDisconnecgted][76]: tcpSocket描述符：1296  IP： 127.0.0.1  断开连接!
+2024-03-09 00:23:29.349 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 00:23:29.372 [DEBUG][TcpServer::run][14]: 服务的监听端口 10086 成功！
+2024-03-09 00:26:52.009 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 00:26:52.038 [DEBUG][TcpServer::run][14]: 服务的监听端口 10086 成功！
+2024-03-09 00:27:04.541 [DEBUG][TcpServer::incomingConnection][28]: 新的连接：1272
+2024-03-09 00:27:11.959 [DEBUG][TcpSocket::onReceiveData][24]: 收到描述符 1272 的数据：1100042000100011你好呀，我很好，是的呢
+2024-03-09 00:27:11.960 [DEBUG][TcpServer::SocketDataProcessiong][56]: 来自IP： 127.0.0.1  发来的数据：1100042000100011你好呀，我很好，是的呢
+2024-03-09 00:27:43.927 [DEBUG][TcpSocket::onReceiveData][24]: 收到描述符 1272 的数据：110004200001images046
+2024-03-09 00:27:43.927 [DEBUG][TcpServer::SocketDataProcessiong][56]: 来自IP： 127.0.0.1  发来的数据：110004200001images046
+2024-03-09 00:28:33.942 [DEBUG][TcpSocket::onReceiveData][24]: 收到描述符 1272 的数据：110004200003images098099100
+2024-03-09 00:28:33.942 [DEBUG][TcpServer::SocketDataProcessiong][56]: 来自IP： 127.0.0.1  发来的数据：110004200003images098099100

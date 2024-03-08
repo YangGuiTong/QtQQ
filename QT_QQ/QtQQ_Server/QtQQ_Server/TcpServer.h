@@ -18,7 +18,7 @@ public:
 
 protected:
 	// 当客户端有新的连接时
-	void incommingConnection(qintptr socketDescriptor);
+	void incomingConnection(qintptr socketDescriptor) override;
 
 
 signals:
@@ -34,6 +34,6 @@ private slots:
 
 
 private:
-	int m_port;		// 端口号
+	qint16 m_port;		// 端口号
 	QList<QTcpSocket *> m_tcpSocketConnectList;
 };
