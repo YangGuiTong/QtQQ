@@ -9,9 +9,10 @@
 #include <QTableWidget>
 #include <QSqlRecord>
 #include <QSqlQuery>
+#include <QFileDialog>
 
 QtQQ_Server::QtQQ_Server(QWidget *parent)
-	: QDialog(parent) {
+	: QDialog(parent), m_pixPath("") {
 	ui.setupUi(this);
 
 	QPixmap p;
@@ -319,7 +320,10 @@ void QtQQ_Server::on_queryIDBtn_clicked() {
 	m_depID = 0;
 	m_employeeID = employeeID;
 
-	MyLogDEBUG(QString("查询QQ号 %1 员工信息").arg(m_employeeID).toUtf8());
+	// 获取员工的姓名
+	QString employee_name = getEmployeeName(employeeID);
+
+	MyLogDEBUG(QString("查询QQ号：%1  员工姓名：%2 信息").arg(m_employeeID).arg(employee_name).toUtf8());
 	updateTaleData(m_depID, m_employeeID);
 }
 
@@ -358,10 +362,72 @@ void QtQQ_Server::on_logoutBtn_clicked() {
 	updateTaleData(m_depID, m_employeeID);
 }
 
+void QtQQ_Server::on_selectPictureBtn_clicked() {
+
+	// 获取选择的头像路径
+	m_pixPath = QFileDialog::getOpenFileName(this, tr("选择头像"), ".", "*.png;;*.jpg");
+	if (0 == m_pixPath.size()) {
+		return;
+	}
+
+	// 将头像显示到标签
+	QPixmap pixmap;
+	pixmap.load(m_pixPath);
+
+	qreal widthRatio = (qreal)ui.headLabel->width() / (qreal)pixmap.width();
+	qreal heightRatio = (qreal)ui.headLabel->height() / (qreal)pixmap.height();
+
+	QSize size(pixmap.width() * widthRatio, pixmap.height() * heightRatio);
+	ui.headLabel->setPixmap(pixmap.scaled(size));
+}
+
+void QtQQ_Server::on_addBtn_clicked() {
+	// 检测员工姓名的输入
+	QString strName = ui.nameLineEdit->text();
+	if (!strName.size()) {
+		QMessageBox::information(this, tr("提示"), tr("请输入员工姓名！"));
+		ui.nameLineEdit->setFocus();
+		return;
+	}
+
+	// 检测员工选择头像
+	if (!m_pixPath.size()) {
+		QMessageBox::information(this, tr("提示"), tr("请选择员工头像路径！"));
+		return;
+	}
+
+	/* 数据库插入新的员工数据 */
+	// 获取员工QQ号
+	QString sql = QString("SELECT MAX(employeeID) FROM tab_employees;");
+	QSqlQuery maxEmployeeID(sql);
+	maxEmployeeID.exec();
+	maxEmployeeID.next();
+
+	int employeeID = maxEmployeeID.value(0).toInt() + 1;
+
+	// 员工部门QQ号
+	int depID = ui.employeeDepBox->currentData().toInt();
+
+	// 图片路径格式设置为  xxx\xxx\xxx
+	m_pixPath.replace("/", "\\\\");
+
+	sql = QString("INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(%1, %2, '%3', '%4')")
+		.arg(depID).arg(employeeID).arg(strName).arg(m_pixPath);
+	MyLogDEBUG(sql.toUtf8());
+
+	QSqlQuery insertSql(sql);
+	insertSql.exec();
+
+	QMessageBox::information(this, tr("提示"), tr("新增成功"));
+	m_pixPath = "";
+	ui.headLabel->setText(("  员工寸照"));
+	ui.nameLineEdit->clear();
+}
+
 
 
 void QtQQ_Server::onUDPbroadMsg(QByteArray &btData) {
 	QString text = QString("数据：%2 开始广播").arg(QString(btData));
-	MyLogDEBUG(text .toUtf8());
+	MyLogDEBUG(text.toUtf8());
 	qDebug() << QString::fromLocal8Bit(text.toLocal8Bit());
 }

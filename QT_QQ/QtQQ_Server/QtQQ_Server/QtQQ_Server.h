@@ -40,6 +40,9 @@ private slots:
 	void on_queryIDBtn_clicked();			// 查询员工 - 条件：QQ号
 	void on_logoutBtn_clicked();			// 注销员工 - 条件：QQ号
 
+	void on_selectPictureBtn_clicked();		// 选中图片按钮
+	void on_addBtn_clicked();				// 新增员工
+
 private:
     Ui::QtQQ_ServerClass ui;
 
@@ -56,4 +59,6 @@ private:
 	QMap<QString, QString> m_onlineMap;		// 在线状态
 
 	QTimer *m_timer;		// 定时刷新数据
+
+	QString m_pixPath;		// 头像路径
 };

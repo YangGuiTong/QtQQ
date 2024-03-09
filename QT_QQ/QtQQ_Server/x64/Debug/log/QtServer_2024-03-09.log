@@ -1513,3 +1513,32 @@
 2024-03-09 15:26:38.704 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
 2024-03-09 15:26:46.652 [DEBUG][QtQQ_Server::getEmployeeName][260]: SELECT employee_name FROM tab_employees WHERE employeeID=10006;
 2024-03-09 15:26:46.653 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][355]: 员工 研3 的企业QQ：10006 已被注销！
+2024-03-09 15:46:21.040 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 15:46:21.232 [DEBUG][QtQQ_Server::initComboBoxData][91]: SELECT * FROM tab_department;
+2024-03-09 15:46:21.651 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 16:19:17.079 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 16:19:17.274 [DEBUG][QtQQ_Server::initComboBoxData][91]: SELECT * FROM tab_department;
+2024-03-09 16:19:17.717 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 16:20:33.180 [DEBUG][QtQQ_Server::on_addBtn_clicked][413]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2001, 10014, '智赛拉', 'E:/git_my_demo/graduation_project/QT_QQ/QtQQ_Server/QtQQ_Server/QT.png')
+2024-03-09 16:26:37.828 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 16:26:38.055 [DEBUG][QtQQ_Server::initComboBoxData][91]: SELECT * FROM tab_department;
+2024-03-09 16:26:38.489 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 16:27:06.570 [DEBUG][QtQQ_Server::on_addBtn_clicked][416]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2002, 10015, '智赛洁', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-03-09 16:30:35.634 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 16:30:35.841 [DEBUG][QtQQ_Server::initComboBoxData][91]: SELECT * FROM tab_department;
+2024-03-09 16:30:36.225 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 16:30:47.425 [DEBUG][QtQQ_Server::on_addBtn_clicked][416]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2002, 10013, '智赛拉', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-03-09 16:31:26.572 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 16:31:26.748 [DEBUG][QtQQ_Server::initComboBoxData][91]: SELECT * FROM tab_department;
+2024-03-09 16:31:27.185 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 16:31:41.401 [DEBUG][QtQQ_Server::on_addBtn_clicked][416]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2003, 10014, '智赛洁', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
