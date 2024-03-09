@@ -117,8 +117,23 @@ void TalkWindowSheel::initTcpSocket() {
 	MyLogDEBUG(QString("初始化TCP客户端").toUtf8());
 
 	m_tcpClientSocket = new QTcpSocket(this);
-	m_tcpClientSocket->connectToHost("127.0.0.1", gtcpProt);
+	m_tcpClientSocket->connectToHost("127.0.0.1", gTcpPort);
 
+}
+
+void TalkWindowSheel::initUdpSocket() {
+	MyLogDEBUG(QString("初始化UDP客户端").toUtf8());
+
+	m_udpReceiver = new QUdpSocket(this);
+
+	for (quint16 port = gUdpPort; port < gUdpPort + 200; port++) {
+		if (m_udpReceiver->bind(port, QUdpSocket::ShareAddress)) {
+			// 只要有一个端口绑定成功就可以退出啦
+			break;
+		}
+	}
+
+	connect(m_udpReceiver, &QUdpSocket::readyRead, this, &TalkWindowSheel::processPendingData);
 }
 
 QStringList TalkWindowSheel::getEmployeeID() {
@@ -246,7 +261,8 @@ bool TalkWindowSheel::createJSFile(QStringList & employeesList) {
 // 文件数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(2) + 文件长度 + "bytes" + 文件名称 + "data_begin" + 文件内容
 // msgType 0表情信息	1文本信息	2文件信息
 void TalkWindowSheel::updateSendTcpMsg(QString & strData, int & msgType, QString fileName) {
-	MyLogDEBUG(QString("数据通过网络发送，strData = %1   msgType = %2   sFile = %3").toUtf8());
+	MyLogDEBUG(QString("数据通过网络发送，strData = %1   msgType = %2   fileName = %3")
+			   .arg(strData).arg(msgType).arg(fileName).toUtf8());
 
 	// 获取当前获得窗口
 	TalkWindow *curTalkWindow = dynamic_cast<TalkWindow *>(ui.rightStackedWidget->currentWidget());
@@ -305,6 +321,8 @@ void TalkWindowSheel::updateSendTcpMsg(QString & strData, int & msgType, QString
 		return;
 	}
 
+	MyLogDEBUG(QString("发送出去的数据：%1").arg(strSend).toUtf8());
+
 	QByteArray dataBt;
 	dataBt.resize(strSend.length());
 	dataBt = strSend.toUtf8();
@@ -339,4 +357,31 @@ void TalkWindowSheel::onEmotionItemClicked(int emotionNum) {
 	if (curTalkWindow) {
 		curTalkWindow->addEmotionImage(emotionNum);
 	}
+}
+
+/********************************************************************************************************************************************************
+	
+	数据包格式：
+		文本数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型（1） + 数据长度 + 数据
+		表情数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型（0） + 表情个数 + images + 表情名称
+		文件数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型（2） + 文件字节数 + bytes + 文件名 + data_begin + 文件数据
+
+		群聊标志占1位，0表示单聊，1表示群聊
+		信息类型占1位，0表示表情信息，1表示文本信息，2白哦是文件信息
+
+		QQ号占5位，群QQ号占4位，数据长度占5位，表情名称占3位
+		（注意：当群聊标志为1时，则数据包中没有收信息员工QQ号，而时收信息群QQ号；
+				当群聊标志为0时，则数据包中没有收信息群QQ号，而是收信息员工QQ号；）
+
+		群聊文本信息如：1100012001100005Hello		表示QQ10001向群2001发送文本信息，长度是5，数据是Hello
+		单聊图片信息如：0100011000202images060125		表示QQ10001向QQ10002发送表情信息，表情个数是2，表情名称是60.png和125.png
+		群聊文件信息如：1100052000210bytestest.txtdata_beginHelloworld	表示QQ10005向群2000发送文件信息，文件长度是10，文件名是test.txt，文件内容是Helloworld
+
+		群聊文件信息解析：1 10001 2001  1 00005 Hello
+		单聊图片信息解析：0 10001 10002 0 2 060和125
+		群聊文件信息解析：1 10005 2000  2 10 test.txt Helloworld
+
+*********************************************************************************************************************************************************/
+void TalkWindowSheel::processPendingData() {
+	MyLogDEBUG(QString("UDP收到数据啦").toUtf8());
 }

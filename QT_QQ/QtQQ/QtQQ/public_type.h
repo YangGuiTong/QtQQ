@@ -18,4 +18,5 @@ enum GroupType {
 };
 
 
-const int gtcpProt = 10086;
+const int gTcpPort = 10086;
+const int gUdpPort = 10010;

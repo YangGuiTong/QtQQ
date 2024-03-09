@@ -68,6 +68,7 @@ QtQQ_Server::QtQQ_Server(QWidget *parent)
 
 
 	initTcpSocket();
+	initUdpSocket();
 
 	ui.queryIDLineEdit->setValidator(new QRegExpValidator(QRegExp("^[0-9]+$"), ui.queryIDLineEdit));
 	ui.logoutIDLineEdit->setValidator(new QRegExpValidator(QRegExp("^[0-9]+$"), ui.logoutIDLineEdit));
@@ -118,11 +119,15 @@ void QtQQ_Server::initComboBoxData() {
 }
 
 void QtQQ_Server::initTcpSocket() {
-	m_tcpServer = new TcpServer(gtcpProt);
+	m_tcpServer = new TcpServer(gTcpPort);
 	m_tcpServer->run();
 
 	// 收到tcp客户端发来的信息后进行UDP广播
 	connect(m_tcpServer, &TcpServer::signalTcpMsgComes, this, &QtQQ_Server::onUDPbroadMsg);
+}
+
+void QtQQ_Server::initUdpSocket() { 
+	m_udpSender = new QUdpSocket(this);
 }
 
 bool QtQQ_Server::connectMySql() {
@@ -427,7 +432,12 @@ void QtQQ_Server::on_addBtn_clicked() {
 
 
 void QtQQ_Server::onUDPbroadMsg(QByteArray &btData) {
-	QString text = QString("数据：%2 开始广播").arg(QString(btData));
+	QString text = QString("数据：%1 开始广播").arg(QString(btData));
 	MyLogDEBUG(text.toUtf8());
 	qDebug() << QString::fromLocal8Bit(text.toLocal8Bit());
+
+
+	for (quint16 port = gUdpPort; port < gUdpPort + 200; port++) {
+		m_udpSender->writeDatagram(btData, btData.size(), QHostAddress::Broadcast, port);
+	}
 }

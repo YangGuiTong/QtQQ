@@ -7,6 +7,7 @@
 
 #include <QSqlQueryModel>
 #include <QTimer>
+#include <QUdpSocket>
 
 class QtQQ_Server : public QDialog
 {
@@ -19,6 +20,7 @@ public:
 private:
 	void initComboBoxData();		// 初始化组合框数据
 	void initTcpSocket();
+	void initUdpSocket();
 	bool connectMySql();
 	int getCompDepID();	// 获取公司群QQ号
 	void updateTaleData(int depID = 0, int employeeID = 0);
@@ -46,7 +48,8 @@ private slots:
 private:
     Ui::QtQQ_ServerClass ui;
 
-	TcpServer *m_tcpServer;
+	TcpServer *m_tcpServer;		// tcp服务端
+	QUdpSocket *m_udpSender;	// udp广播
 
 	int m_depID;			// 部门号
 	int m_employeeID;		// 员工QQ号

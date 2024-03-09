@@ -1542,3 +1542,20 @@
 2024-03-09 16:31:26.748 [DEBUG][QtQQ_Server::initComboBoxData][91]: SELECT * FROM tab_department;
 2024-03-09 16:31:27.185 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
 2024-03-09 16:31:41.401 [DEBUG][QtQQ_Server::on_addBtn_clicked][416]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2003, 10014, '智赛洁', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-03-09 17:28:40.456 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 17:28:40.645 [DEBUG][QtQQ_Server::initComboBoxData][92]: SELECT * FROM tab_department;
+2024-03-09 17:28:41.062 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 17:29:44.980 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1332
+2024-03-09 17:29:48.845 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1280
+2024-03-09 17:30:00.689 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100042002100004哈哈哈哈
+2024-03-09 17:30:00.689 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100042002100004哈哈哈哈 开始广播
+2024-03-09 17:30:06.974 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100052002100010oooooo噢噢噢噢
+2024-03-09 17:30:06.974 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100052002100010oooooo噢噢噢噢 开始广播
+2024-03-09 17:32:29.669 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1332  IP： 127.0.0.1  断开连接!
+2024-03-09 17:32:29.683 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1280  IP： 127.0.0.1  断开连接!
+2024-03-09 17:35:24.566 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1344
+2024-03-09 17:36:54.979 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100042000100010Nihaoya 你您
+2024-03-09 17:36:54.979 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100042000100010Nihaoya 你您 开始广播
+2024-03-09 17:39:29.635 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1344  IP： 127.0.0.1  断开连接!

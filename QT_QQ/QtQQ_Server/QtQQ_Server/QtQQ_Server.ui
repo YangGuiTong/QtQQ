@@ -323,6 +323,32 @@
       <string>...</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="deleteBtn">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>270</y>
+       <width>81</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>删除员工</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="deleteLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>请输入员工ID号</string>
+     </property>
+    </widget>
    </widget>
   </widget>
  </widget>

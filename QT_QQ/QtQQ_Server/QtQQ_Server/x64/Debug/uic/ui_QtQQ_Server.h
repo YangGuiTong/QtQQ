@@ -51,6 +51,8 @@ public:
     QPushButton *logoutBtn;
     QLineEdit *logoutIDLineEdit;
     QPushButton *selectPictureBtn;
+    QPushButton *deleteBtn;
+    QLineEdit *deleteLineEdit;
 
     void setupUi(QDialog *QtQQ_ServerClass)
     {
@@ -139,6 +141,12 @@ public:
         selectPictureBtn = new QPushButton(groupBox);
         selectPictureBtn->setObjectName(QStringLiteral("selectPictureBtn"));
         selectPictureBtn->setGeometry(QRect(200, 90, 81, 31));
+        deleteBtn = new QPushButton(groupBox);
+        deleteBtn->setObjectName(QStringLiteral("deleteBtn"));
+        deleteBtn->setGeometry(QRect(200, 270, 81, 28));
+        deleteLineEdit = new QLineEdit(groupBox);
+        deleteLineEdit->setObjectName(QStringLiteral("deleteLineEdit"));
+        deleteLineEdit->setGeometry(QRect(10, 270, 161, 21));
 
         retranslateUi(QtQQ_ServerClass);
 
@@ -162,6 +170,8 @@ public:
         logoutBtn->setText(QApplication::translate("QtQQ_ServerClass", "\346\263\250\351\224\200\345\221\230\345\267\245", Q_NULLPTR));
         logoutIDLineEdit->setPlaceholderText(QApplication::translate("QtQQ_ServerClass", "\350\257\267\350\276\223\345\205\245\345\221\230\345\267\245ID\345\217\267", Q_NULLPTR));
         selectPictureBtn->setText(QApplication::translate("QtQQ_ServerClass", "...", Q_NULLPTR));
+        deleteBtn->setText(QApplication::translate("QtQQ_ServerClass", "\345\210\240\351\231\244\345\221\230\345\267\245", Q_NULLPTR));
+        deleteLineEdit->setPlaceholderText(QApplication::translate("QtQQ_ServerClass", "\350\257\267\350\276\223\345\205\245\345\221\230\345\267\245ID\345\217\267", Q_NULLPTR));
     } // retranslateUi
 
 };

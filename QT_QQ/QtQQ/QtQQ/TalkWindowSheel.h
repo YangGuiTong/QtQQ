@@ -11,6 +11,7 @@
 #include <QListWidget>
 #include <QMap>
 #include <QTcpSocket>
+#include <QUdpSocket>
 
 
 class TalkWindowSheel : public BasicWindow
@@ -32,6 +33,7 @@ public:
 private:
 	void initControl();			// 初始化控件
 	void initTcpSocket();		// 初始化TCP
+	void initUdpSocket();		// 初始化UDP
 
 	QStringList getEmployeeID();	// 获取所有员工QQ号
 	bool createJSFile(QStringList &employeesList);
@@ -42,9 +44,14 @@ public slots:
 	// 客户端发送TCP数据（参数：数据，数据类型，文件）
 	void updateSendTcpMsg(QString &strData, int &msgType, QString fileName = "");
 
+	
+
 private slots:
 	void onTalkWindowItemClicked(QListWidgetItem *item);	// 左侧列表点击后执行的槽函数
 	void onEmotionItemClicked(int emotionNum);				// 表情被选中
+
+	// 处理UDP广播收到的数据
+	void processPendingData();
 
 private:
 	Ui::TalkWindowClass ui;
@@ -53,4 +60,5 @@ private:
 
 private:
 	QTcpSocket *m_tcpClientSocket;		// tcp客户端
+	QUdpSocket *m_udpReceiver;			// udp接收端
 };
