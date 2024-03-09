@@ -19,10 +19,10 @@ void TcpSocket::onReceiveData() {
 	if (!buffer.isEmpty()) {
 		QString strData = QString::fromLocal8Bit(buffer);
 
-		QString text = QString("收到描述符 %1 的数据：%2")
-			.arg(m_descriptor).arg(strData);
-		MyLogDEBUG(text .toUtf8());
-		qDebug() << text;
+		//QString text = QString("收到描述符 %1 的数据：%2")
+		//	.arg(m_descriptor).arg(strData);
+		//MyLogDEBUG(text .toUtf8());
+		//qDebug() << text;
 
 		// 发射接收到了客户端数据的信号
 		emit signalGetDataFromClient(buffer, m_descriptor);

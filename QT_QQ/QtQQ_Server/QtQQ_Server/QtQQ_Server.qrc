@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="QtQQ_Server">
+    <qresource prefix="/">
+        <file>QT.png</file>
     </qresource>
 </RCC>

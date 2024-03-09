@@ -264,8 +264,8 @@ void TalkWindowSheel::updateSendTcpMsg(QString & strData, int & msgType, QString
 	}
 
 
-	int dataLength = QString::number(strData.length()).length();
 	const int sourceDataLength = strData.length();
+	int dataLength = QString::number(sourceDataLength).length();
 	QString strdataLength = "";
 
 	if (1 == msgType) {		// 发送文本信息
