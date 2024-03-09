@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_QtQQ_Server_t {
-    QByteArrayData data[5];
-    char stringdata0[46];
+    QByteArrayData data[9];
+    char stringdata0[129];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -35,11 +35,16 @@ QT_MOC_LITERAL(0, 0, 11), // "QtQQ_Server"
 QT_MOC_LITERAL(1, 12, 13), // "onUDPbroadMsg"
 QT_MOC_LITERAL(2, 26, 0), // ""
 QT_MOC_LITERAL(3, 27, 11), // "QByteArray&"
-QT_MOC_LITERAL(4, 39, 6) // "btData"
+QT_MOC_LITERAL(4, 39, 6), // "btData"
+QT_MOC_LITERAL(5, 46, 9), // "onRefresh"
+QT_MOC_LITERAL(6, 56, 29), // "on_queryDepartmentBtn_clicked"
+QT_MOC_LITERAL(7, 86, 21), // "on_queryIDBtn_clicked"
+QT_MOC_LITERAL(8, 108, 20) // "on_logoutBtn_clicked"
 
     },
     "QtQQ_Server\0onUDPbroadMsg\0\0QByteArray&\0"
-    "btData"
+    "btData\0onRefresh\0on_queryDepartmentBtn_clicked\0"
+    "on_queryIDBtn_clicked\0on_logoutBtn_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -49,7 +54,7 @@ static const uint qt_meta_data_QtQQ_Server[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -57,10 +62,18 @@ static const uint qt_meta_data_QtQQ_Server[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,   19,    2, 0x08 /* Private */,
+       1,    1,   39,    2, 0x08 /* Private */,
+       5,    0,   42,    2, 0x08 /* Private */,
+       6,    0,   43,    2, 0x08 /* Private */,
+       7,    0,   44,    2, 0x08 /* Private */,
+       8,    0,   45,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -72,6 +85,10 @@ void QtQQ_Server::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->onUDPbroadMsg((*reinterpret_cast< QByteArray(*)>(_a[1]))); break;
+        case 1: _t->onRefresh(); break;
+        case 2: _t->on_queryDepartmentBtn_clicked(); break;
+        case 3: _t->on_queryIDBtn_clicked(); break;
+        case 4: _t->on_logoutBtn_clicked(); break;
         default: ;
         }
     }
@@ -102,13 +119,13 @@ int QtQQ_Server::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 5)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 1;
+        _id -= 5;
     }
     return _id;
 }

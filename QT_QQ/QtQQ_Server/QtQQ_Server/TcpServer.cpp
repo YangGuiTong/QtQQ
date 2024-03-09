@@ -9,15 +9,15 @@ TcpServer::~TcpServer() { }
 bool TcpServer::run() {
 
 	if (this->listen(QHostAddress::AnyIPv4, m_port)) {
-		QString text = QString::fromLocal8Bit(QString("服务的监听端口 %1 成功！").arg(m_port).toUtf8());
+		QString text = QString::fromLocal8Bit(QString("服务器监听端口 %1 成功！").arg(m_port).toUtf8());
 		MyLogDEBUG(text.toUtf8());
 		qDebug() << QString::fromLocal8Bit(text.toUtf8());
 
 		return true;
 	}
 
-	MyLogDEBUG(QString("服务的监听端口 %1 失败！").arg(m_port).toUtf8());
-	qDebug() << QString::fromLocal8Bit(QString("服务的监听端口 %1 失败！").arg(m_port).toLocal8Bit());
+	MyLogDEBUG(QString("服务器监听端口 %1 失败！").arg(m_port).toUtf8());
+	qDebug() << QString::fromLocal8Bit(QString("服务器监听端口 %1 失败！").arg(m_port).toLocal8Bit());
 	
 	return false;
 }

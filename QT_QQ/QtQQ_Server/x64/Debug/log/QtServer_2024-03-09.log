@@ -124,3 +124,1392 @@
 2024-03-09 11:45:26.600 [DEBUG][QtQQ_Server::updateTaleData][95]: 更新表格数据：depID = 0, employeeID = 0
 2024-03-09 11:45:26.600 [DEBUG][QtQQ_Server::updateTaleData][111]: SELECT * FROM tab_employees;
 2024-03-09 11:45:26.995 [DEBUG][TcpServer::run][13]: 服务的监听端口 10086 成功！
+2024-03-09 13:26:37.954 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:26:38.374 [DEBUG][QtQQ_Server::initComboBoxData][89]: SELECT * FROM tab_department;
+2024-03-09 13:26:38.376 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:38.377 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:38.748 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 13:26:39.051 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:39.051 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:39.353 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:39.353 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:39.677 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:39.677 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:39.988 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:39.988 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:40.302 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:40.303 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:40.606 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:40.606 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:40.928 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:40.928 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:41.241 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:41.241 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:41.542 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:41.543 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:41.858 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:41.859 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:42.170 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:42.171 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:42.484 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:42.484 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:42.800 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:42.800 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:43.112 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:43.113 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:43.426 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:43.426 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:43.732 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:43.733 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:44.042 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:44.042 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:44.355 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:44.355 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:44.678 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:44.679 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:44.988 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:44.988 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:45.291 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:45.292 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:45.605 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:45.606 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:45.928 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:45.929 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:46.228 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:46.229 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:46.555 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:46.555 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:46.864 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:46.865 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:47.175 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:47.175 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:47.479 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:26:47.479 [DEBUG][QtQQ_Server::updateTaleData][158]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:26:47.644 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:47.644 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:47.803 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:47.804 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:48.104 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:48.104 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:48.418 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:48.419 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:48.734 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:48.735 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:49.048 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:49.049 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:49.357 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:49.358 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:49.665 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:49.666 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:49.981 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:49.981 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:50.305 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:50.306 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:50.517 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:50.517 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:50.604 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:50.604 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:50.917 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:50.918 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:51.231 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:51.232 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:51.548 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:51.549 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:51.860 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:51.861 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:52.167 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:52.168 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:52.481 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:52.481 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:52.791 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:52.792 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:53.116 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:53.116 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:53.428 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:53.429 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:53.463 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:53.463 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:53.731 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:53.732 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:54.043 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:54.044 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:54.139 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:54.139 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:54.284 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:54.285 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:54.355 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:54.356 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:54.667 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:54.667 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:54.981 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:54.981 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:55.293 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:55.294 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:55.607 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:55.608 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:55.920 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:55.921 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:56.231 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:56.231 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:56.418 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:56.418 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:56.548 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:56.549 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:56.855 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:56.855 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:56.889 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:56.890 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:57.018 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:57.018 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:57.174 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:57.175 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:57.208 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:57.208 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:57.366 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:57.366 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:57.487 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:57.488 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:57.537 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:57.537 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:57.710 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:57.711 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:57.794 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:57.795 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:58.113 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:58.113 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:58.422 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:58.422 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:58.732 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:58.733 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:59.048 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:59.048 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:59.359 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:59.359 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:59.674 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:59.675 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:26:59.986 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:26:59.986 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:27:00.294 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:27:00.294 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:27:00.605 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:27:00.605 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:27:00.922 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:27:00.922 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:27:01.236 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:27:01.237 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:27:01.541 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:27:01.542 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:27:01.860 [DEBUG][QtQQ_Server::updateTaleData][147]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:27:01.860 [DEBUG][QtQQ_Server::updateTaleData][163]: SELECT * FROM tab_employees;
+2024-03-09 13:28:04.600 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:28:04.798 [DEBUG][QtQQ_Server::initComboBoxData][89]: SELECT * FROM tab_department;
+2024-03-09 13:29:03.339 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:29:03.529 [DEBUG][QtQQ_Server::initComboBoxData][88]: SELECT * FROM tab_department;
+2024-03-09 13:29:38.671 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:29:38.672 [DEBUG][QtQQ_Server::updateTaleData][162]: SELECT * FROM tab_employees;
+2024-03-09 13:29:39.026 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 13:29:39.334 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:39.335 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:39.649 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:39.650 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:39.947 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:39.948 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:40.259 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:40.260 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:40.575 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:40.576 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:40.888 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:40.888 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:41.200 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:41.200 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:41.512 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:41.512 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:41.832 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:41.833 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:42.135 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:42.135 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:42.449 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:42.449 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:42.764 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:42.764 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:43.077 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:43.077 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:43.389 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:43.390 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:43.698 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:43.699 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:44.017 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:44.018 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:44.332 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:44.333 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:44.646 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:44.646 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:44.950 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:44.951 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:45.274 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:45.275 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:45.574 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:45.575 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:45.886 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:45.886 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:46.202 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:46.203 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:46.515 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:46.516 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:46.831 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:46.831 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:47.137 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:47.138 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:47.464 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:47.464 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:47.776 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:47.777 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:48.091 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:48.091 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:48.404 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:48.404 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:48.718 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:48.719 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:49.030 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:49.031 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:49.343 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:49.343 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:49.655 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:49.656 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:49.971 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:49.972 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:50.283 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:50.283 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:29:50.601 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 0, employeeID = 3
+2024-03-09 13:29:50.602 [DEBUG][QtQQ_Server::updateTaleData][157]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:30:03.869 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:03.870 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:03.873 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:03.874 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:04.028 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:04.029 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:04.342 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:04.342 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:04.658 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:04.659 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:04.966 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:04.967 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:05.279 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:05.280 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:05.589 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:05.590 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:05.900 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:05.900 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:06.229 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:06.229 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:06.311 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:06.311 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:06.525 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:06.526 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:06.852 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:06.852 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:07.162 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:07.163 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:07.465 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:07.466 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:07.778 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:07.778 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:07.931 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:07.931 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:08.092 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:08.093 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:08.179 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:08.179 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:08.404 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:08.404 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:08.719 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:08.720 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:09.033 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:09.033 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:09.342 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:09.343 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:09.650 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:09.651 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:09.970 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:09.971 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:10.279 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:10.279 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:10.591 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:10.592 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:10.901 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:10.901 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:11.217 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:11.217 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:11.530 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:30:11.531 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:30:11.649 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:30:11.649 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:30:11.843 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:30:11.844 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:30:12.150 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:30:12.151 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:30:12.475 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:30:12.475 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:30:12.786 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:30:12.787 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:30:13.099 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:30:13.099 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:30:13.402 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:30:13.403 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:30:13.715 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:30:13.716 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:30:14.028 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:30:14.028 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:30:14.199 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:14.199 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:14.340 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:14.340 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:14.653 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:14.653 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:14.969 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:14.969 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:15.283 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:15.284 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:15.594 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:15.595 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:15.910 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:15.911 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:16.220 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:16.220 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:16.532 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:16.533 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:16.847 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:16.847 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:17.152 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:17.152 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:17.463 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:17.464 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:17.779 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:30:17.779 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:30:18.065 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:18.065 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:18.093 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:18.093 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:18.405 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:18.406 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:18.721 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:18.722 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:19.035 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:19.036 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:19.348 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:19.349 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:19.659 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:19.659 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:19.962 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:19.963 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:20.293 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:20.294 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:20.589 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:20.589 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:20.907 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:20.907 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:21.219 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:21.219 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:21.536 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:21.537 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:21.838 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:21.838 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:22.150 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:22.151 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:22.466 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:22.466 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:22.776 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:22.776 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:23.094 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:23.095 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:23.409 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:23.409 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:23.719 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:23.720 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:24.036 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:24.037 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:24.352 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:24.353 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:24.665 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:24.665 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:24.969 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:24.969 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:25.279 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:25.279 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:25.595 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:25.595 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:25.905 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:25.905 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:26.219 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:26.220 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:26.534 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:26.535 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:26.846 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:26.846 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:27.159 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:30:27.160 [DEBUG][QtQQ_Server::updateTaleData][152]: SELECT * FROM tab_employees WHERE departmentID=2000;
+2024-03-09 13:30:37.078 [DEBUG][QtQQ_Server::updateTaleData][146]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:35:57.450 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:35:57.640 [DEBUG][QtQQ_Server::initComboBoxData][88]: SELECT * FROM tab_department;
+2024-03-09 13:35:57.643 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:35:57.643 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:35:58.061 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 13:35:58.359 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:35:58.359 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:35:58.672 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:35:58.672 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:35:58.982 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:35:58.983 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:35:59.294 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:35:59.295 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:35:59.617 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:35:59.618 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:35:59.918 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:35:59.919 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:36:00.244 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:36:00.244 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:36:00.546 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:36:00.547 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:36:00.853 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:36:00.853 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:36:01.167 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:36:01.168 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:36:01.482 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:36:01.483 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:36:17.641 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:22.457 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:22.465 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:22.465 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:22.763 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:22.764 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:23.074 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:23.075 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:23.388 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:23.388 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:23.699 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:23.700 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:24.013 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:24.013 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:24.327 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:24.328 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:24.636 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:24.637 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:24.965 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:24.965 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:25.261 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:25.262 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:25.574 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:25.574 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:25.888 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:25.889 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:26.199 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:26.200 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:34.606 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:44.003 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:44.006 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:44.006 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:44.044 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:44.045 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:44.349 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:44.349 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:44.652 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:44.652 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:44.964 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:44.965 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:45.284 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:45.285 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:45.590 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:45.591 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:45.904 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:45.904 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:46.221 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:46.222 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:46.535 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:46.535 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:46.849 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:46.850 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:47.163 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:47.164 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:47.465 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:47.465 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:47.777 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:47.778 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:47.970 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:47.971 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:48.090 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:48.091 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:48.406 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:48.406 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:48.721 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:48.721 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:49.030 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:49.031 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:49.344 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:49.344 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:49.660 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:49.661 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:49.966 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:49.967 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:50.278 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:50.279 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:50.594 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:50.594 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:50.901 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:50.902 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:51.226 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:37:51.226 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:37:51.433 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:51.434 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:51.527 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:51.528 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:51.841 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:51.842 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:52.154 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:52.154 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:52.467 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:52.467 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:52.778 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:52.778 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:53.089 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:53.089 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:53.418 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:53.418 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:53.714 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:53.715 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:54.028 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:37:54.029 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:37:54.296 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:54.296 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:54.342 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:54.343 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:54.659 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:54.660 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:54.972 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:54.973 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:55.288 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:55.289 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:55.588 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:55.588 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:55.901 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:55.902 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:56.214 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:56.215 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:56.529 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:56.530 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:56.838 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:56.838 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:57.150 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:57.150 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:57.464 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:57.464 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:57.780 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:37:57.781 [DEBUG][QtQQ_Server::updateTaleData][160]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:37:58.000 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:58.000 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:58.091 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:58.092 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:58.405 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:58.405 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:58.717 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:58.718 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:59.035 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:59.036 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:59.351 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:59.351 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:59.664 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:59.665 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:37:59.968 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:37:59.968 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:00.278 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:00.279 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:00.592 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:00.593 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:00.908 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:00.909 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:01.221 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:01.222 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:01.536 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:01.537 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:01.839 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:01.839 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:02.163 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:02.164 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:02.468 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:02.469 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:02.778 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:02.779 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:03.095 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:03.095 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:03.409 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:03.410 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:03.718 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:03.718 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:04.038 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:04.038 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:04.352 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:04.352 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:04.652 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:04.652 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:04.965 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:04.965 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:05.280 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:05.281 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:05.590 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:05.591 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:05.904 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:05.904 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:06.218 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:06.219 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:06.532 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:06.533 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:06.845 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:06.845 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:07.161 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:07.161 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:07.468 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:07.469 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:07.775 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:07.775 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:08.092 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:08.092 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:08.404 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:08.405 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:08.718 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:08.719 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:09.030 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:09.031 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:09.345 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:09.346 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:09.657 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:09.658 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:09.968 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:09.969 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:10.285 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:10.285 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:10.590 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:10.591 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:10.903 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:10.904 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:11.215 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:11.215 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:11.535 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:38:11.536 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:11.799 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:11.799 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:11.838 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:11.838 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:12.164 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:12.165 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:12.199 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:12.199 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:12.330 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:12.331 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:12.478 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:12.478 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:12.510 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:12.511 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:12.778 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:12.778 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:13.091 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:13.092 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:13.403 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:13.403 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:38:13.716 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:38:13.717 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:41:52.003 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:41:52.196 [DEBUG][QtQQ_Server::initComboBoxData][88]: SELECT * FROM tab_department;
+2024-03-09 13:41:52.198 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:41:52.198 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:41:52.605 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 13:41:52.902 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:41:52.903 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:41:53.214 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:41:53.215 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:41:53.527 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:41:53.527 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:41:53.838 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:41:53.839 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:41:54.153 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:41:54.154 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:42:54.594 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:42:54.773 [DEBUG][QtQQ_Server::initComboBoxData][88]: SELECT * FROM tab_department;
+2024-03-09 13:49:37.286 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:49:37.471 [DEBUG][QtQQ_Server::initComboBoxData][89]: SELECT * FROM tab_department;
+2024-03-09 13:49:37.473 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:37.474 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:37.899 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 13:49:38.204 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:38.204 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:38.517 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:38.517 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:38.825 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:38.825 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:39.139 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:39.139 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:39.450 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:39.451 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:39.776 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:39.777 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:40.072 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:40.073 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:40.385 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:40.386 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:40.699 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:40.699 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:41.010 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:41.011 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:41.335 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:41.336 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:41.648 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:41.649 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:41.947 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:41.947 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:42.275 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:42.275 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:42.575 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:42.575 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:42.899 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:42.900 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:43.213 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:43.214 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:43.524 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:49:43.525 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:49:43.669 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:43.669 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:43.825 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:43.826 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:44.150 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:44.150 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:44.466 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:44.466 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:44.780 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:44.780 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:45.091 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:45.092 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:45.404 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:45.404 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:45.722 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:45.722 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:46.027 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:46.028 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:46.345 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:49:46.345 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:46.518 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:46.518 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:46.651 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:46.651 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:46.974 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:46.975 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:47.288 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:47.289 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:47.588 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:47.588 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:47.901 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:47.901 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:48.214 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:48.214 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:48.531 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:48.531 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:48.841 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:48.842 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:49.153 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:49:49.153 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:49:49.408 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:49.409 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:49.469 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:49.470 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:49.783 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:49.783 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:50.093 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:50.094 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:50.405 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:50.405 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:50.720 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:50.721 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:51.027 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:51.027 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:51.345 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:51.345 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:51.585 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:51.585 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:51.652 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:51.652 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:51.973 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:51.974 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:52.275 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:52.276 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:52.598 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:52.599 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:52.903 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:52.904 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:53.214 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:53.215 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:53.423 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:53.423 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:53.529 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:53.529 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:53.842 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:53.843 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:54.157 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:54.157 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:54.467 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:54.468 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:54.784 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:54.784 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:55.102 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:55.103 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:55.401 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:55.402 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:55.727 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:49:55.727 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:49:55.874 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:55.874 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:56.028 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:56.029 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:56.340 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:56.340 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:56.653 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:56.653 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:56.966 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:56.966 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:57.278 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:57.278 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:57.591 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:57.592 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:57.904 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:57.904 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:58.219 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:58.220 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:58.526 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:58.526 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:58.842 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:58.842 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:59.155 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:59.155 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:59.466 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:59.467 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:49:59.785 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:49:59.787 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:00.092 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:00.093 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:00.400 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:00.401 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:00.713 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:00.714 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:01.026 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:01.027 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:01.341 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:01.341 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:01.655 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:01.656 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:01.970 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:01.971 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:02.283 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:02.283 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:02.593 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:02.594 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:02.910 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:02.911 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:03.223 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:03.223 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:03.525 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:03.525 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:03.844 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:03.844 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:04.152 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:04.153 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:04.464 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:04.465 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:04.777 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:04.777 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:05.090 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:05.091 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:05.402 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:05.403 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:05.467 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:05.467 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:05.715 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:05.716 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:06.027 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:06.027 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:06.341 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:06.342 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:06.656 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:06.657 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:06.973 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:06.973 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:07.281 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:07.281 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:07.590 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:07.590 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:07.905 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:07.905 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:08.220 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:50:08.221 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:50:08.297 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:08.297 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:08.537 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:08.537 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:08.845 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:08.846 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:09.165 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:09.165 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:09.464 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:09.464 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:09.775 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:09.775 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:10.088 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:10.088 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:10.401 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:10.402 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:10.715 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:10.715 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:10.898 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:10.898 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:11.028 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:11.029 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:11.343 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:11.344 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:11.654 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:11.655 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:11.976 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:11.977 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:12.279 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:12.279 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:23.504 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:50:23.710 [DEBUG][QtQQ_Server::initComboBoxData][89]: SELECT * FROM tab_department;
+2024-03-09 13:50:23.712 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:50:23.712 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:24.118 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 13:50:24.416 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:50:24.417 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:50:24.730 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:50:24.730 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:50:25.043 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:50:25.043 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:50:25.358 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:50:25.358 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:50:25.668 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:50:25.668 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:50:25.981 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:50:25.982 [DEBUG][QtQQ_Server::updateTaleData][166]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:50:26.053 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:26.053 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:26.293 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:26.293 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:26.606 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:26.607 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:26.919 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:26.919 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:27.229 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:27.230 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:27.542 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:27.542 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:27.857 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:27.858 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:28.179 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:28.180 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:28.480 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:28.481 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:28.795 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:28.795 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:29.109 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:29.109 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:29.420 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:29.421 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:29.732 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:29.733 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:30.044 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:30.044 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:30.358 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:30.358 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:30.670 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:30.670 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:30.984 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:30.984 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:31.295 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:31.296 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:31.615 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:50:31.616 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:50:31.650 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:50:31.650 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:50:31.927 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:50:31.927 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:50:32.229 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:50:32.230 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:50:32.543 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:50:32.543 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:50:32.854 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:50:32.854 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:50:33.170 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:50:33.170 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:50:33.485 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:50:33.486 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:50:33.797 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:50:33.797 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:50:34.108 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:50:34.109 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:50:34.358 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:34.358 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:34.419 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:34.420 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:34.732 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:34.733 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:35.045 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:35.046 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:50:35.356 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:50:35.357 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:51:42.136 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:51:42.344 [DEBUG][QtQQ_Server::initComboBoxData][88]: SELECT * FROM tab_department;
+2024-03-09 13:52:06.142 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:52:06.314 [DEBUG][QtQQ_Server::initComboBoxData][88]: SELECT * FROM tab_department;
+2024-03-09 13:52:20.216 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:52:27.157 [DEBUG][QtQQ_Server::updateTaleData][170]: SELECT * FROM tab_employees;
+2024-03-09 13:54:14.799 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 13:54:38.653 [DEBUG][QtQQ_Server::updateTaleData][154]: 更新表格数据：depID = 2000, employeeID = 3
+2024-03-09 13:54:59.418 [DEBUG][QtQQ_Server::updateTaleData][165]: SELECT * FROM tab_employees WHERE employeeID=3;
+2024-03-09 13:57:04.178 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:57:04.379 [DEBUG][QtQQ_Server::initComboBoxData][89]: SELECT * FROM tab_department;
+2024-03-09 13:57:04.381 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 0, employeeID = 0
+2024-03-09 13:57:04.382 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:04.793 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 13:57:05.096 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:05.097 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:05.403 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:05.403 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:05.715 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:05.715 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:06.037 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:06.038 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:06.338 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:06.338 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:06.662 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:06.663 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:06.977 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:06.978 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:07.277 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:07.278 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:07.592 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:07.592 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:07.904 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:07.904 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:08.221 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:08.222 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:08.526 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:08.526 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:08.838 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:08.839 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:09.152 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:09.153 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:09.473 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:09.473 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:09.786 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:09.786 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:10.068 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:10.068 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:10.101 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:10.101 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:10.244 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:10.245 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:10.404 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:10.404 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:10.438 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:10.439 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:10.574 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:10.574 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:10.727 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:10.727 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:10.759 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:10.760 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:11.028 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:11.029 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:11.342 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:11.342 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:11.655 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:11.656 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:11.963 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:11.964 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:12.289 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:12.290 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:12.574 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:57:12.574 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:57:12.602 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:57:12.602 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:57:12.905 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:57:12.905 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:57:13.216 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:57:13.217 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:57:13.528 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:57:13.528 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:57:13.844 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:57:13.844 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:57:14.153 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2001, employeeID = 0
+2024-03-09 13:57:14.153 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2001;
+2024-03-09 13:57:14.446 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:57:14.446 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:57:14.466 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:57:14.467 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:57:14.782 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:57:14.783 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:57:15.088 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:57:15.088 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:57:15.417 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:57:15.417 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:57:15.715 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:57:15.715 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:57:16.027 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:57:16.027 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:57:16.341 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:57:16.342 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:57:16.656 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2002, employeeID = 0
+2024-03-09 13:57:16.657 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2002;
+2024-03-09 13:57:16.785 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:57:16.785 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:57:16.969 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:57:16.969 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:57:17.286 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:57:17.286 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:57:17.592 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:57:17.593 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:57:17.918 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:57:17.918 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:57:18.227 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:57:18.228 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:57:18.544 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2003, employeeID = 0
+2024-03-09 13:57:18.545 [DEBUG][QtQQ_Server::updateTaleData][161]: SELECT * FROM tab_employees WHERE departmentID=2003;
+2024-03-09 13:57:18.736 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:18.736 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:18.856 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:18.857 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:19.171 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:19.172 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:19.487 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:19.488 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:19.800 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:19.800 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:20.106 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:20.107 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:20.422 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:20.423 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:20.743 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:20.744 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:21.042 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:21.042 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:21.356 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:21.356 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:21.674 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:21.675 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:21.990 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:21.991 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:22.319 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:22.319 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:22.607 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:22.608 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:22.919 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:22.920 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:23.236 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:23.237 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:23.547 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:23.548 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:23.859 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:23.860 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:24.167 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:24.167 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:24.493 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:24.493 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:24.806 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:24.807 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:25.114 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:25.114 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:25.419 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:25.419 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:25.730 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:25.731 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:26.044 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:26.045 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:26.355 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:26.356 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:26.666 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:26.667 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:26.983 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:26.984 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:27.294 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:27.294 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:27.607 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:27.608 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:27.919 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:27.920 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:28.231 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:28.231 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:28.541 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:28.541 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:28.860 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:28.860 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:29.167 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:29.168 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:29.492 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:29.493 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:29.798 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:29.798 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:30.104 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:30.105 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:30.423 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:30.423 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:30.732 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:30.733 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:31.047 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:31.048 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:31.360 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:31.361 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:31.674 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:31.674 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:31.988 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:31.989 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:32.295 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:32.296 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:32.603 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:32.603 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:32.923 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:32.923 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:33.231 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:33.232 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:33.568 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:33.568 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:33.858 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:33.858 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:34.172 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:34.172 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:34.488 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:34.489 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:34.792 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:34.792 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:57:35.106 [DEBUG][QtQQ_Server::updateTaleData][155]: 更新表格数据：depID = 2000, employeeID = 0
+2024-03-09 13:57:35.107 [DEBUG][QtQQ_Server::updateTaleData][171]: SELECT * FROM tab_employees;
+2024-03-09 13:59:53.266 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 13:59:53.463 [DEBUG][QtQQ_Server::initComboBoxData][89]: SELECT * FROM tab_department;
+2024-03-09 13:59:53.880 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 13:59:56.497 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][247]: 查询 公司群 下的所有员工信息
+2024-03-09 13:59:57.201 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][247]: 查询 公司群 下的所有员工信息
+2024-03-09 13:59:57.444 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][247]: 查询 公司群 下的所有员工信息
+2024-03-09 13:59:59.578 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][247]: 查询 人事部 下的所有员工信息
+2024-03-09 14:02:59.812 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 14:03:00.009 [DEBUG][QtQQ_Server::initComboBoxData][89]: SELECT * FROM tab_department;
+2024-03-09 14:03:00.435 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 14:03:06.129 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][257]: 查询 人事部 员工信息，编号：2001
+2024-03-09 14:03:10.133 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][257]: 查询 人事部 员工信息，编号：2001
+2024-03-09 14:03:29.764 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][257]: 查询 人事部 员工信息，编号：2001
+2024-03-09 14:07:04.086 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 14:07:04.281 [DEBUG][QtQQ_Server::initComboBoxData][89]: SELECT * FROM tab_department;
+2024-03-09 14:07:04.679 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 14:07:07.885 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][263]: 查询QQ号 123 员工信息
+2024-03-09 14:07:12.521 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][263]: 查询QQ号 10001 员工信息
+2024-03-09 14:07:15.607 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][263]: 查询QQ号 10006 员工信息
+2024-03-09 14:07:19.082 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][263]: 查询QQ号 10009 员工信息
+2024-03-09 14:07:20.215 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][263]: 查询QQ号 10009 员工信息
+2024-03-09 14:07:21.415 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][247]: 查询 公司群 下的所有员工信息，编号：2000
+2024-03-09 14:07:25.213 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][263]: 查询QQ号 10012 员工信息
+2024-03-09 14:19:34.123 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 14:19:34.315 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 14:19:34.724 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 14:19:46.947 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][264]: 查询QQ号 243542435 员工信息
+2024-03-09 14:30:20.748 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 14:30:20.925 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 14:30:21.332 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 14:32:14.892 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 14:32:15.084 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 14:32:15.519 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 14:32:30.990 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][277]: QQ号 10002 员工被注销
+2024-03-09 14:32:30.991 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][279]: UPDATE tab_employees SET status=2, online=1 WHERE employeeID=10002
+2024-03-09 14:33:18.781 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][248]: 查询 人事部 下的所有员工信息，编号：2001
+2024-03-09 14:38:50.055 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 14:38:50.254 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 14:38:50.680 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 14:44:49.200 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 14:44:49.403 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 14:44:49.831 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 14:46:30.591 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 14:46:30.817 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 14:46:31.243 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 14:46:45.491 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][304]: QQ号 10011 员工被注销
+2024-03-09 14:46:54.942 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][248]: 查询 研发部 下的所有员工信息，编号：2002
+2024-03-09 14:46:56.924 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][248]: 查询 市场部 下的所有员工信息，编号：2003
+2024-03-09 14:51:19.908 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 14:51:20.121 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 14:51:20.563 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 14:51:24.344 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][251]: 查询 公司群 下的所有员工信息，编号：2000
+2024-03-09 14:51:33.734 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][251]: 查询 公司群 下的所有员工信息，编号：2000
+2024-03-09 15:07:41.461 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 15:07:41.656 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 15:07:42.101 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 15:07:48.217 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][269]: 查询 研发部 下的所有员工信息，编号：2002
+2024-03-09 15:07:56.187 [DEBUG][QtQQ_Server::getDepartment][243]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-03-09 15:07:56.190 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][300]: 查询QQ号 10003 员工信息
+2024-03-09 15:08:06.712 [DEBUG][QtQQ_Server::getDepartment][243]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-03-09 15:10:12.543 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 15:10:12.733 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 15:10:13.216 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 15:10:16.177 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][269]: 查询 人事部 下的所有员工信息，编号：2001
+2024-03-09 15:10:21.991 [DEBUG][QtQQ_Server::getDepartment][243]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-03-09 15:10:21.991 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][301]: 查询QQ号 10006 员工信息
+2024-03-09 15:11:03.022 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 15:11:03.212 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 15:11:03.673 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 15:11:07.004 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][269]: 查询 市场部 下的所有员工信息，编号：2003
+2024-03-09 15:11:14.336 [DEBUG][QtQQ_Server::getDepartment][243]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10004);
+2024-03-09 15:11:14.336 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][302]: 查询QQ号 10004 员工信息
+2024-03-09 15:11:20.054 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][269]: 查询 研发部 下的所有员工信息，编号：2002
+2024-03-09 15:26:38.138 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-09 15:26:38.327 [DEBUG][QtQQ_Server::initComboBoxData][90]: SELECT * FROM tab_department;
+2024-03-09 15:26:38.704 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-09 15:26:46.652 [DEBUG][QtQQ_Server::getEmployeeName][260]: SELECT employee_name FROM tab_employees WHERE employeeID=10006;
+2024-03-09 15:26:46.653 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][355]: 员工 研3 的企业QQ：10006 已被注销！

@@ -1,7 +1,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
 <Qt_DEFINES_>_WINDOWS;UNICODE;_UNICODE;WIN32;WIN64;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_SQL_LIB;QT_CORE_LIB</Qt_DEFINES_>
-<Qt_INCLUDEPATH_>C:\Users\17634\AppData\Local\Temp\vuspb11x.t2t;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtGui;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtNetwork;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtSql;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtCore;C:\Users\17634\AppData\Local\Temp\vuspb11x.t2t;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_INCLUDEPATH_>C:\Users\17634\AppData\Local\Temp\osf1nqop.rif;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtGui;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtNetwork;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtSql;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtCore;C:\Users\17634\AppData\Local\Temp\osf1nqop.rif;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
 <Qt_STDCPP_></Qt_STDCPP_>
 <Qt_RUNTIME_>MultiThreadedDebugDLL</Qt_RUNTIME_>
 <Qt_CL_OPTIONS_>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding</Qt_CL_OPTIONS_>
