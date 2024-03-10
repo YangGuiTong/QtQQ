@@ -38,6 +38,9 @@ private:
 	QStringList getEmployeeID();	// 获取所有员工QQ号
 	bool createJSFile(QStringList &employeesList);
 
+	// 根据员工QQ号获取员工名字
+	QString getEmployeeName(int employeesID);
+
 public slots:
 	void onEmotionBtnClicked(bool);		// 表情按钮点击后执行的槽函数
 

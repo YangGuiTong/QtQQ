@@ -7,6 +7,7 @@
 #include <QSqlQueryModel>
 #include <QMessageBox>
 #include <QFile>
+#include <QSqlQuery>
 
 extern QString gLoginEmployeeID;
 
@@ -256,6 +257,22 @@ bool TalkWindowSheel::createJSFile(QStringList & employeesList) {
 	}
 }
 
+QString TalkWindowSheel::getEmployeeName(int employeesID) {
+	QString sql = QString("SELECT employee_name FROM tab_employees WHERE employeeID=%1;").arg(employeesID);
+	//MyLogDEBUG(sql.toUtf8());
+	QSqlQuery query(sql);
+	query.exec();
+
+	if (!query.next()) {
+		MyLogDEBUG(QString("员工QQ号：%1  没有查询到任何信息").arg(employeesID).toUtf8());
+		return QString("");
+	}
+
+	QString employee_name = query.value(0).toString();
+
+	return employee_name;
+}
+
 // 文本数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(1) + 数据长度 + 数据
 // 表情数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(0) + 表情个数 + images + 数据
 // 文件数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(2) + 文件长度 + "bytes" + 文件名称 + "data_begin" + 文件内容
@@ -384,4 +401,77 @@ void TalkWindowSheel::onEmotionItemClicked(int emotionNum) {
 *********************************************************************************************************************************************************/
 void TalkWindowSheel::processPendingData() {
 	MyLogDEBUG(QString("UDP收到数据啦").toUtf8());
+
+	// 端口中有未处理的数据
+	while (m_udpReceiver->hasPendingDatagrams()) {
+		const static int groupFlagWidgth = 1;	// 群聊标志占位
+		const static int groupWidth = 4;		// 群QQ号宽度
+		const static int employeeWidth = 5;		// 员工QQ号宽度
+		const static int msgTypeWidth = 1;		// 信息类型宽度
+		const static int msgLengthWidth = 5;	// 文本信息长度的宽度
+		const static int pictureWidth = 3;		// 表情图片的宽度
+
+
+		// 读取udp数据
+		QByteArray btData;
+		btData.reserve(m_udpReceiver->pendingDatagramSize());
+		m_udpReceiver->readDatagram(btData.data(), btData.size());
+
+		QString strData = btData.data();
+		QString strWindowID;	// 聊天窗口id，群聊则是群号，单聊则是员工qq号
+		QString strSendEmployeeID, strRecvieEmployeeID;		// 发送端QQ号和接收端QQ号
+		QString strMsg;			// 数据
+		
+		int msgLen;				// 数据长度
+		int msgType;			// 数据类型
+
+		strSendEmployeeID = strData.mid(groupFlagWidgth, employeeWidth);	// 获取发送端QQ号
+
+		// 自己发的信息不做处理
+		if (strSendEmployeeID == gLoginEmployeeID) {
+			return;
+		}
+
+		
+		if (btData[0] == '1') {		// 群聊
+			strWindowID = strData.mid(groupFlagWidgth + employeeWidth, groupWidth);		// 获取接收端群号
+
+			QChar cMsgType = btData[groupFlagWidgth + employeeWidth + groupWidth];
+			if (cMsgType == '1') {			// 文本信息
+				msgType = 1;
+				msgLen = strData.mid(groupFlagWidgth + employeeWidth + groupWidth + msgTypeWidth, msgLengthWidth).toInt();	// 获取信息长度
+				strMsg = strData.mid(groupFlagWidgth + employeeWidth + groupWidth + msgTypeWidth + msgLengthWidth, msgLen);	// 获取文本信息
+
+			} else if (cMsgType == '0') {	// 表情信息
+				msgType = 0;
+				int posImages = strData.indexOf("images");
+				strMsg = strData.right(strData.length() - posImages - QString("images").length());	// 获取所有表情名称，信息数据
+
+
+			} else if (cMsgType == '2') {	// 文件信息
+				msgType = 2;
+				int bytesWidth = QString("bytes").length();
+				int posBytes = strData.indexOf("bytes");
+				int data_begin_width = QString("data_begin").length();
+				int pos_data_begin = strData.indexOf("data_begin");
+
+				// 获取文件名称
+				QString fileName = strData.mid(posBytes + bytesWidth, pos_data_begin - bytesWidth - posBytes);
+
+				// 文件内容
+				int dataLenthWidth = strData.mid(groupFlagWidgth + employeeWidth + groupWidth + msgTypeWidth, posBytes).toInt();
+				int posData = pos_data_begin + data_begin_width;
+				strMsg = strData.mid(posData, dataLenthWidth);		// 获取文件数据
+
+				// 根据employeeID获取发送者姓名				
+				int employeeID = strSendEmployeeID.toInt();
+				QString sender = getEmployeeName(employeeID);
+
+				// TODO: 接收文件的后续操作。。。
+			}
+
+		} else {	// 单聊
+
+		}
+	}
 }
