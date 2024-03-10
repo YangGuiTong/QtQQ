@@ -3,6 +3,8 @@
 #include "EmotionWindow.h"
 #include "public_type.h"
 #include "TalkWindowItem.h"
+#include "WindowManager.h"
+#include "QMsgTextEdit.h"
 
 #include <QSqlQueryModel>
 #include <QMessageBox>
@@ -273,6 +275,47 @@ QString TalkWindowSheel::getEmployeeName(int employeesID) {
 	return employee_name;
 }
 
+void TalkWindowSheel::handleReceivedMsg(QString senderEmployeeID, int msgType, QString strMsg) {
+	QMsgTextEdit msgTextEdit;
+	msgTextEdit.setText(strMsg);
+
+	if (msgType == 1) {			// 文本信息
+		msgTextEdit.document()->toHtml();
+	} else if (msgType == 0) {	// 表情信息
+		const int emotionWidth = 3;
+		int emotionNum = strMsg.length() / emotionWidth;
+		for (int i = 0; i < emotionNum; i++) {
+			msgTextEdit.addEmotionUrl(strMsg.mid(i * emotionWidth, emotionWidth).toInt());
+		}
+	}
+
+	QString htmlText = msgTextEdit.document()->toHtml();
+
+	// 文本html如果没有字体则添加字体    msgFont.txt
+	if (!htmlText.contains(".png") && !htmlText.contains("</span>")) {
+		QString fontHtml;
+		QFile file(":/Resources/MainWindow/MsgHtml/msgFont.txt");
+		if (file.open(QIODevice::ReadOnly)) {
+			fontHtml = file.readAll();
+			fontHtml.replace("%1", strMsg);
+			file.close();
+
+		} else {
+			MyLogDEBUG(QString("msgFont.txt文件打开失败！").toUtf8());
+			QMessageBox::information(this, "提示", "msgFont.txt文件打开失败！");
+			return;
+		}
+
+		if (!htmlText.contains(fontHtml)) {
+			htmlText.replace(strMsg, fontHtml);
+		}
+	}
+
+	TalkWindow *talkWindow = dynamic_cast<TalkWindow *>(ui.rightStackedWidget->currentWidget());
+	talkWindow->ui.msgWidget->appendMsg(htmlText, senderEmployeeID);
+
+}
+
 // 文本数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(1) + 数据长度 + 数据
 // 表情数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(0) + 表情个数 + images + 数据
 // 文件数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(2) + 文件长度 + "bytes" + 文件名称 + "data_begin" + 文件内容
@@ -404,7 +447,7 @@ void TalkWindowSheel::processPendingData() {
 
 	// 端口中有未处理的数据
 	while (m_udpReceiver->hasPendingDatagrams()) {
-		const static int groupFlagWidgth = 1;	// 群聊标志占位
+		const static int groupFlagWidth = 1;	// 群聊标志占位
 		const static int groupWidth = 4;		// 群QQ号宽度
 		const static int employeeWidth = 5;		// 员工QQ号宽度
 		const static int msgTypeWidth = 1;		// 信息类型宽度
@@ -425,7 +468,7 @@ void TalkWindowSheel::processPendingData() {
 		int msgLen;				// 数据长度
 		int msgType;			// 数据类型
 
-		strSendEmployeeID = strData.mid(groupFlagWidgth, employeeWidth);	// 获取发送端QQ号
+		strSendEmployeeID = strData.mid(groupFlagWidth, employeeWidth);	// 获取发送端QQ号
 
 		// 自己发的信息不做处理
 		if (strSendEmployeeID == gLoginEmployeeID) {
@@ -434,13 +477,13 @@ void TalkWindowSheel::processPendingData() {
 
 		
 		if (btData[0] == '1') {		// 群聊
-			strWindowID = strData.mid(groupFlagWidgth + employeeWidth, groupWidth);		// 获取接收端群号
+			strWindowID = strData.mid(groupFlagWidth + employeeWidth, groupWidth);		// 获取接收端群号
 
-			QChar cMsgType = btData[groupFlagWidgth + employeeWidth + groupWidth];
+			QChar cMsgType = btData[groupFlagWidth + employeeWidth + groupWidth];
 			if (cMsgType == '1') {			// 文本信息
 				msgType = 1;
-				msgLen = strData.mid(groupFlagWidgth + employeeWidth + groupWidth + msgTypeWidth, msgLengthWidth).toInt();	// 获取信息长度
-				strMsg = strData.mid(groupFlagWidgth + employeeWidth + groupWidth + msgTypeWidth + msgLengthWidth, msgLen);	// 获取文本信息
+				msgLen = strData.mid(groupFlagWidth + employeeWidth + groupWidth + msgTypeWidth, msgLengthWidth).toInt();	// 获取信息长度
+				strMsg = strData.mid(groupFlagWidth + employeeWidth + groupWidth + msgTypeWidth + msgLengthWidth, msgLen);	// 获取文本信息
 
 			} else if (cMsgType == '0') {	// 表情信息
 				msgType = 0;
@@ -459,7 +502,7 @@ void TalkWindowSheel::processPendingData() {
 				QString fileName = strData.mid(posBytes + bytesWidth, pos_data_begin - bytesWidth - posBytes);
 
 				// 文件内容
-				int dataLenthWidth = strData.mid(groupFlagWidgth + employeeWidth + groupWidth + msgTypeWidth, posBytes).toInt();
+				int dataLenthWidth = strData.mid(groupFlagWidth + employeeWidth + groupWidth + msgTypeWidth, posBytes).toInt();
 				int posData = pos_data_begin + data_begin_width;
 				strMsg = strData.mid(posData, dataLenthWidth);		// 获取文件数据
 
@@ -471,7 +514,66 @@ void TalkWindowSheel::processPendingData() {
 			}
 
 		} else {	// 单聊
+			strRecvieEmployeeID = strData.mid(groupFlagWidth + employeeWidth, employeeWidth);	// 接收者QQ号
+			strWindowID = strSendEmployeeID;													// 发送者QQ号
+
+			// 获取信息的类型
+			QChar cMsgType = btData[groupFlagWidth + employeeWidth + employeeWidth];
+			if (cMsgType == '1') {			// 文本信息
+				msgType = 1;
+
+				// 文本信息长度
+				msgLen = strData.mid(groupFlagWidth + employeeWidth + employeeWidth + msgTypeWidth, msgLengthWidth).toInt();
+				// 文本信息
+				strMsg = strData.mid(groupFlagWidth + employeeWidth + employeeWidth + msgTypeWidth + msgLengthWidth, msgLen);
+			
+			} else if (cMsgType == '0') {	// 表情信息
+				msgType = 0;
+				int posImages = strData.indexOf("images");
+				int imagesWidth = QString("images").length();
+				//strMsg = strData.right(strData.length() - posImages - imagesWidth);	// 获取所有表情名称，信息数据
+				strMsg = strData.mid(posImages + imagesWidth);
+			
+			} else if (cMsgType == '2') {	// 文件信息
+				msgType = 2;
+
+				int bytesWidth = QString("bytes").length();
+				int posBytes = btData.indexOf("bytes");
+				int data_begin_width = QString("data_begin").length();
+				int pos_data_begin = btData.indexOf("data_begin");
+
+				// 文件名称
+				QString fileName = btData.mid(posBytes + bytesWidth, pos_data_begin - posBytes - bytesWidth);
+
+				// 文件内容长度
+				int dataLenthWidth = strData.mid(groupFlagWidth + employeeWidth + employeeWidth + msgTypeWidth, posBytes).toInt();
+
+				// 文件内容
+				strMsg = strData.mid(pos_data_begin + data_begin_width, dataLenthWidth);
+			}
+		}
+
+		// 将聊天窗口设为活动的窗口
+		QWidget *widget = WindowManager::getInstance()->findWindowName(strWindowID);
+		if (widget) {	// 聊天窗口存在
+			this->setCurrentWidget(widget);
+
+			// 同步激活左侧聊天窗口
+			QListWidgetItem *item = m_talkwindowItemMap.key(widget);
+			item->setSelected(true);
+
+		} else {		// 聊天窗口未打开
+			return;
+		}
+
+
+		if (msgType != 2) {
+			handleReceivedMsg(strSendEmployeeID, msgType, strMsg);
+		
+		} else if (msgType == 2) {	// 文件信息另作处理
 
 		}
+
+		
 	}
 }

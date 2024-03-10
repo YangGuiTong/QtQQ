@@ -47,4 +47,6 @@ private:
 	QString m_talkId;
 	QMap<QTreeWidgetItem *, QString> m_groupPeopleMap;	// 所有分组联系人姓名
 	bool m_isGroupTalk;		// 判断是否为群聊
+
+	friend class TalkWindowSheel;
 };

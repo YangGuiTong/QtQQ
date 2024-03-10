@@ -7,7 +7,7 @@ class QMsgTextEdit  : public QTextEdit
 	Q_OBJECT
 
 public:
-	QMsgTextEdit(QWidget *parent);
+	QMsgTextEdit(QWidget *parent = nullptr);
 	~QMsgTextEdit();
 
 
