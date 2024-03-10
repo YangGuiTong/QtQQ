@@ -1,0 +1,85 @@
+2024-03-10 15:21:07.337 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-10 15:21:07.530 [DEBUG][QtQQ_Server::initComboBoxData][92]: SELECT * FROM tab_department;
+2024-03-10 15:21:07.968 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-10 15:21:39.903 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1320
+2024-03-10 15:21:41.691 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1320  IP： 127.0.0.1  断开连接!
+2024-03-10 15:21:42.682 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1340
+2024-03-10 15:21:47.161 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1348
+2024-03-10 15:21:52.455 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：110004200001images061
+2024-03-10 15:21:52.455 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：110004200001images061 开始广播
+2024-03-10 15:21:57.857 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：110007200001images030
+2024-03-10 15:21:57.857 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：110007200001images030 开始广播
+2024-03-10 15:22:02.965 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100042000100014asdfasd啊书法大赛官方
+2024-03-10 15:22:02.966 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100042000100014asdfasd啊书法大赛官方 开始广播
+2024-03-10 15:22:06.182 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100072000100015asgasdfg埃是法国色鬼和
+2024-03-10 15:22:06.183 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100072000100015asgasdfg埃是法国色鬼和 开始广播
+2024-03-10 15:29:17.894 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1340  IP： 127.0.0.1  断开连接!
+2024-03-10 15:29:17.905 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1348  IP： 127.0.0.1  断开连接!
+2024-03-10 15:29:47.932 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1000
+2024-03-10 15:30:06.863 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1016
+2024-03-10 15:30:12.907 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100082000100003你好呀
+2024-03-10 15:30:12.907 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100082000100003你好呀 开始广播
+2024-03-10 15:34:33.601 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：110008200001images014
+2024-03-10 15:34:33.601 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：110008200001images014 开始广播
+2024-03-10 15:34:44.487 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1016  IP： 127.0.0.1  断开连接!
+2024-03-10 15:34:44.490 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1000  IP： 127.0.0.1  断开连接!
+2024-03-10 15:35:13.983 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1380
+2024-03-10 15:35:30.148 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1348
+2024-03-10 15:35:37.703 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100062000100003你好呀
+2024-03-10 15:35:37.704 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100062000100003你好呀 开始广播
+2024-03-10 15:37:00.810 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1380  IP： 127.0.0.1  断开连接!
+2024-03-10 15:37:00.812 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1348  IP： 127.0.0.1  断开连接!
+2024-03-10 15:39:40.757 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1016
+2024-03-10 15:40:01.957 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1020
+2024-03-10 15:40:10.433 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100052000100002你好
+2024-03-10 15:40:10.433 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100052000100002你好 开始广播
+2024-03-10 15:41:42.471 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100042000100010helloworld
+2024-03-10 15:41:42.471 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100042000100010helloworld 开始广播
+2024-03-10 15:42:33.013 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100042000100009balabala 
+2024-03-10 15:42:33.013 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100042000100009balabala  开始广播
+2024-03-10 15:42:37.471 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100052000100004发生的噶
+2024-03-10 15:42:37.471 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100052000100004发生的噶 开始广播
+2024-03-10 15:42:48.778 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1016  IP： 127.0.0.1  断开连接!
+2024-03-10 15:42:48.785 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1020  IP： 127.0.0.1  断开连接!
+2024-03-10 15:49:55.353 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1380
+2024-03-10 15:50:03.931 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：952
+2024-03-10 15:50:13.252 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100042000100006你好，大笨猪
+2024-03-10 15:50:13.252 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100042000100006你好，大笨猪 开始广播
+2024-03-10 15:50:22.401 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100052000100010helloworld
+2024-03-10 15:50:22.401 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100052000100010helloworld 开始广播
+2024-03-10 15:51:37.252 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：110005200001images057
+2024-03-10 15:51:37.252 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：110005200001images057 开始广播
+2024-03-10 15:51:43.252 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：110005200003images085071071
+2024-03-10 15:51:43.252 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：110005200003images085071071 开始广播
+2024-03-10 15:51:56.922 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：110005200001images098
+2024-03-10 15:51:56.922 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：110005200001images098 开始广播
+2024-03-10 15:52:06.802 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100052000100016是的呢，啦啦啦啦lalalaal
+2024-03-10 15:52:06.803 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100052000100016是的呢，啦啦啦啦lalalaal 开始广播
+2024-03-10 15:52:13.349 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100042000100003别发啦
+2024-03-10 15:52:13.349 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100042000100003别发啦 开始广播
+2024-03-10 15:52:43.257 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1352
+2024-03-10 15:53:01.588 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100082000100004美女上线
+2024-03-10 15:53:01.588 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100082000100004美女上线 开始广播
+2024-03-10 15:53:07.886 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100082000100004美女来了
+2024-03-10 15:53:07.886 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100082000100004美女来了 开始广播
+2024-03-10 15:53:17.828 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：110004200001images032
+2024-03-10 15:53:17.828 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：110004200001images032 开始广播
+2024-03-10 15:53:28.370 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：110008200001images002
+2024-03-10 15:53:28.370 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：110008200001images002 开始广播
+2024-03-10 15:54:19.665 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：110008200001images099
+2024-03-10 15:54:19.665 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：110008200001images099 开始广播
+2024-03-10 15:54:28.705 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100042000100003你们好
+2024-03-10 15:54:28.705 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100042000100003你们好 开始广播
+2024-03-10 15:55:47.266 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：01000810004100003哈哈哈
+2024-03-10 15:55:47.266 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：01000810004100003哈哈哈 开始广播
+2024-03-10 15:55:58.170 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：01000410008100003在的呢
+2024-03-10 15:55:58.170 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：01000410008100003在的呢 开始广播
+2024-03-10 15:56:30.725 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：01000410008100002美女
+2024-03-10 15:56:30.725 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：01000410008100002美女 开始广播
+2024-03-10 15:56:35.192 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：01000810004100003在哦哦
+2024-03-10 15:56:35.192 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：01000810004100003在哦哦 开始广播
+2024-03-10 15:57:18.145 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1380  IP： 127.0.0.1  断开连接!
+2024-03-10 15:57:18.223 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1352  IP： 127.0.0.1  断开连接!
+2024-03-10 15:57:18.225 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：952  IP： 127.0.0.1  断开连接!

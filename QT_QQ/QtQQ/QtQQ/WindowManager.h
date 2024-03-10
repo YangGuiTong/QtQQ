@@ -21,8 +21,10 @@ public:
 	void addNewTalkWindow(const QString &uid);
 
 	TalkWindowSheel *getTalkWindowSheel();
+	QString getCreatingTalkId();
 
 private:
 	TalkWindowSheel *m_talkwindowshell;
 	QMap<QString, QWidget *> m_windowMap;
+	QString m_strCreatingTalkId = "";		// 正在创建的聊天窗口（QQ号）
 };

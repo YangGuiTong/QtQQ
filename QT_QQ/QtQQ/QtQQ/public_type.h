@@ -1,4 +1,5 @@
-#pragma once
+#ifndef PUBLIC_TYPE_H
+#define PUBLIC_TYPE_H
 
 #include "MyLog.h"
 #include "MyLogger.h"
@@ -17,6 +18,11 @@ enum GroupType {
 	GROUP_TYPE_COUNT
 };
 
+//QString gLoginEmployeeID;	// 登录者的QQ号
+//QString gstrLoginHeadPath;	// 登录者的头像路径
+
 
 const int gTcpPort = 10086;
 const int gUdpPort = 10010;
+
+#endif	// PUBLIC_TYPE_H

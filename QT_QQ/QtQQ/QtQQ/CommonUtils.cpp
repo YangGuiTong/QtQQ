@@ -17,7 +17,7 @@ QPixmap CommonUtils::getRoundImage(const QPixmap &src, QPixmap &mask, QSize mask
 		mask = mask.scaled(masksize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
 	}
 
-	MyLogDEBUG(QString("CommonUtils::getRoundImage 生成圆头像.").toUtf8());
+	//MyLogDEBUG(QString("CommonUtils::getRoundImage 生成圆头像.").toUtf8());
 
 	QImage resultImage(masksize, QImage::Format_ARGB32_Premultiplied);
 	QPainter painter(&resultImage);

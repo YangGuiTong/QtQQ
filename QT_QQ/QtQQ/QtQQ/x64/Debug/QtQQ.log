@@ -1,4 +1,5 @@
-﻿  uic CCMainWindow.ui
+﻿  Reading Qt configuration (D:/Qt/Qt5.9.6/5.9.6/msvc2017_64/bin/qmake)
+  uic CCMainWindow.ui
   uic Contactltem.ui
   uic EmotionWindow.ui
   uic SkinWindow.ui

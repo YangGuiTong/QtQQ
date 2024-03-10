@@ -16,7 +16,7 @@ class MsgHtmlObj : public QObject {
 
 
 public:
-	MsgHtmlObj(QObject *parent);
+	MsgHtmlObj(QObject *parent, QString msgLPicPath = "");	// msgLPicPath: 发信息人来的头像路径
 
 signals:
 	void signalMsgHtml(const QString &html);
@@ -27,6 +27,7 @@ private:
 
 
 private:
+	QString m_msgLPicPath;		// 发信息人的头像路径
 	QString m_msgLHtmlTmpl;		// 收到的信息
 	QString m_msgRHtmlTmpl;		// 发出去的信息
 };
@@ -72,4 +73,5 @@ signals:
 
 private:
 	MsgHtmlObj *m_msgHtmlObj;
+	QWebChannel *m_channel;
 };

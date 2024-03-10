@@ -370,7 +370,7 @@ void TalkWindow::onSendBtnClicked(bool) {
 	}
 
 	QString html = ui.textEdit->document()->toHtml();
-	MyLogDEBUG(QString("发送的信息为：%1").arg(html).toUtf8());
+	//MyLogDEBUG(QString("发送的信息为：%1").arg(html).toUtf8());
 
 	// 文本html如果没有字体则添加字体    msgFont.txt
 	if (!html.contains(".png") && !html.contains("</span>")) {

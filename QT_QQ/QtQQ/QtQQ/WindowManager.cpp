@@ -55,8 +55,12 @@ void WindowManager::addNewTalkWindow(const QString & uid) {
 	if (!widget) {
 		MyLogDEBUG(QString("根据 %1 没有找到窗口，new一个新的窗口").arg(uid).toUtf8());
 		
+		m_strCreatingTalkId = uid;
+
 		TalkWindow *talkwindow = new TalkWindow(m_talkwindowshell, uid);
 		TalkWindowItem *talkwindowItem = new TalkWindowItem(talkwindow);
+
+		m_strCreatingTalkId = "";
 
 		// 判断是群聊还是单聊
 		QSqlQueryModel sqlDepModel;
@@ -143,4 +147,8 @@ void WindowManager::addNewTalkWindow(const QString & uid) {
 
 TalkWindowSheel * WindowManager::getTalkWindowSheel() {
 	return m_talkwindowshell;
+}
+
+QString WindowManager::getCreatingTalkId() {
+	return m_strCreatingTalkId;
 }

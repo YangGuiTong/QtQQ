@@ -20,6 +20,7 @@ TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 	setAttribute(Qt::WA_DeleteOnClose);
 	initControl();
 	initTcpSocket();
+	initUdpSocket();
 
 	
 	QFile file("Resources/MainWindow/MsgHtml/msgtmpl.js");
@@ -443,8 +444,6 @@ void TalkWindowSheel::onEmotionItemClicked(int emotionNum) {
 
 *********************************************************************************************************************************************************/
 void TalkWindowSheel::processPendingData() {
-	MyLogDEBUG(QString("UDP收到数据啦").toUtf8());
-
 	// 端口中有未处理的数据
 	while (m_udpReceiver->hasPendingDatagrams()) {
 		const static int groupFlagWidth = 1;	// 群聊标志占位
@@ -455,10 +454,10 @@ void TalkWindowSheel::processPendingData() {
 		const static int pictureWidth = 3;		// 表情图片的宽度
 
 
-		// 读取udp数据
-		QByteArray btData;
-		btData.reserve(m_udpReceiver->pendingDatagramSize());
-		m_udpReceiver->readDatagram(btData.data(), btData.size());
+		// 读取udp数据		
+		int btDataSize = m_udpReceiver->pendingDatagramSize();
+		QByteArray btData(btDataSize, Qt::Initialization::Uninitialized);
+		m_udpReceiver->readDatagram(btData.data(), btDataSize);
 
 		QString strData = btData.data();
 		QString strWindowID;	// 聊天窗口id，群聊则是群号，单聊则是员工qq号
@@ -468,6 +467,7 @@ void TalkWindowSheel::processPendingData() {
 		int msgLen;				// 数据长度
 		int msgType;			// 数据类型
 
+		MyLogDEBUG(QString("UDP收到数据是：%1").arg(strData).toUtf8());
 		strSendEmployeeID = strData.mid(groupFlagWidth, employeeWidth);	// 获取发送端QQ号
 
 		// 自己发的信息不做处理
