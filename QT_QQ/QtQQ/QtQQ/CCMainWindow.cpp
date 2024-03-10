@@ -104,7 +104,8 @@ void CCMainWindow::initControl() {
 
 
 	connect(ui.sysmin, SIGNAL(clicked(bool)), this, SLOT(onShowHide(bool)));
-	connect(ui.sysclose, SIGNAL(clicked(bool)), this, SLOT(onShowClose(bool)));
+	//connect(ui.sysclose, SIGNAL(clicked(bool)), this, SLOT(onShowClose(bool)));
+	connect(ui.sysclose, SIGNAL(clicked(bool)), this, SLOT(onShowQuit(bool)));
 	connect(NotifyManager::getInstance(), &NotifyManager::signalSkinChanged, [this]() {
 		updateSeachStyle();
 	});

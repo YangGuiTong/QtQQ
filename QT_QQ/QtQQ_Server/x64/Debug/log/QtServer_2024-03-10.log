@@ -245,3 +245,12 @@
 2024-03-10 18:39:29.825 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：01000510004226bytes测试文件.txtdata_begin测试数据，hello world 开始广播
 2024-03-10 18:39:49.336 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：756  IP： 127.0.0.1  断开连接!
 2024-03-10 18:39:49.343 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：912  IP： 127.0.0.1  断开连接!
+2024-03-10 21:37:13.091 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1004
+2024-03-10 21:37:14.745 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1004  IP： 127.0.0.1  断开连接!
+2024-03-10 21:43:04.163 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1348
+2024-03-10 21:43:07.470 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：1348  IP： 127.0.0.1  断开连接!
+2024-03-10 21:46:18.515 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-10 21:46:18.718 [DEBUG][QtQQ_Server::initComboBoxData][92]: SELECT * FROM tab_department;
+2024-03-10 21:46:19.122 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！

@@ -62,7 +62,7 @@ QtQQ_Server::QtQQ_Server(QWidget *parent)
 
 	// 定时刷新数据
 	m_timer = new QTimer(this);
-	m_timer->setInterval(300);
+	m_timer->setInterval(1000);
 	m_timer->start();
 	connect(m_timer, &QTimer::timeout, this, &QtQQ_Server::onRefresh);
 
