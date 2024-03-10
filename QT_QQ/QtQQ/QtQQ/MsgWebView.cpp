@@ -7,28 +7,33 @@
 #include <QJsonObject>
 #include <QJsonDocument>
 #include <QWebChannel>
+#include <QSqlQueryModel>
 
 #include <public_type.h>
 
+extern QString gstrLoginHeadPath;	// 登录者的头像路径
 
-MsgHtmlObj::MsgHtmlObj(QObject *parent) : QObject(parent) {
+MsgHtmlObj::MsgHtmlObj(QObject *parent, QString msgLPicPath) : QObject(parent), m_msgLPicPath(msgLPicPath){
 	initHtmlTmpl();
 }
 
 void MsgHtmlObj::initHtmlTmpl() {
 	m_msgLHtmlTmpl = getMsgTmplHtml("msgleftTmpl");
+	m_msgLHtmlTmpl.replace("%1", m_msgLPicPath);
+
 	m_msgRHtmlTmpl = getMsgTmplHtml("msgrightTmpl");
+	m_msgRHtmlTmpl.replace("%1", gstrLoginHeadPath);
 }
 
 QString MsgHtmlObj::getMsgTmplHtml(const QString & code) {
-	MyLogDEBUG(QString("准备打开文件：%1.html").arg(code).toUtf8());
+	//MyLogDEBUG(QString("准备打开文件：%1.html").arg(code).toUtf8());
 	QFile file(":Resources/MainWindow/MsgHtml/" + code + ".html");
 	file.open(QFile::ReadOnly);
 	QString strData;
 
 	if (file.isOpen()) {
 		strData = QLatin1String(file.readAll());
-		MyLogDEBUG(QString("文件打开成功，读取到的文件内容是：%1").arg(strData).toUtf8());
+		//MyLogDEBUG(QString("文件打开成功，读取到的文件内容是：%1").arg(strData).toUtf8());
 	} else {
 		MyLogDEBUG(QString("文件打开失败").toUtf8());
 		QMessageBox::information(nullptr, "tips", "Failed to init html!");
@@ -55,20 +60,69 @@ bool MsgWebPage::acceptNavigationRequest(const QUrl &url, NavigationType type, b
 
 
 MsgWebView::MsgWebView(QWidget *parent)
-	: QWebEngineView(parent) {
+	: QWebEngineView(parent), m_channel(new QWebChannel(this)) {
 
 	MsgWebPage *page = new MsgWebPage(this);
 	setPage(page);
 
-	QWebChannel *channel = new QWebChannel(this);
 	m_msgHtmlObj = new MsgHtmlObj(this);
-	channel->registerObject("external0", m_msgHtmlObj);
-	this->page()->setWebChannel(channel);
+	m_channel->registerObject("external0", m_msgHtmlObj);
 
 	TalkWindowSheel *talkWindowShell = WindowManager::getInstance()->getTalkWindowSheel();
 	connect(this, &MsgWebView::signalSendMsg, talkWindowShell, &TalkWindowSheel::updateSendTcpMsg);
 
 
+	// 当前正构建的聊天窗口的ID（QQ号）
+	QString strTalkId = WindowManager::getInstance()->getCreatingTalkId();
+
+	QSqlQueryModel queryEmployeeModel;
+	QString strEmployeeID, strPicturePath;
+	QString strExternal;
+	bool isGroupTalk = false;	// 是否是群聊
+
+	// 获取公司群ID
+	queryEmployeeModel.setQuery(QString("SELECT departmentID FROM tab_department WHERE department_name = '%1'").arg("公司群"));
+	QModelIndex companyIndex = queryEmployeeModel.index(0, 0);
+	QString strCompanyId = queryEmployeeModel.data(companyIndex).toString();
+
+	if (strTalkId == strCompanyId) {	// 公司群聊
+		isGroupTalk = true;
+		queryEmployeeModel.setQuery("SELECT employeeID, picture FROM tab_employees WHERE status = 1;");
+	} else {
+		if (strTalkId.length() == 4) {	// 其他群聊
+			isGroupTalk = true;
+			queryEmployeeModel.setQuery(QString("SELECT employeeID, picture FROM tab_employees WHERE status = 1 AND departmentID = %1;").arg(strTalkId));
+		} else {	// 单独聊天
+			queryEmployeeModel.setQuery(QString("SELECT picture FROM tab_employees WHERE status = 1 AND employeeID = %1;").arg(strTalkId));
+
+			QModelIndex index = queryEmployeeModel.index(0, 0);
+			strPicturePath = queryEmployeeModel.data(index).toString();
+
+			strExternal = "external_" + strTalkId;
+			MsgHtmlObj *msgHtmlObj = new MsgHtmlObj(this, strPicturePath);
+			m_channel->registerObject(strExternal, msgHtmlObj);
+		}
+	}
+
+	if (isGroupTalk) {
+		QModelIndex employeeModelIndex, pictureModelIndex;
+		int rows = queryEmployeeModel.rowCount();
+		for (int i = 0; i < rows; i++) {
+			employeeModelIndex = queryEmployeeModel.index(i, 0);
+			pictureModelIndex = queryEmployeeModel.index(i, 1);
+
+			strEmployeeID = queryEmployeeModel.data(employeeModelIndex).toString();
+			strPicturePath = queryEmployeeModel.data(pictureModelIndex).toString();
+
+			strExternal = "external_" + strEmployeeID;
+
+			MsgHtmlObj *msgHtmlObj = new MsgHtmlObj(this, strPicturePath);
+			m_channel->registerObject(strExternal, msgHtmlObj);
+		}
+	}
+
+
+	this->page()->setWebChannel(m_channel);
 	// 初始化收信息页面
 	this->load(QUrl("qrc:/Resources/MainWindow/MsgHtml/msgTmpl.html"));
 }
@@ -76,7 +130,7 @@ MsgWebView::MsgWebView(QWidget *parent)
 MsgWebView::~MsgWebView() { }
 
 void MsgWebView::appendMsg(const QString & html, QString strObj) {
-	MyLogDEBUG(QString("追加信息的html为：%1").arg(html).toUtf8());
+	//MyLogDEBUG(QString("追加信息的html为：%1").arg(html).toUtf8());
 
 	QJsonObject msgObj;
 	QString qsMsg;
@@ -154,7 +208,7 @@ void MsgWebView::appendMsg(const QString & html, QString strObj) {
 }
 
 QList<QStringList> MsgWebView::parseHtml(const QString & html) {
-	MyLogDEBUG(QString("解析的html为：%1").arg(html).toUtf8());
+	//MyLogDEBUG(QString("解析的html为：%1").arg(html).toUtf8());
 
 	QDomDocument doc;
 	doc.setContent(html);
@@ -166,7 +220,7 @@ QList<QStringList> MsgWebView::parseHtml(const QString & html) {
 }
 
 QList<QStringList> MsgWebView::parseDocNode(const QDomNode & node) {
-	MyLogDEBUG(QString("QDomNode：%1").arg(node.toElement().text()).toUtf8());
+	//MyLogDEBUG(QString("QDomNode：%1").arg(node.toElement().text()).toUtf8());
 
 	QList<QStringList> attribute;
 	const QDomNodeList &list = node.childNodes();		// 返回左右子节点

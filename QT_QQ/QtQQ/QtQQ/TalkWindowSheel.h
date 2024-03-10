@@ -38,6 +38,11 @@ private:
 	QStringList getEmployeeID();	// 获取所有员工QQ号
 	bool createJSFile(QStringList &employeesList);
 
+	// 根据员工QQ号获取员工名字
+	QString getEmployeeName(int employeesID);
+
+	void handleReceivedMsg(QString senderEmployeeID, int msgType, QString strMsg);
+
 public slots:
 	void onEmotionBtnClicked(bool);		// 表情按钮点击后执行的槽函数
 
@@ -60,5 +65,5 @@ private:
 
 private:
 	QTcpSocket *m_tcpClientSocket;		// tcp客户端
-	QUdpSocket *m_udpReceiver;			// udp接收端
+	QUdpSocket *m_udpReceiver;			// udp接收端0
 };

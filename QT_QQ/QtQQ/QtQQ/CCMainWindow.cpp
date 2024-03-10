@@ -14,7 +14,8 @@
 #include "WindowManager.h"
 #include "TalkWindowSheel.h"
 
-extern QString gLoginEmployeeID;
+QString gstrLoginHeadPath;	// 登录者的头像路径
+extern QString gLoginEmployeeID;	// 登录者的QQ号
 
 class CustomProxyStayle : public QProxyStyle {
 public:
@@ -52,7 +53,7 @@ CCMainWindow::~CCMainWindow() {
 void CCMainWindow::initTimer() {
 
 	QTimer *timer = new QTimer(this);
-	timer->setInterval(60000);
+	timer->setInterval(5 * 60 * 1000);
 
 	connect(timer, &QTimer::timeout, [this]() {
 		static int level = 18;
@@ -103,7 +104,8 @@ void CCMainWindow::initControl() {
 
 
 	connect(ui.sysmin, SIGNAL(clicked(bool)), this, SLOT(onShowHide(bool)));
-	connect(ui.sysclose, SIGNAL(clicked(bool)), this, SLOT(onShowClose(bool)));
+	//connect(ui.sysclose, SIGNAL(clicked(bool)), this, SLOT(onShowClose(bool)));
+	connect(ui.sysclose, SIGNAL(clicked(bool)), this, SLOT(onShowQuit(bool)));
 	connect(NotifyManager::getInstance(), &NotifyManager::signalSkinChanged, [this]() {
 		updateSeachStyle();
 	});
@@ -183,6 +185,7 @@ QString CCMainWindow::getHeadPixturePath() {
 
 	strPicturePath = queryPicture.value(0).toString();
 
+	gstrLoginHeadPath = strPicturePath;
 	return strPicturePath;
 }
 

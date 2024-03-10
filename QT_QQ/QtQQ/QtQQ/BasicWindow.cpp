@@ -8,6 +8,9 @@
 #include <QApplication>
 #include <QMouseEvent>
 #include <QDesktopWidget>
+#include <QsqlQuery>
+
+extern QString gLoginEmployeeID;
 
 BasicWindow::BasicWindow(QWidget *parent) : QDialog(parent) {
 
@@ -150,6 +153,12 @@ void BasicWindow::onShowNormal(bool) {
 
 void BasicWindow::onShowQuit(bool) {
 	MyLogDEBUG("用户点击退出按钮");
+
+	// 更新登录状态为离线
+	QString strSqlStatus = QString("UPDATE tab_employees SET online = 1 WHERE employeeID = %1").arg(gLoginEmployeeID);
+	QSqlQuery sqlStatus(strSqlStatus);
+	sqlStatus.exec();
+
 	QApplication::quit();
 }
 
@@ -196,6 +205,7 @@ void BasicWindow::onButtonRestoreClicked() {
 void BasicWindow::onButtonCloseClicked() {
 	MyLogDEBUG("用户主动关闭登录窗口");
 	close();
+	onShowQuit(true);
 }
 
 void BasicWindow::onButtonMaxClicked() {

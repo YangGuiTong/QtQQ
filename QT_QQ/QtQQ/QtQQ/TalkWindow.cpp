@@ -3,12 +3,15 @@
 #include "Contactltem.h"
 #include "CommonUtils.h"
 #include "WindowManager.h"
+#include "SendFile.h"
 
 #include <QToolTip>
 #include <QFile>
 #include <QMessageBox>
 #include <QSqlQueryModel>
 #include <QSqlQuery>
+
+extern QString gLoginEmployeeID;
 
 TalkWindow::TalkWindow(QWidget *parent, const QString &uid)
 	: QWidget(parent), m_talkId(uid) {
@@ -58,44 +61,14 @@ void TalkWindow::initControl() {
 
 	connect(ui.treeWidget, SIGNAL(itemDoubleClicked(QTreeWidgetItem *, int)), this, SLOT(onItemDoubleClicked(QTreeWidgetItem *, int)));
 
+	connect(ui.fileopenBtn, SIGNAL(clicked(bool)), this, SLOT(onFileOpenBtnClicked(bool)));
+
 
 	if (m_isGroupTalk) {
 		initTalkWindow();
 	} else {
 		initPtoPTalk();
 	}
-
-
-/*
-	switch (m_groupType) {
-		case COMPANY:
-		{
-			initCompanyTalk();
-			break;
-		}
-		case PERSONELGROUP:
-		{
-			initPersonelTalk();
-			break;
-		}
-		case MARKETGROUP:
-		{
-			initMarketTalk();
-			break;
-		}
-		case DEVELOPMENTGROUP:
-		{
-			initDevelopTalk();
-			break;
-		}
-		default:	// 单聊
-		{
-			initPtoPTalk();
-			break;
-		}		
-
-	}
-*/
 }
 
 void TalkWindow::initGroupTalkStatus() {
@@ -188,123 +161,16 @@ void TalkWindow::initTalkWindow() {
 		QModelIndex modelIndex = queryEmployeeModel.index(i, 0);
 		int employeeID = queryEmployeeModel.data(modelIndex).toInt();
 
+		// 不让自己显示出来
+		//if (employeeID == gLoginEmployeeID.toInt()) {
+		//	continue;
+		//}
+
 		// 添加子节点
 		addPeopInfo(pRootItem, employeeID);
 	}
 }
 
-//
-//void TalkWindow::initCompanyTalk() {
-//	MyLogDEBUG(QString("公司群聊天窗口初始化").toUtf8());
-//
-//	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
-//	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
-//
-//	// 设置data，用于区分根项子项
-//	pRootItem->setData(0, Qt::UserRole, 0);
-//	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
-//
-//	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
-//
-//	int nEmployeeNum = 50;
-//	QString qsGroupName = QString::fromLocal8Bit("公司群 %1/%2").arg(0).arg(nEmployeeNum);
-//	pItemName->setText(qsGroupName);
-//
-//	// 插入分组节点
-//	ui.treeWidget->addTopLevelItem(pRootItem);
-//	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
-//
-//	// 展开
-//	pRootItem->setExpanded(true);
-//
-//	for (int i = 0; i < nEmployeeNum; i++) {
-//		addPeopInfo(pRootItem);
-//	}
-//}
-//
-//void TalkWindow::initPersonelTalk() {
-//	MyLogDEBUG(QString("人事群聊天窗口初始化").toUtf8());
-//
-//	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
-//	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
-//
-//	// 设置data，用于区分根项子项
-//	pRootItem->setData(0, Qt::UserRole, 0);
-//	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
-//
-//	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
-//
-//	int nEmployeeNum = 7;
-//	QString qsGroupName = QString::fromLocal8Bit("人事群 %1/%2").arg(0).arg(nEmployeeNum);
-//	pItemName->setText(qsGroupName);
-//
-//	// 插入分组节点
-//	ui.treeWidget->addTopLevelItem(pRootItem);
-//	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
-//
-//	// 展开
-//	pRootItem->setExpanded(true);
-//
-//	for (int i = 0; i < nEmployeeNum; i++) {
-//		addPeopInfo(pRootItem);
-//	}
-//}
-//
-//void TalkWindow::initMarketTalk() {
-//	MyLogDEBUG(QString("市场群聊天窗口初始化").toUtf8());
-//
-//	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
-//	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
-//
-//	// 设置data，用于区分根项子项
-//	pRootItem->setData(0, Qt::UserRole, 0);
-//	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
-//
-//	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
-//
-//	int nEmployeeNum = 15;
-//	QString qsGroupName = QString::fromLocal8Bit("市场群 %1/%2").arg(0).arg(nEmployeeNum);
-//	pItemName->setText(qsGroupName);
-//
-//	// 插入分组节点
-//	ui.treeWidget->addTopLevelItem(pRootItem);
-//	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
-//
-//	// 展开
-//	pRootItem->setExpanded(true);
-//
-//	for (int i = 0; i < nEmployeeNum; i++) {
-//		addPeopInfo(pRootItem);
-//	}
-//}
-//
-//void TalkWindow::initDevelopTalk() { 
-//	MyLogDEBUG(QString("研发群聊天窗口初始化").toUtf8());
-//
-//	QTreeWidgetItem *pRootItem = new QTreeWidgetItem();
-//	pRootItem->setChildIndicatorPolicy(QTreeWidgetItem::ShowIndicator);
-//
-//	// 设置data，用于区分根项子项
-//	pRootItem->setData(0, Qt::UserRole, 0);
-//	RootContatItem *pItemName = new RootContatItem(false, ui.treeWidget);
-//
-//	ui.treeWidget->setFixedHeight(646);		// TalkWindowSheel高度 - TalkWindowSheel头高（talkwindow titleWidget)
-//
-//	int nEmployeeNum = 28;
-//	QString qsGroupName = QString::fromLocal8Bit("研发群 %1/%2").arg(0).arg(nEmployeeNum);
-//	pItemName->setText(qsGroupName);
-//
-//	// 插入分组节点
-//	ui.treeWidget->addTopLevelItem(pRootItem);
-//	ui.treeWidget->setItemWidget(pRootItem, 0, pItemName);
-//
-//	// 展开
-//	pRootItem->setExpanded(true);
-//
-//	for (int i = 0; i < nEmployeeNum; i++) {
-//		addPeopInfo(pRootItem);
-//	}
-//}
 
 void TalkWindow::addPeopInfo(QTreeWidgetItem * pRootGroupItem, int employeeID) {
 	QTreeWidgetItem *pChild = new QTreeWidgetItem();
@@ -354,7 +220,12 @@ void TalkWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) {
 
 	int bIsChild = item->data(0, Qt::UserRole).toBool();
 	if (bIsChild) {
-		MyLogDEBUG(QString("单聊双击").toUtf8());
+		//MyLogDEBUG(QString("单聊双击").toUtf8());
+
+		QString talkID = item->data(0, Qt::UserRole + 1).toString();
+		if (talkID == gLoginEmployeeID) {
+			return;
+		}
 
 		QString sgtrPeopelName = m_groupPeopleMap.value(item);
 		WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString());
@@ -370,7 +241,7 @@ void TalkWindow::onSendBtnClicked(bool) {
 	}
 
 	QString html = ui.textEdit->document()->toHtml();
-	MyLogDEBUG(QString("发送的信息为：%1").arg(html).toUtf8());
+	//MyLogDEBUG(QString("发送的信息为：%1").arg(html).toUtf8());
 
 	// 文本html如果没有字体则添加字体    msgFont.txt
 	if (!html.contains(".png") && !html.contains("</span>")) {
@@ -397,4 +268,9 @@ void TalkWindow::onSendBtnClicked(bool) {
 	ui.textEdit->deleteAllEmotionImage();
 	
 	ui.msgWidget->appendMsg(html);
+}
+
+void TalkWindow::onFileOpenBtnClicked(bool) {
+	SendFile *sendFile = new SendFile;
+	sendFile->show();
 }

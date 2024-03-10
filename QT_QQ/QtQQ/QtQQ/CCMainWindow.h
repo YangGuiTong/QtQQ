@@ -8,6 +8,7 @@
 #include "RootContatItem.h"
 #include "Contactltem.h"
 
+
 class CCMainWindow : public BasicWindow
 {
     Q_OBJECT
