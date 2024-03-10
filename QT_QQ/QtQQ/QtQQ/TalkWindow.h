@@ -39,6 +39,7 @@ private slots:
 
 	void onSendBtnClicked(bool);
 
+	void onFileOpenBtnClicked(bool);
 	
 
 private:

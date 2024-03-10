@@ -106,6 +106,7 @@
     <ClCompile Include="QClickLabel.cpp" />
     <ClCompile Include="QMsgTextEdit.cpp" />
     <ClCompile Include="RootContatItem.cpp" />
+    <ClCompile Include="SendFile.cpp" />
     <ClCompile Include="SkinWindow.cpp" />
     <ClCompile Include="SysTray.cpp" />
     <ClCompile Include="TalkWindow.cpp" />
@@ -121,6 +122,7 @@
     <ClCompile Include="main.cpp" />
     <QtUic Include="Contactltem.ui" />
     <QtUic Include="EmotionWindow.ui" />
+    <QtUic Include="SendFile.ui" />
     <QtUic Include="SkinWindow.ui" />
     <QtUic Include="TalkWindow.ui" />
     <QtUic Include="TalkWindowItem.ui" />
@@ -135,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <QtMoc Include="SendFile.h" />
     <QtMoc Include="QMsgTextEdit.h" />
     <QtMoc Include="WindowManager.h" />
     <QtMoc Include="TalkWindow.h" />

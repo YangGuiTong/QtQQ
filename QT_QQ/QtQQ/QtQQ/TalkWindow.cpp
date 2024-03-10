@@ -3,6 +3,7 @@
 #include "Contactltem.h"
 #include "CommonUtils.h"
 #include "WindowManager.h"
+#include "SendFile.h"
 
 #include <QToolTip>
 #include <QFile>
@@ -57,6 +58,8 @@ void TalkWindow::initControl() {
 	connect(ui.sendBtn, SIGNAL(clicked(bool)), this, SLOT(onSendBtnClicked(bool)));
 
 	connect(ui.treeWidget, SIGNAL(itemDoubleClicked(QTreeWidgetItem *, int)), this, SLOT(onItemDoubleClicked(QTreeWidgetItem *, int)));
+
+	connect(ui.fileopenBtn, SIGNAL(clicked(bool)), this, SLOT(onFileOpenBtnClicked(bool)));
 
 
 	if (m_isGroupTalk) {
@@ -397,4 +400,9 @@ void TalkWindow::onSendBtnClicked(bool) {
 	ui.textEdit->deleteAllEmotionImage();
 	
 	ui.msgWidget->appendMsg(html);
+}
+
+void TalkWindow::onFileOpenBtnClicked(bool) {
+	SendFile *sendFile = new SendFile;
+	sendFile->show();
 }
