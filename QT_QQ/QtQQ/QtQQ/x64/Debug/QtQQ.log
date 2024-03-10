@@ -1,2 +1,27 @@
-﻿  TalkWindow.cpp
+﻿  RecviveFile.cpp
+  SendFile.cpp
+  TalkWindow.cpp
+  TalkWindowSheel.cpp
+  moc_BasicWindow.cpp
+  moc_CCMainWindow.cpp
+  moc_Contactltem.cpp
+  moc_CustomMenu.cpp
+  moc_EmotionLabelItem.cpp
+  moc_EmotionWindow.cpp
+  moc_MsgWebView.cpp
+  moc_NotifyManager.cpp
+  moc_QClickLabel.cpp
+  moc_QMsgTextEdit.cpp
+  moc_RecviveFile.cpp
+  moc_RootContatItem.cpp
+  moc_SendFile.cpp
+  moc_SkinWindow.cpp
+  moc_SysTray.cpp
+  moc_TalkWindowItem.cpp
+  moc_TalkWindowSheel.cpp
+  moc_TitleBar.cpp
+  moc_UserLogin.cpp
+  moc_WindowManager.cpp
+  qrc_CCMainWindow.cpp
+  LINK : 没有找到 E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\QtQQ.exe 或上一个增量链接没有生成它；正在执行完全链接
   QtQQ.vcxproj -> E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\QtQQ.exe

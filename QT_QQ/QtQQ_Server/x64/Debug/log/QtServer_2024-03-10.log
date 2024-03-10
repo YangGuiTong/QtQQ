@@ -254,3 +254,12 @@
 ------------------------------------------------------------------------------------------------------
 2024-03-10 21:46:18.718 [DEBUG][QtQQ_Server::initComboBoxData][92]: SELECT * FROM tab_department;
 2024-03-10 21:46:19.122 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-10 22:42:46.285 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-10 22:42:46.461 [DEBUG][QtQQ_Server::initComboBoxData][92]: SELECT * FROM tab_department;
+2024-03-10 22:42:46.840 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-10 22:44:09.640 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：736
+2024-03-10 22:44:15.933 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100052000226bytes测试文件.txtdata_begin测试数据，hello world
+2024-03-10 22:44:15.933 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100052000226bytes测试文件.txtdata_begin测试数据，hello world 开始广播
+2024-03-10 22:44:19.135 [DEBUG][TcpServer::SocketDisconnecgted][74]: tcpSocket描述符：736  IP： 127.0.0.1  断开连接!
