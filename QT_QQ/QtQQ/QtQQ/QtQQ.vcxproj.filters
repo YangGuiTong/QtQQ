@@ -106,6 +106,9 @@
     <ClCompile Include="SendFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RecviveFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TitleBar.h">
@@ -165,6 +168,9 @@
     <QtMoc Include="SendFile.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="RecviveFile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLogger.h">
@@ -203,6 +209,9 @@
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="SendFile.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="RecviveFile.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

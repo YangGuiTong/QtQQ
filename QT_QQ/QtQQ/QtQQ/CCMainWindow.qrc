@@ -362,5 +362,6 @@
         <file>Resources/MainWindow/MsgHtml/recvHtml.txt</file>
         <file>Resources/MainWindow/MsgHtml/ui.css</file>
         <file>Resources/QSS/SendFile.css</file>
+        <file>Resources/QSS/ReceiveFile.css</file>
     </qresource>
 </RCC>

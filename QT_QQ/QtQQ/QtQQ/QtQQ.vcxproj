@@ -105,6 +105,7 @@
     <ClCompile Include="NotifyManager.cpp" />
     <ClCompile Include="QClickLabel.cpp" />
     <ClCompile Include="QMsgTextEdit.cpp" />
+    <ClCompile Include="RecviveFile.cpp" />
     <ClCompile Include="RootContatItem.cpp" />
     <ClCompile Include="SendFile.cpp" />
     <ClCompile Include="SkinWindow.cpp" />
@@ -122,6 +123,7 @@
     <ClCompile Include="main.cpp" />
     <QtUic Include="Contactltem.ui" />
     <QtUic Include="EmotionWindow.ui" />
+    <QtUic Include="RecviveFile.ui" />
     <QtUic Include="SendFile.ui" />
     <QtUic Include="SkinWindow.ui" />
     <QtUic Include="TalkWindow.ui" />
@@ -137,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <QtMoc Include="RecviveFile.h" />
     <QtMoc Include="SendFile.h" />
     <QtMoc Include="QMsgTextEdit.h" />
     <QtMoc Include="WindowManager.h" />

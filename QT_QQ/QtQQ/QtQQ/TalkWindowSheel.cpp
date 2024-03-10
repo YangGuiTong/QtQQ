@@ -5,11 +5,15 @@
 #include "TalkWindowItem.h"
 #include "WindowManager.h"
 #include "QMsgTextEdit.h"
+#include "RecviveFile.h"
 
 #include <QSqlQueryModel>
 #include <QMessageBox>
 #include <QFile>
 #include <QSqlQuery>
+
+QString gfileName;		// 文件名称
+QString gfileData;		// 文件内容
 
 extern QString gLoginEmployeeID;
 
@@ -479,6 +483,27 @@ void TalkWindowSheel::processPendingData() {
 		if (btData[0] == '1') {		// 群聊
 			strWindowID = strData.mid(groupFlagWidth + employeeWidth, groupWidth);		// 获取接收端群号
 
+			// 获取当前获得窗口
+			//TalkWindow *curTalkWindow = dynamic_cast<TalkWindow *>(ui.rightStackedWidget->currentWidget());
+			//QString talkId = curTalkWindow->GetTalkId();
+			
+			// 不是发给自己的不接受处理
+			bool flag = false;
+			for (int i = 0; i < ui.rightStackedWidget->count(); i++) {
+				// 获取当前获得窗口
+				TalkWindow *curTalkWindow = dynamic_cast<TalkWindow *>(ui.rightStackedWidget->widget(i));
+				QString talkId = curTalkWindow->GetTalkId();
+
+				if (talkId == strWindowID) {
+					flag = true;
+					break;
+				}
+			}
+			if (!flag) {
+				return;
+			}
+
+
 			QChar cMsgType = btData[groupFlagWidth + employeeWidth + groupWidth];
 			if (cMsgType == '1') {			// 文本信息
 				msgType = 1;
@@ -500,22 +525,33 @@ void TalkWindowSheel::processPendingData() {
 
 				// 获取文件名称
 				QString fileName = strData.mid(posBytes + bytesWidth, pos_data_begin - bytesWidth - posBytes);
+				gfileName = fileName;
 
 				// 文件内容
-				int dataLenthWidth = strData.mid(groupFlagWidth + employeeWidth + groupWidth + msgTypeWidth, posBytes).toInt();
+				//int dataLenthWidth = strData.mid(groupFlagWidth + employeeWidth + groupWidth + msgTypeWidth, posBytes).toInt();
 				int posData = pos_data_begin + data_begin_width;
-				strMsg = strData.mid(posData, dataLenthWidth);		// 获取文件数据
+				strMsg = strData.mid(posData);		// 获取文件数据
+				gfileData = strMsg;
 
 				// 根据employeeID获取发送者姓名				
 				int employeeID = strSendEmployeeID.toInt();
 				QString sender = getEmployeeName(employeeID);
 
-				// TODO: 接收文件的后续操作。。。
+				RecviveFile *recvFile = new RecviveFile(this);
+				connect(recvFile, &RecviveFile::refuseFile, [this]() { return; });
+				QString msgLabel = "收到来自" + sender + "发来的文件，是否接收？";
+				recvFile->setMsg(msgLabel);
+				recvFile->show();
 			}
 
 		} else {	// 单聊
 			strRecvieEmployeeID = strData.mid(groupFlagWidth + employeeWidth, employeeWidth);	// 接收者QQ号
 			strWindowID = strSendEmployeeID;													// 发送者QQ号
+
+			// 不是发给我的信息不做处理
+			if (strRecvieEmployeeID != gLoginEmployeeID) {
+				return;
+			}
 
 			// 获取信息的类型
 			QChar cMsgType = btData[groupFlagWidth + employeeWidth + employeeWidth];
@@ -538,18 +574,30 @@ void TalkWindowSheel::processPendingData() {
 				msgType = 2;
 
 				int bytesWidth = QString("bytes").length();
-				int posBytes = btData.indexOf("bytes");
+				int posBytes = strData.indexOf("bytes");
 				int data_begin_width = QString("data_begin").length();
-				int pos_data_begin = btData.indexOf("data_begin");
+				int pos_data_begin = strData.indexOf("data_begin");
+
+				// 根据employeeID获取发送者姓名				
+				int employeeID = strSendEmployeeID.toInt();
+				QString sender = getEmployeeName(employeeID);
 
 				// 文件名称
-				QString fileName = btData.mid(posBytes + bytesWidth, pos_data_begin - posBytes - bytesWidth);
+				QString fileName = strData.mid(posBytes + bytesWidth, pos_data_begin - posBytes - bytesWidth);
+				gfileName = fileName;
 
 				// 文件内容长度
-				int dataLenthWidth = strData.mid(groupFlagWidth + employeeWidth + employeeWidth + msgTypeWidth, posBytes).toInt();
+				//int dataLenthWidth = strData.mid(groupFlagWidth + employeeWidth + employeeWidth + msgTypeWidth, posBytes).toInt();
 
 				// 文件内容
-				strMsg = strData.mid(pos_data_begin + data_begin_width, dataLenthWidth);
+				strMsg = strData.mid(pos_data_begin + data_begin_width);
+				gfileData = strMsg;
+
+				RecviveFile *recvFile = new RecviveFile(this);
+				connect(recvFile, &RecviveFile::refuseFile, [this]() { return; });
+				QString msgLabel = "收到来自  " + sender + "  发来的文件，是否接收？";
+				recvFile->setMsg(msgLabel);
+				recvFile->show();
 			}
 		}
 
