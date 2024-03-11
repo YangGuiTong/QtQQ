@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T14:02:19.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Fli1HChnfoxutqpI_7cU" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T14:24:27.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="CJhVuSQwxCTl1IEu9mCQ" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2084" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100000" pageHeight="100000" math="0" shadow="0">
+    <mxGraphModel dx="3473" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100000" pageHeight="100000" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="TitleBar" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="420" y="560" width="520" height="848" as="geometry">
+          <mxGeometry x="100" y="560" width="520" height="848" as="geometry">
             <mxRectangle x="220" y="70" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -13,10 +13,10 @@
           <mxGeometry y="26" width="520" height="294" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="320" width="520" height="108" as="geometry" />
+          <mxGeometry y="320" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FM1tGX0wUyBCF_gy3c6J-2" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;+ setrTitleIcon(const QString &amp;amp;): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;+ setTitleContent(const QString &amp;amp;): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;+ setTitleWidth(int): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;+ setButtonType(ButtonType): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;+ saveRestoreInfo(const QPoint &amp;amp;, const QSize &amp;amp;): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;+ getRestoreInfo(QPoint &amp;amp;, QSize &amp;amp;): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;- paintEvent(QPaintEvent *): void&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;- mouseDoubleClickEvent(QMouseEvent *): void&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;- mousePressEvent(QMouseEvent *): void&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;- mouseMoveEvent(QMouseEvent *)：void&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;- mouseReleaseEvent(QMouseEvent *): void&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;- initControl(): void&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;- initConnections(): void&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;- loadStyleSheet(const QString &amp;amp;): void&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="428" width="520" height="420" as="geometry" />
+          <mxGeometry y="350" width="520" height="420" as="geometry" />
         </mxCell>
         <mxCell id="-mWvOrnuQrW1X3age0rV-4" value="CommonUtils" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1070" y="170" width="620" height="184" as="geometry" />
@@ -95,16 +95,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-mWvOrnuQrW1X3age0rV-33" value="CCMainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1540" y="1460" width="720" height="476" as="geometry" />
+          <mxGeometry x="1540" y="1460" width="720" height="502" as="geometry" />
         </mxCell>
         <mxCell id="-mWvOrnuQrW1X3age0rV-34" value="- m_account：QString &#xa;- m_isAccountLogin：bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-33">
           <mxGeometry y="26" width="720" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mWvOrnuQrW1X3age0rV-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-33">
-          <mxGeometry y="86" width="720" height="8" as="geometry" />
+          <mxGeometry y="86" width="720" height="34" as="geometry" />
         </mxCell>
         <mxCell id="-mWvOrnuQrW1X3age0rV-36" value="+ setUserName(const QString &amp;)：void &#xa;+ setLevePixmap(int)：void&#xa;+ setHeadPixmap(const QString &amp;)：void		&#xa;+ setStatusMenuIcon(const QString &amp;)：void&#xa;+ addOtherAppExtension(const QString &amp;, const QString)：QWidget *&#xa;+ initContactTree()：void&#xa;&#xa;- initTimer()：void&#xa;- initControl(): void&#xa;- updateSeachStyle(): void&#xa;- addCompanyDeps(QTreeWidgetItem *, int ): void&#xa;- getHeadPixturePath(): QString&#xa;- resizeEvent(QResizeEvent *)：void&#xa;- eventFilter(QObject *, QEvent *)：bool&#xa;	- mousePressEvent(QMouseEvent *): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-33">
-          <mxGeometry y="94" width="720" height="382" as="geometry" />
+          <mxGeometry y="120" width="720" height="382" as="geometry" />
         </mxCell>
         <mxCell id="-mWvOrnuQrW1X3age0rV-37" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=20;entryX=0.722;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-mWvOrnuQrW1X3age0rV-33" target="-mWvOrnuQrW1X3age0rV-15">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -112,11 +112,47 @@
             <mxPoint x="1790" y="1340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-mWvOrnuQrW1X3age0rV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-mWvOrnuQrW1X3age0rV-31" target="-mWvOrnuQrW1X3age0rV-36">
+        <mxCell id="-mWvOrnuQrW1X3age0rV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.016;entryY=1.055;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-mWvOrnuQrW1X3age0rV-31" target="-mWvOrnuQrW1X3age0rV-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-mWvOrnuQrW1X3age0rV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.027;entryY=0.424;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-mWvOrnuQrW1X3age0rV-7" target="-mWvOrnuQrW1X3age0rV-17">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-48" value="WindowManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2480" y="1602" width="740" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-49" value="- m_talkwindowshell: TalkWindowSheel *&#xa;- m_windowMap：QMap&lt;QString, QWidget *&gt;&#xa;- m_strCreatingTalkId：QString" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-48">
+          <mxGeometry y="26" width="740" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-48">
+          <mxGeometry y="140" width="740" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-51" value="+ findWindowName(const QString &amp;)： QWidget *&#xa;+ deleteWindowName(const QString &amp;)：void &#xa;+ addWindowName(const QString &amp;, QWidget *)：void &#xa;+ addNewTalkWindow(const QString &amp;)： void &#xa;+ getTalkWindowSheel()：TalkWindowSheel *&#xa;+ getCreatingTalkId()：QString " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-48">
+          <mxGeometry y="150" width="740" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-52" value="&lt;u&gt;&lt;span style=&quot;&quot;&gt;+ getInstance()：&lt;/span&gt;&lt;span style=&quot;&quot;&gt;WindowManager *&lt;/span&gt;&lt;/u&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-48">
+          <mxGeometry y="320" width="740" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-mWvOrnuQrW1X3age0rV-36" target="-mWvOrnuQrW1X3age0rV-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-54" value="TalkWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2480" y="370" width="660" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-55" value="- m_talkId：QString&#xa;- m_groupPeopleMap: QMap&lt;QTreeWidgetItem *, QString&gt;&#xa;- m_isGroupTalk: bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-54">
+          <mxGeometry y="26" width="660" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-54">
+          <mxGeometry y="130" width="660" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-57" value="+ addEmotionImage(int )：void &#xa;+ setWindowName(const QString &amp;)：void &#xa;+ GetTalkId()：QString &#xa;&#xa;- initControl()：void &#xa;- initGroupTalkStatus()：void &#xa;- getCompDepID()：int &#xa;- initPtoPTalk()：void &#xa;- initTalkWindow()：void &#xa;- addPeopInfo(QTreeWidgetItem *, int )：void " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="-mWvOrnuQrW1X3age0rV-54">
+          <mxGeometry y="138" width="660" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="-mWvOrnuQrW1X3age0rV-58" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=20;entryX=0.998;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.012;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-mWvOrnuQrW1X3age0rV-57" target="-mWvOrnuQrW1X3age0rV-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2210" y="660" as="sourcePoint" />
+            <mxPoint x="2370" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
