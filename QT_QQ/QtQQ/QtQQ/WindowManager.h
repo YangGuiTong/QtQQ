@@ -13,6 +13,8 @@ public:
 	~WindowManager();
 
 public:
+	QString findWindowName(QWidget *qsWindow);	// 根据窗体寻找名字
+
 	QWidget *findWindowName(const QString &qsWindowName);
 	void deleteWindowName(const QString &qsWindowName);
 	void addWindowName(const QString &qsWindowName, QWidget *qWidget);

@@ -4,6 +4,7 @@
 #include "TalkWindowItem.h"
 
 #include <QSqlQueryModel>
+#include <QThread>
 
 // 单例模式，创建全局静态对象
 Q_GLOBAL_STATIC(WindowManager, theInstalce)
@@ -14,6 +15,11 @@ WindowManager::WindowManager() : QObject(nullptr), m_talkwindowshell(nullptr) {
 
 WindowManager::~WindowManager() {
 
+}
+
+QString WindowManager::findWindowName(QWidget * qsWindow) {
+	
+	return m_windowMap.key(qsWindow);
 }
 
 QWidget * WindowManager::findWindowName(const QString & qsWindowName) {
@@ -87,48 +93,6 @@ void WindowManager::addNewTalkWindow(const QString & uid) {
 
 		m_talkwindowshell->addTalkWindow(talkwindow, talkwindowItem, uid);
 
-/*
-		switch (groupType) {
-			case COMPANY:
-			{
-				talkwindow->setWindowName(QString("这个群一天也不想呆了"));
-				talkwindowItem->setMsgLabelContent(QString("Qt公司群"));
-				break;
-			}
-			case PERSONELGROUP:
-			{
-				talkwindow->setWindowName(QString("今天上班不努力，明天努力找工作"));
-				talkwindowItem->setMsgLabelContent(QString("Qt人事群"));
-				break;
-			}
-			case MARKETGROUP:
-			{
-				talkwindow->setWindowName(QString("到处造谣拐骗"));
-				talkwindowItem->setMsgLabelContent(QString("Qt市场群"));
-				break;
-			}
-			case DEVELOPMENTGROUP:
-			{
-				talkwindow->setWindowName(QString("据说只有两种编程语言，一种是天天挨骂的，另一种是没人用的"));
-				talkwindowItem->setMsgLabelContent(QString("Qt研发群"));
-				break;
-			}
-			case PTOP:
-			{
-				talkwindow->setWindowName(QString("这个家伙"));
-				talkwindowItem->setMsgLabelContent(strPeopel);
-				break;
-			}
-			default:
-			{
-				break;
-			}
-		}
-
-		m_talkwindowshell->addTalkWindow(talkwindow, talkwindowItem, groupType);
-*/
-		
-
 	} else {
 		MyLogDEBUG(QString("根据 %1 找到窗口，直接添加").arg(uid).toUtf8());
 		
@@ -143,6 +107,9 @@ void WindowManager::addNewTalkWindow(const QString & uid) {
 	m_talkwindowshell->show();
 	m_talkwindowshell->activateWindow();
 
+	QThread::sleep(1);
+
+	m_talkwindowshell->onLoadMessage();
 }
 
 TalkWindowSheel * WindowManager::getTalkWindowSheel() {

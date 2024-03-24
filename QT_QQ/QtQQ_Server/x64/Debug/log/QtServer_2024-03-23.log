@@ -1,0 +1,196 @@
+2024-03-23 10:41:22.085 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 10:41:22.991 [DEBUG][QtQQ_Server::initComboBoxData][92]: SELECT * FROM tab_department;
+2024-03-23 10:41:23.528 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-23 10:42:35.811 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1284
+2024-03-23 10:42:47.243 [DEBUG][TcpServer::SocketDataProcessiong][55]: 来自IP： 127.0.0.1  发来的数据：1100012000100024你哈有爱上了对方就agfsdfgsdfg发士大夫
+2024-03-23 10:42:47.243 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100012000100024你哈有爱上了对方就agfsdfgsdfg发士大夫 开始广播
+2024-03-23 10:45:19.746 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 10:45:19.950 [DEBUG][QtQQ_Server::initComboBoxData][92]: SELECT * FROM tab_department;
+2024-03-23 10:45:20.375 [DEBUG][TcpServer::run][13]: 服务器监听端口 10086 成功！
+2024-03-23 10:45:34.148 [DEBUG][TcpServer::incomingConnection][27]: 新的连接：1320
+2024-03-23 10:45:39.394 [DEBUG][TcpServer::SocketDataProcessiong][56]: 来自IP： 127.0.0.1  发来的数据：1100042002100012asdfs山豆根发射点发
+2024-03-23 10:45:59.786 [DEBUG][QtQQ_Server::onUDPbroadMsg][436]: 数据：1100042002100012asdfs山豆根发射点发 开始广播
+2024-03-23 10:46:11.480 [DEBUG][TcpServer::SocketDataProcessiong][56]: 来自IP： 127.0.0.1  发来的数据：110004200202images002002
+2024-03-23 22:03:14.715 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 22:03:14.898 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 22:03:15.394 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 22:03:55.852 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1332
+2024-03-23 22:03:59.412 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1340
+2024-03-23 22:04:19.773 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042002100005nihao
+2024-03-23 22:04:19.774 [DEBUG][TcpServer::MessageInsert][237]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 22:04:19.780 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100042002100005nihao 开始广播
+2024-03-23 22:04:26.744 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100062002100002你好
+2024-03-23 22:04:26.745 [DEBUG][TcpServer::MessageInsert][237]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 22:04:26.748 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100062002100002你好 开始广播
+2024-03-23 22:05:08.898 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100062002100004飞洒地方
+2024-03-23 22:05:08.899 [DEBUG][TcpServer::MessageInsert][237]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 22:05:08.903 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100062002100004飞洒地方 开始广播
+2024-03-23 22:05:31.256 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1332  IP： 127.0.0.1  断开连接!
+2024-03-23 22:05:31.260 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1340  IP： 127.0.0.1  断开连接!
+2024-03-23 22:13:15.012 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 22:13:15.208 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 22:13:15.671 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 22:13:28.057 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1320
+2024-03-23 22:13:37.306 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110004200201images046
+2024-03-23 22:13:37.306 [DEBUG][TcpServer::MessageInsert][237]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 22:13:37.313 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：110004200201images046 开始广播
+2024-03-23 22:13:42.643 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1320  IP： 127.0.0.1  断开连接!
+2024-03-23 22:16:33.706 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 22:16:33.915 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 22:16:34.338 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 22:21:03.827 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 22:21:04.009 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 22:21:04.449 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 22:23:16.745 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 22:23:16.967 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 22:23:17.361 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 22:23:31.385 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1328
+2024-03-23 22:23:53.270 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：912
+2024-03-23 22:24:00.618 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100062002100008nihaoy你好
+2024-03-23 22:24:00.618 [DEBUG][TcpServer::MessageInsert][237]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 22:24:00.625 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100062002100008nihaoy你好 开始广播
+2024-03-23 22:24:09.038 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042002100007w我好，大家好
+2024-03-23 22:24:09.038 [DEBUG][TcpServer::MessageInsert][237]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 22:24:09.044 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100042002100007w我好，大家好 开始广播
+2024-03-23 22:24:13.405 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100062002100004哈哈哈哈
+2024-03-23 22:24:13.405 [DEBUG][TcpServer::MessageInsert][237]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 22:24:13.410 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100062002100004哈哈哈哈 开始广播
+2024-03-23 22:26:26.692 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110006200203images015030060
+2024-03-23 22:26:49.409 [DEBUG][TcpServer::MessageInsert][237]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 22:26:49.416 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：110006200203images015030060 开始广播
+2024-03-23 22:26:57.865 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1328  IP： 127.0.0.1  断开连接!
+2024-03-23 22:26:57.880 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：912  IP： 127.0.0.1  断开连接!
+2024-03-23 22:27:15.880 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 22:27:16.071 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 22:27:16.525 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 22:30:06.976 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1228
+2024-03-23 22:30:12.061 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100005qwe请问
+2024-03-23 22:31:05.662 [DEBUG][TcpServer::MessageInsert][237]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 22:31:05.669 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100042000100005qwe请问 开始广播
+2024-03-23 22:31:07.872 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1228  IP： 127.0.0.1  断开连接!
+2024-03-23 22:38:05.314 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 22:38:05.520 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 22:38:05.946 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 22:38:34.869 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1360
+2024-03-23 22:38:37.783 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042002100005sdfsd
+2024-03-23 22:55:29.749 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 22:55:29.950 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 22:55:30.386 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 22:56:03.163 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1348
+2024-03-23 22:56:07.357 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100062000100011ggggggggggg
+2024-03-23 23:01:38.153 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:04:47.623 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100062000100011ggggggggggg 开始广播
+2024-03-23 23:05:05.346 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100062000100012FFFFFFFFFFFF
+2024-03-23 23:09:35.167 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:14:06.855 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 23:14:07.067 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 23:14:07.492 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 23:14:28.524 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1340
+2024-03-23 23:14:52.663 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1332
+2024-03-23 23:15:05.057 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100062002100019你好呀阿萨的礼服卡索反对asfdsdf
+2024-03-23 23:15:05.057 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:15:05.062 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100062002100019你好呀阿萨的礼服卡索反对asfdsdf 开始广播
+2024-03-23 23:15:09.482 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042002100006dsfsdf
+2024-03-23 23:15:09.483 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:15:09.488 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100042002100006dsfsdf 开始广播
+2024-03-23 23:15:12.104 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100062002100006发生发射点发
+2024-03-23 23:15:12.104 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:15:12.108 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100062002100006发生发射点发 开始广播
+2024-03-23 23:15:59.468 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100062002100002你好
+2024-03-23 23:20:45.095 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 23:20:45.288 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 23:20:45.718 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 23:20:59.334 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1336
+2024-03-23 23:21:03.674 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042002100003你好呀
+2024-03-23 23:21:06.425 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:21:06.433 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100042002100003你好呀 开始广播
+2024-03-23 23:35:23.919 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110004200201images016
+2024-03-23 23:36:34.645 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：110004200201images016 开始广播
+2024-03-23 23:38:09.715 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 23:38:09.909 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 23:38:10.287 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 23:38:46.466 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1276
+2024-03-23 23:38:51.811 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100003你好呀
+2024-03-23 23:39:07.872 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:40:06.635 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 23:40:06.837 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 23:40:07.342 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 23:40:19.527 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1276
+2024-03-23 23:40:24.455 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100005nihao
+2024-03-23 23:40:34.109 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:41:10.348 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 23:41:10.598 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 23:41:11.013 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 23:41:24.849 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1328
+2024-03-23 23:41:26.680 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100052000100003asd
+2024-03-23 23:41:41.918 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:47:56.927 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 23:47:57.124 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 23:47:57.548 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 23:48:08.199 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1344
+2024-03-23 23:48:10.993 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110005200001images061
+2024-03-23 23:48:18.646 [DEBUG][TcpServer::MessageSaveDataBase][289]: 执行数据库指令：UPDATE tab_chat SET message = '[
+    {
+        "message": "1asd",
+        "sender": "10005"
+    },
+    {
+        "message": "0061",
+        "sender": "10005"
+    }
+]
+', updated_time = CURRENT_TIMESTAMP WHERE sender = 10005 AND receiver = 2000;  失败！
+2024-03-23 23:48:39.574 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：110005200001images061 开始广播
+2024-03-23 23:50:10.275 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1344  IP： 127.0.0.1  断开连接!
+2024-03-23 23:50:48.797 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-23 23:50:48.994 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-23 23:50:49.418 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-23 23:50:57.684 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1328
+2024-03-23 23:51:01.529 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110005200001images059
+2024-03-23 23:51:04.704 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:51:05.708 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：110005200001images059 开始广播
+2024-03-23 23:51:20.867 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100052000100008nihaoya 
+2024-03-23 23:51:23.118 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：1100052000100008nihaoya  开始广播
+2024-03-23 23:52:43.692 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：01000510007100007asrgsdg
+2024-03-23 23:52:48.046 [DEBUG][TcpServer::MessageInsert][238]: 没有找到对应的聊天记录，插入新的记录。
+2024-03-23 23:52:48.051 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：01000510007100007asrgsdg 开始广播
+2024-03-23 23:52:50.876 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：01000510007100007sdgsafg
+2024-03-23 23:52:50.880 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：01000510007100007sdgsafg 开始广播
+2024-03-23 23:52:52.329 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：01000510007100010asedasdasd
+2024-03-23 23:52:52.334 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：01000510007100010asedasdasd 开始广播
+2024-03-23 23:52:56.028 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：01000510007100008三个人是告诉对方
+2024-03-23 23:52:56.033 [DEBUG][QtQQ_Server::onUDPbroadMsg][462]: 数据：01000510007100008三个人是告诉对方 开始广播

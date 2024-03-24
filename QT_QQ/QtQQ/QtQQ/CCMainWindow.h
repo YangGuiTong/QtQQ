@@ -34,6 +34,9 @@ private:
 	void addCompanyDeps(QTreeWidgetItem *pRootGroupItem, int DepID);
 	QString getHeadPixturePath();							// 获取登录者的头像路径
 
+	// 读取数据库中的聊天记录
+	void ReadDatabaseMessage();
+
 private:
 	void resizeEvent(QResizeEvent *event);
 	bool eventFilter(QObject *obj, QEvent *event);

@@ -15,7 +15,10 @@
 QString gfileName;		// 文件名称
 QString gfileData;		// 文件内容
 
+QString currentAccount = "";	// 当前窗口账号
+
 extern QString gLoginEmployeeID;
+extern QMultiMap<int, QMap<int, QJsonArray>> g_message_info;	// 聊天记录
 
 TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 	: BasicWindow(parent) {
@@ -36,6 +39,7 @@ TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 		}
 	}
 	
+
 }
 
 TalkWindowSheel::~TalkWindowSheel() {
@@ -282,6 +286,7 @@ QString TalkWindowSheel::getEmployeeName(int employeesID) {
 
 void TalkWindowSheel::handleReceivedMsg(QString senderEmployeeID, int msgType, QString strMsg) {
 	QMsgTextEdit msgTextEdit;
+	msgTextEdit.setFont(QFont("Microsoft YaHei"));
 	msgTextEdit.setText(strMsg);
 
 	if (msgType == 1) {			// 文本信息
@@ -317,9 +322,58 @@ void TalkWindowSheel::handleReceivedMsg(QString senderEmployeeID, int msgType, Q
 	}
 
 	TalkWindow *talkWindow = dynamic_cast<TalkWindow *>(ui.rightStackedWidget->currentWidget());
-	talkWindow->ui.msgWidget->appendMsg(htmlText, senderEmployeeID);
+	talkWindow->ui.msgWidget->appendMsg(htmlText);
+	//talkWindow->ui.msgWidget->appendMsg(htmlText, senderEmployeeID);
 
 }
+
+void TalkWindowSheel::LoadMessage(QString senderID, int msgType, QString strMsg) {
+	QMsgTextEdit msgTextEdit;
+	msgTextEdit.setFont(QFont("Microsoft YaHei"));
+	msgTextEdit.setText(strMsg);
+
+	if (msgType == 1) {			// 文本信息
+		msgTextEdit.document()->toHtml();
+	} else if (msgType == 0) {	// 表情信息
+		const int emotionWidth = 3;
+		int emotionNum = strMsg.length() / emotionWidth;
+		for (int i = 0; i < emotionNum; i++) {
+			msgTextEdit.addEmotionUrl(strMsg.mid(i * emotionWidth, emotionWidth).toInt());
+		}
+	}
+
+	QString htmlText = msgTextEdit.document()->toHtml();
+
+	// 文本html如果没有字体则添加字体    msgFont.txt
+	if (!htmlText.contains(".png") && !htmlText.contains("</span>")) {
+		QString fontHtml;
+		QFile file(":/Resources/MainWindow/MsgHtml/msgFont.txt");
+		if (file.open(QIODevice::ReadOnly)) {
+			fontHtml = file.readAll();
+			fontHtml.replace("%1", strMsg);
+			file.close();
+
+		} else {
+			MyLogDEBUG(QString("msgFont.txt文件打开失败！").toUtf8());
+			QMessageBox::information(this, "提示", "msgFont.txt文件打开失败！");
+			return;
+		}
+
+		if (!htmlText.contains(fontHtml)) {
+			htmlText.replace(strMsg, fontHtml);
+		}
+	}
+
+	TalkWindow *talkWindow = dynamic_cast<TalkWindow *>(ui.rightStackedWidget->currentWidget());
+
+	if (senderID == gLoginEmployeeID) {
+		talkWindow->ui.msgWidget->LoadMsg(htmlText);
+	} else {
+		talkWindow->ui.msgWidget->LoadMsg(htmlText, senderID);
+	}
+	
+}
+
 
 // 文本数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(1) + 数据长度 + 数据
 // 表情数据包格式：群聊标志 + 发信息员工QQ号 + 收信息员工QQ号（群QQ号） + 信息类型(0) + 表情个数 + images + 数据
@@ -413,6 +467,46 @@ void TalkWindowSheel::onTalkWindowItemClicked(QListWidgetItem *item) {
 
 	QWidget *talkWindowWidget = m_talkwindowItemMap.find(item).value();
 	ui.rightStackedWidget->setCurrentWidget(talkWindowWidget);
+
+	//emit signalReload();
+
+	QString curAccount = "";
+	QString currentWindowAccount = WindowManager::getInstance()->findWindowName(talkWindowWidget);
+	currentAccount = currentWindowAccount;
+	if (4 == currentWindowAccount.length()) {
+		curAccount = currentWindowAccount;
+	} else {
+		curAccount = gLoginEmployeeID;
+	}
+
+
+	QJsonArray messageArr;
+	// 找到匹配的收信者的qq对应的聊天记录
+	QList<QMap<int, QJsonArray>> messageList = g_message_info.values(curAccount.toInt());
+	for (int i = 0; i < messageList.size(); i++) {
+		QMap<int, QJsonArray> temMap = messageList.at(i);
+		if (temMap.firstKey() == currentWindowAccount.toInt()) {
+			messageArr = temMap.first();
+			break;
+		}
+	}
+
+	if (0 >= messageArr.size()) {
+		return;
+	}
+
+	for (int i = 0; i < messageArr.size(); i++) {
+		QJsonObject messageObj = messageArr.at(i).toObject();
+		QString sender = messageObj.value("sender").toString();
+		QString message = messageObj.value("message").toString();
+		int msgType = message.mid(0, 1).toInt();	// 获得信息类型
+
+		message = message.mid(1);		// 移除第一位数据类型
+
+		// 聊天记录插入
+		LoadMessage(sender, msgType, message);
+	}
+
 }
 
 void TalkWindowSheel::onEmotionItemClicked(int emotionNum) {
@@ -623,5 +717,46 @@ void TalkWindowSheel::processPendingData() {
 		}
 
 		
+	}
+}
+
+
+
+// 加载聊天记记录
+void TalkWindowSheel::onLoadMessage() { 
+
+	QString curAccount;
+	if (4 == currentAccount.length()) {
+		curAccount = currentAccount;
+	} else {
+		curAccount = gLoginEmployeeID;
+	}
+
+
+	QJsonArray messageArr;
+	// 找到匹配的收信者的qq对应的聊天记录
+	QList<QMap<int, QJsonArray>> messageList = g_message_info.values(curAccount.toInt());
+	for (int i = 0; i < messageList.size(); i++) {
+		QMap<int, QJsonArray> temMap = messageList.at(i);
+		if (temMap.firstKey() == currentAccount.toInt()) {
+			messageArr = temMap.first();
+			break;
+		}
+	}
+
+	if (0 >= messageArr.size()) {
+		return;
+	}
+
+	for (int i = 0; i < messageArr.size(); i++) {
+		QJsonObject messageObj = messageArr.at(i).toObject();
+		QString sender = messageObj.value("sender").toString();
+		QString message = messageObj.value("message").toString();
+		int msgType = message.mid(0, 1).toInt();	// 获得信息类型
+
+		message = message.mid(1);		// 移除第一位数据类型
+
+		// 聊天记录插入
+		LoadMessage(sender, msgType, message);
 	}
 }

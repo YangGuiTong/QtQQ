@@ -4,6 +4,11 @@
 #include "MyLog.h"
 #include "MyLogger.h"
 
+#include <QJsonArray>
+#include <QJsonObject>
+#include <QMap>
+#include <QJsonDocument>
+
 
 #pragma execution_character_set("utf-8") // qt支持显示中文
 
@@ -18,8 +23,6 @@ enum GroupType {
 	GROUP_TYPE_COUNT
 };
 
-//QString gLoginEmployeeID;	// 登录者的QQ号
-//QString gstrLoginHeadPath;	// 登录者的头像路径
 
 
 const int gTcpPort = 10086;

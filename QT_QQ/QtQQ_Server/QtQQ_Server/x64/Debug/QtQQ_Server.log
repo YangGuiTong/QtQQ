@@ -1,4 +1,5 @@
-﻿  uic QtQQ_Server.ui
+﻿  Reading Qt configuration (D:/Qt/Qt5.9.6/5.9.6/msvc2017_64/bin/qmake)
+  uic QtQQ_Server.ui
   rcc QtQQ_Server.qrc
   moc QtQQ_Server.h
   moc TcpSocket.h

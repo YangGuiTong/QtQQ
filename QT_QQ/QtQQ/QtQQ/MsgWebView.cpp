@@ -12,6 +12,7 @@
 #include <public_type.h>
 
 extern QString gstrLoginHeadPath;	// 登录者的头像路径
+extern QMultiMap<int, QMap<int, QJsonArray>> g_message_info;	// 聊天记录
 
 MsgHtmlObj::MsgHtmlObj(QObject *parent, QString msgLPicPath) : QObject(parent), m_msgLPicPath(msgLPicPath){
 	initHtmlTmpl();
@@ -70,6 +71,8 @@ MsgWebView::MsgWebView(QWidget *parent)
 
 	TalkWindowSheel *talkWindowShell = WindowManager::getInstance()->getTalkWindowSheel();
 	connect(this, &MsgWebView::signalSendMsg, talkWindowShell, &TalkWindowSheel::updateSendTcpMsg);
+	connect(this, &MsgWebView::signalLoadMsg, talkWindowShell, &TalkWindowSheel::onLoadMessage);
+	connect(talkWindowShell, &TalkWindowSheel::signalReload, this, &MsgWebView::onReloadMsgTmpl);
 
 
 	// 当前正构建的聊天窗口的ID（QQ号）
@@ -125,6 +128,10 @@ MsgWebView::MsgWebView(QWidget *parent)
 	this->page()->setWebChannel(m_channel);
 	// 初始化收信息页面
 	this->load(QUrl("qrc:/Resources/MainWindow/MsgHtml/msgTmpl.html"));
+
+
+
+	//emit signalLoadMsg();
 }
 
 MsgWebView::~MsgWebView() { }
@@ -207,6 +214,77 @@ void MsgWebView::appendMsg(const QString & html, QString strObj) {
 	}
 }
 
+void MsgWebView::LoadMsg(const QString & html, QString strObj) {
+
+	QJsonObject msgObj;
+	QString qsMsg;
+	const QList<QStringList> msgLst = parseHtml(html);		// 解析html
+
+	int imageNum = 0;	// 记录发送的一段信息中的表情个数
+	int msgType = 1;	// 信息类型：0是表情信息，1是文本信息，2是文件
+	bool isImageMsg = false;
+	QString strData;	// 发送的数据（表情宽度为3位，例：055，008，155）
+
+	for (int i = 0; i < msgLst.size(); i++) {
+		if (msgLst.at(i).at(0) == "img") {
+			QString imagePath = msgLst.at(i).at(1);
+			QPixmap pixmap;
+
+			// 获取表情名称
+			QString strEmotionPath = "qrc:/Resources/MainWindow/emotion/";
+			int pos = strEmotionPath.size();
+			QString strEmotionName = imagePath.mid(pos);
+			strEmotionName.replace(".png", "");
+
+			isImageMsg = true;
+
+			// 根据表情名称的长度进行设置表情数据，不足3位则补足3位，例如23，则补为023
+			int emotionNameL = strEmotionName.length();
+			if (1 == emotionNameL) {
+				strData = strData + "00" + strEmotionName;
+			} else if (2 == emotionNameL) {
+				strData = strData + "0" + strEmotionName;
+			} else if (3 == emotionNameL) {
+				strData = strData + strEmotionName;
+			}
+
+			// 设置信息类型
+			msgType = 0;
+			imageNum++;
+
+			if (imagePath.left(3) == "qrc") {
+				pixmap.load(imagePath.mid(3));		// 去掉表情路径中的qrc
+
+			} else {
+				pixmap.load(imagePath);
+			}
+
+			QString imgPath = QString("<img src=\"%1\" width=\"%2\" height=\"%3\" />")
+				.arg(imagePath).arg(pixmap.width()).arg(pixmap.height());
+			qsMsg += imgPath;
+
+		} else if (msgLst.at(i).at(0) == "text") {
+			qsMsg += msgLst.at(i).at(1);
+
+			msgType = 1;
+			strData = qsMsg;
+		}
+	}
+
+	msgObj.insert("MSG", qsMsg);
+	const QString &Msg = QJsonDocument(msgObj).toJson(QJsonDocument::Compact);
+
+
+	if (strObj == "0") {	
+		// 发信息
+		this->page()->runJavaScript(QString("appendHtml0(%1)").arg(Msg));
+
+	} else {
+		// 收信息
+		this->page()->runJavaScript(QString("recvHtml_%1(%2)").arg(strObj).arg(Msg));
+	}
+}
+
 QList<QStringList> MsgWebView::parseHtml(const QString & html) {
 	//MyLogDEBUG(QString("解析的html为：%1").arg(html).toUtf8());
 
@@ -252,4 +330,10 @@ QList<QStringList> MsgWebView::parseDocNode(const QDomNode & node) {
 	}
 
 	return attribute;
+}
+
+
+void MsgWebView::onReloadMsgTmpl() {
+	// 初始化收信息页面
+	this->load(QUrl("qrc:/Resources/MainWindow/MsgHtml/msgTmpl.html"));
 }

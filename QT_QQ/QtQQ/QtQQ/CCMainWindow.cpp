@@ -14,8 +14,12 @@
 #include "WindowManager.h"
 #include "TalkWindowSheel.h"
 
+// 第一个int代表发送方的QQ号，第二个int代表接收方的QQ号，QJsonArray代表聊天记录
+QMultiMap<int, QMap<int, QJsonArray>> g_message_info;	// 聊天记录
+
 QString gstrLoginHeadPath;	// 登录者的头像路径
 extern QString gLoginEmployeeID;	// 登录者的QQ号
+extern QString currentAccount;		// 当前窗口账号
 
 class CustomProxyStayle : public QProxyStyle {
 public:
@@ -113,6 +117,8 @@ void CCMainWindow::initControl() {
 	// 系统托盘
 	SysTray *systray = new SysTray(this);
 
+	// 读取聊天记录
+	ReadDatabaseMessage();
 }
 
 void CCMainWindow::updateSeachStyle() { 
@@ -187,6 +193,25 @@ QString CCMainWindow::getHeadPixturePath() {
 
 	gstrLoginHeadPath = strPicturePath;
 	return strPicturePath;
+}
+
+void CCMainWindow::ReadDatabaseMessage() { 
+	QString sql = QString("SELECT * FROM tab_chat");
+	QSqlQuery query;
+	query.exec(sql);
+
+	while (query.next()) {
+		int sender = query.value(1).toInt();
+		int receiver = query.value(2).toInt();
+		QString message = query.value(3).toString();
+		message = message.simplified();		// 去除开头结尾中间的特殊字符，\r\n\t
+		QJsonArray messageArr = QJsonDocument::fromJson(message.toLocal8Bit()).array();
+
+		// 保存
+		QMap<int, QJsonArray> messageMap;
+		messageMap.insert(receiver, messageArr);
+		g_message_info.insert(sender, messageMap);
+	}
 }
 
 void CCMainWindow::setUserName(const QString & username) {
@@ -405,27 +430,8 @@ void CCMainWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) {
 
 	bool bIsChild = item->data(0, Qt::UserRole).toBool();
 	if (bIsChild) {
-		//QString strGroup = m_groupMap.value(item);
-		QString text = "";
-		WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString());
-/*
-		if (strGroup == QString::fromLocal8Bit("公司群")) {
-			text = "公司群";
-			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), COMPANY);
-		} else if (strGroup == QString::fromLocal8Bit("人事部")) {
-			text = "人事部";
-			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), PERSONELGROUP);
-		} else if (strGroup == QString::fromLocal8Bit("市场部")) {
-			text = "市场部";
-			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), MARKETGROUP);
-		} else if (strGroup == QString::fromLocal8Bit("研发部")) {
-			text = "研发部";
-			WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString(), DEVELOPMENTGROUP);
-		}
-*/
-		
-
-		MyLogDEBUG(QString("%1").arg(text).toUtf8());
+		currentAccount = item->data(0, Qt::UserRole + 1).toString();
+		WindowManager::getInstance()->addNewTalkWindow(currentAccount);
 	}
 }
 

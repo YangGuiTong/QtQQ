@@ -49,7 +49,7 @@ protected:
 
 
 
-// QWebEngineView£∫ ‘Õº”√”¢”Ôœ‘ æÕ¯“≥
+// QWebEngineView£∫ ”Õºœ‘ æÕ¯“≥
 class MsgWebView  : public QWebEngineView
 {
 	Q_OBJECT
@@ -60,6 +60,8 @@ public:
 
 	void appendMsg(const QString &html, QString strObj = "0");
 
+	void LoadMsg(const QString &html, QString strObj = "0");
+
 
 private:
 	QList<QStringList> parseHtml(const QString &html);			// Ω‚Œˆhtml
@@ -69,6 +71,10 @@ private:
 
 signals:
 	void signalSendMsg(QString &strData, int &msgType, QString sFile = "");
+	void signalLoadMsg();
+
+public slots:
+	void onReloadMsgTmpl();
 
 
 private:

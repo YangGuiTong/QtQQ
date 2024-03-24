@@ -34,6 +34,9 @@ private:
 	// 根据员工QQ号获取员工名字
 	QString getEmployeeName(int employeesID);
 
+	// 读取数据库中的聊天记录
+	void ReadDatabaseMessage();
+
 private slots:
 	void onUDPbroadMsg(QByteArray &btData);
 	void onRefresh();
@@ -44,6 +47,7 @@ private slots:
 
 	void on_selectPictureBtn_clicked();		// 选中图片按钮
 	void on_addBtn_clicked();				// 新增员工
+
 
 private:
     Ui::QtQQ_ServerClass ui;

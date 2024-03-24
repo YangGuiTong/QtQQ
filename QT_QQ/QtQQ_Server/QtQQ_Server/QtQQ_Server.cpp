@@ -11,6 +11,9 @@
 #include <QSqlQuery>
 #include <QFileDialog>
 
+// 第一个int代表发送方的QQ号，第二个int代表接收方的QQ号，QJsonArray代表聊天记录
+QMultiMap<int, QMap<int, QJsonArray>> g_message_info;	// 聊天记录
+
 QtQQ_Server::QtQQ_Server(QWidget *parent)
 	: QDialog(parent), m_pixPath("") {
 	ui.setupUi(this);
@@ -72,6 +75,9 @@ QtQQ_Server::QtQQ_Server(QWidget *parent)
 
 	ui.queryIDLineEdit->setValidator(new QRegExpValidator(QRegExp("^[0-9]+$"), ui.queryIDLineEdit));
 	ui.logoutIDLineEdit->setValidator(new QRegExpValidator(QRegExp("^[0-9]+$"), ui.logoutIDLineEdit));
+
+
+	ReadDatabaseMessage();
 }
 
 QtQQ_Server::~QtQQ_Server() {
@@ -277,6 +283,26 @@ QString QtQQ_Server::getEmployeeName(int employeesID) {
 	return employee_name;
 
 
+}
+
+void QtQQ_Server::ReadDatabaseMessage() { 
+
+	QString sql = QString("SELECT * FROM tab_chat;");
+	QSqlQuery query(sql);
+	query.exec();
+
+	while (query.next()) {
+		int sender = query.value(1).toInt();
+		int receiver = query.value(2).toInt();
+		QString message = query.value(3).toString();
+		message = message.simplified();		// 去除开头结尾中间的特殊字符，\r\n\t
+		QJsonArray messageArr = QJsonDocument::fromJson(message.toLocal8Bit()).array();
+
+		// 保存
+		QMap<int, QJsonArray> messageMap;
+		messageMap.insert(receiver, messageArr);
+		g_message_info.insert(sender, messageMap);
+	}
 }
 
 void QtQQ_Server::onRefresh() {

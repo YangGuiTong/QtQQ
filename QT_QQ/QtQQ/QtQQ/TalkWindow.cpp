@@ -12,6 +12,7 @@
 #include <QSqlQuery>
 
 extern QString gLoginEmployeeID;
+extern QString currentAccount;	// 当前窗口账号
 
 TalkWindow::TalkWindow(QWidget *parent, const QString &uid)
 	: QWidget(parent), m_talkId(uid) {
@@ -23,6 +24,8 @@ TalkWindow::TalkWindow(QWidget *parent, const QString &uid)
 
 	initGroupTalkStatus();
 	initControl();
+
+
 }
 
 TalkWindow::~TalkWindow() {
@@ -227,8 +230,9 @@ void TalkWindow::onItemDoubleClicked(QTreeWidgetItem * item, int column) {
 			return;
 		}
 
+		currentAccount = item->data(0, Qt::UserRole + 1).toString();	// 当前窗口账号
 		QString sgtrPeopelName = m_groupPeopleMap.value(item);
-		WindowManager::getInstance()->addNewTalkWindow(item->data(0, Qt::UserRole + 1).toString());
+		WindowManager::getInstance()->addNewTalkWindow(currentAccount);
 	}
 }
 

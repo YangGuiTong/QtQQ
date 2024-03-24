@@ -2,6 +2,11 @@
 
 #include "MyLog.h"
 
+#include <QJsonArray>
+#include <QJsonObject>
+#include <QMap>
+#include <QJsonDocument>
+
 
 #pragma execution_character_set("utf-8") // qt支持显示中文
 
@@ -19,3 +24,4 @@ enum GroupType {
 
 const int gTcpPort = 10086;
 const int gUdpPort = 10010;
+

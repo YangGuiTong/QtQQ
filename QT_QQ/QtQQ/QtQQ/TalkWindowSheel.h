@@ -43,13 +43,18 @@ private:
 
 	void handleReceivedMsg(QString senderEmployeeID, int msgType, QString strMsg);
 
+	void LoadMessage(QString senderID, int msgType, QString strMsg);
+
+signals:
+	void signalReload();
+
 public slots:
 	void onEmotionBtnClicked(bool);		// 表情按钮点击后执行的槽函数
 
 	// 客户端发送TCP数据（参数：数据，数据类型，文件）
 	void updateSendTcpMsg(QString &strData, int &msgType, QString fileName = "");
 
-	
+	void onLoadMessage();
 
 private slots:
 	void onTalkWindowItemClicked(QListWidgetItem *item);	// 左侧列表点击后执行的槽函数
@@ -65,5 +70,18 @@ private:
 
 private:
 	QTcpSocket *m_tcpClientSocket;		// tcp客户端
-	QUdpSocket *m_udpReceiver;			// udp接收端0
+	QUdpSocket *m_udpReceiver;			// udp接收端
+
+	// 第一个int代表接收方的QQ号，QJsonArray代表聊天记录
+	//QMap<int, QJsonArray> m_message_info;	// 聊天记录
+	/*
+		QJsonArray格式如下:
+
+		[
+			{ "sender": "12345",    "message": "内容" },
+			{ "sender": "54321",    "message": "内容" },
+			{ "sender": "54321",    "message": "内容" },
+			{ "sender": "12345",    "message": "内容" } 
+		]
+	*/
 };

@@ -50,6 +50,7 @@ bool UserLogin::connectMySql() {
 	db.setPort(3306);
 
 	if (db.open()) {
+		MyLogDEBUG(QString("客户端连接数据库成功！").toUtf8());
 		return true;
 	}
 
