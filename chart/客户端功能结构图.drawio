@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2024-03-20T14:02:13.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="BHUFR8rcemD776YF_Gim" version="24.0.7" type="github">
+  <diagram name="第 1 页" id="icfxu8davwd_F4QHDPUC">
+    <mxGraphModel dx="4168" dy="2344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PyxEWm7fjZF-xo4n_uYZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="_cen_rF3GaI7b2-DB5qC-1" target="PyxEWm7fjZF-xo4n_uYZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyxEWm7fjZF-xo4n_uYZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="_cen_rF3GaI7b2-DB5qC-1" target="_cen_rF3GaI7b2-DB5qC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyxEWm7fjZF-xo4n_uYZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="_cen_rF3GaI7b2-DB5qC-1" target="_cen_rF3GaI7b2-DB5qC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyxEWm7fjZF-xo4n_uYZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1" source="_cen_rF3GaI7b2-DB5qC-1" target="_cen_rF3GaI7b2-DB5qC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyxEWm7fjZF-xo4n_uYZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1" source="_cen_rF3GaI7b2-DB5qC-1" target="_cen_rF3GaI7b2-DB5qC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyxEWm7fjZF-xo4n_uYZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="_cen_rF3GaI7b2-DB5qC-1" target="_cen_rF3GaI7b2-DB5qC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyxEWm7fjZF-xo4n_uYZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1" source="_cen_rF3GaI7b2-DB5qC-1" target="_cen_rF3GaI7b2-DB5qC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_cen_rF3GaI7b2-DB5qC-1" value="QtQQ客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=60;" parent="1" vertex="1">
+          <mxGeometry x="790" y="130" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_cen_rF3GaI7b2-DB5qC-2" value="登&lt;div&gt;录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=50;" parent="1" vertex="1">
+          <mxGeometry x="420" y="520" width="120" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_cen_rF3GaI7b2-DB5qC-3" value="查&lt;div&gt;看&lt;/div&gt;&lt;div&gt;群&lt;/div&gt;&lt;div&gt;聊&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=50;" parent="1" vertex="1">
+          <mxGeometry x="680" y="520" width="120" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_cen_rF3GaI7b2-DB5qC-4" value="进&lt;div&gt;入&lt;/div&gt;&lt;div&gt;群&lt;/div&gt;&lt;div&gt;聊&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=50;" parent="1" vertex="1">
+          <mxGeometry x="940" y="520" width="120" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_cen_rF3GaI7b2-DB5qC-6" value="进&lt;div&gt;入&lt;/div&gt;&lt;div&gt;单&lt;/div&gt;&lt;div&gt;聊&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="520" width="120" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_cen_rF3GaI7b2-DB5qC-7" value="发&lt;div&gt;送&lt;/div&gt;&lt;div&gt;消&lt;/div&gt;&lt;div&gt;息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="520" width="120" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_cen_rF3GaI7b2-DB5qC-8" value="发&lt;div&gt;送&lt;/div&gt;&lt;div&gt;文&lt;/div&gt;&lt;div&gt;件&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1710" y="520" width="120" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="PyxEWm7fjZF-xo4n_uYZ-1" value="程&lt;div&gt;序&lt;/div&gt;&lt;div&gt;启&lt;/div&gt;&lt;div&gt;动&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="170" y="520" width="120" height="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
