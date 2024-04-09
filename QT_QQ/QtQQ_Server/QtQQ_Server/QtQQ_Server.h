@@ -30,12 +30,20 @@ private:
 	void setOnLineMap();
 
 	// 根据员工QQ号获取部门号
-	QString getDepartment(int employeesID);
+	QString getDepartment(const int employeesID);
 	// 根据员工QQ号获取员工名字
 	QString getEmployeeName(int employeesID);
+	// 根据员工QQ号获取员工密码
+	QString getEmployeePwd(const int employeeID);
 
 	// 读取数据库中的聊天记录
 	void ReadDatabaseMessage();
+
+	// 服务器起来时，将所有成员设为离线状态
+	void Offline();
+
+	// 查询和显示员工信息
+	void ShowAlterEmployeeInfo(const int employeesID);
 
 private slots:
 	void onUDPbroadMsg(QByteArray &btData);
@@ -47,7 +55,10 @@ private slots:
 
 	void on_selectPictureBtn_clicked();		// 选中图片按钮
 	void on_addBtn_clicked();				// 新增员工
+	void on_deleteBtn_clicked();			// 删除员工
 
+	void on_alterSelectPictureBtn_clicked();	// 修改中的选中图片地址
+	void on_alterBtn_clicked();					// 修改按钮
 
 private:
     Ui::QtQQ_ServerClass ui;
@@ -68,4 +79,5 @@ private:
 	QTimer *m_timer;		// 定时刷新数据
 
 	QString m_pixPath;		// 头像路径
+	QString m_alterPoxPath;	// 修改的图片路径
 };

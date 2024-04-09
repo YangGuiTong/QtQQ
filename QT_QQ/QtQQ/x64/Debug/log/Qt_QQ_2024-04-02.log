@@ -1,0 +1,14 @@
+2024-04-02 21:14:50.707 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-02 21:14:50.723 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(40,138,221);
+2024-04-02 21:14:51.434 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-04-02 21:14:51.453 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-04-02 21:14:51.453 [DEBUG][UserLogin::initControl][27]: 登录窗口初始化
+2024-04-02 21:14:52.029 [DEBUG][UserLogin::connectMySql][53]: 客户端连接数据库成功！
+2024-04-02 21:15:02.357 [DEBUG][UserLogin::onLoginBtnClicked][115]: 登录按钮被按下！
+2024-04-02 21:15:02.357 [DEBUG][UserLogin::verfyAccountCode][62]: 账号密码验证
+2024-04-02 21:15:02.357 [DEBUG][UserLogin::verfyAccountCode][68]: sql语句：SELECT code FROM tab_accounts WHERE employeeId=123456
+2024-04-02 21:15:02.360 [DEBUG][UserLogin::verfyAccountCode][90]: sql语句：SELECT code, employeeID FROM tab_accounts WHERE account = '123456'
+2024-04-02 21:15:30.655 [DEBUG][BasicWindow::onButtonCloseClicked][206]: 用户主动关闭登录窗口
+2024-04-02 21:15:30.664 [DEBUG][BasicWindow::onShowQuit][155]: 用户点击退出按钮

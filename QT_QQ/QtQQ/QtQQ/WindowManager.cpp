@@ -107,7 +107,7 @@ void WindowManager::addNewTalkWindow(const QString & uid) {
 	m_talkwindowshell->show();
 	m_talkwindowshell->activateWindow();
 
-	QThread::sleep(1);
+	//QThread::sleep(1);
 
 	m_talkwindowshell->onLoadMessage();
 }

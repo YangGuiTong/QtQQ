@@ -1,16 +1,2 @@
-﻿  Reading Qt configuration (D:/Qt/Qt5.9.6/5.9.6/msvc2017_64/bin/qmake)
-  uic QtQQ_Server.ui
-  rcc QtQQ_Server.qrc
-  moc QtQQ_Server.h
-  moc TcpSocket.h
-  moc TcpServer.h
-  TcpServer.cpp
-  TcpSocket.cpp
-  MyLog.cpp
-  QtQQ_Server.cpp
-  main.cpp
-  qrc_QtQQ_Server.cpp
-  moc_QtQQ_Server.cpp
-  moc_TcpSocket.cpp
-  moc_TcpServer.cpp
+﻿  QtQQ_Server.cpp
   QtQQ_Server.vcxproj -> E:\git_my_demo\graduation_project\QT_QQ\QtQQ_Server\x64\Debug\QtQQ_Server.exe

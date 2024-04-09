@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>999</width>
-    <height>502</height>
+    <height>692</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -19,13 +19,13 @@
   <property name="minimumSize">
    <size>
     <width>999</width>
-    <height>502</height>
+    <height>692</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>999</width>
-    <height>502</height>
+    <height>692</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -106,7 +106,7 @@
      <x>702</x>
      <y>1</y>
      <width>296</width>
-     <height>500</height>
+     <height>800</height>
     </rect>
    </property>
    <widget class="QLabel" name="label">
@@ -128,7 +128,7 @@
       <x>0</x>
       <y>210</y>
       <width>299</width>
-      <height>291</height>
+      <height>481</height>
      </rect>
     </property>
     <property name="title">
@@ -138,7 +138,7 @@
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>170</y>
+       <y>210</y>
        <width>299</width>
        <height>3</height>
       </rect>
@@ -213,7 +213,7 @@
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>140</y>
+       <y>170</y>
        <width>81</width>
        <height>28</height>
       </rect>
@@ -239,7 +239,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>180</y>
+       <y>230</y>
        <width>161</width>
        <height>27</height>
       </rect>
@@ -249,9 +249,9 @@
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>180</y>
+       <y>230</y>
        <width>81</width>
-       <height>28</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -262,9 +262,9 @@
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>210</y>
+       <y>270</y>
        <width>81</width>
-       <height>28</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -275,9 +275,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>211</y>
+       <y>270</y>
        <width>161</width>
-       <height>21</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="placeholderText">
@@ -288,9 +288,9 @@
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>240</y>
+       <y>320</y>
        <width>81</width>
-       <height>28</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -301,9 +301,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>240</y>
+       <y>320</y>
        <width>161</width>
-       <height>21</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="placeholderText">
@@ -327,9 +327,9 @@
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>270</y>
+       <y>370</y>
        <width>81</width>
-       <height>28</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -340,15 +340,267 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>270</y>
+       <y>370</y>
        <width>161</width>
-       <height>21</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="placeholderText">
       <string>请输入员工ID号</string>
      </property>
     </widget>
+    <widget class="QLineEdit" name="lineEditPwd">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>16</number>
+     </property>
+     <property name="placeholderText">
+      <string>请输入员工密码</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="alterWidget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>500</y>
+     <width>701</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="alterBtn">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>100</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>修改</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="alterHeadLabel">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>100</y>
+      <width>85</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>员工寸照</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterNameLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>13</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>10</number>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterIDLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>13</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>13</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>员工部门：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="alterEmployeeStatusBox">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>53</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>53</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>员工签名：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>53</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>员工密码：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterSignLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>53</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>15</number>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterPwdLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>53</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>10</number>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="alterSelectPictureBtn">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>103</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>13</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>员工工号：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>103</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>员工寸照：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="alterEmployeeDepBox">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>13</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>13</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>员工姓名：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>53</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>员工状态：</string>
+    </property>
    </widget>
   </widget>
  </widget>

@@ -1,0 +1,73 @@
+2024-03-25 20:53:11.528 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 20:53:12.694 [DEBUG][QtQQ_Server::initComboBoxData][98]: SELECT * FROM tab_department;
+2024-03-25 20:53:13.243 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 21:03:40.424 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 21:03:40.645 [DEBUG][QtQQ_Server::initComboBoxData][99]: SELECT * FROM tab_department;
+2024-03-25 21:03:41.133 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 21:13:04.224 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 21:13:04.440 [DEBUG][QtQQ_Server::initComboBoxData][99]: SELECT * FROM tab_department;
+2024-03-25 21:13:04.923 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 21:13:24.169 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 21:13:24.391 [DEBUG][QtQQ_Server::initComboBoxData][99]: SELECT * FROM tab_department;
+2024-03-25 21:13:24.827 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 21:13:39.017 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][490]: 员工 '架构师' 的企业QQ：'10010' 已被删除！
+2024-03-25 21:13:44.682 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][490]: 员工 '架构师' 的企业QQ：'10010' 已被删除！
+2024-03-25 21:15:23.091 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 21:15:23.304 [DEBUG][QtQQ_Server::initComboBoxData][99]: SELECT * FROM tab_department;
+2024-03-25 21:15:23.734 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 21:16:04.167 [DEBUG][QtQQ_Server::getEmployeeName][278]: 员工QQ号：10010  没有查询到任何信息
+2024-03-25 21:16:04.167 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][490]: 员工 '' 的企业QQ：'10010' 已被删除！
+2024-03-25 21:16:15.212 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][321]: 查询 研发部 下的所有员工信息，编号：2002
+2024-03-25 21:16:20.033 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][321]: 查询 市场部 下的所有员工信息，编号：2003
+2024-03-25 21:16:22.596 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][321]: 查询 公司群 下的所有员工信息，编号：2000
+2024-03-25 21:28:35.760 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 21:28:35.991 [DEBUG][QtQQ_Server::initComboBoxData][103]: SELECT * FROM tab_department;
+2024-03-25 21:28:36.504 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 21:29:20.830 [DEBUG][QtQQ_Server::on_addBtn_clicked][483]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2002, 10010, '研发一', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-03-25 21:37:38.222 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 21:37:38.469 [DEBUG][QtQQ_Server::initComboBoxData][102]: SELECT * FROM tab_department;
+2024-03-25 21:37:38.901 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 21:38:25.081 [DEBUG][QtQQ_Server::on_addBtn_clicked][468]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2001, 10011, 'sdfsf', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-03-25 21:39:30.797 [DEBUG][QtQQ_Server::getEmployeeName][281]: 员工QQ号：10011  没有查询到任何信息
+2024-03-25 21:39:30.797 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][520]: 员工 '' 的企业QQ：'10011' 已被删除！
+2024-03-25 21:39:42.570 [DEBUG][QtQQ_Server::getEmployeeName][281]: 员工QQ号：10010  没有查询到任何信息
+2024-03-25 21:39:42.570 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][520]: 员工 '' 的企业QQ：'10010' 已被删除！
+2024-03-25 21:41:10.372 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 21:41:10.565 [DEBUG][QtQQ_Server::initComboBoxData][102]: SELECT * FROM tab_department;
+2024-03-25 21:41:10.970 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 21:54:24.818 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 21:54:25.050 [DEBUG][QtQQ_Server::initComboBoxData][102]: SELECT * FROM tab_department;
+2024-03-25 21:54:25.503 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 22:32:52.649 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 22:32:53.007 [DEBUG][QtQQ_Server::initComboBoxData][102]: SELECT * FROM tab_department;
+2024-03-25 22:32:53.430 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 22:37:14.743 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 22:37:14.927 [DEBUG][QtQQ_Server::initComboBoxData][103]: SELECT * FROM tab_department;
+2024-03-25 22:37:15.345 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-03-25 22:41:02.311 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-03-25 22:41:02.574 [DEBUG][QtQQ_Server::initComboBoxData][104]: SELECT * FROM tab_department;
+2024-03-25 22:41:02.965 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！

@@ -1,0 +1,192 @@
+2024-04-09 21:38:29.472 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:38:30.232 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:38:30.610 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 21:38:35.917 [DEBUG][QtQQ_Server::getDepartment][265]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10005);
+2024-04-09 21:38:35.917 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][381]: 查询QQ号：10005  员工姓名：yaner 信息
+2024-04-09 21:38:35.919 [DEBUG][QtQQ_Server::getDepartment][265]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10005);
+2024-04-09 21:43:59.890 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:44:00.085 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:45:22.992 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:45:23.174 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:47:16.760 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:47:16.942 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:47:17.331 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 21:47:22.398 [DEBUG][QtQQ_Server::getDepartment][272]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 21:47:22.399 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][388]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 21:47:22.401 [DEBUG][QtQQ_Server::getDepartment][272]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 21:48:00.437 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:48:00.616 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:48:01.022 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 21:48:05.301 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10007);
+2024-04-09 21:48:05.302 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10007  员工姓名：shiyi 信息
+2024-04-09 21:48:05.303 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10007);
+2024-04-09 21:48:23.908 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:48:24.098 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:49:04.061 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:49:04.243 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:49:04.638 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 21:49:08.811 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10004);
+2024-04-09 21:49:08.812 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10004  员工姓名：yanyi 信息
+2024-04-09 21:49:08.813 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10004);
+2024-04-09 21:49:58.570 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:49:58.772 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:49:59.151 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 21:50:02.700 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10005);
+2024-04-09 21:50:02.700 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10005  员工姓名：yaner 信息
+2024-04-09 21:50:02.702 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10005);
+2024-04-09 21:54:15.734 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:54:15.918 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:54:16.324 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 21:54:21.305 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 21:54:21.307 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 21:54:21.308 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 21:54:34.372 [DEBUG][QtQQ_Server::on_alterBtn_clicked][627]: UPDATE tab_accounts SET account='', code='' WHERE employeeID=;
+2024-04-09 21:54:34.372 [DEBUG][QtQQ_Server::on_alterBtn_clicked][628]: 更新失败
+2024-04-09 21:55:07.085 [DEBUG][QtQQ_Server::on_alterBtn_clicked][627]: UPDATE tab_accounts SET account='', code='' WHERE employeeID=;
+2024-04-09 21:55:07.086 [DEBUG][QtQQ_Server::on_alterBtn_clicked][628]: 更新失败
+2024-04-09 21:56:21.113 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:56:21.304 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:56:21.721 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 21:56:26.322 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 21:56:26.323 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 21:56:26.324 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 21:57:33.296 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:57:33.489 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:57:33.875 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 21:57:52.310 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 21:57:52.311 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 21:57:52.313 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 21:57:59.497 [DEBUG][QtQQ_Server::on_alterBtn_clicked][628]: UPDATE tab_accounts SET account='', code='' WHERE employeeID=;
+2024-04-09 21:57:59.497 [DEBUG][QtQQ_Server::on_alterBtn_clicked][629]: 更新失败
+2024-04-09 21:59:01.467 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 21:59:01.660 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 21:59:02.091 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 21:59:06.931 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 21:59:06.932 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 21:59:06.934 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 21:59:19.930 [DEBUG][QtQQ_Server::on_alterBtn_clicked][628]: UPDATE tab_accounts SET account='rensan1', code='rensan1' WHERE employeeID=rensan1;
+2024-04-09 21:59:19.930 [DEBUG][QtQQ_Server::on_alterBtn_clicked][629]: 更新失败
+2024-04-09 21:59:29.855 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 研发部 下的所有员工信息，编号：2002
+2024-04-09 22:06:35.010 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 22:06:35.286 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 22:06:35.943 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 22:06:41.868 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:06:41.869 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan1 信息
+2024-04-09 22:06:41.871 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:09:39.615 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 22:09:39.807 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 22:09:40.232 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 22:09:49.669 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:09:49.670 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 22:09:49.671 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:10:02.376 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 公司群 下的所有员工信息，编号：2000
+2024-04-09 22:10:15.752 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:10:15.753 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 22:10:15.754 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:10:30.206 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 22:10:30.411 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 22:10:30.852 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 22:10:37.959 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:10:37.960 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 22:10:37.962 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:10:45.646 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:10:45.647 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 22:10:45.648 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:10:51.692 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:10:51.692 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 22:10:51.694 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:12:00.252 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:12:00.253 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][389]: 查询QQ号：10003  员工姓名：rensan 信息
+2024-04-09 22:12:00.255 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10003);
+2024-04-09 22:12:19.785 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 公司群 下的所有员工信息，编号：2000
+2024-04-09 22:14:27.483 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 22:14:27.671 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 22:14:28.083 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 22:14:34.095 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:34.096 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:34.098 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:36.699 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:36.699 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:36.701 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:38.819 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:38.819 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:38.822 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:42.718 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:42.719 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:42.720 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:43.760 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:43.760 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:43.761 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:43.927 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:43.928 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:43.930 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:44.109 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:44.110 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:44.111 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:44.288 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:44.289 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:44.292 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:44.480 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:44.481 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:44.483 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:45.784 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:45.785 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:45.787 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:45.946 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:45.946 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:45.948 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:46.116 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:14:46.117 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:14:46.119 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:15:22.321 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 22:15:22.569 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 22:15:22.926 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 22:15:26.789 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:15:26.789 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:15:26.791 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:16:15.174 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:16:15.175 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-09 22:16:15.176 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-09 22:16:16.170 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 研发部 下的所有员工信息，编号：2002
+2024-04-09 22:16:21.228 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10004);
+2024-04-09 22:16:21.229 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10004  员工姓名：yanyi 信息
+2024-04-09 22:16:21.231 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10004);
+2024-04-09 22:18:14.116 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 22:18:14.894 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 22:18:15.267 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！

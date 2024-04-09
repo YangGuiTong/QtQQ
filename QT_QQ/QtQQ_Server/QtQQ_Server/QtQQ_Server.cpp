@@ -41,10 +41,15 @@ QtQQ_Server::QtQQ_Server(QWidget *parent)
 	QStringList strList;
 	strList << "人事部" << "研发部" << "市场部";
 	ui.employeeDepBox->addItems(strList);
+	ui.alterEmployeeDepBox->addItems(strList);
 
 	strList.clear();
 	strList << "公司群" << "人事部" << "研发部" << "市场部";
 	ui.departmentBox->addItems(strList);
+
+	strList.clear();
+	strList << "有效" << "已注销";
+	ui.alterEmployeeStatusBox->addItems(strList);
 
 	initComboBoxData();
 
@@ -61,6 +66,7 @@ QtQQ_Server::QtQQ_Server(QWidget *parent)
 	m_employeeID = 0;
 
 	updateTaleData();
+	Offline();
 
 
 	// 定时刷新数据
@@ -78,6 +84,10 @@ QtQQ_Server::QtQQ_Server(QWidget *parent)
 
 
 	ReadDatabaseMessage();
+
+	ui.lineEditPwd->setValidator(new QRegExpValidator(QRegExp("[a-zA-Z0-9]+$")));
+
+	ui.alterWidget->setVisible(false);
 }
 
 QtQQ_Server::~QtQQ_Server() {
@@ -121,6 +131,14 @@ void QtQQ_Server::initComboBoxData() {
 
 		// 设置部门组合框的数据为相应的部门号
 		ui.departmentBox->setItemData(i, queryDepID.value(0).toInt());
+
+		static int company = 1;
+		if (1 == company) {
+			company = 0;
+			continue;
+		}
+		// 设置部门组合框的数据为相应的部门号
+		ui.alterEmployeeDepBox->setItemData(i-1, queryDepID.value(0).toInt());
 	}
 }
 
@@ -248,7 +266,7 @@ void QtQQ_Server::setOnLineMap() {
 	m_onlineMap.insert("4", tr("忙碌"));
 }
 
-QString QtQQ_Server::getDepartment(int employeesID) {
+QString QtQQ_Server::getDepartment(const int employeesID) {
 
 	QString sql = QString("SELECT department_name FROM tab_department WHERE departmentID=\
 						  (SELECT departmentID FROM tab_employees WHERE employeeID=%1);").arg(employeesID);
@@ -281,8 +299,21 @@ QString QtQQ_Server::getEmployeeName(int employeesID) {
 	QString employee_name = query.value(0).toString();
 
 	return employee_name;
+}
 
+QString QtQQ_Server::getEmployeePwd(const int employeeID) {
+	QString sql = QString("SELECT code FROM tab_accounts WHERE employeeID=%1;").arg(employeeID);
+	QSqlQuery query(sql);
+	query.exec();
 
+	if (!query.next()) {
+		MyLogDEBUG(QString("员工QQ号：%1  没有查询到密码信息").arg(employeeID).toUtf8());
+		return QString("");
+	}
+
+	QString employee_pwd = query.value("code").toString();
+
+	return employee_pwd;
 }
 
 void QtQQ_Server::ReadDatabaseMessage() { 
@@ -320,11 +351,13 @@ void QtQQ_Server::on_queryDepartmentBtn_clicked() {
 	MyLogDEBUG(QString("查询 %1 下的所有员工信息，编号：%2").arg(curText).arg(m_depID).toUtf8());
 
 	updateTaleData(m_depID, m_employeeID);
+
+	ui.alterWidget->setVisible(false);
 }
 
 void QtQQ_Server::on_queryIDBtn_clicked() {
-
 	ui.logoutIDLineEdit->clear();
+	ui.deleteLineEdit->clear();
 
 	int employeeID = ui.queryIDLineEdit->text().toInt();
 	if (0 == employeeID) {
@@ -356,11 +389,17 @@ void QtQQ_Server::on_queryIDBtn_clicked() {
 
 	MyLogDEBUG(QString("查询QQ号：%1  员工姓名：%2 信息").arg(m_employeeID).arg(employee_name).toUtf8());
 	updateTaleData(m_depID, m_employeeID);
+
+	ShowAlterEmployeeInfo(employeeID);
+
+	ui.alterWidget->setVisible(true);
 }
 
 void QtQQ_Server::on_logoutBtn_clicked() {
+	ui.alterWidget->setVisible(false);
 
 	ui.queryIDLineEdit->clear();
+	ui.deleteLineEdit->clear();
 
 	int employeeID = ui.logoutIDLineEdit->text().toInt();
 	if (0 == employeeID) {
@@ -394,6 +433,7 @@ void QtQQ_Server::on_logoutBtn_clicked() {
 }
 
 void QtQQ_Server::on_selectPictureBtn_clicked() {
+	ui.alterWidget->setVisible(false);
 
 	// 获取选择的头像路径
 	m_pixPath = QFileDialog::getOpenFileName(this, tr("选择头像"), ".", "*.png;;*.jpg");
@@ -413,6 +453,8 @@ void QtQQ_Server::on_selectPictureBtn_clicked() {
 }
 
 void QtQQ_Server::on_addBtn_clicked() {
+	ui.alterWidget->setVisible(false);
+
 	// 检测员工姓名的输入
 	QString strName = ui.nameLineEdit->text();
 	if (!strName.size()) {
@@ -426,6 +468,21 @@ void QtQQ_Server::on_addBtn_clicked() {
 		QMessageBox::information(this, tr("提示"), tr("请选择员工头像路径！"));
 		return;
 	}
+
+	// 密码判断
+	QString pwd = ui.lineEditPwd->text();
+	if (!pwd.size()) {
+		QMessageBox::information(this, tr("提示"), tr("请输入密码！"));
+		ui.lineEditPwd->setFocus();
+		return;
+	}
+	if (5 > pwd.length()) {
+		QMessageBox::information(this, tr("提示"), tr("密码长度小于5位"));
+		ui.lineEditPwd->setFocus();
+		return;
+	}
+
+
 
 	/* 数据库插入新的员工数据 */
 	// 获取员工QQ号
@@ -449,10 +506,143 @@ void QtQQ_Server::on_addBtn_clicked() {
 	QSqlQuery insertSql(sql);
 	insertSql.exec();
 
+
+	sql = QString("INSERT INTO tab_accounts VALUES(%1, '%2', '%3');").arg(employeeID).arg(strName).arg(pwd);
+	QSqlQuery insertAccountSql;
+	insertAccountSql.exec(sql);
+
+
 	QMessageBox::information(this, tr("提示"), tr("新增成功"));
 	m_pixPath = "";
 	ui.headLabel->setText(("  员工寸照"));
 	ui.nameLineEdit->clear();
+}
+
+void QtQQ_Server::on_deleteBtn_clicked() {
+	ui.alterWidget->setVisible(false);
+
+	ui.queryIDLineEdit->clear();
+	ui.logoutIDLineEdit->clear();
+
+	int employeeID = ui.deleteLineEdit->text().toInt();
+	if (0 == employeeID) {
+		QMessageBox::information(this, tr("提示"), tr("请输入员工QQ号！"));
+		ui.logoutIDLineEdit->setFocus();
+		return;
+	}
+
+	QString sql = QString("SELECT * FROM tab_employees WHERE employeeID=%1").arg(employeeID);
+	QSqlQuery query(sql);
+	query.exec();
+	if (!query.next()) {
+		QMessageBox::information(this, tr("提示"), tr("请输入正确的员工QQ号！"));
+		ui.logoutIDLineEdit->setFocus();
+		return;
+	}
+
+
+	sql = QString("DELETE FROM tab_employees WHERE employeeID=%1").arg(employeeID);
+	query.exec(sql);
+
+
+	sql = QString("DELETE FROM tab_accounts WHERE employeeID=%1").arg(employeeID);
+	query.exec(sql);
+
+
+
+	// 获取删除员工的姓名
+	QString employee_name = getEmployeeName(employeeID);
+
+	QString text = QString("员工 '%1' 的企业QQ：'%2' 已被删除！").arg(employee_name).arg(employeeID);
+	MyLogDEBUG(text.toUtf8());
+	QMessageBox::information(this, tr("提示"), tr(text.toUtf8()));
+
+	updateTaleData(m_depID, m_employeeID);
+}
+
+void QtQQ_Server::on_alterSelectPictureBtn_clicked() {
+	// 获取选择的头像路径
+	m_alterPoxPath = QFileDialog::getOpenFileName(this, tr("选择头像"), ".", "*.png;;*.jpg");
+	if (0 == m_alterPoxPath.size()) {
+		return;
+	}
+
+	// 将头像显示到标签
+	QPixmap pixmap;
+	pixmap.load(m_alterPoxPath);
+
+	qreal widthRatio = (qreal)ui.alterHeadLabel->width() / (qreal)pixmap.width();
+	qreal heightRatio = (qreal)ui.alterHeadLabel->height() / (qreal)pixmap.height();
+
+	QSize size(pixmap.width() * widthRatio, pixmap.height() * heightRatio);
+	ui.alterHeadLabel->setPixmap(pixmap.scaled(size));
+}
+
+void QtQQ_Server::on_alterBtn_clicked() { 
+
+	// 员工部门
+	QString alterEmployeeDep = ui.alterEmployeeDepBox->currentText();
+
+
+	// 员工工号
+	QString alterID = ui.alterIDLineEdit->text();
+
+	// 员工姓名
+	QString alterName = ui.alterNameLineEdit->text();
+	if (alterName.isEmpty()) {
+		QMessageBox::information(this, tr("提示"), tr("请输入员工姓名！"));
+		return;
+	}
+
+	// 员工状态
+	QString alterEmployeeStatus = ui.alterEmployeeStatusBox->currentText();
+	int status = alterEmployeeStatus == "有效" ? 1 : 2;
+	
+
+	// 员工个性签名
+	QString alterSign = ui.alterSignLineEdit->text();
+
+	// 员工密码
+	QString alterPwd = ui.alterPwdLineEdit->text();
+	if (alterPwd.isEmpty()) {
+		QMessageBox::information(this, tr("提示"), tr("请输入员工密码！"));
+		return;
+	}
+
+	// 员工头像路径
+	if (!m_alterPoxPath.size()) {
+		QMessageBox::information(this, tr("提示"), tr("请选择员工头像路径！"));
+		return;
+	}
+	m_alterPoxPath.replace("/", "\\\\");
+
+	int departmentID = ui.alterEmployeeDepBox->currentData().toInt();
+
+
+	// 更新数据库数据
+	QString sql = QString("UPDATE tab_employees SET departmentID=%1, employee_name='%2', employee_sign='%3', status=%4, picture='%5' WHERE employeeID=%6;")
+					.arg(departmentID).arg(alterName).arg(alterSign).arg(status).arg(m_alterPoxPath).arg(alterID);
+	QSqlQuery alterQuery;
+	if (!alterQuery.exec(sql)) {
+		MyLogDEBUG(sql.toUtf8());
+		MyLogDEBUG("更新失败");
+		QMessageBox::information(this, tr("提示"), tr("更新失败！"));
+		return;
+	}
+
+	sql = QString("UPDATE tab_accounts SET account='%1', code='%2' WHERE employeeID=%3;").arg(alterName).arg(alterPwd).arg(alterID);
+	QSqlQuery updateQuery;
+	if (!updateQuery.exec(sql)) {
+		MyLogDEBUG(sql.toUtf8());
+		MyLogDEBUG("更新失败");
+		QMessageBox::information(this, tr("提示"), tr("更新失败！"));
+		return;
+	}
+
+	m_alterPoxPath = "";
+
+	QMessageBox::information(this, tr("提示"), tr("修改成功！"));
+	ui.alterWidget->setVisible(false);
 }
 
 
@@ -466,4 +656,67 @@ void QtQQ_Server::onUDPbroadMsg(QByteArray &btData) {
 	for (quint16 port = gUdpPort; port < gUdpPort + 200; port++) {
 		m_udpSender->writeDatagram(btData, btData.size(), QHostAddress::Broadcast, port);
 	}
+}
+
+
+void QtQQ_Server::Offline() {
+
+	// 更新登录状态为离线
+	QString strSqlStatus = QString("UPDATE tab_employees SET online = 1");
+	QSqlQuery sqlStatus(strSqlStatus);
+	sqlStatus.exec();
+
+	QApplication::quit();
+}
+
+void QtQQ_Server::ShowAlterEmployeeInfo(const int employeesID) {
+
+	QString sql = QString("SELECT * FROM tab_employees WHERE employeeID=%1").arg(employeesID);
+	QSqlQuery query(sql);
+	query.exec();
+	if (!query.next()) {
+		QMessageBox::information(this, tr("提示"), tr("请输入正确的员工QQ号！"));
+		ui.logoutIDLineEdit->setFocus();
+		return;
+	}
+
+	// 部门名称
+	QString department_name = getDepartment(employeesID);
+	ui.alterEmployeeDepBox->currentIndexChanged(department_name);
+	ui.alterEmployeeDepBox->currentTextChanged(department_name);
+	ui.alterEmployeeDepBox->setCurrentText(department_name);
+
+	// 员工id
+	QString employeeID = query.value("employeeID").toString();
+	ui.alterIDLineEdit->setText(employeeID);
+
+	// 员工名字
+	QString employee_name = query.value("employee_name").toString();
+	ui.alterNameLineEdit->setText(employee_name);
+
+	// 个性签名
+	QString employee_sign = query.value("employee_sign").toString();
+	ui.alterSignLineEdit->setText(employee_sign);
+
+	// 员工状态,1有效，2已注销
+	int status = query.value("status").toInt();
+	QString strStatus = status == 1 ? "有效" : "已注销";
+	ui.alterEmployeeStatusBox->currentIndexChanged(strStatus);
+	ui.alterEmployeeStatusBox->currentTextChanged(strStatus);
+	ui.alterEmployeeStatusBox->setCurrentText(strStatus);
+
+	// 图片
+	m_alterPoxPath = query.value("picture").toString();
+	// 将头像显示到标签
+	QPixmap pixmap;
+	pixmap.load(m_alterPoxPath);
+	qreal widthRatio = (qreal)ui.alterHeadLabel->width() / (qreal)pixmap.width();
+	qreal heightRatio = (qreal)ui.alterHeadLabel->height() / (qreal)pixmap.height();
+	QSize size(pixmap.width() * widthRatio, pixmap.height() * heightRatio);
+	ui.alterHeadLabel->setPixmap(pixmap.scaled(size));
+
+
+	// 密码
+	QString employee_pwd = getEmployeePwd(employeesID);
+	ui.alterPwdLineEdit->setText(employee_pwd);
 }
