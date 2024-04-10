@@ -11,6 +11,7 @@
 #include <QMessageBox>
 #include <QFile>
 #include <QSqlQuery>
+#include <QThread>
 
 QString gfileName;		// 文件名称
 QString gfileData;		// 文件内容
@@ -39,7 +40,8 @@ TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 		}
 	}
 	
-
+	messTimer = new QTimer(this);
+	connect(messTimer, &QTimer::timeout, this, &TalkWindowSheel::onLoadMessage);
 }
 
 TalkWindowSheel::~TalkWindowSheel() {
@@ -322,9 +324,21 @@ void TalkWindowSheel::handleReceivedMsg(QString senderEmployeeID, int msgType, Q
 	}
 
 	TalkWindow *talkWindow = dynamic_cast<TalkWindow *>(ui.rightStackedWidget->currentWidget());
-	talkWindow->ui.msgWidget->appendMsg(htmlText);
+	//talkWindow->ui.msgWidget->appendMsg(htmlText);
 	//talkWindow->ui.msgWidget->appendMsg(htmlText, senderEmployeeID);
 
+
+	emit signalReload();
+
+	QString curAccount = "";
+	QString currentWindowAccount = WindowManager::getInstance()->findWindowName(talkWindow);
+	currentAccount = currentWindowAccount;
+
+	messTimer->stop();
+	// 启动定时器加载聊天记录
+	messTimer->start(320);
+
+	ReadDatabaseMessage();
 }
 
 void TalkWindowSheel::LoadMessage(QString senderID, int msgType, QString strMsg) {
@@ -467,9 +481,21 @@ void TalkWindowSheel::onTalkWindowItemClicked(QListWidgetItem *item) {
 
 	QWidget *talkWindowWidget = m_talkwindowItemMap.find(item).value();
 	ui.rightStackedWidget->setCurrentWidget(talkWindowWidget);
+	emit signalReload();
 
-	//emit signalReload();
+	QString curAccount = "";
+	QString currentWindowAccount = WindowManager::getInstance()->findWindowName(talkWindowWidget);
+	currentAccount = currentWindowAccount;
 
+	messTimer->stop();
+	// 启动定时器加载聊天记录
+	messTimer->start(320);
+
+	ReadDatabaseMessage();
+
+	return;
+
+	/*
 	QString curAccount = "";
 	QString currentWindowAccount = WindowManager::getInstance()->findWindowName(talkWindowWidget);
 	currentAccount = currentWindowAccount;
@@ -506,7 +532,7 @@ void TalkWindowSheel::onTalkWindowItemClicked(QListWidgetItem *item) {
 		// 聊天记录插入
 		LoadMessage(sender, msgType, message);
 	}
-
+	*/
 }
 
 void TalkWindowSheel::onEmotionItemClicked(int emotionNum) {
@@ -720,11 +746,16 @@ void TalkWindowSheel::processPendingData() {
 	}
 }
 
+void TalkWindowSheel::onLoadNewMessage() {
+
+
+}
+
 
 
 // 加载聊天记记录
 void TalkWindowSheel::onLoadMessage() { 
-
+	messTimer->stop();
 	QString curAccount;
 	if (4 == currentAccount.length()) {
 		curAccount = currentAccount;
@@ -758,5 +789,27 @@ void TalkWindowSheel::onLoadMessage() {
 
 		// 聊天记录插入
 		LoadMessage(sender, msgType, message);
+	}
+}
+
+
+void TalkWindowSheel::ReadDatabaseMessage() {
+	QString sql = QString("SELECT * FROM tab_chat");
+	QSqlQuery query;
+	query.exec(sql);
+
+	g_message_info.clear();
+
+	while (query.next()) {
+		int sender = query.value(1).toInt();
+		int receiver = query.value(2).toInt();
+		QString message = query.value(3).toString();
+		message = message.simplified();		// 去除开头结尾中间的特殊字符，\r\n\t
+		QJsonArray messageArr = QJsonDocument::fromJson(message.toLocal8Bit()).array();
+
+		// 保存
+		QMap<int, QJsonArray> messageMap;
+		messageMap.insert(receiver, messageArr);
+		g_message_info.insert(sender, messageMap);
 	}
 }

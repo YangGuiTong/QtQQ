@@ -42,13 +42,13 @@ void TalkWindowItem::initControl() {
 }
 
 void TalkWindowItem::enterEvent(QEvent * event) {
-	MyLogDEBUG(QString("鼠标进入聊天列表窗口").toUtf8());
+	//MyLogDEBUG(QString("鼠标进入聊天列表窗口").toUtf8());
 	ui.tclosebtn->setVisible(true);
 	__super::enterEvent(event);
 }
 
 void TalkWindowItem::leaveEvent(QEvent * event) {
-	MyLogDEBUG(QString("鼠标离开聊天列表窗口").toUtf8());
+	//MyLogDEBUG(QString("鼠标离开聊天列表窗口").toUtf8());
 	ui.tclosebtn->setVisible(false);
 	__super::leaveEvent(event);
 }

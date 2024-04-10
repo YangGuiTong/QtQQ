@@ -128,10 +128,6 @@ MsgWebView::MsgWebView(QWidget *parent)
 	this->page()->setWebChannel(m_channel);
 	// 初始化收信息页面
 	this->load(QUrl("qrc:/Resources/MainWindow/MsgHtml/msgTmpl.html"));
-
-
-
-	//emit signalLoadMsg();
 }
 
 MsgWebView::~MsgWebView() { }

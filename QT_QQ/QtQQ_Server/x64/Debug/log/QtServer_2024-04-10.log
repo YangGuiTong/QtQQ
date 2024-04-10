@@ -1,0 +1,1122 @@
+2024-04-10 22:20:55.218 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-10 22:20:56.565 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-10 22:20:57.118 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-10 22:21:22.900 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1332
+2024-04-10 22:21:40.180 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1332  IP： 127.0.0.1  断开连接!
+2024-04-10 22:22:04.493 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：772
+2024-04-10 22:22:14.662 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：772  IP： 127.0.0.1  断开连接!
+2024-04-10 22:22:41.795 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1340
+2024-04-10 22:22:53.052 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100005nihao
+2024-04-10 22:22:53.055 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100005nihao 开始广播
+2024-04-10 22:23:23.840 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110004200201images072
+2024-04-10 22:23:23.840 [DEBUG][TcpServer::MessageInsert][240]: 没有找到对应的聊天记录，插入新的记录。
+2024-04-10 22:23:23.843 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110004200201images072 开始广播
+2024-04-10 22:24:20.084 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1340  IP： 127.0.0.1  断开连接!
+2024-04-10 22:24:55.620 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：700
+2024-04-10 22:25:16.857 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：700  IP： 127.0.0.1  断开连接!
+2024-04-10 22:30:32.441 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：896
+2024-04-10 22:30:52.713 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：896  IP： 127.0.0.1  断开连接!
+2024-04-10 22:31:07.689 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：992
+2024-04-10 22:31:11.964 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：992  IP： 127.0.0.1  断开连接!
+2024-04-10 22:31:25.635 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：696
+2024-04-10 22:31:29.015 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：696  IP： 127.0.0.1  断开连接!
+2024-04-10 22:31:45.049 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：984
+2024-04-10 22:31:56.695 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110004200001imagesasdf099
+2024-04-10 22:31:56.699 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110004200001imagesasdf099 开始广播
+2024-04-10 22:32:18.337 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：984  IP： 127.0.0.1  断开连接!
+2024-04-10 22:40:08.134 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1356
+2024-04-10 22:40:19.753 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100003hhh
+2024-04-10 22:40:19.757 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100003hhh 开始广播
+2024-04-10 22:40:44.434 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1364
+2024-04-10 22:41:01.263 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.267 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.273 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.276 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.281 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.284 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.290 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.293 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.298 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.301 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.306 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.309 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.314 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.317 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.322 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.328 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.334 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.338 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.346 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.355 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.363 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.366 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.371 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.375 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.380 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.383 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.388 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.391 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.395 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.400 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.407 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.410 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.415 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.418 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.423 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.428 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.432 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.435 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.441 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.445 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.449 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.452 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.458 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.466 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.471 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.475 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.482 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.486 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.493 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.497 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.502 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.506 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.512 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.516 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.521 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.526 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.531 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.535 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.543 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.546 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.551 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.557 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.563 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.566 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.571 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.574 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.579 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.584 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.590 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.593 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.597 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.601 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.607 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.610 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.613 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.616 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.621 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.632 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.637 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.640 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.646 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.649 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.653 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.656 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.660 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.664 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.668 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.674 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.680 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.683 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.688 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.692 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.696 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.700 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.704 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.708 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.713 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.716 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.722 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.725 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.729 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.732 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.736 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.739 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.744 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.747 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.752 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.755 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.761 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.765 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.769 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.773 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.778 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.780 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.787 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.791 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.797 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.800 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.804 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.808 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.812 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.816 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.820 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.824 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.829 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.833 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.839 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.843 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.847 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.850 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.854 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.859 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.863 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.867 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.871 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.874 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.878 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.882 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.887 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.890 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.896 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.900 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.904 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.908 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.914 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.918 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.921 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.924 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.929 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.933 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.937 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.940 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.944 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.947 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.952 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.956 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.960 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.965 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.969 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.973 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.977 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.981 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:01.985 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:01.988 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:01.992 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:01.996 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.001 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.005 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.009 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.014 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.017 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.022 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.027 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.031 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.036 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.040 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.045 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.048 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.053 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.059 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.064 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.070 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.076 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.082 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.087 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.108 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.113 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.118 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.123 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.129 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.133 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.137 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.141 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.145 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.149 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.153 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.157 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.161 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.165 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.169 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.174 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.179 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.188 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.192 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.222 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.226 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.231 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.235 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.240 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.245 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.250 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.255 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.260 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.265 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.270 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.274 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.278 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.282 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.287 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.291 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.295 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.299 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.304 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.309 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.313 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.316 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.320 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.325 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.329 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.334 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.341 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.345 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.349 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.352 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.357 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.361 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.365 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.369 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.373 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.377 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.381 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.385 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.390 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.395 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.399 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.403 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.408 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.413 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.417 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.422 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.426 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.431 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.436 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.440 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.445 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.449 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.453 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.457 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.461 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.466 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.470 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.474 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.480 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.484 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.488 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.492 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.496 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.499 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.503 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.508 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.512 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.516 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.521 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.526 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.530 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.535 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.540 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.545 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.549 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.554 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.558 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.564 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.568 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.572 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.577 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.582 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.586 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.591 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.595 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.598 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.602 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.606 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.610 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.614 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.619 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.623 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.627 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.632 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.637 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.641 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.646 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.651 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.656 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.661 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.665 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.669 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.674 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.678 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.682 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.686 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.692 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.696 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.700 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.705 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.709 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.713 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.718 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.723 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.727 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.732 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.737 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.743 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.747 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.752 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.757 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.761 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.765 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.769 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.774 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.779 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.783 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.787 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.791 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.796 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.800 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.805 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.810 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.814 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.818 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.823 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.827 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.833 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.838 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.844 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.849 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.854 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.860 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.864 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.869 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.875 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.879 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.884 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.888 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.894 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.898 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.903 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.908 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.915 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.919 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.928 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.932 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.941 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.945 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.954 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.959 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.967 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.972 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.977 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:02.982 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:02.987 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:02.991 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:02.996 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.000 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.005 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.009 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.014 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.021 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.026 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.030 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.035 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.039 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.043 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.048 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.054 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.058 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.066 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.070 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.076 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.081 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.087 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.093 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.098 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.102 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.107 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.112 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.118 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.123 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.129 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.133 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.140 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.149 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.154 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.158 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.163 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.166 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.172 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.180 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.185 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.190 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.194 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.203 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.210 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.238 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.244 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.249 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.255 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.259 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.263 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.267 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.272 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.277 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.282 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.286 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.292 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.297 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.302 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.310 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.316 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.321 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.327 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.332 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.338 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.342 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.349 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.354 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.359 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.363 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.367 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.371 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.377 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.381 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.388 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.392 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.398 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.402 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.408 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.411 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.418 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.422 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.427 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.432 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.436 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.441 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.449 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.453 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.458 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.461 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.466 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.470 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.475 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.480 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.485 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.491 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.496 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.503 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.509 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.513 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.518 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.523 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.530 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.536 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.541 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.546 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.551 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.555 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.561 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.565 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.570 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.573 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.579 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.584 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.590 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.594 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.600 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.605 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.611 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.615 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.620 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.624 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.630 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.635 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.642 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.646 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.652 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.656 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.661 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.666 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.672 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.677 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.682 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.686 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.691 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.695 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.701 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.705 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.710 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.715 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.722 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.728 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.734 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.739 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.744 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.748 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.754 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.764 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.769 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.773 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.779 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.783 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.789 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.793 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.801 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.804 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.810 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.814 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.819 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.824 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.831 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.836 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.841 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.845 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.850 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.854 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.859 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.864 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.870 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.875 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.882 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.886 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.891 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.895 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.900 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.904 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.909 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.913 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.919 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.924 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.930 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.935 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.942 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.946 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.953 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.958 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.963 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.967 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.973 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.977 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:03.983 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:03.988 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:03.994 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:03.998 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.003 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.008 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.015 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.019 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.025 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.028 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.036 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.040 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.045 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.050 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.055 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.060 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.065 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.071 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.079 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.083 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.094 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.098 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.110 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.115 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.125 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.129 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.138 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.143 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.152 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.158 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.163 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.168 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.173 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.178 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.183 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.187 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.192 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.201 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.208 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.233 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.240 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.245 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.250 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.254 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.261 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.266 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.274 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.279 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.284 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.288 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.294 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.298 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.305 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.310 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.315 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.320 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.325 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.329 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.335 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.339 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.345 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.349 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.358 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.362 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.367 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.372 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.379 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.383 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.391 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.399 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.405 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.409 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.415 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.420 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.427 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.432 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.438 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.442 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.448 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.452 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.458 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.462 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.470 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.474 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.480 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.484 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.492 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.495 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.502 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.507 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.513 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.522 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.528 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.531 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.537 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.542 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.548 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.552 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.561 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.565 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.572 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.577 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.583 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.588 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.597 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.602 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.609 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.614 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.620 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.624 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.630 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.634 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.643 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.649 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.656 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.660 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.666 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.671 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.677 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.681 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.687 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.691 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.699 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.703 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.709 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.713 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.721 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.725 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.731 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.735 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.743 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.746 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.753 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.757 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.764 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.769 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.776 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.780 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.788 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.792 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.799 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.803 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.810 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.815 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.823 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.831 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.844 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.848 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.861 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.865 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.876 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.880 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.890 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.895 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.901 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.905 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.911 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.915 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.921 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.924 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.930 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.934 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.942 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.946 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.954 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.959 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.967 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.972 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:04.981 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:04.985 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:04.992 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:04.996 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.002 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.007 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.016 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.020 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.029 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.034 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.042 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.046 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.054 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.058 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.065 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.069 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.077 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.081 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.091 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.096 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.104 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.108 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.115 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.120 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.128 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.132 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.139 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.145 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.153 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.157 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.166 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.172 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.180 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.190 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.199 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.235 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.244 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.250 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.260 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.266 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.274 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.280 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.288 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.294 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.305 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.311 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.323 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.328 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.337 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.343 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.352 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.358 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.369 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.376 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.384 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.390 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.399 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.405 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.417 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.422 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.433 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.438 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.448 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.454 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.463 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.470 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.480 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.487 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.499 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.505 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.516 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.522 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.532 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.538 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.548 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.554 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.564 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.571 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.585 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.602 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.612 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.619 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.631 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.637 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.650 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.655 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.666 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.673 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.685 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.698 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.710 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.717 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.730 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.737 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.747 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.754 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.764 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.771 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.781 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.787 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.797 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.805 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.818 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.825 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.836 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.843 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.855 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.862 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.873 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.880 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.892 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.899 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.914 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.921 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.932 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.938 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.949 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.955 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:05.966 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:05.972 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:05.983 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:05.989 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.000 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.007 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.018 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.027 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.042 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.049 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.061 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.069 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.082 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.089 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.101 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.108 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.122 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.129 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.144 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.152 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.164 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.170 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.181 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.193 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.203 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.246 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.260 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.267 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.279 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.286 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.297 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.304 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.315 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.322 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.333 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.351 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.365 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.371 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.383 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.390 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.406 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.414 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.429 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.436 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.450 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.457 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.469 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.477 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.490 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.498 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.511 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.518 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.529 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.535 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.547 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.554 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.567 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.574 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.585 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.591 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.602 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.608 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.619 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.625 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.639 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.644 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.655 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.662 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.675 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.681 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.694 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.702 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.716 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.722 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.733 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.740 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.751 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.758 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.769 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.776 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.789 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.797 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.809 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.816 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.832 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.838 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.854 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.861 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.874 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.881 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.894 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.902 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.918 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.925 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.936 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.943 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.960 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:06.967 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:06.978 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:06.985 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:06.995 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.002 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.013 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.019 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.030 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.036 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.048 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.056 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.073 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.080 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.091 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.097 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.114 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.121 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.136 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.143 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.160 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.166 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.181 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.186 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.198 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.211 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.223 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.265 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.280 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.286 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.297 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.304 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.315 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.321 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.333 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.338 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.349 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.356 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.371 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.381 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.399 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.433 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.446 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.454 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.471 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.477 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.493 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.501 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是滴
+2024-04-10 22:41:07.517 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是滴 开始广播
+2024-04-10 22:41:07.524 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100002是滴
+2024-04-10 22:41:07.541 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100002是滴 开始广播
+2024-04-10 22:41:07.553 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1356  IP： 127.0.0.1  断开连接!
+2024-04-10 22:41:07.558 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1364  IP： 127.0.0.1  断开连接!
+2024-04-10 23:06:45.568 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1352
+2024-04-10 23:06:58.772 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110004200001images048
+2024-04-10 23:06:58.783 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110004200001images048 开始广播
+2024-04-10 23:07:26.457 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1368
+2024-04-10 23:08:01.321 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110007200001images076
+2024-04-10 23:08:01.347 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110007200001images076 开始广播
+2024-04-10 23:08:23.235 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110004200001images059
+2024-04-10 23:08:23.248 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110004200001images059 开始广播
+2024-04-10 23:09:27.082 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110004200001images030
+2024-04-10 23:09:27.087 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110004200001images030 开始广播
+2024-04-10 23:10:22.861 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1368  IP： 127.0.0.1  断开连接!
+2024-04-10 23:10:22.867 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1352  IP： 127.0.0.1  断开连接!
+2024-04-10 23:11:39.277 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1368
+2024-04-10 23:13:16.183 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1348
+2024-04-10 23:13:42.609 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110007200001images031
+2024-04-10 23:13:42.618 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110007200001images031 开始广播
+2024-04-10 23:14:48.210 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1348  IP： 127.0.0.1  断开连接!
+2024-04-10 23:14:48.213 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1368  IP： 127.0.0.1  断开连接!
+2024-04-10 23:19:23.314 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1340
+2024-04-10 23:19:28.419 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002你好
+2024-04-10 23:20:43.671 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-10 23:20:43.975 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-10 23:20:44.452 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-10 23:21:04.437 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1340
+2024-04-10 23:21:11.785 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100011asdfasfdf你好
+2024-04-10 23:21:14.770 [DEBUG][TcpServer::MessageInsert][240]: 没有找到对应的聊天记录，插入新的记录。
+2024-04-10 23:21:14.774 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100011asdfasfdf你好 开始广播
+2024-04-10 23:21:38.628 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：01000410007100005哈喽，美女
+2024-04-10 23:21:38.635 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：01000410007100005哈喽，美女 开始广播
+2024-04-10 23:22:13.435 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1336
+2024-04-10 23:22:47.116 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110006200001images008
+2024-04-10 23:22:47.121 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110006200001images008 开始广播
+2024-04-10 23:25:22.312 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1336  IP： 127.0.0.1  断开连接!
+2024-04-10 23:26:09.404 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1352
+2024-04-10 23:26:19.516 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110004200001images028
+2024-04-10 23:26:19.521 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110004200001images028 开始广播
+2024-04-10 23:26:48.731 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1352  IP： 127.0.0.1  断开连接!
+2024-04-10 23:26:48.735 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1340  IP： 127.0.0.1  断开连接!
+2024-04-10 23:27:07.054 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-10 23:27:07.237 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-10 23:27:07.685 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-10 23:28:09.426 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1352
+2024-04-10 23:28:36.521 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1272
+2024-04-10 23:29:42.883 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100004你好世界
+2024-04-10 23:29:42.887 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100004你好世界 开始广播
+2024-04-10 23:30:02.726 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110007200301images031
+2024-04-10 23:30:02.727 [DEBUG][TcpServer::MessageInsert][240]: 没有找到对应的聊天记录，插入新的记录。
+2024-04-10 23:30:02.732 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110007200301images031 开始广播
+2024-04-10 23:30:06.197 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072003100011钱钱钱钱钱钱钱钱钱钱钱
+2024-04-10 23:30:06.201 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072003100011钱钱钱钱钱钱钱钱钱钱钱 开始广播
+2024-04-10 23:34:18.831 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：968
+2024-04-10 23:34:41.191 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100052000100003来来啦
+2024-04-10 23:34:41.196 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100052000100003来来啦 开始广播
+2024-04-10 23:37:19.165 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100052000100003俺来咯
+2024-04-10 23:37:19.169 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100052000100003俺来咯 开始广播
+2024-04-10 23:37:25.948 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100072000100003知道啦
+2024-04-10 23:37:25.953 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100072000100003知道啦 开始广播
+2024-04-10 23:37:33.506 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100002是的
+2024-04-10 23:37:33.510 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100002是的 开始广播
+2024-04-10 23:37:42.819 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100052000100000
+2024-04-10 23:37:42.822 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100052000100000 开始广播
+2024-04-10 23:37:49.461 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100006你打vu哦了
+2024-04-10 23:37:49.466 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100006你打vu哦了 开始广播
+2024-04-10 23:39:08.365 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100052000100003晚安啦
+2024-04-10 23:39:08.369 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100052000100003晚安啦 开始广播
+2024-04-10 23:43:48.926 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110005200001images043
+2024-04-10 23:43:48.931 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110005200001images043 开始广播
+2024-04-10 23:43:56.303 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1272  IP： 127.0.0.1  断开连接!
+2024-04-10 23:43:56.305 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：968  IP： 127.0.0.1  断开连接!
+2024-04-10 23:43:56.311 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1352  IP： 127.0.0.1  断开连接!
+2024-04-10 23:47:01.554 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1364
+2024-04-10 23:47:23.370 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：884
+2024-04-10 23:47:38.679 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110005200001images060
+2024-04-10 23:47:38.681 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110005200001images060 开始广播
+2024-04-10 23:48:00.111 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1364  IP： 127.0.0.1  断开连接!
+2024-04-10 23:48:00.113 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：884  IP： 127.0.0.1  断开连接!
+2024-04-10 23:50:57.758 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1372
+2024-04-10 23:51:21.970 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：884
+2024-04-10 23:51:35.229 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110005200201images060
+2024-04-10 23:51:35.233 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110005200201images060 开始广播
+2024-04-10 23:51:45.898 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042002100003喝咖啡
+2024-04-10 23:51:45.900 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042002100003喝咖啡 开始广播
+2024-04-10 23:52:00.042 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100052000100005shide
+2024-04-10 23:52:00.046 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100052000100005shide 开始广播
+2024-04-10 23:52:18.072 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100007udidi对地
+2024-04-10 23:52:18.076 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100007udidi对地 开始广播
+2024-04-10 23:52:27.789 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100005okkok
+2024-04-10 23:52:27.793 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100005okkok 开始广播
+2024-04-10 23:52:32.222 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100042000100005bug解决
+2024-04-10 23:52:32.226 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100042000100005bug解决 开始广播
+2024-04-10 23:52:44.294 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：1100052000100002完毕
+2024-04-10 23:52:44.299 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：1100052000100002完毕 开始广播
+2024-04-10 23:52:48.396 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：884  IP： 127.0.0.1  断开连接!
+2024-04-10 23:52:48.398 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1372  IP： 127.0.0.1  断开连接!

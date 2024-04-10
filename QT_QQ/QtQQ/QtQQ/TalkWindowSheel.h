@@ -45,6 +45,9 @@ private:
 
 	void LoadMessage(QString senderID, int msgType, QString strMsg);
 
+	// 重新读取聊天记录信息到全局变量中
+	void ReadDatabaseMessage();
+
 signals:
 	void signalReload();
 
@@ -63,10 +66,14 @@ private slots:
 	// 处理UDP广播收到的数据
 	void processPendingData();
 
+	void onLoadNewMessage();
+
 private:
 	Ui::TalkWindowClass ui;
 	QMap<QListWidgetItem *, QWidget *> m_talkwindowItemMap;	// 打开的聊天窗口
 	EmotionWindow *m_emotionWindow;		// 表情窗口
+
+	QTimer *messTimer;
 
 private:
 	QTcpSocket *m_tcpClientSocket;		// tcp客户端

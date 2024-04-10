@@ -10,7 +10,8 @@
 Q_GLOBAL_STATIC(WindowManager, theInstalce)
 
 WindowManager::WindowManager() : QObject(nullptr), m_talkwindowshell(nullptr) {
-
+	messageTimer = new QTimer(this);
+	connect(messageTimer, &QTimer::timeout, this, &WindowManager::onMessageTimer);
 }
 
 WindowManager::~WindowManager() {
@@ -109,7 +110,11 @@ void WindowManager::addNewTalkWindow(const QString & uid) {
 
 	//QThread::sleep(1);
 
-	m_talkwindowshell->onLoadMessage();
+	//m_talkwindowshell->onLoadMessage();
+
+	emit m_talkwindowshell->signalReload();
+
+	//messageTimer->start(300);
 }
 
 TalkWindowSheel * WindowManager::getTalkWindowSheel() {
@@ -118,4 +123,11 @@ TalkWindowSheel * WindowManager::getTalkWindowSheel() {
 
 QString WindowManager::getCreatingTalkId() {
 	return m_strCreatingTalkId;
+}
+
+void WindowManager::onMessageTimer() { 
+	
+	
+	m_talkwindowshell->onLoadMessage();
+	messageTimer->stop();
 }

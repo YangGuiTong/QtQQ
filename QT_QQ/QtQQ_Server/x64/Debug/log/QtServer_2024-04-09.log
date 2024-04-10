@@ -190,3 +190,50 @@
 ------------------------------------------------------------------------------------------------------
 2024-04-09 22:18:14.894 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
 2024-04-09 22:18:15.267 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 22:31:29.232 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-09 22:31:29.447 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-09 22:31:29.872 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-09 22:32:34.102 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1336
+2024-04-09 22:32:38.999 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1336  IP： 127.0.0.1  断开连接!
+2024-04-09 22:34:47.066 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：728
+2024-04-09 22:35:04.462 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：728  IP： 127.0.0.1  断开连接!
+2024-04-09 22:46:51.813 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1008
+2024-04-09 22:46:59.164 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1008  IP： 127.0.0.1  断开连接!
+2024-04-09 22:49:35.141 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1008
+2024-04-09 22:49:39.774 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1008  IP： 127.0.0.1  断开连接!
+2024-04-09 22:49:57.112 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1372
+2024-04-09 22:50:02.827 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1372  IP： 127.0.0.1  断开连接!
+2024-04-09 22:50:17.697 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1376
+2024-04-09 22:50:31.128 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1376  IP： 127.0.0.1  断开连接!
+2024-04-09 22:50:46.361 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：956
+2024-04-09 22:50:59.004 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：956  IP： 127.0.0.1  断开连接!
+2024-04-09 22:51:13.023 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1380
+2024-04-09 22:51:28.407 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1380  IP： 127.0.0.1  断开连接!
+2024-04-09 22:56:52.546 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：956
+2024-04-09 22:57:01.979 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：956  IP： 127.0.0.1  断开连接!
+2024-04-09 23:04:00.494 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1396
+2024-04-09 23:04:21.703 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1396  IP： 127.0.0.1  断开连接!
+2024-04-09 23:04:50.306 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1124
+2024-04-09 23:05:06.296 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1124  IP： 127.0.0.1  断开连接!
+2024-04-09 23:13:24.761 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1124
+2024-04-09 23:13:43.078 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1124  IP： 127.0.0.1  断开连接!
+2024-04-09 23:18:37.633 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1384
+2024-04-09 23:18:51.196 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1384  IP： 127.0.0.1  断开连接!
+2024-04-09 23:22:32.425 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1380
+2024-04-09 23:22:42.465 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1380  IP： 127.0.0.1  断开连接!
+2024-04-09 23:25:49.205 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：956
+2024-04-09 23:25:56.352 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：956  IP： 127.0.0.1  断开连接!
+2024-04-09 23:26:12.780 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1008
+2024-04-09 23:26:19.180 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1008  IP： 127.0.0.1  断开连接!
+2024-04-09 23:30:03.125 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1384
+2024-04-09 23:30:07.407 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1384  IP： 127.0.0.1  断开连接!
+2024-04-09 23:30:38.348 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1384
+2024-04-09 23:31:00.018 [DEBUG][TcpServer::SocketDataProcessiong][63]: 来自IP： 127.0.0.1  发来的数据：110004200001images046
+2024-04-09 23:31:00.023 [DEBUG][QtQQ_Server::onUDPbroadMsg][652]: 数据：110004200001images046 开始广播
+2024-04-09 23:31:03.633 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1384  IP： 127.0.0.1  断开连接!
+2024-04-09 23:37:42.126 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1020
+2024-04-09 23:38:00.913 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1020  IP： 127.0.0.1  断开连接!
+2024-04-09 23:38:33.033 [DEBUG][TcpServer::incomingConnection][34]: 新的连接：1400
+2024-04-09 23:38:51.612 [DEBUG][TcpServer::SocketDisconnecgted][87]: tcpSocket描述符：1400  IP： 127.0.0.1  断开连接!
