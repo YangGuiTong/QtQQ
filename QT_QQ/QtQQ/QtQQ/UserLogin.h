@@ -18,6 +18,7 @@ private:
 	void initControl();
 	bool connectMySql();
 	bool verfyAccountCode(bool &isAccountLogin, QString &strAccount);
+	void initTemporaryAP();	// 初始化保存的密码
 
 private:
 	Ui::UserLogin ui;

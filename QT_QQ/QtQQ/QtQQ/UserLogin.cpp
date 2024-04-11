@@ -7,6 +7,7 @@
 #include <QMessageBox>
 #include <QSqlDatabase>
 #include <QSqlQuery>
+#include <QSettings>
 
 QString gLoginEmployeeID;	// 登录者的QQ号
 
@@ -18,6 +19,13 @@ UserLogin::UserLogin(QWidget *parent) : BasicWindow(parent) {
 	setTitleBarTitle(QStringLiteral(""), QStringLiteral(":/Resources/MainWindow/qqlogoclassic.png"));
 	loadStyleSheet(QStringLiteral("UserLogin"));
 	initControl();
+
+	initTemporaryAP();
+
+	ui.forgetWordbtn->setVisible(false);
+	//ui.forgetWordbtn->setEnabled(false);
+	ui.registBtn->setVisible(false);
+	//ui.registBtn->setEnabled(false);
 }
 
 UserLogin::~UserLogin() { }
@@ -109,6 +117,30 @@ bool UserLogin::verfyAccountCode(bool &isAccountLogin, QString &strAccount) {
 	return false;
 }
 
+void UserLogin::initTemporaryAP() {
+
+	const QString &&path = QApplication::applicationDirPath() + "/" + QString("tradeprintinfo.ini");
+	QSettings settings(path, QSettings::IniFormat);
+
+	// 读取ini文件中保存的账号和密码
+	auto account = settings.value(QStringLiteral("TemporaryAP/account"));
+	auto pwd = settings.value(QStringLiteral("TemporaryAP/pwd"));
+	if (account.isNull() || pwd.isNull()) {
+		return;
+	}
+	
+	QString account_ = account.toString();
+	QString pwd_ = pwd.toString();
+	if (account_.isEmpty() || 0 == account_.length() || pwd_.isEmpty() || 0 == pwd_.length()) {
+		return;
+	}
+
+	ui.editUserAccount->setText(account_);
+	ui.editPassword->setText(pwd_);
+
+	ui.checkBox->setChecked(true);
+}
+
 
 
 void UserLogin::onLoginBtnClicked() {
@@ -121,6 +153,7 @@ void UserLogin::onLoginBtnClicked() {
 		QMessageBox::information(NULL, "提示", "您输入的账号或密码有误，请重新输入！");
 		ui.editPassword->setText("");
 		ui.editUserAccount->setText("");
+		ui.checkBox->setChecked(false);
 		return;
 	}
 
@@ -128,6 +161,19 @@ void UserLogin::onLoginBtnClicked() {
 	QString strSqlStatus = QString("UPDATE tab_employees SET online = 2 WHERE employeeID = %1").arg(gLoginEmployeeID);
 	QSqlQuery sqlStatus(strSqlStatus);
 	sqlStatus.exec();
+
+	// 处理密码保存
+	const QString &&path = QApplication::applicationDirPath() + "/" + QString("tradeprintinfo.ini");
+	QSettings settings(path, QSettings::IniFormat);
+	if (!ui.checkBox->isChecked()) {
+		settings.setValue(QStringLiteral("TemporaryAP/account"), "");
+		settings.setValue(QStringLiteral("TemporaryAP/pwd"), "");
+	} else {
+		QString strAccountInput = ui.editUserAccount->text();
+		QString strCodeInput = ui.editPassword->text();
+		settings.setValue(QStringLiteral("TemporaryAP/account"), strAccountInput);
+		settings.setValue(QStringLiteral("TemporaryAP/pwd"), strCodeInput);
+	}
 
 	close();
 	CCMainWindow *mainwindow = new CCMainWindow(strAccount, isAccountLogin);
