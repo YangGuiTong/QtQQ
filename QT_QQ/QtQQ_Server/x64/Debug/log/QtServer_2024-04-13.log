@@ -1,0 +1,45 @@
+2024-04-13 14:02:17.215 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-13 14:02:18.003 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-13 14:02:18.480 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-13 14:03:13.438 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-13 14:03:13.608 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-13 14:03:14.018 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-13 14:39:00.019 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-13 14:39:00.220 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-13 14:39:00.689 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-13 14:44:56.579 [DEBUG][QtQQ_Server::on_addBtn_clicked][504]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2002, 10010, '秃头程序员', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-04-13 14:48:36.336 [DEBUG][QtQQ_Server::getEmployeeName][295]: 员工QQ号：10010  没有查询到任何信息
+2024-04-13 14:48:36.336 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][557]: 员工 '' 的企业QQ：'10010' 已被删除！
+2024-04-13 14:49:17.381 [DEBUG][QtQQ_Server::on_addBtn_clicked][504]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2002, 10010, '秃头程序员', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-04-13 14:52:14.490 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-13 14:52:14.692 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-13 14:52:15.092 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-13 14:53:16.987 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 研发部 下的所有员工信息，编号：2002
+2024-04-13 14:54:26.045 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-13 14:54:26.049 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10010  员工姓名：秃头程序员 信息
+2024-04-13 14:54:26.051 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-13 14:57:31.770 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 公司群 下的所有员工信息，编号：2000
+2024-04-13 14:57:44.091 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][429]: 员工 'renyi' 的企业QQ：'10001' 已被注销！
+2024-04-13 15:07:33.762 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][429]: 员工 '秃头程序员' 的企业QQ：'10010' 已被注销！
+2024-04-13 15:08:09.686 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-13 15:08:09.688 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10010  员工姓名：秃头程序员 信息
+2024-04-13 15:08:09.690 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-13 15:13:39.605 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 公司群 下的所有员工信息，编号：2000
+2024-04-13 15:13:51.556 [DEBUG][QtQQ_Server::getEmployeeName][295]: 员工QQ号：10003  没有查询到任何信息
+2024-04-13 15:13:51.557 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][558]: 员工 '' 的企业QQ：'10003' 已被删除！
+2024-04-13 15:15:12.962 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-13 15:15:13.185 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-13 15:15:13.616 [DEBUG][TcpServer::run][20]: 服务器监听端口 10086 成功！
+2024-04-13 15:15:46.797 [DEBUG][QtQQ_Server::getEmployeeName][295]: 员工QQ号：10009  没有查询到任何信息
+2024-04-13 15:15:46.797 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][558]: 员工 '' 的企业账号：'10009' 已被删除！
+2024-04-13 15:18:19.708 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][429]: 员工 '秃头小猿' 的企业账号：'10010' 已被注销！

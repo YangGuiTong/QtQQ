@@ -72,7 +72,7 @@ bool UserLogin::verfyAccountCode(bool &isAccountLogin, QString &strAccount) {
 	QString strCodeInput = ui.editPassword->text();
 
 	// 输入员工号（QQ号登录）
-	QString strSqlCode = QString("SELECT code FROM tab_accounts WHERE employeeId=%1").arg(strAccountInput);
+	QString strSqlCode = QString("SELECT code FROM tab_accounts WHERE employeeID=%1").arg(strAccountInput);
 	MyLogDEBUG(QString("sql语句：%1").arg(strSqlCode).toUtf8());
 	QSqlQuery queryEmployeeID(strSqlCode);
 	queryEmployeeID.exec();
@@ -89,8 +89,7 @@ bool UserLogin::verfyAccountCode(bool &isAccountLogin, QString &strAccount) {
 			return true;
 		}
 
-		return false;
-	
+		return false;	
 	} 
 
 	// 账号登录
@@ -112,6 +111,56 @@ bool UserLogin::verfyAccountCode(bool &isAccountLogin, QString &strAccount) {
 		} 
 
 		return false;
+	}
+
+	return false;
+}
+
+bool UserLogin::verfyAccountLogout() {
+	MyLogDEBUG(QString("账号验证是否已被注销").toUtf8());
+	QString strAccountInput = ui.editUserAccount->text();
+
+	// 输入员工号（QQ号登录）
+	QString strSqlCode = QString("SELECT status FROM tab_employees WHERE employeeID=%1").arg(strAccountInput);
+	MyLogDEBUG(QString("sql语句：%1").arg(strSqlCode).toUtf8());
+	QSqlQuery queryEmployeeID(strSqlCode);
+	queryEmployeeID.exec();
+
+	if (queryEmployeeID.first()) {		// 指向结构集的第一条
+		// 数据库中qq号对应的状态
+		int strStatus = queryEmployeeID.value(0).toInt();
+
+		if (1 == strStatus) {
+			return true;
+		}
+
+		return false;
+	}
+
+	// 账号登录
+	strSqlCode = QString("SELECT employeeID FROM tab_accounts WHERE account = '%1'").arg(strAccountInput);
+	MyLogDEBUG(QString("sql语句：%1").arg(strSqlCode).toUtf8());
+	QSqlQuery queryAccount(strSqlCode);
+	queryAccount.exec();
+
+	if (queryAccount.first()) {
+		QString strEmployeeID = queryAccount.value(0).toString();
+
+		strSqlCode = QString("SELECT status FROM tab_employees WHERE employeeID=%1").arg(strEmployeeID);
+		MyLogDEBUG(QString("sql语句：%1").arg(strSqlCode).toUtf8());
+		QSqlQuery queryStatus(strSqlCode);
+		queryStatus.exec();
+
+		if (queryStatus.first()) {		// 指向结构集的第一条
+			// 数据库中qq号对应的状态
+			int strStatus = queryStatus.value(0).toInt();
+
+			if (1 == strStatus) {
+				return true;
+			}
+
+			return false;
+		}
 	}
 
 	return false;
@@ -148,6 +197,14 @@ void UserLogin::onLoginBtnClicked() {
 
 	bool isAccountLogin = false;;
 	QString strAccount = "";		// 账号或者QQ号
+
+	if (!verfyAccountLogout()) {
+		QMessageBox::information(NULL, "提示", "您输入的账号已被注销，请输入有效账号！");
+		ui.editPassword->setText("");
+		ui.editUserAccount->setText("");
+		ui.checkBox->setChecked(false);
+		return;
+	}
 
 	if (!verfyAccountCode(isAccountLogin, strAccount)) {
 		QMessageBox::information(NULL, "提示", "您输入的账号或密码有误，请重新输入！");

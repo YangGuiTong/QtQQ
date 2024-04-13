@@ -425,7 +425,7 @@ void QtQQ_Server::on_logoutBtn_clicked() {
 	// 获取注销员工的姓名
 	QString employee_name = getEmployeeName(employeeID);
 
-	QString text = QString("员工 '%1' 的企业QQ：'%2' 已被注销！").arg(employee_name).arg(employeeID);
+	QString text = QString("员工 '%1' 的企业账号：'%2' 已被注销！").arg(employee_name).arg(employeeID);
 	MyLogDEBUG(text.toUtf8());
 	QMessageBox::information(this, tr("提示"), tr(text.toUtf8()));
 
@@ -516,6 +516,7 @@ void QtQQ_Server::on_addBtn_clicked() {
 	m_pixPath = "";
 	ui.headLabel->setText(("  员工寸照"));
 	ui.nameLineEdit->clear();
+	ui.lineEditPwd->clear();
 }
 
 void QtQQ_Server::on_deleteBtn_clicked() {
@@ -553,7 +554,7 @@ void QtQQ_Server::on_deleteBtn_clicked() {
 	// 获取删除员工的姓名
 	QString employee_name = getEmployeeName(employeeID);
 
-	QString text = QString("员工 '%1' 的企业QQ：'%2' 已被删除！").arg(employee_name).arg(employeeID);
+	QString text = QString("员工 '%1' 的企业账号：'%2' 已被删除！").arg(employee_name).arg(employeeID);
 	MyLogDEBUG(text.toUtf8());
 	QMessageBox::information(this, tr("提示"), tr(text.toUtf8()));
 
