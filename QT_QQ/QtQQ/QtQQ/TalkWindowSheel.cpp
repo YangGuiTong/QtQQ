@@ -6,12 +6,14 @@
 #include "WindowManager.h"
 #include "QMsgTextEdit.h"
 #include "RecviveFile.h"
+#include "qaesencryption.h"
 
 #include <QSqlQueryModel>
 #include <QMessageBox>
 #include <QFile>
 #include <QSqlQuery>
 #include <QThread>
+#include <QCryptographicHash>
 
 QString gfileName;		// 文件名称
 QString gfileData;		// 文件内容
@@ -460,7 +462,9 @@ void TalkWindowSheel::updateSendTcpMsg(QString & strData, int & msgType, QString
 	dataBt.resize(strSend.length());
 	dataBt = strSend.toUtf8();
 
-	m_tcpClientSocket->write(dataBt);
+	QByteArray bt = encodedText(dataBt);
+
+	m_tcpClientSocket->write(bt);
 }
 
 
@@ -582,6 +586,8 @@ void TalkWindowSheel::processPendingData() {
 		int btDataSize = m_udpReceiver->pendingDatagramSize();
 		QByteArray btData(btDataSize, Qt::Initialization::Uninitialized);
 		m_udpReceiver->readDatagram(btData.data(), btDataSize);
+
+		btData = decodedText(btData);
 
 		QString strData = btData.data();
 		QString strWindowID;	// 聊天窗口id，群聊则是群号，单聊则是员工qq号
@@ -812,4 +818,40 @@ void TalkWindowSheel::ReadDatabaseMessage() {
 		messageMap.insert(receiver, messageArr);
 		g_message_info.insert(sender, messageMap);
 	}
+}
+
+QByteArray TalkWindowSheel::encodedText(QByteArray data) {
+
+	//密钥长度AES_128,加密方式ECB,填充方式ZERO
+	QAESEncryption encryption(QAESEncryption::AES_128, QAESEncryption::ECB, QAESEncryption::ZERO);
+
+	//使用QCryptographicHash对密钥进行加密
+	QByteArray hashKey = QCryptographicHash::hash(_key_.toUtf8(), QCryptographicHash::Sha1);
+
+	//对源数据加密
+	QByteArray encodedText = encryption.encode(data, hashKey);
+
+	//QByteArray转QString (toBase64()不能去掉)
+	QString encodeTextStr = QString::fromLatin1(encodedText.toBase64());
+	qDebug()<< "encodedText:"<< encodeTextStr;
+
+	return encodedText;
+}
+
+QByteArray TalkWindowSheel::decodedText(QByteArray data) {
+
+	//密钥长度AES_128,加密方式ECB,填充方式ZERO
+	QAESEncryption encryption(QAESEncryption::AES_128, QAESEncryption::ECB, QAESEncryption::ZERO);
+
+	//使用QCryptographicHash对密钥进行加密
+	QByteArray hashKey = QCryptographicHash::hash(_key_.toUtf8(), QCryptographicHash::Sha1);
+
+	//解密
+	QByteArray decodedText = encryption.decode(data, hashKey);
+
+	//QByteArray转QString
+	QString decodedTextStr = QString::fromLatin1(decodedText);
+	qDebug()<<"decodedText:"<< decodedTextStr;
+
+	return decodedText;
 }

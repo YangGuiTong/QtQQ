@@ -1,6 +1,9 @@
 #include "TcpServer.h"
 #include "TcpSocket.h"
 #include "public_type.h"
+#include "qaesencryption.h"
+
+#include <QCryptographicHash>
 
 #include <QSqlQuery>
 #include <QMessageBox>
@@ -130,6 +133,8 @@ void TcpServer::processPendingData(QByteArray &SendData) {
 
 
 	QByteArray btData(SendData);
+
+	btData = decodedText(btData);
 
 
 	QString strData = btData.data();
@@ -336,5 +341,39 @@ void TcpServer::MessageSaveDataBase(const QString sender, const QString receiver
 		MyLogDEBUG(QString("执行数据库指令：%1  失败！").arg(sql).toLocal8Bit());
 		QMessageBox::information(nullptr, tr("提示"), tr(QString("执行数据库指令：%1  失败！").arg(sql).toLocal8Bit()));
 	}
+}
+
+QByteArray TcpServer::encodedText(QByteArray data) {
+	//密钥长度AES_128,加密方式ECB,填充方式ZERO
+	QAESEncryption encryption(QAESEncryption::AES_128, QAESEncryption::ECB, QAESEncryption::ZERO);
+
+	//使用QCryptographicHash对密钥进行加密
+	QByteArray hashKey = QCryptographicHash::hash(_key_.toUtf8(), QCryptographicHash::Sha1);
+
+	//对源数据加密
+	QByteArray encodedText = encryption.encode(data, hashKey);
+
+	//QByteArray转QString (toBase64()不能去掉)
+	QString encodeTextStr = QString::fromLatin1(encodedText.toBase64());
+	qDebug() << "encodedText:" << encodeTextStr;
+
+	return encodedText;
+}
+
+QByteArray TcpServer::decodedText(QByteArray data) {
+	//密钥长度AES_128,加密方式ECB,填充方式ZERO
+	QAESEncryption encryption(QAESEncryption::AES_128, QAESEncryption::ECB, QAESEncryption::ZERO);
+
+	//使用QCryptographicHash对密钥进行加密
+	QByteArray hashKey = QCryptographicHash::hash(_key_.toUtf8(), QCryptographicHash::Sha1);
+
+	//解密
+	QByteArray decodedText = encryption.decode(data, hashKey);
+
+	//QByteArray转QString
+	QString decodedTextStr = QString::fromLatin1(decodedText);
+	qDebug() << "decodedText:" << decodedTextStr;
+
+	return decodedText;
 }
 

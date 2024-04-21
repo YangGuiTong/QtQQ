@@ -48,6 +48,9 @@ private:
 	// 重新读取聊天记录信息到全局变量中
 	void ReadDatabaseMessage();
 
+	QByteArray encodedText(QByteArray data); //加密
+	QByteArray decodedText(QByteArray data); //解密
+
 signals:
 	void signalReload();
 
@@ -74,6 +77,7 @@ private:
 	EmotionWindow *m_emotionWindow;		// 表情窗口
 
 	QTimer *messTimer;
+	const QString _key_ = "1212";
 
 private:
 	QTcpSocket *m_tcpClientSocket;		// tcp客户端

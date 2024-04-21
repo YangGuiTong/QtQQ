@@ -109,6 +109,9 @@
     <ClCompile Include="RecviveFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="qaesencryption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TitleBar.h">
@@ -169,6 +172,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="RecviveFile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qaesencryption.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

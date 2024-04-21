@@ -49,6 +49,9 @@
     <ClCompile Include="TcpSocket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="qaesencryption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLog.h">
@@ -63,6 +66,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="TcpSocket.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qaesencryption.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

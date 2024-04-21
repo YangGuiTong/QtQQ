@@ -1,2 +1,11 @@
-﻿  QtQQ_Server.cpp
+﻿  moc TcpSocket.h
+  moc TcpServer.h
+  qaesencryption.cpp
+  TcpServer.cpp
+  QtQQ_Server.cpp
+  main.cpp
+  moc_QtQQ_Server.cpp
+  moc_qaesencryption.cpp
+  moc_TcpSocket.cpp
+  moc_TcpServer.cpp
   QtQQ_Server.vcxproj -> E:\git_my_demo\graduation_project\QT_QQ\QtQQ_Server\x64\Debug\QtQQ_Server.exe

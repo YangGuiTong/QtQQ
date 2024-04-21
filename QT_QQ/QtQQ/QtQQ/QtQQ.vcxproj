@@ -103,6 +103,7 @@
     <ClCompile Include="MyLog.cpp" />
     <ClCompile Include="MyLogger.cpp" />
     <ClCompile Include="NotifyManager.cpp" />
+    <ClCompile Include="qaesencryption.cpp" />
     <ClCompile Include="QClickLabel.cpp" />
     <ClCompile Include="QMsgTextEdit.cpp" />
     <ClCompile Include="RecviveFile.cpp" />
@@ -139,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <QtMoc Include="qaesencryption.h" />
     <QtMoc Include="RecviveFile.h" />
     <QtMoc Include="SendFile.h" />
     <QtMoc Include="QMsgTextEdit.h" />

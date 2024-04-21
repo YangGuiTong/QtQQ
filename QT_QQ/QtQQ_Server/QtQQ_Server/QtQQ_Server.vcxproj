@@ -93,6 +93,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="qaesencryption.cpp" />
     <ClCompile Include="TcpServer.cpp" />
     <ClCompile Include="TcpSocket.cpp" />
     <QtRcc Include="QtQQ_Server.qrc" />
@@ -105,6 +106,7 @@
   <ItemGroup>
     <ClInclude Include="MyLog.h" />
     <ClInclude Include="public_type.h" />
+    <QtMoc Include="qaesencryption.h" />
     <QtMoc Include="TcpSocket.h" />
     <QtMoc Include="TcpServer.h" />
   </ItemGroup>

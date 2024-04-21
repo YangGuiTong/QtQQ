@@ -43,9 +43,12 @@ private:
 	// 将聊天记录重新插入数据库，参数三是更新标志，1更新，0插入；参数四是聊天记录
 	void MessageSaveDataBase(const QString sender, const QString receiver, const int updateFlag, const QJsonArray messageArr);
 
+	QByteArray encodedText(QByteArray data); //加密
+	QByteArray decodedText(QByteArray data); //解密
+
 private:
 	qint16 m_port;		// 端口号
 	QList<QTcpSocket *> m_tcpSocketConnectList;
 
-
+	const QString _key_ = "1212";
 };
