@@ -806,18 +806,18 @@ fornt:75 12pt &quot;微软雅黑&quot;;</string>
           </property>
           <property name="minimumSize">
            <size>
-            <width>63</width>
-            <height>24</height>
+            <width>18</width>
+            <height>18</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>63</width>
-            <height>24</height>
+            <width>18</width>
+            <height>18</height>
            </size>
           </property>
           <property name="text">
-           <string>应用宝</string>
+           <string/>
           </property>
          </widget>
         </item>

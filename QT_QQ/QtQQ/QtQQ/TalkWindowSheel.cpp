@@ -752,11 +752,6 @@ void TalkWindowSheel::processPendingData() {
 	}
 }
 
-void TalkWindowSheel::onLoadNewMessage() {
-
-
-}
-
 
 
 // 加载聊天记记录

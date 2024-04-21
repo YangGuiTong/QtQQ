@@ -3,7 +3,6 @@
 #include "Contactltem.h"
 #include "CommonUtils.h"
 #include "WindowManager.h"
-#include "SendFile.h"
 
 #include <QToolTip>
 #include <QFile>
@@ -24,8 +23,6 @@ TalkWindow::TalkWindow(QWidget *parent, const QString &uid)
 
 	initGroupTalkStatus();
 	initControl();
-
-
 }
 
 TalkWindow::~TalkWindow() {
@@ -48,6 +45,9 @@ QString TalkWindow::GetTalkId() {
 void TalkWindow::initControl() {
 	MyLogDEBUG(QString("≥ı ºªØ").toUtf8());
 
+	m_widget = nullptr;
+	m_sendFile = nullptr;
+
 	QList<int> rightWidgetSize;
 	rightWidgetSize << 600 << 138;
 	ui.bodySplitter->setSizes(rightWidgetSize);
@@ -65,6 +65,7 @@ void TalkWindow::initControl() {
 	connect(ui.treeWidget, SIGNAL(itemDoubleClicked(QTreeWidgetItem *, int)), this, SLOT(onItemDoubleClicked(QTreeWidgetItem *, int)));
 
 	connect(ui.fileopenBtn, SIGNAL(clicked(bool)), this, SLOT(onFileOpenBtnClicked(bool)));
+	connect(ui.screenshotBtn, SIGNAL(clicked(bool)), this, SLOT(onScreenshotBtnClicked(bool)));
 
 
 	if (m_isGroupTalk) {
@@ -275,6 +276,21 @@ void TalkWindow::onSendBtnClicked(bool) {
 }
 
 void TalkWindow::onFileOpenBtnClicked(bool) {
-	SendFile *sendFile = new SendFile;
-	sendFile->show();
+	if (m_sendFile != nullptr) {
+		m_sendFile->deleteLater();
+		m_sendFile = nullptr;
+	}
+
+	m_sendFile = new SendFile;
+	m_sendFile->show();
+}
+
+void TalkWindow::onScreenshotBtnClicked(bool) {
+	if (m_widget != nullptr) {
+		m_widget->deleteLater();
+		m_widget = nullptr;
+	}
+
+	m_widget = new ScreenShotWidget();
+	m_widget->showFullScreen();
 }

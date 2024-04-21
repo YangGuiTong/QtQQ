@@ -22,6 +22,8 @@ SendFile::SendFile(QWidget *parent)
 	TalkWindowSheel *talkWindowShell = WindowManager::getInstance()->getTalkWindowSheel();
 
 	connect(this, &SendFile::sendFileClicked, talkWindowShell, &TalkWindowSheel::updateSendTcpMsg);
+
+	connect(this, SIGNAL(signalButtonCloseClicked()), this, SLOT(onButtonCloseClicked()));
 }
 
 SendFile::~SendFile()
@@ -54,4 +56,8 @@ void SendFile::on_sendBtn_clicked() {
 		m_filePath = "";
 		this->close();
 	}
+}
+
+void SendFile::onButtonCloseClicked() {
+	this->close();
 }

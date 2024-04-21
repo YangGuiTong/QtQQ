@@ -3,6 +3,8 @@
 #include <QWidget>
 #include "ui_TalkWindow.h"
 #include "public_type.h"
+#include "ScreenShotWidget.h"
+#include "SendFile.h"
 
 
 class TalkWindow : public QWidget
@@ -40,6 +42,8 @@ private slots:
 	void onSendBtnClicked(bool);
 
 	void onFileOpenBtnClicked(bool);
+
+	void onScreenshotBtnClicked(bool);
 	
 
 private:
@@ -48,6 +52,10 @@ private:
 	QString m_talkId;
 	QMap<QTreeWidgetItem *, QString> m_groupPeopleMap;	// 所有分组联系人姓名
 	bool m_isGroupTalk;		// 判断是否为群聊
+
+
+	ScreenShotWidget *m_widget;	// 截图类
+	SendFile *m_sendFile;			// 发送文件类，选择文件
 
 	friend class TalkWindowSheel;
 };

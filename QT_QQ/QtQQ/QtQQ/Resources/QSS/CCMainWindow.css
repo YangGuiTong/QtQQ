@@ -230,14 +230,19 @@ QPushButton#bottomBtn_6:pressed{
 
 QPushButton#bottomBtn_7{
     background-color:transparent;
+    background-image:url(:Resources/MainWindow/bottom/qplusentrancebtn.png);
 }
 
 QPushButton#bottomBtn_7:hover{
+    background-image:url(:Resources/MainWindow/bottom/qplusentrancebtn.png);
+    background-position:center;
     border-image:url(:Resources/MainWindow/2014_btn_hover.gft.png);
     border-width:2px;
 }
 
 QPushButton#bottomBtn_7:pressed{
+    background-image:url(:Resources/MainWindow/bottom/qplusentrancebtn.png);
+    background-position:center;
     border-image:url(:Resources/MainWindow/2014_btn_down.gft.png);
     border-width:2px;
 }

@@ -403,8 +403,8 @@ public:
         sizePolicy4.setVerticalStretch(0);
         sizePolicy4.setHeightForWidth(bottomBtn_7->sizePolicy().hasHeightForWidth());
         bottomBtn_7->setSizePolicy(sizePolicy4);
-        bottomBtn_7->setMinimumSize(QSize(63, 24));
-        bottomBtn_7->setMaximumSize(QSize(63, 24));
+        bottomBtn_7->setMinimumSize(QSize(18, 18));
+        bottomBtn_7->setMaximumSize(QSize(18, 18));
 
         horizontalLayout_5->addWidget(bottomBtn_7);
 
@@ -443,7 +443,7 @@ public:
         bottomBtn_4->setText(QString());
         bottomBtn_5->setText(QString());
         bottomBtn_6->setText(QString());
-        bottomBtn_7->setText(QApplication::translate("CCMainWindowClass", "\345\272\224\347\224\250\345\256\235", Q_NULLPTR));
+        bottomBtn_7->setText(QString());
     } // retranslateUi
 
 };

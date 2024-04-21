@@ -108,6 +108,7 @@
     <ClCompile Include="QMsgTextEdit.cpp" />
     <ClCompile Include="RecviveFile.cpp" />
     <ClCompile Include="RootContatItem.cpp" />
+    <ClCompile Include="ScreenShotWidget.cpp" />
     <ClCompile Include="SendFile.cpp" />
     <ClCompile Include="SkinWindow.cpp" />
     <ClCompile Include="SysTray.cpp" />
@@ -140,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
+    <QtMoc Include="ScreenShotWidget.h" />
     <QtMoc Include="qaesencryption.h" />
     <QtMoc Include="RecviveFile.h" />
     <QtMoc Include="SendFile.h" />

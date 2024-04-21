@@ -62,6 +62,7 @@ public:
     QHBoxLayout *horizontalLayout_3;
     QPushButton *faceBtn;
     QPushButton *fileopenBtn;
+    QPushButton *screenshotBtn;
     QSpacerItem *horizontalSpacer_2;
     QMsgTextEdit *textEdit;
     QHBoxLayout *horizontalLayout_4;
@@ -313,6 +314,16 @@ public:
 
         horizontalLayout_3->addWidget(fileopenBtn);
 
+        screenshotBtn = new QPushButton(moduleWidget);
+        screenshotBtn->setObjectName(QStringLiteral("screenshotBtn"));
+        sizePolicy1.setHeightForWidth(screenshotBtn->sizePolicy().hasHeightForWidth());
+        screenshotBtn->setSizePolicy(sizePolicy1);
+        screenshotBtn->setMinimumSize(QSize(20, 20));
+        screenshotBtn->setMaximumSize(QSize(20, 20));
+        screenshotBtn->setProperty("hasborder", QVariant(true));
+
+        horizontalLayout_3->addWidget(screenshotBtn);
+
         horizontalSpacer_2 = new QSpacerItem(519, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
         horizontalLayout_3->addItem(horizontalSpacer_2);
@@ -424,6 +435,7 @@ public:
         toolsetBtn->setText(QString());
         faceBtn->setText(QString());
         fileopenBtn->setText(QString());
+        screenshotBtn->setText(QString());
         closeBtn->setText(QApplication::translate("TalkWindow", "\345\205\263\351\227\255", Q_NULLPTR));
         sendBtn->setText(QApplication::translate("TalkWindow", "\345\217\221\351\200\201", Q_NULLPTR));
     } // retranslateUi

@@ -20,6 +20,8 @@ private slots:
 	void on_openBtn_clicked();		// 打开文件
 	void on_sendBtn_clicked();		// 发送
 
+	void onButtonCloseClicked();
+
 private:
 	Ui::SendFileClass ui;
 

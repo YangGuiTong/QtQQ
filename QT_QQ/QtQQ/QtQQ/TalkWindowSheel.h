@@ -69,8 +69,6 @@ private slots:
 	// 处理UDP广播收到的数据
 	void processPendingData();
 
-	void onLoadNewMessage();
-
 private:
 	Ui::TalkWindowClass ui;
 	QMap<QListWidgetItem *, QWidget *> m_talkwindowItemMap;	// 打开的聊天窗口
