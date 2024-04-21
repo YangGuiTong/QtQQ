@@ -1,5 +1,2 @@
-﻿  moc UserLogin.h
-  UserLogin.cpp
-  main.cpp
-  moc_UserLogin.cpp
+﻿  CCMainWindow.cpp
   QtQQ.vcxproj -> E:\git_my_demo\graduation_project\QT_QQ\QtQQ\x64\Debug\QtQQ.exe

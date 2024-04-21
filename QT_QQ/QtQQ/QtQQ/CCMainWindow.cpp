@@ -57,10 +57,10 @@ CCMainWindow::~CCMainWindow() {
 void CCMainWindow::initTimer() {
 
 	QTimer *timer = new QTimer(this);
-	timer->setInterval(5 * 60 * 1000);
+	timer->setInterval(1 * 60 * 1000);
 
 	connect(timer, &QTimer::timeout, [this]() {
-		static int level = 18;
+		static int level = 1;
 		if (99 == level) {
 			level = 0;
 		}
@@ -76,7 +76,7 @@ void CCMainWindow::initControl() {
 	// 树获取焦点时不绘制边框
 	ui.treeWidget->setStyle(new CustomProxyStayle());
 
-	setLevePixmap(17);
+	setLevePixmap(1);
 	//setHeadPixmap(":/Resources/MainWindow/girl.png");
 	setStatusMenuIcon(":/Resources/MainWindow/StatusSucceeded.png");
 
@@ -119,6 +119,8 @@ void CCMainWindow::initControl() {
 
 	// 读取聊天记录
 	ReadDatabaseMessage();
+
+	InitSign();
 }
 
 void CCMainWindow::updateSeachStyle() { 
@@ -212,6 +214,26 @@ void CCMainWindow::ReadDatabaseMessage() {
 		messageMap.insert(receiver, messageArr);
 		g_message_info.insert(sender, messageMap);
 	}
+}
+
+void CCMainWindow::InitSign() {
+	QString sql = QString("SELECT employee_sign FROM tab_employees WHERE employeeID = %1").arg(gLoginEmployeeID.toInt());
+	qDebug() << sql;
+	QSqlQuery querySing;
+	querySing.exec(sql);
+	querySing.next();
+
+	QString employee_sign = querySing.value("employee_sign").toString();
+	ui.lineEdit->setText(employee_sign);
+
+	connect(ui.lineEdit, &QLineEdit::editingFinished, this, [=]() {
+		QString employee_sign = ui.lineEdit->text();
+
+		QString sql = QString("UPDATE tab_employees SET employee_sign = '%1' WHERE employeeID = %2").arg(employee_sign).arg(gLoginEmployeeID.toInt());
+		qDebug() << sql;
+		QSqlQuery querySing;
+		querySing.exec(sql);
+	});
 }
 
 void CCMainWindow::setUserName(const QString & username) {

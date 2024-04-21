@@ -37,6 +37,9 @@ private:
 	// 读取数据库中的聊天记录
 	void ReadDatabaseMessage();
 
+	// 初始化个性签名
+	void InitSign();
+
 private:
 	void resizeEvent(QResizeEvent *event);
 	bool eventFilter(QObject *obj, QEvent *event);
