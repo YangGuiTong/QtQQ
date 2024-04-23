@@ -245,6 +245,12 @@ void TalkWindow::onSendBtnClicked(bool) {
 		return;
 	}
 
+	// 移除回车换行
+	QString message = ui.textEdit->toPlainText();
+	message.remove("\n");
+	message.remove("\r");
+	ui.textEdit->setText(message);
+
 	QString html = ui.textEdit->document()->toHtml();
 	//MyLogDEBUG(QString("发送的信息为：%1").arg(html).toUtf8());
 
@@ -276,13 +282,17 @@ void TalkWindow::onSendBtnClicked(bool) {
 }
 
 void TalkWindow::onFileOpenBtnClicked(bool) {
-	if (m_sendFile != nullptr) {
-		m_sendFile->deleteLater();
+	/*if (m_sendFile != nullptr) {
+		delete m_sendFile;
 		m_sendFile = nullptr;
 	}
 
-	m_sendFile = new SendFile;
+	m_sendFile = new SendFile(this);
+	m_sendFile->show();*/
+
+	m_sendFile = new SendFile(this);
 	m_sendFile->show();
+
 }
 
 void TalkWindow::onScreenshotBtnClicked(bool) {

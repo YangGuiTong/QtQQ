@@ -338,7 +338,7 @@ void TalkWindowSheel::handleReceivedMsg(QString senderEmployeeID, int msgType, Q
 
 	messTimer->stop();
 	// 启动定时器加载聊天记录
-	messTimer->start(320);
+	messTimer->start(350);
 
 	ReadDatabaseMessage();
 }

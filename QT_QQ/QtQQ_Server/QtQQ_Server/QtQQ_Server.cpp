@@ -615,7 +615,7 @@ void QtQQ_Server::on_alterBtn_clicked() {
 		QMessageBox::information(this, tr("提示"), tr("请选择员工头像路径！"));
 		return;
 	}
-	m_alterPoxPath.replace("/", "\\\\");
+	//m_alterPoxPath.replace("/", "\\\\");
 
 	int departmentID = ui.alterEmployeeDepBox->currentData().toInt();
 

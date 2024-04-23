@@ -1,0 +1,163 @@
+2024-04-23 22:46:09.795 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-23 22:46:10.591 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-23 22:46:11.104 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-23 22:46:43.393 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:46:43.397 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:46:43.399 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:47:07.116 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 公司群 下的所有员工信息，编号：2000
+2024-04-23 22:47:19.316 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-23 22:47:19.554 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-23 22:47:19.970 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-23 22:47:28.002 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:47:28.003 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:47:28.005 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:47:52.679 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 研发部 下的所有员工信息，编号：2002
+2024-04-23 22:49:43.253 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:49:43.254 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:49:43.256 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:50:05.137 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:50:05.138 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:50:05.140 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:51:03.591 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-23 22:51:04.256 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-23 22:51:04.617 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-23 22:51:51.078 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:51:51.079 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:51:51.081 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:03.865 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:03.866 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:52:03.867 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:47.796 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:47.797 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:52:47.799 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:54.300 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:54.301 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:52:54.302 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:54.939 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:54.940 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:52:54.941 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:55.090 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:55.091 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:52:55.092 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:55.263 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:55.264 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:52:55.266 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:55.431 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:55.432 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:52:55.434 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:55.595 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:55.596 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:52:55.598 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:52:57.715 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 研发部 下的所有员工信息，编号：2002
+2024-04-23 22:53:10.797 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:53:10.798 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:53:10.800 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:53:21.412 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:53:21.413 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10006  员工姓名：yansan 信息
+2024-04-23 22:53:21.414 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10006);
+2024-04-23 22:53:23.133 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 研发部 下的所有员工信息，编号：2002
+2024-04-23 23:03:47.814 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-23 23:03:47.995 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-23 23:03:48.403 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-23 23:04:20.422 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1344
+2024-04-23 23:04:42.458 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1352
+2024-04-23 23:04:52.119 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1344  IP： 127.0.0.1  断开连接!
+2024-04-23 23:04:58.423 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1344
+2024-04-23 23:05:11.829 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�}G�~�O��{F;@�l�C �C��{�
+2024-04-23 23:05:11.833 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�}G�~�O��{F;@�l�C �C��{� 开始广播
+2024-04-23 23:05:22.088 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：���I}�_���z`� z�V�˧�z�$����{��
+2024-04-23 23:05:22.094 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：���I}�_���z`� z�V�˧�z�$����{�� 开始广播
+2024-04-23 23:08:51.725 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1352  IP： 127.0.0.1  断开连接!
+2024-04-23 23:08:51.728 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1344  IP： 127.0.0.1  断开连接!
+2024-04-23 23:09:07.074 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-23 23:09:07.332 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-23 23:09:07.757 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-23 23:09:19.372 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1352
+2024-04-23 23:09:36.306 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1348
+2024-04-23 23:09:59.353 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��O�9��}=�n�d�"��r��xp��:��
+2024-04-23 23:09:59.358 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：��O�9��}=�n�d�"��r��xp��:�� 开始广播
+2024-04-23 23:10:38.650 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1348  IP： 127.0.0.1  断开连接!
+2024-04-23 23:10:38.652 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1352  IP： 127.0.0.1  断开连接!
+2024-04-23 23:19:01.354 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-23 23:19:01.597 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-23 23:19:02.302 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-23 23:19:07.101 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1368
+2024-04-23 23:19:21.625 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：j����~��B�����&��?��Ʃ�@軔|���������7��j
+2024-04-23 23:19:21.630 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：j����~��B�����&��?��Ʃ�@軔|���������7��j 开始广播
+2024-04-23 23:19:38.693 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：j����~��B������.��A���'�
+s��
+2024-04-23 23:19:38.698 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：j����~��B������.��A���'�
+s�� 开始广播
+2024-04-23 23:19:56.890 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：S*�6ݟc'	���~�oҟ�j�{$����
+2024-04-23 23:19:56.896 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：S*�6ݟc'	���~�oҟ�j�{$���� 开始广播
+2024-04-23 23:21:13.615 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-23 23:21:13.853 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-23 23:21:14.293 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-23 23:21:41.578 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1336
+2024-04-23 23:21:54.757 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1340
+2024-04-23 23:22:06.224 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：���ZBz�h�7�
+�)?�_���?���$�a<m�
+2024-04-23 23:22:06.228 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：���ZBz�h�7�
+�)?�_���?���$�a<m� 开始广播
+2024-04-23 23:22:12.638 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��
+2024-04-23 23:22:12.643 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�� 开始广播
+2024-04-23 23:22:21.504 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：鱰���݄E�Qs�au��Aԕ<�]Η���"
+2024-04-23 23:22:21.509 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：鱰���݄E�Qs�au��Aԕ<�]Η���" 开始广播
+2024-04-23 23:22:26.648 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：S*�6ݟc'	���~�O���؈�u��1\�
+2024-04-23 23:22:26.653 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：S*�6ݟc'	���~�O���؈�u��1\� 开始广播
+2024-04-23 23:22:59.830 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�u9���G��e]{�a���k�jٯ��.H�Ӵ�ǝ�x�X�R-�
+2024-04-23 23:22:59.831 [DEBUG][TcpServer::MessageInsert][236]: 数据类型有误，不进行聊天记录保存！！
+2024-04-23 23:22:59.831 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�u9���G��e]{�a���k�jٯ��.H�Ӵ�ǝ�x�X�R-� 开始广播
+2024-04-23 23:23:37.342 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：A���ǩ����Btǵd������׷�v�t��|
+ aU<��t����
+2024-04-23 23:23:37.347 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：A���ǩ����Btǵd������׷�v�t��|
+ aU<��t���� 开始广播
+2024-04-23 23:24:18.822 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1336  IP： 127.0.0.1  断开连接!
+2024-04-23 23:24:18.825 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1340  IP： 127.0.0.1  断开连接!
+2024-04-23 23:25:13.034 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：684
+2024-04-23 23:25:27.386 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1360
+2024-04-23 23:25:37.675 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：���/\(��;H�?�mvz�AJ��n����bS��h��HS{"*h�&7��
+2024-04-23 23:25:37.680 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：���/\(��;H�?�mvz�AJ��n����bS��h��HS{"*h�&7�� 开始广播
+2024-04-23 23:25:41.548 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�z�EF+�y�[�o�s1�٠��Qô:���:'
+2024-04-23 23:25:41.554 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�z�EF+�y�[�o�s1�٠��Qô:���:' 开始广播
+2024-04-23 23:25:54.285 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1360  IP： 127.0.0.1  断开连接!
+2024-04-23 23:25:54.292 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：684  IP： 127.0.0.1  断开连接!
+2024-04-23 23:26:38.167 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：656
+2024-04-23 23:26:48.118 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：656  IP： 127.0.0.1  断开连接!
+2024-04-23 23:26:57.182 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：964
+2024-04-23 23:27:23.203 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：964  IP： 127.0.0.1  断开连接!
+2024-04-23 23:27:46.463 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1372
+2024-04-23 23:28:35.984 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1372  IP： 127.0.0.1  断开连接!
+2024-04-23 23:30:38.993 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：756
+2024-04-23 23:30:52.479 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：756  IP： 127.0.0.1  断开连接!
+2024-04-23 23:30:59.159 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1384
+2024-04-23 23:31:30.709 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1384  IP： 127.0.0.1  断开连接!
+2024-04-23 23:36:35.886 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1348
+2024-04-23 23:36:46.641 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1348  IP： 127.0.0.1  断开连接!
+2024-04-23 23:37:50.188 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1384
+2024-04-23 23:40:16.858 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1384  IP： 127.0.0.1  断开连接!
+2024-04-23 23:41:57.862 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1384
+2024-04-23 23:42:18.501 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1384  IP： 127.0.0.1  断开连接!
+2024-04-23 23:42:33.928 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：996
+2024-04-23 23:42:51.440 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：996  IP： 127.0.0.1  断开连接!
+2024-04-23 23:43:00.500 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1364
+2024-04-23 23:43:09.362 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1364  IP： 127.0.0.1  断开连接!
+2024-04-23 23:43:34.303 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：996
+2024-04-23 23:43:48.269 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：���~:�mHaQq1}���k�jٯ��.H�Ӵ�ǝ�x�X�R-�
+2024-04-23 23:43:48.270 [DEBUG][TcpServer::MessageInsert][236]: 数据类型有误，不进行聊天记录保存！！
+2024-04-23 23:43:48.270 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：���~:�mHaQq1}���k�jٯ��.H�Ӵ�ǝ�x�X�R-� 开始广播
+2024-04-23 23:43:58.912 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：996  IP： 127.0.0.1  断开连接!
