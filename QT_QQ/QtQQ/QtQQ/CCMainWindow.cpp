@@ -121,6 +121,8 @@ void CCMainWindow::initControl() {
 	ReadDatabaseMessage();
 
 	InitSign();
+
+	setUserName(GetCurUserName());
 }
 
 void CCMainWindow::updateSeachStyle() { 
@@ -218,7 +220,6 @@ void CCMainWindow::ReadDatabaseMessage() {
 
 void CCMainWindow::InitSign() {
 	QString sql = QString("SELECT employee_sign FROM tab_employees WHERE employeeID = %1").arg(gLoginEmployeeID.toInt());
-	qDebug() << sql;
 	QSqlQuery querySing;
 	querySing.exec(sql);
 	querySing.next();
@@ -230,10 +231,21 @@ void CCMainWindow::InitSign() {
 		QString employee_sign = ui.lineEdit->text();
 
 		QString sql = QString("UPDATE tab_employees SET employee_sign = '%1' WHERE employeeID = %2").arg(employee_sign).arg(gLoginEmployeeID.toInt());
-		qDebug() << sql;
 		QSqlQuery querySing;
 		querySing.exec(sql);
 	});
+}
+
+QString CCMainWindow::GetCurUserName() {
+
+	QString sql = QString("SELECT employee_name FROM tab_employees WHERE employeeID = %1").arg(gLoginEmployeeID.toInt());
+	QSqlQuery queryName;
+	queryName.exec(sql);
+	queryName.next();
+
+	QString employee_name = queryName.value("employee_name").toString();
+
+	return employee_name;
 }
 
 void CCMainWindow::setUserName(const QString & username) {
@@ -379,7 +391,8 @@ void CCMainWindow::initContactTree() {
 }
 
 void CCMainWindow::resizeEvent(QResizeEvent * event) {
-	setUserName(QString::fromLocal8Bit("Qt即时通讯软件"));
+	setUserName(GetCurUserName());
+	//setUserName(QString::fromLocal8Bit("Qt即时通讯软件"));
 	BasicWindow::resizeEvent(event);
 }
 

@@ -40,6 +40,9 @@ private:
 	// 初始化个性签名
 	void InitSign();
 
+	// 获取用户名
+	QString GetCurUserName();
+
 private:
 	void resizeEvent(QResizeEvent *event);
 	bool eventFilter(QObject *obj, QEvent *event);
