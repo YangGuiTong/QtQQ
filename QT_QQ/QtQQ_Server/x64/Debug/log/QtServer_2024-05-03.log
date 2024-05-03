@@ -1,0 +1,130 @@
+2024-05-03 15:51:20.265 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-03 15:51:20.524 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-05-03 15:51:21.355 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-05-03 15:52:17.984 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-03 15:52:18.227 [DEBUG][QtQQ_Server::initComboBoxData][110]: SELECT * FROM tab_department;
+2024-05-03 15:52:18.780 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-05-03 15:52:38.692 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1332
+2024-05-03 15:52:57.889 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1340
+2024-05-03 15:53:16.292 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1348
+2024-05-03 15:53:17.844 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1348  IP： 127.0.0.1  断开连接!
+2024-05-03 15:53:22.467 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1348
+2024-05-03 15:53:45.104 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�$&��&1#-��gu��_P� _I]K��)̈9R
+2024-05-03 15:53:45.110 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�$&��&1#-��gu��_P� _I]K��)̈9R 开始广播
+2024-05-03 15:53:49.636 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：���J5'����r�FB���4j���mp�W
+2024-05-03 15:53:49.642 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：���J5'����r�FB���4j���mp�W 开始广播
+2024-05-03 15:53:54.367 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��
+2024-05-03 15:53:54.372 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�� 开始广播
+2024-05-03 15:54:13.184 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：&�DG������9�8�@�����,:>�<����Ra:�*h���>���n
+2024-05-03 15:54:13.190 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：&�DG������9�8�@�����,:>�<����Ra:�*h���>���n 开始广播
+2024-05-03 15:54:22.244 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�
+���y7��@;�>1	������G?��#Ÿ!
+2024-05-03 15:54:22.249 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�
+���y7��@;�>1	������G?��#Ÿ! 开始广播
+2024-05-03 15:54:54.616 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：|�~�� C��|������T`2\ [�|��ꯝ�B*�7_&�`��9�sH
+2024-05-03 15:54:54.621 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：|�~�� C��|������T`2\ [�|��ꯝ�B*�7_&�`��9�sH 开始广播
+2024-05-03 15:55:07.921 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�XNj����^,��o�Q��>����79��-�
+2024-05-03 15:55:07.927 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�XNj����^,��o�Q��>����79��-� 开始广播
+2024-05-03 15:55:25.900 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�O_#tdp�5ʎ}?Q��Q��9�c�"�e�pT
+2024-05-03 15:55:25.905 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�O_#tdp�5ʎ}?Q��Q��9�c�"�e�pT 开始广播
+2024-05-03 15:55:47.424 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：���2DG�rv�+��<~�w��HݣC�<����H���(;4�ٶQD8���
+2024-05-03 15:55:47.430 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：���2DG�rv�+��<~�w��HݣC�<����H���(;4�ٶQD8��� 开始广播
+2024-05-03 15:55:58.408 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：~��Z�v��S\�����
+2024-05-03 15:55:58.413 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：~��Z�v��S\����� 开始广播
+2024-05-03 15:56:14.802 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：DP>>n�Ѻuv��]e����F�+���Rc_
+2024-05-03 15:56:14.807 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：DP>>n�Ѻuv��]e����F�+���Rc_ 开始广播
+2024-05-03 15:59:14.505 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:14.511 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 15:59:17.605 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:17.611 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 15:59:20.653 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:20.659 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 15:59:23.961 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:23.967 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 15:59:26.941 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:26.948 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 15:59:30.495 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:30.499 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 15:59:33.459 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:33.465 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 15:59:40.833 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:40.840 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 15:59:43.567 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:43.573 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 15:59:46.237 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�.
+2024-05-03 15:59:46.243 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：,2R�f���/g<Z�;ڒ�}�5��
+�_�Gx�. 开始广播
+2024-05-03 16:02:50.154 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��^2�syƀ��R#�4������[�-�N�z	&��gV'/z8�tM8��
+2024-05-03 16:02:50.160 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：��^2�syƀ��R#�4������[�-�N�z	&��gV'/z8�tM8�� 开始广播
+2024-05-03 16:03:14.325 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�TT����͜����p���Q��cot�{v5sN[i-{2�j���}B�\�@�1L��A��$ny�!�L��/�H��Rj��4bfV
+2024-05-03 16:03:14.330 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�TT����͜����p���Q��cot�{v5sN[i-{2�j���}B�\�@�1L��A��$ny�!�L��/�H��Rj��4acV 开始广播
+2024-05-03 16:06:01.310 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：i�$Pb q�����8�z4cvc��(ch���r������{�ܔ�Z��
+2024-05-03 16:06:01.317 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：i�$Pb q�����8�z4cvc��(ch���r������{�ܔ�Z�� 开始广播
+2024-05-03 16:10:11.082 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�u9���G��e]{�a���k�jٯ��.H�Ӵ�ǝ�x�X�R-�
+2024-05-03 16:10:11.082 [DEBUG][TcpServer::MessageInsert][236]: 数据类型有误，不进行聊天记录保存！！
+2024-05-03 16:10:11.082 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�u9���G��e]{�a���k�jٯ��.H�Ӵ�ǝ�x�X�R-� 开始广播
+2024-05-03 16:27:30.865 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：h������0��yC)��}�.��	g�cL f���T
+�3��zDt�X{���;o^y���Vp�OA���5
+2024-05-03 16:27:30.870 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：h������0��yC)��}�.��	g�cL f���T
+�3��zDt�X{���;o^y���Vp�OA���5 开始广播
+2024-05-03 16:27:35.017 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��
+2024-05-03 16:27:35.023 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�� 开始广播
+2024-05-03 16:27:49.320 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�x�����S��ݞ4��sv�&�y���)�l���q
+2024-05-03 16:27:49.326 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�x�����S��ݞ4��sv�&�y���)�l���q 开始广播
+2024-05-03 16:28:01.346 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：&�DG������9�8p�=:1�
+�~m�,��
+�ͩЈ�9j!Kr
+2024-05-03 16:28:01.351 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：&�DG������9�8p�=:1�
+�~m�,��
+�ͩЈ�9j!Kr 开始广播
+2024-05-03 16:28:20.547 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：h������0��yC)��}i_�T�&Si]]޲h��n���9�d��Vw�W�����:K$�A�8�
+2024-05-03 16:28:20.552 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：h������0��yC)��}i_�T�&Si]]޲h��n���9�d��Vw�W�����:K$�A�8� 开始广播
+2024-05-03 16:28:41.140 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�����;�C��<O 
+c�H�5y�<��M���
+2024-05-03 16:28:41.146 [DEBUG][QtQQ_Server::onUDPbroadMsg][655]: 数据：�����;�C��<O 
+c�H�5y�<��M��� 开始广播
+2024-05-03 16:36:47.427 [DEBUG][QtQQ_Server::on_addBtn_clicked][506]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2001, 10011, 'QT即时通讯', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-05-03 16:38:47.971 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][353]: 查询 研发部 下的所有员工信息，编号：2002
+2024-05-03 16:39:50.075 [DEBUG][QtQQ_Server::getDepartment][275]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10001);
+2024-05-03 16:39:50.075 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10001  员工姓名：renyi 信息
+2024-05-03 16:39:50.077 [DEBUG][QtQQ_Server::getDepartment][275]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10001);
+2024-05-03 16:39:53.973 [DEBUG][QtQQ_Server::getDepartment][275]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10002);
+2024-05-03 16:39:53.974 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10002  员工姓名：rener 信息
+2024-05-03 16:39:53.975 [DEBUG][QtQQ_Server::getDepartment][275]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10002);
+2024-05-03 16:39:59.280 [DEBUG][QtQQ_Server::getDepartment][275]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10004);
+2024-05-03 16:39:59.281 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10004  员工姓名：yanyi 信息
+2024-05-03 16:39:59.282 [DEBUG][QtQQ_Server::getDepartment][275]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10004);
+2024-05-03 16:40:10.075 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][353]: 查询 公司群 下的所有员工信息，编号：2000
+2024-05-03 16:40:14.873 [DEBUG][QtQQ_Server::getDepartment][275]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10011);
+2024-05-03 16:40:14.874 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][392]: 查询QQ号：10011  员工姓名：QT即时通讯 信息
+2024-05-03 16:40:14.876 [DEBUG][QtQQ_Server::getDepartment][275]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10011);
+2024-05-03 16:44:32.238 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][353]: 查询 公司群 下的所有员工信息，编号：2000
+2024-05-03 16:44:39.555 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][431]: 员工 'QT即时通讯666' 的企业账号：'10011' 已被注销！
+2024-05-03 16:46:54.979 [DEBUG][QtQQ_Server::getEmployeeName][297]: 员工QQ号：10011  没有查询到任何信息
+2024-05-03 16:46:54.979 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][560]: 员工 '' 的企业账号：'10011' 已被删除！
+2024-05-03 16:49:05.969 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1340  IP： 127.0.0.1  断开连接!
+2024-05-03 16:49:05.970 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1332  IP： 127.0.0.1  断开连接!
+2024-05-03 16:49:05.973 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1348  IP： 127.0.0.1  断开连接!

@@ -18,6 +18,8 @@ QtQQ_Server::QtQQ_Server(QWidget *parent)
 	: QDialog(parent), m_pixPath("") {
 	ui.setupUi(this);
 
+	setWindowTitle("Qt_即时通讯服务器");
+
 	QPixmap p;
 	p.load(":QT.png");
 	p.scaled(ui.label->size(), Qt::KeepAspectRatio);

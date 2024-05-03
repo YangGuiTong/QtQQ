@@ -363,5 +363,9 @@
         <file>Resources/MainWindow/MsgHtml/ui.css</file>
         <file>Resources/QSS/SendFile.css</file>
         <file>Resources/QSS/ReceiveFile.css</file>
+        <file>Resources/MainWindow/app/02_128x128.ico</file>
+        <file>Resources/MainWindow/app/03_128x128.ico</file>
+        <file>Resources/MainWindow/Pictures.png</file>
+        <file>Resources/qtqq_images/gsq.png</file>
     </qresource>
 </RCC>

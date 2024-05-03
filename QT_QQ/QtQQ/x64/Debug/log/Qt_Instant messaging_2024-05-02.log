@@ -1,0 +1,74 @@
+2024-05-02 18:51:27.062 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-02 18:51:27.063 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,156,199);
+2024-05-02 18:51:27.590 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-05-02 18:51:27.598 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-05-02 18:51:27.598 [DEBUG][UserLogin::initControl][35]: 登录窗口初始化
+2024-05-02 18:51:28.001 [DEBUG][UserLogin::connectMySql][61]: 客户端连接数据库成功！
+2024-05-02 18:55:17.909 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-02 18:55:17.924 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,156,199);
+2024-05-02 18:55:18.103 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-05-02 18:55:18.112 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-05-02 18:55:18.113 [DEBUG][UserLogin::initControl][35]: 登录窗口初始化
+2024-05-02 18:55:18.179 [DEBUG][UserLogin::connectMySql][61]: 客户端连接数据库成功！
+2024-05-02 18:56:22.721 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-02 18:56:22.722 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,156,199);
+2024-05-02 18:56:22.766 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-05-02 18:56:22.772 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-05-02 18:56:22.772 [DEBUG][UserLogin::initControl][35]: 登录窗口初始化
+2024-05-02 18:56:22.828 [DEBUG][UserLogin::connectMySql][61]: 客户端连接数据库成功！
+2024-05-02 18:56:35.169 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-02 18:56:35.170 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,156,199);
+2024-05-02 18:56:35.212 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-05-02 18:56:35.219 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-05-02 18:56:35.219 [DEBUG][UserLogin::initControl][35]: 登录窗口初始化
+2024-05-02 18:56:35.294 [DEBUG][UserLogin::connectMySql][61]: 客户端连接数据库成功！
+2024-05-02 19:00:58.998 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-02 19:00:58.999 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,156,199);
+2024-05-02 19:00:59.044 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-05-02 19:00:59.050 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-05-02 19:00:59.050 [DEBUG][UserLogin::initControl][35]: 登录窗口初始化
+2024-05-02 19:00:59.107 [DEBUG][UserLogin::connectMySql][61]: 客户端连接数据库成功！
+2024-05-02 19:01:15.516 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-02 19:01:15.517 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,156,199);
+2024-05-02 19:01:15.558 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-05-02 19:01:15.564 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-05-02 19:01:15.564 [DEBUG][UserLogin::initControl][35]: 登录窗口初始化
+2024-05-02 19:01:15.617 [DEBUG][UserLogin::connectMySql][61]: 客户端连接数据库成功！
+2024-05-02 19:07:40.458 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-02 19:07:40.459 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,156,199);
+2024-05-02 19:07:40.523 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-05-02 19:07:40.529 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-05-02 19:07:40.529 [DEBUG][UserLogin::initControl][35]: 登录窗口初始化
+2024-05-02 19:07:40.583 [DEBUG][UserLogin::connectMySql][61]: 客户端连接数据库成功！
+2024-05-02 19:11:59.785 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-02 19:11:59.785 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,156,199);
+2024-05-02 19:11:59.833 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-05-02 19:11:59.839 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-05-02 19:11:59.839 [DEBUG][UserLogin::initControl][35]: 登录窗口初始化
+2024-05-02 19:11:59.893 [DEBUG][UserLogin::connectMySql][61]: 客户端连接数据库成功！
+2024-05-02 19:12:11.675 [DEBUG][BasicWindow::onButtonCloseClicked][206]: 用户主动关闭登录窗口
+2024-05-02 19:12:11.682 [DEBUG][BasicWindow::onShowQuit][155]: 用户点击退出按钮
+2024-05-02 19:12:46.707 [DEBUG][main][43]: 
+
+------------------------------------------------------------------------------------------------------
+2024-05-02 19:12:46.707 [DEBUG][CommonUtils::getDefaultSkinColor][84]: 读取tradeprintinfo.ini文件存储背景颜色为：rgb(21,156,199);
+2024-05-02 19:12:46.748 [DEBUG][TitleBar::loadStyleSheet][219]: TitleBar::loadStyleSheet 加载样式文件 :/Resources/QSS/Title.css 成功
+2024-05-02 19:12:46.755 [DEBUG][BasicWindow::loadStyleSheet][85]: BasicWindow::loadStyleSheet 加载样式文件 :/Resources/QSS/UserLogin.css 成功
+2024-05-02 19:12:46.755 [DEBUG][UserLogin::initControl][35]: 登录窗口初始化
+2024-05-02 19:12:46.824 [DEBUG][UserLogin::connectMySql][61]: 客户端连接数据库成功！

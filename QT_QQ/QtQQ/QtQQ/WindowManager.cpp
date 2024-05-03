@@ -114,7 +114,7 @@ void WindowManager::addNewTalkWindow(const QString & uid) {
 
 	emit m_talkwindowshell->signalReload();
 
-	//messageTimer->start(300);
+	messageTimer->start(350);
 }
 
 TalkWindowSheel * WindowManager::getTalkWindowSheel() {

@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	//std::string logFilePath = path;
 	//logFilePath += "\\config\\log.conf";
 	std::string logPath = path;
-	logPath += "\\log\\Qt_QQ";
+	logPath += "\\log\\Qt_Instant messaging";
 	
 
 	//qDebug() << QString::fromStdString(logFilePath);

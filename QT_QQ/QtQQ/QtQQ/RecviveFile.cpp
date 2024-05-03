@@ -13,7 +13,7 @@ RecviveFile::RecviveFile(QWidget *parent)
 
 	setAttribute(Qt::WA_DeleteOnClose);
 	initTitleBar();
-	setTitleBarTitle("选择文件", ":/Resources/MainWindow/qqlogoclassic.png");
+	//setTitleBarTitle("选择文件", ":/Resources/MainWindow/qqlogoclassic.png");
 	loadStyleSheet("ReceiveFile");
 
 	this->move(100, 400);

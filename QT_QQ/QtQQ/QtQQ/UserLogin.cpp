@@ -16,7 +16,7 @@ UserLogin::UserLogin(QWidget *parent) : BasicWindow(parent) {
 
 	setAttribute(Qt::WA_DeleteOnClose);
 	initTitleBar();
-	setTitleBarTitle(QStringLiteral(""), QStringLiteral(":/Resources/MainWindow/qqlogoclassic.png"));
+	//setTitleBarTitle(QStringLiteral(""), QStringLiteral(":/Resources/MainWindow/qqlogoclassic.png"));
 	loadStyleSheet(QStringLiteral("UserLogin"));
 	initControl();
 
@@ -37,7 +37,7 @@ void UserLogin::initControl() {
 	QLabel *headlabel = new QLabel(this);
 	headlabel->setFixedSize(68, 68);
 	QPixmap pix(QStringLiteral(":/Resources/MainWindow/head_mask.png"));
-	headlabel->setPixmap(getRoundImage(QPixmap(QStringLiteral(":/Resources/MainWindow/app/logo.ico")), pix, headlabel->size()));	// 将获取到的圆头像设置Label
+	headlabel->setPixmap(getRoundImage(QPixmap(QStringLiteral(":/Resources/MainWindow/Pictures.png")), pix, headlabel->size()));	// 将获取到的圆头像设置Label
 	headlabel->move(width() / 2 - 34, ui.titleWidget->height() - 34);		// 将label图像移动到中心点
 
 	connect(ui.loginBtn, &QPushButton::clicked, this, &UserLogin::onLoginBtnClicked);
@@ -163,7 +163,7 @@ bool UserLogin::verfyAccountLogout() {
 		}
 	}
 
-	return false;
+	return true;
 }
 
 void UserLogin::initTemporaryAP() {

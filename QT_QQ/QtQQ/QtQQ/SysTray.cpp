@@ -12,10 +12,10 @@ SysTray::~SysTray()
 {}
 
 void SysTray::initSystemTray() { 
-	QString icon = tr(":Resources/MainWindow/app/logo.ico");
+	QString icon = tr(":Resources/MainWindow/app/02_128x128.ico");
 	setIcon(QIcon(icon));
 
-	setToolTip(tr("Qt_QQ_即时通讯"));
+	setToolTip(tr("Qt_即时通讯"));
 
 	connect(this, SIGNAL(activated(QSystemTrayIcon::ActivationReason)), this, SLOT(onIconActivated(QSystemTrayIcon::ActivationReason)));
 
@@ -27,7 +27,7 @@ void SysTray::initSystemTray() {
 void SysTray::addSystrayMenu() {
 
 	CustomMenu *customMenu = new CustomMenu(m_parent);
-	customMenu->addCustomMenu("onShow", ":/Resources/MainWindow/app/logo.ico", tr("显示"));
+	customMenu->addCustomMenu("onShow", ":/Resources/MainWindow/app/03_128x128.ico", tr("显示"));
 	customMenu->addCustomMenu("onQuit", ":/Resources/MainWindow/app/page_close_btn_hover.png", tr("退出"));
 
 	connect(customMenu->getAction("onShow"), SIGNAL(triggered(bool)), m_parent, SLOT(onShowNormal(bool)));

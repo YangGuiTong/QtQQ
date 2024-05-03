@@ -99,6 +99,16 @@ void CCMainWindow::initControl() {
 	ui.bottomLayout_up->addWidget(addOtherAppExtension(":Resources/MainWindow/app/app_9.png", "app_9"));
 	ui.bottomLayout_up->addStretch();
 
+	QPixmap pixmap(ui.titleIcon->size());
+	pixmap.fill(Qt::transparent);
+
+	//QPainter painter(&pixmap);
+	//QPixmap appPixmap(":Resources/MainWindow/tab/icon_group_selected.png");
+	//painter.drawPixmap((ui.titleIcon->width() - appPixmap.width()) / 2, (ui.titleIcon->height() - appPixmap.height()) / 2, appPixmap);
+	//ui.titleIcon->setPixmap(pixmap);
+
+	//setTitleBarTitle("", ":Resources/MainWindow/tab/icon_group_selected.png");
+
 	initContactTree();
 
 	// ¸öÐÔÇ©Ãû

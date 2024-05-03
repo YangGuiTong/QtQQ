@@ -1,0 +1,228 @@
+2024-04-26 14:23:54.396 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 14:23:54.616 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 14:23:55.032 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:01:10.882 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1360
+2024-04-26 15:01:15.963 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1360  IP： 127.0.0.1  断开连接!
+2024-04-26 15:01:16.926 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：972
+2024-04-26 15:01:21.645 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：972  IP： 127.0.0.1  断开连接!
+2024-04-26 15:04:09.517 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1372
+2024-04-26 15:04:14.932 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1372  IP： 127.0.0.1  断开连接!
+2024-04-26 15:04:39.956 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1368
+2024-04-26 15:04:43.626 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1368  IP： 127.0.0.1  断开连接!
+2024-04-26 15:06:23.184 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1376
+2024-04-26 15:06:25.598 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1376  IP： 127.0.0.1  断开连接!
+2024-04-26 15:06:35.733 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1372
+2024-04-26 15:06:37.936 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1372  IP： 127.0.0.1  断开连接!
+2024-04-26 15:10:25.250 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:10:25.504 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:10:26.190 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:11:57.019 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:11:57.471 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:11:58.166 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:12:59.777 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：928
+2024-04-26 15:13:29.134 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1336
+2024-04-26 15:13:40.630 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�;�0���O��ɹ��X����­����P*�>
+2024-04-26 15:13:40.635 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�;�0���O��ɹ��X����­����P*�> 开始广播
+2024-04-26 15:13:46.839 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：���&&�F��yn7`�i���z�L�t��]W��
+2024-04-26 15:13:46.845 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：���&&�F��yn7`�i���z�L�t��]W�� 开始广播
+2024-04-26 15:13:53.103 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�i���Pe�J<�F����=�1�&�W]L131�9�+
+x���*��
+�
+2024-04-26 15:13:53.109 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�i���Pe�J<�F����=�1�&�W]L0�9�+
+x���*��
+� 开始广播
+2024-04-26 15:14:05.141 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�u9���G��e]{�a���k�jٯ��.H�Ӵ�ǝ�x�X�R-�
+2024-04-26 15:14:05.144 [DEBUG][TcpServer::MessageInsert][236]: 数据类型有误，不进行聊天记录保存！！
+2024-04-26 15:14:05.144 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�u9���G��e]{�a���k�jٯ��.H�Ӵ�ǝ�x�X�R-� 开始广播
+2024-04-26 15:14:34.857 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�w3�B�)���,i&íO!�H�̲�A�dB���
+2024-04-26 15:14:34.858 [DEBUG][TcpServer::MessageInsert][285]: 没有找到对应的聊天记录，插入新的记录。
+2024-04-26 15:14:34.863 [DEBUG][TcpServer::MessageInsert][285]: 没有找到对应的聊天记录，插入新的记录。
+2024-04-26 15:14:34.865 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�w3�B�)���,i&íO!�H�̲�A�dB��� 开始广播
+2024-04-26 15:14:39.975 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��~\2��.��˸Gٮar+���^�+��R
+2024-04-26 15:14:39.982 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：��~\2��.��˸Gٮar+���^�+��R 开始广播
+2024-04-26 15:14:44.220 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：z�[�!P}[�����cGi,��i���(&S�����e8�ȝ~��)X�
+2024-04-26 15:14:44.227 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：z�[�!P}[�����cGi,��i���(&S�����e8�ȝ~��)X� 开始广播
+2024-04-26 15:15:12.520 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1332
+2024-04-26 15:16:26.464 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：928  IP： 127.0.0.1  断开连接!
+2024-04-26 15:16:26.469 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1332  IP： 127.0.0.1  断开连接!
+2024-04-26 15:16:26.560 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1336  IP： 127.0.0.1  断开连接!
+2024-04-26 15:17:28.522 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:17:28.712 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:17:29.129 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:21:04.009 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1016
+2024-04-26 15:22:33.138 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:22:33.379 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:22:34.098 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:23:44.817 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:23:45.054 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:23:45.728 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:24:42.191 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1332
+2024-04-26 15:24:46.131 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1332  IP： 127.0.0.1  断开连接!
+2024-04-26 15:25:35.075 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:25:35.387 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:25:36.528 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:26:25.075 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1360
+2024-04-26 15:26:32.943 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1360  IP： 127.0.0.1  断开连接!
+2024-04-26 15:31:22.868 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:31:23.079 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:31:23.754 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:32:20.441 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1356
+2024-04-26 15:32:45.401 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：740
+2024-04-26 15:33:09.495 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：c�
+QG3��W��$��}�ӹ[�=Ӽ�&p��
+2024-04-26 15:33:09.499 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：c�
+QG3��W��$��}�ӹ[�=Ӽ�&p�� 开始广播
+2024-04-26 15:33:17.428 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�m9���o�;�P���(f��F��yQ��"0'h�
+2024-04-26 15:33:17.434 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�m9���o�;�P���(f��F��yQ��"0'h� 开始广播
+2024-04-26 15:33:22.451 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�O_#tdp�5ʎ}?Q���;�i&���fOɵa
+2024-04-26 15:33:22.457 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�O_#tdp�5ʎ}?Q���;�i&���fOɵa 开始广播
+2024-04-26 15:33:54.188 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�O_#tdp�5ʎ}?Q��5y0��C�m�!Y2ky
+2024-04-26 15:33:54.194 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�O_#tdp�5ʎ}?Q��5y0��C�m�!Y2ky 开始广播
+2024-04-26 15:34:12.701 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1356  IP： 127.0.0.1  断开连接!
+2024-04-26 15:34:12.706 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：740  IP： 127.0.0.1  断开连接!
+2024-04-26 15:34:47.055 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:34:47.283 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:34:47.913 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:35:43.781 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1336
+2024-04-26 15:36:08.909 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：764
+2024-04-26 15:36:24.225 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：>Mq��G��
+2024-04-26 15:36:24.230 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：>Mq��G�� 开始广播
+2024-04-26 15:36:30.000 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：o���25�a���F˃^�E\���u�>AwÌe�C���`�J�
+0�rM
+2024-04-26 15:36:30.005 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：o���25�a���F˃^�E\���u�>AwÌe�C���`�J�
+0�rM 开始广播
+2024-04-26 15:36:36.035 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�;�0���O��ɹ���F��
+2024-04-26 15:36:36.041 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�;�0���O��ɹ���F�� 开始广播
+2024-04-26 15:36:46.745 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��+��mlt�����a����k�jٯ��.H�Ӵ�ǝ�x�X�R-�
+2024-04-26 15:36:46.746 [DEBUG][TcpServer::MessageInsert][236]: 数据类型有误，不进行聊天记录保存！！
+2024-04-26 15:36:46.746 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：��+��mlt�����a����k�jٯ��.H�Ӵ�ǝ�x�X�R-� 开始广播
+2024-04-26 15:37:20.872 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�w3�B�)���,i&ú}�5��
+�_�Gx�.
+2024-04-26 15:37:20.879 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�w3�B�)���,i&ú}�5��
+�_�Gx�. 开始广播
+2024-04-26 15:37:23.566 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：(��gEò��v&酇�i�����m��=�UQ彛
+2024-04-26 15:37:23.574 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：(��gEò��v&酇�i�����m��=�UQ彛 开始广播
+2024-04-26 15:37:39.823 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：992
+2024-04-26 15:38:02.949 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：���YRIلG$���1!�&&�7��c�u��v'
+2024-04-26 15:38:02.955 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：���YRIلG$���1!�&&�7��c�u��v' 开始广播
+2024-04-26 15:38:08.411 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�}G�~�O��{F;@������WBB1g8bc
+2024-04-26 15:38:08.417 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�}G�~�O��{F;@������WBB1g8bc 开始广播
+2024-04-26 15:38:39.426 [DEBUG][QtQQ_Server::on_addBtn_clicked][504]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2001, 10011, '123', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-04-26 15:38:46.395 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 人事部 下的所有员工信息，编号：2001
+2024-04-26 15:38:50.983 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 研发部 下的所有员工信息，编号：2002
+2024-04-26 15:38:57.593 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-26 15:38:57.594 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10010  员工姓名：秃头小猿 信息
+2024-04-26 15:38:57.597 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-26 15:39:23.147 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 公司群 下的所有员工信息，编号：2000
+2024-04-26 15:39:33.203 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][429]: 员工 'shier' 的企业账号：'10008' 已被注销！
+2024-04-26 15:39:45.406 [DEBUG][QtQQ_Server::getEmployeeName][295]: 员工QQ号：10011  没有查询到任何信息
+2024-04-26 15:39:45.407 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][558]: 员工 '' 的企业账号：'10011' 已被删除！
+2024-04-26 15:41:18.566 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：992  IP： 127.0.0.1  断开连接!
+2024-04-26 15:41:18.571 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1336  IP： 127.0.0.1  断开连接!
+2024-04-26 15:41:18.579 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：764  IP： 127.0.0.1  断开连接!
+2024-04-26 15:41:34.770 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:41:34.957 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:41:35.364 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:44:08.817 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1336
+2024-04-26 15:44:29.307 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：172
+2024-04-26 15:44:37.325 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：g�OwFs塎3v7�����n�L`b�K��
+y
+2024-04-26 15:44:37.330 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：g�OwFs塎3v7�����n�L`b�K��
+y 开始广播
+2024-04-26 15:45:00.647 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:45:00.834 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:45:01.282 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:47:02.439 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：760
+2024-04-26 15:47:22.319 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：760  IP： 127.0.0.1  断开连接!
+2024-04-26 15:47:27.853 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 15:47:28.151 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 15:47:28.832 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 15:49:15.943 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：732
+2024-04-26 15:49:43.088 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1020
+2024-04-26 15:49:55.026 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�;�0���O��ɹ��ѩŋ�'�^�K�bs7o�
+2024-04-26 15:49:55.031 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�;�0���O��ɹ��ѩŋ�'�^�K�bs7o� 开始广播
+2024-04-26 15:50:01.015 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�ÔDx
+2024-04-26 15:50:01.021 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�ÔDx 开始广播
+2024-04-26 15:50:11.551 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��+��mlt�����a����k�jٯ��.H�Ӵ�ǝ�x�X�R-�
+2024-04-26 15:50:11.551 [DEBUG][TcpServer::MessageInsert][236]: 数据类型有误，不进行聊天记录保存！！
+2024-04-26 15:50:11.551 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：��+��mlt�����a����k�jٯ��.H�Ӵ�ǝ�x�X�R-� 开始广播
+2024-04-26 15:50:42.284 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：956
+2024-04-26 15:50:57.283 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：,2R�f���/g<Z�;ڒ�{�>��F�k��u<�
+2024-04-26 15:50:57.291 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：,2R�f���/g<Z�;ڒ�{�>��F�k��u<� 开始广播
+2024-04-26 15:51:03.095 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��!\o���F��]B�"W��]8sG�ż|����|��g�\�
+2024-04-26 15:51:03.104 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：��!\o���F��]B�"W��]8sG�ż|����|��g�\� 开始广播
+2024-04-26 15:51:25.386 [DEBUG][QtQQ_Server::on_addBtn_clicked][504]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2001, 10011, '123', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-04-26 15:51:30.262 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 人事部 下的所有员工信息，编号：2001
+2024-04-26 15:51:37.147 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-26 15:51:37.148 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10010  员工姓名：秃头小 信息
+2024-04-26 15:51:37.150 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-26 15:51:56.696 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 公司群 下的所有员工信息，编号：2000
+2024-04-26 15:52:09.266 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][429]: 员工 '123' 的企业账号：'10011' 已被注销！
+2024-04-26 15:52:15.904 [DEBUG][QtQQ_Server::getEmployeeName][295]: 员工QQ号：10011  没有查询到任何信息
+2024-04-26 15:52:15.904 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][558]: 员工 '' 的企业账号：'10011' 已被删除！
+2024-04-26 15:56:54.890 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-26 15:56:54.891 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10010  员工姓名：秃头 信息
+2024-04-26 15:56:54.892 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-26 16:02:40.828 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 16:02:41.014 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 16:02:41.464 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 16:06:02.708 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1336
+2024-04-26 16:06:38.828 [DEBUG][TcpServer::SocketDisconnecgted][90]: tcpSocket描述符：1336  IP： 127.0.0.1  断开连接!
+2024-04-26 16:06:55.425 [DEBUG][main][27]: 
+
+------------------------------------------------------------------------------------------------------
+2024-04-26 16:06:55.612 [DEBUG][QtQQ_Server::initComboBoxData][108]: SELECT * FROM tab_department;
+2024-04-26 16:06:56.006 [DEBUG][TcpServer::run][23]: 服务器监听端口 10086 成功！
+2024-04-26 16:09:18.281 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：1332
+2024-04-26 16:09:39.176 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：732
+2024-04-26 16:09:47.640 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：J}��#\:����	����ǿ(��
+2024-04-26 16:09:47.645 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：J}��#\:����	����ǿ(�� 开始广播
+2024-04-26 16:09:54.936 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：g�OwFs塎3v7����e)Ȣ��M5M߁7�
+2024-04-26 16:09:54.940 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：g�OwFs塎3v7����e)Ȣ��M5M߁7� 开始广播
+2024-04-26 16:10:11.876 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��TN�H����1���k�jٯ��.H�Ӵ�ǝ�x�X�R-�
+2024-04-26 16:10:11.877 [DEBUG][TcpServer::MessageInsert][236]: 数据类型有误，不进行聊天记录保存！！
+2024-04-26 16:10:11.877 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：��TN�H����1���k�jٯ��.H�Ӵ�ǝ�x�X�R-� 开始广播
+2024-04-26 16:10:28.557 [DEBUG][TcpServer::incomingConnection][37]: 新的连接：864
+2024-04-26 16:10:35.654 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：m�<,�}j[�	�'���\!�&&�7��c�u��v'
+2024-04-26 16:10:35.660 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：m�<,�}j[�	�'���\!�&&�7��c�u��v' 开始广播
+2024-04-26 16:10:50.507 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：��s,&���&�v��k�=VnW�A�н8&.��
+2024-04-26 16:10:50.515 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：��s,&���&�v��k�=VnW�A�н8&.�� 开始广播
+2024-04-26 16:10:54.049 [DEBUG][TcpServer::SocketDataProcessiong][66]: 来自IP： 127.0.0.1  发来的数据：�É�@���!�f�4���:}Ku0t��6��
+2024-04-26 16:10:54.056 [DEBUG][QtQQ_Server::onUDPbroadMsg][653]: 数据：�É�@���!�f�4���:}Ku0t��6�� 开始广播
+2024-04-26 16:11:20.706 [DEBUG][QtQQ_Server::on_addBtn_clicked][504]: INSERT INTO tab_employees(departmentID, employeeID, employee_name, picture) VALUES(2002, 10011, '123', 'E:\\git_my_demo\\graduation_project\\QT_QQ\\QtQQ_Server\\QtQQ_Server\\QT.png')
+2024-04-26 16:11:25.332 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 人事部 下的所有员工信息，编号：2001
+2024-04-26 16:11:27.412 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 研发部 下的所有员工信息，编号：2002
+2024-04-26 16:11:30.834 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 公司群 下的所有员工信息，编号：2000
+2024-04-26 16:11:35.132 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-26 16:11:35.133 [DEBUG][QtQQ_Server::on_queryIDBtn_clicked][390]: 查询QQ号：10010  员工姓名：秃头程序员 信息
+2024-04-26 16:11:35.135 [DEBUG][QtQQ_Server::getDepartment][273]: SELECT department_name FROM tab_department WHERE departmentID=						  (SELECT departmentID FROM tab_employees WHERE employeeID=10010);
+2024-04-26 16:11:59.368 [DEBUG][QtQQ_Server::on_queryDepartmentBtn_clicked][351]: 查询 公司群 下的所有员工信息，编号：2000
+2024-04-26 16:12:06.756 [DEBUG][QtQQ_Server::on_logoutBtn_clicked][429]: 员工 '123' 的企业账号：'10011' 已被注销！
+2024-04-26 16:12:14.465 [DEBUG][QtQQ_Server::getEmployeeName][295]: 员工QQ号：10011  没有查询到任何信息
+2024-04-26 16:12:14.465 [DEBUG][QtQQ_Server::on_deleteBtn_clicked][558]: 员工 '' 的企业账号：'10011' 已被删除！

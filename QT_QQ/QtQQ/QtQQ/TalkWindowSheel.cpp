@@ -33,7 +33,7 @@ TalkWindowSheel::TalkWindowSheel(QWidget *parent)
 	initUdpSocket();
 
 	
-	QFile file("Resources/MainWindow/MsgHtml/msgtmpl.js");
+	QFile file(":Resources/MainWindow/MsgHtml/msgtmpl.js");
 	if (!file.size()) {
 		QStringList employeesIDList = getEmployeeID();
 		if (!createJSFile(employeesIDList)) {
